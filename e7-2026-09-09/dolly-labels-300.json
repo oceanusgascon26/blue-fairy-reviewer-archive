@@ -1,0 +1,1802 @@
+[
+ {
+  "i": 0,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 1,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 2,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 3,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 4,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 5,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 6,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 7,
+  "label": "yes",
+  "kind": "word-count",
+  "note": "a 4 word summary"
+ },
+ {
+  "i": 8,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 9,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 10,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 11,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 12,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 13,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "bulleted list of the seven most recent"
+ },
+ {
+  "i": 14,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 15,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 16,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 17,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 18,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 19,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 20,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 21,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 22,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 23,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 24,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 25,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 26,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "a list of 7"
+ },
+ {
+  "i": 27,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 28,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 29,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 30,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 31,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 32,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 33,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 34,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 35,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 36,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 37,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 38,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 39,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 40,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 41,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 42,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 43,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 44,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 45,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 46,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 47,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 48,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 49,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 50,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 51,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 52,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 53,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 54,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 55,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 56,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 57,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 58,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 59,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 60,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 61,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 62,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 63,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 64,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 65,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 66,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 67,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 68,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 69,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 70,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 71,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 72,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 73,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 74,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 75,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 76,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 77,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 78,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 79,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 80,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 81,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 82,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 83,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 84,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 85,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 86,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 87,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 88,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 89,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 90,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 91,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 92,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 93,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 94,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 95,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 96,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 97,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 98,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 99,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 100,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 101,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 102,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 103,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 104,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 105,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 106,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 107,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 108,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 109,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 110,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 111,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 112,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 113,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 114,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 115,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 116,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 117,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "5 ways"
+ },
+ {
+  "i": 118,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 119,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 120,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 121,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "three popular arias"
+ },
+ {
+  "i": 122,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 123,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 124,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 125,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 126,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 127,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 128,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 129,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 130,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 131,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 132,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 133,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 134,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 135,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 136,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 137,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 138,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 139,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 140,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 141,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 142,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 143,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 144,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 145,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 146,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "10 different ideas"
+ },
+ {
+  "i": 147,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 148,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "Name five MLB teams"
+ },
+ {
+  "i": 149,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 150,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 151,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 152,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 153,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 154,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 155,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 156,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 157,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 158,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 159,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 160,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 161,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 162,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "bulleted list of the 5 top-grossing movies"
+ },
+ {
+  "i": 163,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 164,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 165,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 166,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 167,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "the past 5 champions"
+ },
+ {
+  "i": 168,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 169,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 170,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 171,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 172,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 173,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 174,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 175,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 176,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 177,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 178,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 179,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 180,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 181,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 182,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 183,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 184,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 185,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "4 different cities"
+ },
+ {
+  "i": 186,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 187,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 188,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 189,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 190,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 191,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 192,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 193,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 194,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 195,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 196,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 197,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 198,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 199,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 200,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 201,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 202,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 203,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 204,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "a list of 5 sites"
+ },
+ {
+  "i": 205,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 206,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 207,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 208,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 209,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 210,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 211,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 212,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 213,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 214,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 215,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 216,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "5 best mailing sites"
+ },
+ {
+  "i": 217,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 218,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 219,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 220,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 221,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 222,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 223,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 224,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 225,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 226,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 227,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 228,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 229,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 230,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 231,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 232,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 233,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 234,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 235,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "Name four pork products"
+ },
+ {
+  "i": 236,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 237,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "the seven most polluted cities"
+ },
+ {
+  "i": 238,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 239,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 240,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 241,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 242,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 243,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 244,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 245,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "bulleted list of the seven most recent Chancellors"
+ },
+ {
+  "i": 246,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 247,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "a short list with five ideas"
+ },
+ {
+  "i": 248,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 249,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 250,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 251,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 252,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "the 7 science classifications; borderline, the count is the answer's, stated by the asker"
+ },
+ {
+  "i": 253,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 254,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 255,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 256,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 257,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 258,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 259,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 260,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 261,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 262,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 263,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 264,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 265,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 266,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 267,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 268,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 269,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 270,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 271,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 272,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 273,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 274,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 275,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 276,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 277,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 278,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 279,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 280,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 281,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 282,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 283,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 284,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 285,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 286,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "the six volumes; borderline, the count is the answer's, stated by the asker"
+ },
+ {
+  "i": 287,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 288,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 289,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 290,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 291,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 292,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 293,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 294,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 295,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 296,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "List five titles"
+ },
+ {
+  "i": 297,
+  "label": "yes",
+  "kind": "line-count",
+  "note": "List the five French mother sauces"
+ },
+ {
+  "i": 298,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ },
+ {
+  "i": 299,
+  "label": "no",
+  "kind": null,
+  "note": ""
+ }
+]

@@ -1,0 +1,6 @@
+PREREGISTRATION-ADDENDUM-7.md sha256 f772fe3d958112db5f1202588e3f99fc8a4e77d947867f9725cdcff994c00452
+dolly-sample-300.json sha256 75415e9c4dacc961ab370d7559c98ffc8620ed801a4ef50731135d572ba581ad
+dolly-labels-300.json sha256 8a44de8fc5a9a0d30a8d297b0fea7ac7baaa0b2a1aa97760af4b49a3659440c6
+make-labels.py sha256 06f26f585bf423048488e1bb9ce271c7a8569ef1c7a382bb4141585aa1281cf3
+e7.mjs sha256 8a92b101547af1e0313311accbd55bc6ec1687be0d6fd46bb910f6ebee7e927b
+frozen 2026-09-09T23:33:03.268189Z before the parser ran on either prompt set (no model calls in E7)

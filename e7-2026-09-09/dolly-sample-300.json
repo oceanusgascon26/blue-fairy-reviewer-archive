@@ -1,0 +1,1502 @@
+[
+ {
+  "i": 0,
+  "category": "classification",
+  "instruction": "I'm confused as to which of these food staples have gluten and which are gluten-free. From this list can you tell me which is which: Pasta, rice, potatoes, noodles and bread."
+ },
+ {
+  "i": 1,
+  "category": "general_qa",
+  "instruction": "Why are plants green?"
+ },
+ {
+  "i": 2,
+  "category": "open_qa",
+  "instruction": "When did Delaware join the United States?"
+ },
+ {
+  "i": 3,
+  "category": "open_qa",
+  "instruction": "What does Neolithic mean?"
+ },
+ {
+  "i": 4,
+  "category": "open_qa",
+  "instruction": "What city is the capital of Alberta Canada?"
+ },
+ {
+  "i": 5,
+  "category": "classification",
+  "instruction": "Classify the cities based on whether they are located in Belarus or Cayman Islands.\nVitsyebsk, George Town, Minsk, Homyel’"
+ },
+ {
+  "i": 6,
+  "category": "brainstorming",
+  "instruction": "Give me a bulleted list of the fastest way to get from to cross the English Channel in a nonconventional way?"
+ },
+ {
+  "i": 7,
+  "category": "general_qa",
+  "instruction": "Give me a 4 word summary of Moby Dick, which rhymes."
+ },
+ {
+  "i": 8,
+  "category": "open_qa",
+  "instruction": "What colour usually is the wax surrounding Edam cheese?"
+ },
+ {
+  "i": 9,
+  "category": "general_qa",
+  "instruction": "what's a scenario in which you see lots of value for CDC ?"
+ },
+ {
+  "i": 10,
+  "category": "general_qa",
+  "instruction": "I'm considering buying a pocket knife for my child. How do I know which one I should buy?"
+ },
+ {
+  "i": 11,
+  "category": "open_qa",
+  "instruction": "Name some of the top soccer players"
+ },
+ {
+  "i": 12,
+  "category": "general_qa",
+  "instruction": "Where can I mine diamonds in the United States?"
+ },
+ {
+  "i": 13,
+  "category": "brainstorming",
+  "instruction": "Give me a bulleted list of the seven most recent Harvard University presidents"
+ },
+ {
+  "i": 14,
+  "category": "open_qa",
+  "instruction": "Who played Billy the Kid in The Left Handed Gun"
+ },
+ {
+  "i": 15,
+  "category": "open_qa",
+  "instruction": "What is rain good for?"
+ },
+ {
+  "i": 16,
+  "category": "open_qa",
+  "instruction": "What is Jon Snow's true name?"
+ },
+ {
+  "i": 17,
+  "category": "general_qa",
+  "instruction": "Who is the best golfer in the world?"
+ },
+ {
+  "i": 18,
+  "category": "brainstorming",
+  "instruction": "Give me a list of free email service provider other than Gmail."
+ },
+ {
+  "i": 19,
+  "category": "creative_writing",
+  "instruction": "What is the 2nd amendment of the US constitution? Is it misunderstood?"
+ },
+ {
+  "i": 20,
+  "category": "classification",
+  "instruction": "Which characters belong to DC or Marvel Universe? Daredevil, Robin"
+ },
+ {
+  "i": 21,
+  "category": "brainstorming",
+  "instruction": "What are the benefits of working with a coach?"
+ },
+ {
+  "i": 22,
+  "category": "open_qa",
+  "instruction": "Why was the 2023 Women's NCAA basketball championship controversial?"
+ },
+ {
+  "i": 23,
+  "category": "brainstorming",
+  "instruction": "Give me the list of fictional dogs in prose and poetry"
+ },
+ {
+  "i": 24,
+  "category": "open_qa",
+  "instruction": "What are the best places to eat and top Japanese sushi  restaurant in San Mateo?"
+ },
+ {
+  "i": 25,
+  "category": "open_qa",
+  "instruction": "In 93rd Academy Awards(Oscar Awards)The Best Picture award was given to whom?"
+ },
+ {
+  "i": 26,
+  "category": "brainstorming",
+  "instruction": "Give me a list of 7 of the most popular Pokémon"
+ },
+ {
+  "i": 27,
+  "category": "open_qa",
+  "instruction": "What is a Fixed asset in finance?"
+ },
+ {
+  "i": 28,
+  "category": "classification",
+  "instruction": "Classify each of the following as flammable or non-flammable: coal, wood, newspaper, water, glass"
+ },
+ {
+  "i": 29,
+  "category": "brainstorming",
+  "instruction": "Give me a list of great computer games"
+ },
+ {
+  "i": 30,
+  "category": "open_qa",
+  "instruction": "Define unemployment and how it is expressed in most countries."
+ },
+ {
+  "i": 31,
+  "category": "general_qa",
+  "instruction": "What is the oldest written complaint?"
+ },
+ {
+  "i": 32,
+  "category": "brainstorming",
+  "instruction": "Think of a number of different ways you can get around Sydney."
+ },
+ {
+  "i": 33,
+  "category": "open_qa",
+  "instruction": "What are the common area of property maintenance that a home owner must deal with?"
+ },
+ {
+  "i": 34,
+  "category": "brainstorming",
+  "instruction": "What are Bengali famous food ?"
+ },
+ {
+  "i": 35,
+  "category": "classification",
+  "instruction": "Identify which instrument is string or percussion: Frame drum, Citole"
+ },
+ {
+  "i": 36,
+  "category": "classification",
+  "instruction": "Tell me whether these words are English or Spanish: dog, cat, perro, gato, house, casa"
+ },
+ {
+  "i": 37,
+  "category": "general_qa",
+  "instruction": "What is the best type of RV for a retired couple?"
+ },
+ {
+  "i": 38,
+  "category": "brainstorming",
+  "instruction": "What Are the Gift Ideas for Anime Fans?"
+ },
+ {
+  "i": 39,
+  "category": "classification",
+  "instruction": "Which characters belong to DC or Marvel Universe? Mr Fantastic, Plastic Man, Elongated Man"
+ },
+ {
+  "i": 40,
+  "category": "classification",
+  "instruction": "Of this list of countries, which of these countries shares a border with at least one other country, and which do not? New Zealand, Canada, France, Australia, Germany, Finland, Turkey and Japan."
+ },
+ {
+  "i": 41,
+  "category": "open_qa",
+  "instruction": "Which player has scored the most world cup goals?"
+ },
+ {
+  "i": 42,
+  "category": "open_qa",
+  "instruction": "What are some typical characteristics of a Persian cat?"
+ },
+ {
+  "i": 43,
+  "category": "general_qa",
+  "instruction": "What is it like living in the Pacific Northwest?"
+ },
+ {
+  "i": 44,
+  "category": "classification",
+  "instruction": "Identify which instrument is string or percussion: Bendir, Rabel"
+ },
+ {
+  "i": 45,
+  "category": "open_qa",
+  "instruction": "When was world war 2?"
+ },
+ {
+  "i": 46,
+  "category": "classification",
+  "instruction": "Classify each of the following bands as Classic Rock , or not: Led Zeppelin, Jimi Hendrix, Journey, Rolling Stones, Miley Cyrus, Taylor Swift, Aerosmith"
+ },
+ {
+  "i": 47,
+  "category": "open_qa",
+  "instruction": "What car manufacturers were associated with American Muscle cars in the 1960s and 1970s?"
+ },
+ {
+  "i": 48,
+  "category": "open_qa",
+  "instruction": "Any tips for figuring out where to enter the water when surfing a new beach?"
+ },
+ {
+  "i": 49,
+  "category": "brainstorming",
+  "instruction": "What is the best northeast mountain for skiing?"
+ },
+ {
+  "i": 50,
+  "category": "open_qa",
+  "instruction": "Who founded the city of Detroit?"
+ },
+ {
+  "i": 51,
+  "category": "brainstorming",
+  "instruction": "Why boys are best over girls"
+ },
+ {
+  "i": 52,
+  "category": "brainstorming",
+  "instruction": "What are some ways of traveling from Washington D.C to San Francisco?"
+ },
+ {
+  "i": 53,
+  "category": "general_qa",
+  "instruction": "Why is the Great Salt Lake salty?"
+ },
+ {
+  "i": 54,
+  "category": "open_qa",
+  "instruction": "Are fresh vegetable brought at a grocery store fresher than frozen vegetables?"
+ },
+ {
+  "i": 55,
+  "category": "brainstorming",
+  "instruction": "Give me a list of ways that a runner can advance a base in baseball without there being a hit."
+ },
+ {
+  "i": 56,
+  "category": "general_qa",
+  "instruction": "What is the difference between a lion and a tiger?"
+ },
+ {
+  "i": 57,
+  "category": "classification",
+  "instruction": "Which things are typically hot and which are cold: an icicle, a snowball, lava, a cat, tea, a meat locker, summer on the east coast of the United States, a sauna and a Bikram yoga."
+ },
+ {
+  "i": 58,
+  "category": "brainstorming",
+  "instruction": "Who is the top baseball player based on offensive categories that are not in the major league baseball hall of fame with no chance of getting in while alive."
+ },
+ {
+  "i": 59,
+  "category": "brainstorming",
+  "instruction": "give me a list of all the things I can do with a piece of land."
+ },
+ {
+  "i": 60,
+  "category": "open_qa",
+  "instruction": "What are the words of House Buckwell?"
+ },
+ {
+  "i": 61,
+  "category": "brainstorming",
+  "instruction": "Give me an idea for a random sandwich that I should make for lunch."
+ },
+ {
+  "i": 62,
+  "category": "classification",
+  "instruction": "Identify which instrument is string or woodwind: Violetta, Kaval"
+ },
+ {
+  "i": 63,
+  "category": "classification",
+  "instruction": "There are three rock types; igneous, sedimentary and metamorphic rocks. I have a list of rocks, can you please tell me what type of rocks they are? These are the rocks: Sandstone, Granite, Marble, Basalt, Chalk, Slate."
+ },
+ {
+  "i": 64,
+  "category": "creative_writing",
+  "instruction": "Write a manifesto for the \"Be IRL\" movement. The movement advocates being present to your surroundings and fellow humans, vs being immersed in the virtual world created by our smartphones."
+ },
+ {
+  "i": 65,
+  "category": "classification",
+  "instruction": "Tell me whether these schools are Ivy League or not: Princeton, Vanderbilt, Rice, Stanford, Dartmouth, Brown"
+ },
+ {
+  "i": 66,
+  "category": "open_qa",
+  "instruction": "What are some movies that star Will Ferrell?"
+ },
+ {
+  "i": 67,
+  "category": "open_qa",
+  "instruction": "What are the best brunch places in Burlingame, CA?"
+ },
+ {
+  "i": 68,
+  "category": "open_qa",
+  "instruction": "Where did the marathon come from?"
+ },
+ {
+  "i": 69,
+  "category": "general_qa",
+  "instruction": "What type of bicycle should I buy?"
+ },
+ {
+  "i": 70,
+  "category": "classification",
+  "instruction": "Tell me whether each city is on the west coast or east coast of the USA: Seattle, Portland, Miami, Charlotte, Boston, San Diego"
+ },
+ {
+  "i": 71,
+  "category": "general_qa",
+  "instruction": "I'm thinking about joining the military to help pay for college.  What are my options, and what do you recommend?"
+ },
+ {
+  "i": 72,
+  "category": "classification",
+  "instruction": "Classify these as either states or cities: Illinois, California, San Francisco, Austin, Texas."
+ },
+ {
+  "i": 73,
+  "category": "open_qa",
+  "instruction": "Do cats have nine lives?"
+ },
+ {
+  "i": 74,
+  "category": "open_qa",
+  "instruction": "How do you treat a dog diarrhea"
+ },
+ {
+  "i": 75,
+  "category": "open_qa",
+  "instruction": "What does ROYGBIV stand for?"
+ },
+ {
+  "i": 76,
+  "category": "creative_writing",
+  "instruction": "Write a leave letter to your teacher."
+ },
+ {
+  "i": 77,
+  "category": "brainstorming",
+  "instruction": "What ingredients do i need to make sour dough bread"
+ },
+ {
+  "i": 78,
+  "category": "open_qa",
+  "instruction": "Who is Sergey or Sergiy Korsunsky"
+ },
+ {
+  "i": 79,
+  "category": "brainstorming",
+  "instruction": "why would someone run the Texas Independence Relay?"
+ },
+ {
+  "i": 80,
+  "category": "classification",
+  "instruction": "Identify which animal species is alive or extinct: Ganges River Dolphin, Helicoprion"
+ },
+ {
+  "i": 81,
+  "category": "open_qa",
+  "instruction": "What countries are regarded as Nordic?"
+ },
+ {
+  "i": 82,
+  "category": "general_qa",
+  "instruction": "What can an organization do to increase employee satisfaction apart from providing monetary benefits? What can be the focus areas? Are there any daily lists of activities which can be beneficial in this aspect?"
+ },
+ {
+  "i": 83,
+  "category": "classification",
+  "instruction": "Tell me whether these are sandwiches or cereals: Shredded wheat, honey bunches of oats, Frosted Flakes, Cheerios."
+ },
+ {
+  "i": 84,
+  "category": "open_qa",
+  "instruction": "What is Allsvenskan?"
+ },
+ {
+  "i": 85,
+  "category": "general_qa",
+  "instruction": "How can I contribute to Spark?"
+ },
+ {
+  "i": 86,
+  "category": "creative_writing",
+  "instruction": "Write a description of your favorite place to visit in San Francisco and why you like it so much."
+ },
+ {
+  "i": 87,
+  "category": "open_qa",
+  "instruction": "What is an RFI (request for information)?"
+ },
+ {
+  "i": 88,
+  "category": "open_qa",
+  "instruction": "What is the difference between iOS and MacOS?"
+ },
+ {
+  "i": 89,
+  "category": "brainstorming",
+  "instruction": "Give me a list of the best albums of all-time"
+ },
+ {
+  "i": 90,
+  "category": "open_qa",
+  "instruction": "What does a reverse osmosis filter do?"
+ },
+ {
+  "i": 91,
+  "category": "brainstorming",
+  "instruction": "Tell me about toys that can help children learn to write."
+ },
+ {
+  "i": 92,
+  "category": "open_qa",
+  "instruction": "Which episodes of season two of Game of Thrones did David Nutter direct?"
+ },
+ {
+  "i": 93,
+  "category": "open_qa",
+  "instruction": "What is the benefit of turmeric"
+ },
+ {
+  "i": 94,
+  "category": "general_qa",
+  "instruction": "how do i heal my mind"
+ },
+ {
+  "i": 95,
+  "category": "classification",
+  "instruction": "which of the following are software companies vs not?\n\nshell\nmicrosoft\nnasa\nspacex\ngrammarly\napple\nfigma\njohn deere\nbira 91"
+ },
+ {
+  "i": 96,
+  "category": "open_qa",
+  "instruction": "What is Occupation Therapy."
+ },
+ {
+  "i": 97,
+  "category": "open_qa",
+  "instruction": "What is a viral video?"
+ },
+ {
+  "i": 98,
+  "category": "open_qa",
+  "instruction": "Who was Calvin Parker MacDonald"
+ },
+ {
+  "i": 99,
+  "category": "open_qa",
+  "instruction": "What is Heineken Evergreen?"
+ },
+ {
+  "i": 100,
+  "category": "creative_writing",
+  "instruction": "Discuss the pros and cons of a day trip to Vancouver versus a day trip to Portland from Seattle."
+ },
+ {
+  "i": 101,
+  "category": "general_qa",
+  "instruction": "Why do teenagers disappoint their parents?"
+ },
+ {
+  "i": 102,
+  "category": "classification",
+  "instruction": "Is a tomato a fruit or a vegetable?"
+ },
+ {
+  "i": 103,
+  "category": "general_qa",
+  "instruction": "Why do people travel to islands for a holiday?"
+ },
+ {
+  "i": 104,
+  "category": "classification",
+  "instruction": "Who is the Ferrari formula 1 team principal?"
+ },
+ {
+  "i": 105,
+  "category": "classification",
+  "instruction": "Classify each of the following as mainstream media or social media: Twitter, Reddit, CNN, MSNBC, Instagram, Fox News"
+ },
+ {
+  "i": 106,
+  "category": "classification",
+  "instruction": "You have to Classify each of the following as either a gluten product or a gluten free product and display it according to their categories: sourdough bread, zucchini, barbecue sauce, hummus, amaranth, commercial chocolate milk"
+ },
+ {
+  "i": 107,
+  "category": "general_qa",
+  "instruction": "What is the sun made of?"
+ },
+ {
+  "i": 108,
+  "category": "creative_writing",
+  "instruction": "Is competition healthy?"
+ },
+ {
+  "i": 109,
+  "category": "general_qa",
+  "instruction": "What is a triathlon?"
+ },
+ {
+  "i": 110,
+  "category": "classification",
+  "instruction": "Classify each of the following pieces of equipment according to the sport they are used for, either basketball, football, or soccer: shin guards, shooting sleeve, penalty flag, corner flag, kicking tee, and goalie gloves."
+ },
+ {
+  "i": 111,
+  "category": "open_qa",
+  "instruction": "What is a compound statement?"
+ },
+ {
+  "i": 112,
+  "category": "creative_writing",
+  "instruction": "how do you smoke a brisket?"
+ },
+ {
+  "i": 113,
+  "category": "classification",
+  "instruction": "Classify each of the following as either elements or minerals: oxygen, cobalt, phosphorus, nitrogen, graphite, quartz, carbon, and clay."
+ },
+ {
+  "i": 114,
+  "category": "open_qa",
+  "instruction": "What are some of the main themes of Jane Eyre"
+ },
+ {
+  "i": 115,
+  "category": "classification",
+  "instruction": "Of the following, which are characters from the TV show \"I Love Lucy:\" Lucy Ricardo, Ethel Mertz, Donald Trump, John Fitzgerald Kennedy, Ricky Ricardo, Fred Mertz, Batman, John Smith"
+ },
+ {
+  "i": 116,
+  "category": "open_qa",
+  "instruction": "Who directed the premiere episode of season four of Game of Thrones?"
+ },
+ {
+  "i": 117,
+  "category": "brainstorming",
+  "instruction": "5 ways on prem is better than cloud"
+ },
+ {
+  "i": 118,
+  "category": "open_qa",
+  "instruction": "Who was the coach for the Chicago Bulls when they won the NBA championship?"
+ },
+ {
+  "i": 119,
+  "category": "classification",
+  "instruction": "Classify the following numbers as 'prime' or 'composite' - 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16."
+ },
+ {
+  "i": 120,
+  "category": "brainstorming",
+  "instruction": "What are the biggest cloud providers"
+ },
+ {
+  "i": 121,
+  "category": "brainstorming",
+  "instruction": "What are three popular mezzo-soprano arias?"
+ },
+ {
+  "i": 122,
+  "category": "classification",
+  "instruction": "Identify which animal species is alive or extinct: Pliosaur, Marine Iguana"
+ },
+ {
+  "i": 123,
+  "category": "brainstorming",
+  "instruction": "A lead or A manager?"
+ },
+ {
+  "i": 124,
+  "category": "open_qa",
+  "instruction": "What are some titles from George Orwell?"
+ },
+ {
+  "i": 125,
+  "category": "classification",
+  "instruction": "Classify each of the following as either a type of plant cell or a type of blood cell: parenchymal, sclerenchymal, monocytes, neutrophils, basophils, erythrocytes, collenchymal, platelets, eosinophils."
+ },
+ {
+  "i": 126,
+  "category": "classification",
+  "instruction": "Which of these sports are team sports: golf, basketball, boxing, running, cycling, baseball"
+ },
+ {
+  "i": 127,
+  "category": "open_qa",
+  "instruction": "Name the Hindi novel that has become the 1st novel to win the International Booker Prize"
+ },
+ {
+  "i": 128,
+  "category": "open_qa",
+  "instruction": "Which city is the capital city of California?"
+ },
+ {
+  "i": 129,
+  "category": "open_qa",
+  "instruction": "Who is the best soccer player in the world?"
+ },
+ {
+  "i": 130,
+  "category": "open_qa",
+  "instruction": "As per WHO Marburg Virus Disease(MVD) is a severe often fatal haemorrhagic fever it was earlier known as"
+ },
+ {
+  "i": 131,
+  "category": "open_qa",
+  "instruction": "What is the supreme law of the land?"
+ },
+ {
+  "i": 132,
+  "category": "general_qa",
+  "instruction": "Explain Storage Credential and External locations used in conjunction with Unity Catalog to a five year old."
+ },
+ {
+  "i": 133,
+  "category": "creative_writing",
+  "instruction": "Is Lake Tahoe a beautiful place for vacation/cabin rentals to immerse into nature?"
+ },
+ {
+  "i": 134,
+  "category": "classification",
+  "instruction": "Classify these US cities into states that they are in.\nJersey City, Buffalo, Schenectady, Newark, Yonkers, Hoboken"
+ },
+ {
+  "i": 135,
+  "category": "open_qa",
+  "instruction": "Who is the author of books \"It Starts With Us\" and \"It Ends With Us\"?"
+ },
+ {
+  "i": 136,
+  "category": "open_qa",
+  "instruction": "What is Human Development Report (HDI) based on?"
+ },
+ {
+  "i": 137,
+  "category": "general_qa",
+  "instruction": "Tell me about Indiana"
+ },
+ {
+  "i": 138,
+  "category": "open_qa",
+  "instruction": "What are the main ingredients for making bread?"
+ },
+ {
+  "i": 139,
+  "category": "classification",
+  "instruction": "Identify which instrument is string or percussion: Sabar, Sharud"
+ },
+ {
+  "i": 140,
+  "category": "brainstorming",
+  "instruction": "Give me a list of the best high fantasy books or series that I should read"
+ },
+ {
+  "i": 141,
+  "category": "general_qa",
+  "instruction": "How does a Husqvarna automatic lawn mower operate."
+ },
+ {
+  "i": 142,
+  "category": "general_qa",
+  "instruction": "Why is Football a popular spectator sport?"
+ },
+ {
+  "i": 143,
+  "category": "general_qa",
+  "instruction": "Why are people migrating in the US from the NE and Mid-West to the South and SE?"
+ },
+ {
+  "i": 144,
+  "category": "creative_writing",
+  "instruction": "Imagine you're seeing colors for the first time. Explain what you see and how you feel."
+ },
+ {
+  "i": 145,
+  "category": "classification",
+  "instruction": "Identify which instrument is string or woodwind: Mandobass, Pommer"
+ },
+ {
+  "i": 146,
+  "category": "brainstorming",
+  "instruction": "Give me 10 different ideas for how to spend a rainy Saturday afternoon"
+ },
+ {
+  "i": 147,
+  "category": "brainstorming",
+  "instruction": "Give me a list of amazing noise cancelling headphones in 2023"
+ },
+ {
+  "i": 148,
+  "category": "open_qa",
+  "instruction": "Name five MLB teams in the National League."
+ },
+ {
+  "i": 149,
+  "category": "classification",
+  "instruction": "Classify each of the following as either a state or a city: Los Angeles, California, Houston, Texas, Santa Fe, New Mexico, Little Rock, Arkansas"
+ },
+ {
+  "i": 150,
+  "category": "open_qa",
+  "instruction": "Name some celebrities who have been diagnosed with multiple sclerosis."
+ },
+ {
+  "i": 151,
+  "category": "open_qa",
+  "instruction": "What is the difference between a sitar and a tanpura?"
+ },
+ {
+  "i": 152,
+  "category": "general_qa",
+  "instruction": "Why are most plants green?"
+ },
+ {
+  "i": 153,
+  "category": "brainstorming",
+  "instruction": "What are the different ways to save money?"
+ },
+ {
+  "i": 154,
+  "category": "open_qa",
+  "instruction": "Is there a Romanian Royal Family?"
+ },
+ {
+  "i": 155,
+  "category": "brainstorming",
+  "instruction": "Give me some examples of spoonerisms."
+ },
+ {
+  "i": 156,
+  "category": "open_qa",
+  "instruction": "When did google first start?"
+ },
+ {
+  "i": 157,
+  "category": "general_qa",
+  "instruction": "Who is the greatest musical theatre composer of all time?"
+ },
+ {
+  "i": 158,
+  "category": "open_qa",
+  "instruction": "How is the price of an Uber ride calculated?"
+ },
+ {
+  "i": 159,
+  "category": "open_qa",
+  "instruction": "Which Targaryen has the dragon Rhaegal named after him?"
+ },
+ {
+  "i": 160,
+  "category": "open_qa",
+  "instruction": "Where is Jordan Spieth from?"
+ },
+ {
+  "i": 161,
+  "category": "open_qa",
+  "instruction": "Who was Yogi Bear named after?"
+ },
+ {
+  "i": 162,
+  "category": "brainstorming",
+  "instruction": "Give me a bulleted list of the 5 top-grossing movies of all times."
+ },
+ {
+  "i": 163,
+  "category": "classification",
+  "instruction": "Classify each of the following as a mammal, reptile, or neither: alligator, frog, cat, moose, lizard, snake, dog"
+ },
+ {
+  "i": 164,
+  "category": "brainstorming",
+  "instruction": "Give me a list of the most famous tech companies in the world"
+ },
+ {
+  "i": 165,
+  "category": "creative_writing",
+  "instruction": "Describe what your ideal pet cat would look like, and what you would name it."
+ },
+ {
+  "i": 166,
+  "category": "classification",
+  "instruction": "Classify each of the following as a \"fiat money\" or \"cryptocurrency\": Bitcoin, US Dollar, British Pound, Ethereum, Dogecoin, Euro"
+ },
+ {
+  "i": 167,
+  "category": "open_qa",
+  "instruction": "Name the past 5 FIFA World Cup Champions"
+ },
+ {
+  "i": 168,
+  "category": "brainstorming",
+  "instruction": "Why german cars are best?"
+ },
+ {
+  "i": 169,
+  "category": "general_qa",
+  "instruction": "How do I obtain help for an adult relative with a serious mental illness?"
+ },
+ {
+  "i": 170,
+  "category": "open_qa",
+  "instruction": "When was the Roman empire founded?"
+ },
+ {
+  "i": 171,
+  "category": "open_qa",
+  "instruction": "What kind of milk is Vietnamese coffee often served with?"
+ },
+ {
+  "i": 172,
+  "category": "brainstorming",
+  "instruction": "Provide a list of superpower you wish you had"
+ },
+ {
+  "i": 173,
+  "category": "brainstorming",
+  "instruction": "What are the best hairstyles for a round face?"
+ },
+ {
+  "i": 174,
+  "category": "brainstorming",
+  "instruction": "What are some qualities that make a good computer programmer?"
+ },
+ {
+  "i": 175,
+  "category": "classification",
+  "instruction": "Classify each as either an amphibian, bird, or fish: salmon, trout, salamander, cardinal, owl, falcon, frog"
+ },
+ {
+  "i": 176,
+  "category": "classification",
+  "instruction": "Which of the following is a famous food in Dali County Shaanxi Province in China: Waterbasin Lamb, Roujiamo, fried dumplings"
+ },
+ {
+  "i": 177,
+  "category": "brainstorming",
+  "instruction": "Name some countries that don't share a border with any other countries."
+ },
+ {
+  "i": 178,
+  "category": "classification",
+  "instruction": "Classify each of the following as either a drink or a food: apple juice, cake, hamburger, carrot, orange juice, soda."
+ },
+ {
+  "i": 179,
+  "category": "open_qa",
+  "instruction": "How many dwarf planets are there in our solar system?"
+ },
+ {
+  "i": 180,
+  "category": "general_qa",
+  "instruction": "How can I help to improve my son's tennis skills?"
+ },
+ {
+  "i": 181,
+  "category": "open_qa",
+  "instruction": "What is measured on the Gay-Lussac scale"
+ },
+ {
+  "i": 182,
+  "category": "classification",
+  "instruction": "Of the following, which are colors of a rainbow: black, red, white, gold, purple, orange, green, blue, yellow, gray"
+ },
+ {
+  "i": 183,
+  "category": "classification",
+  "instruction": "Which of the following are deciduous trees?\n\nAbies concolor\nAcer rubrum\nAcer saccharinum\nCornus florida\nGleditsia triacanthos\nPicea glauca\npicea pungens\nPicea abies\nPinus strobus\nQuercus rubra"
+ },
+ {
+  "i": 184,
+  "category": "open_qa",
+  "instruction": "What is Gingham fabric?"
+ },
+ {
+  "i": 185,
+  "category": "brainstorming",
+  "instruction": "Think up 4 different cities in California"
+ },
+ {
+  "i": 186,
+  "category": "open_qa",
+  "instruction": "Is Gillian Anderson an English actress?"
+ },
+ {
+  "i": 187,
+  "category": "general_qa",
+  "instruction": "What does it mean for a function to be computable?"
+ },
+ {
+  "i": 188,
+  "category": "classification",
+  "instruction": "Classify each of the following as a fast food or sit down restaurant: McDonalds, Subway, Chili's, Popeyes, Carrabbas, Domino's, Hooters"
+ },
+ {
+  "i": 189,
+  "category": "general_qa",
+  "instruction": "Why do humans like sports?"
+ },
+ {
+  "i": 190,
+  "category": "general_qa",
+  "instruction": "What are some of the challenges when walking with crutches?"
+ },
+ {
+  "i": 191,
+  "category": "open_qa",
+  "instruction": "What is a Ferocactus"
+ },
+ {
+  "i": 192,
+  "category": "general_qa",
+  "instruction": "Why should you workout in the morning if you work remotely ?"
+ },
+ {
+  "i": 193,
+  "category": "open_qa",
+  "instruction": "Who is the founder of Vanguard?"
+ },
+ {
+  "i": 194,
+  "category": "classification",
+  "instruction": "Which of these words can be both a noun and a verb in English? treat, apple, watch, wood, attach"
+ },
+ {
+  "i": 195,
+  "category": "open_qa",
+  "instruction": "What is the plot of Persuasion by Jane Austen?"
+ },
+ {
+  "i": 196,
+  "category": "creative_writing",
+  "instruction": "What makes a good teacher?"
+ },
+ {
+  "i": 197,
+  "category": "open_qa",
+  "instruction": "What does it mean if something \"slaps\"?"
+ },
+ {
+  "i": 198,
+  "category": "brainstorming",
+  "instruction": "Give me some examples sedimentary rocks."
+ },
+ {
+  "i": 199,
+  "category": "general_qa",
+  "instruction": "Is C++ hard to learn?"
+ },
+ {
+  "i": 200,
+  "category": "open_qa",
+  "instruction": "What is the Internet of Things (IoT)?"
+ },
+ {
+  "i": 201,
+  "category": "classification",
+  "instruction": "Which of these four novels has the least in common with the others?\n\n1. Red Harvest by Dashiell Hammett\n2. One Hundred Years of Solitude by Gabriel Garcia Marquez\n3. The Big Sleep by Raymond Chandler\n4. The Hound of the Baskervilles by Sir Arthur Conan Doyle"
+ },
+ {
+  "i": 202,
+  "category": "classification",
+  "instruction": "Identify which instrument is string or percussion: Pantalon, Chang"
+ },
+ {
+  "i": 203,
+  "category": "general_qa",
+  "instruction": "What are some pro tips when cold calling?"
+ },
+ {
+  "i": 204,
+  "category": "brainstorming",
+  "instruction": "Give me a list of 5 famous archeological sites to visit in Mexico."
+ },
+ {
+  "i": 205,
+  "category": "open_qa",
+  "instruction": "What do colleges consider as part of their admissions process?"
+ },
+ {
+  "i": 206,
+  "category": "brainstorming",
+  "instruction": "Give me the list of fortified wines."
+ },
+ {
+  "i": 207,
+  "category": "brainstorming",
+  "instruction": "We all know the saying \"what goes up must come down,\" but what goes up but does not come down?"
+ },
+ {
+  "i": 208,
+  "category": "general_qa",
+  "instruction": "What is enriched air and why would divers dive with enriched air?"
+ },
+ {
+  "i": 209,
+  "category": "classification",
+  "instruction": "Classify each tree as an evergreen or fruit tree: Blue Spruce, Jack Pine, Sweet Cherry, Coconut, Mountain Hemlock."
+ },
+ {
+  "i": 210,
+  "category": "open_qa",
+  "instruction": "In the series A Song of Ice and Fire, who is the founder of House Slynt?"
+ },
+ {
+  "i": 211,
+  "category": "open_qa",
+  "instruction": "What is the shape of the Earth?"
+ },
+ {
+  "i": 212,
+  "category": "open_qa",
+  "instruction": "When is the best time to buy house in USA"
+ },
+ {
+  "i": 213,
+  "category": "open_qa",
+  "instruction": "What is the best time of the year to visit Paris?"
+ },
+ {
+  "i": 214,
+  "category": "general_qa",
+  "instruction": "How to take care of indoor plants?"
+ },
+ {
+  "i": 215,
+  "category": "classification",
+  "instruction": "Tell me whether these are Major League Baseball or National Basketball Association teams: Yankees, Astros, Dodgers, Pirates and Padres."
+ },
+ {
+  "i": 216,
+  "category": "brainstorming",
+  "instruction": "5 best mailing sites"
+ },
+ {
+  "i": 217,
+  "category": "open_qa",
+  "instruction": "Who sings the song \"Riptide\"?"
+ },
+ {
+  "i": 218,
+  "category": "open_qa",
+  "instruction": "What natural disaster transports Dorothy to Oz in the Wizard of Oz?"
+ },
+ {
+  "i": 219,
+  "category": "open_qa",
+  "instruction": "What is \"cycling\" in ice hockey?"
+ },
+ {
+  "i": 220,
+  "category": "classification",
+  "instruction": "Classify the following bools as fiction or non-fiction: Harry Potter and the Sorcerer's Stone, Economics in One Lesson, The Cat in the Hat, A Brief History of Time, Democracy In America, and Goodnight Moon."
+ },
+ {
+  "i": 221,
+  "category": "brainstorming",
+  "instruction": "How to prepare without baking dessert recipe -Banana Pudding?"
+ },
+ {
+  "i": 222,
+  "category": "creative_writing",
+  "instruction": "Tell me about Crater Lake National Park"
+ },
+ {
+  "i": 223,
+  "category": "open_qa",
+  "instruction": "Give me a title of one of the \"Harry Potter\" novels."
+ },
+ {
+  "i": 224,
+  "category": "classification",
+  "instruction": "Identify which instrument is string or percussion: Kenong, Zeze"
+ },
+ {
+  "i": 225,
+  "category": "creative_writing",
+  "instruction": "Which national park is hardest to visit?"
+ },
+ {
+  "i": 226,
+  "category": "general_qa",
+  "instruction": "What is a tardigrade?"
+ },
+ {
+  "i": 227,
+  "category": "brainstorming",
+  "instruction": "How can I help a homeless person?"
+ },
+ {
+  "i": 228,
+  "category": "open_qa",
+  "instruction": "What is the largest city in the South Hemisphere?"
+ },
+ {
+  "i": 229,
+  "category": "open_qa",
+  "instruction": "Which NFL teams have never gone to the Super Bowl?"
+ },
+ {
+  "i": 230,
+  "category": "open_qa",
+  "instruction": "What is the difference between tennis shoes and sandals?"
+ },
+ {
+  "i": 231,
+  "category": "open_qa",
+  "instruction": "What did Special Agent Fox Mulder study when he was in university?"
+ },
+ {
+  "i": 232,
+  "category": "brainstorming",
+  "instruction": "Provide me with popular girl names."
+ },
+ {
+  "i": 233,
+  "category": "classification",
+  "instruction": "Categorize these colors as either warm colors or cool colors: yellow, red, blue, green, white, black."
+ },
+ {
+  "i": 234,
+  "category": "open_qa",
+  "instruction": "Who is Oren Middlebrook"
+ },
+ {
+  "i": 235,
+  "category": "brainstorming",
+  "instruction": "Name four pork products I could expect to find in a delicatessen"
+ },
+ {
+  "i": 236,
+  "category": "open_qa",
+  "instruction": "What causes a spinning top to stop?"
+ },
+ {
+  "i": 237,
+  "category": "brainstorming",
+  "instruction": "Give me a list of the seven most polluted cities in America"
+ },
+ {
+  "i": 238,
+  "category": "creative_writing",
+  "instruction": "What is a proof that there are two irrational numbers where raising one to the power of the other produces a rational number?"
+ },
+ {
+  "i": 239,
+  "category": "open_qa",
+  "instruction": "What is the meaning of life and how do I have a fulfilling one?"
+ },
+ {
+  "i": 240,
+  "category": "open_qa",
+  "instruction": "Where was city musician Thomas Russell born?"
+ },
+ {
+  "i": 241,
+  "category": "general_qa",
+  "instruction": "Why is WiFi such a popular way to implement a home network?"
+ },
+ {
+  "i": 242,
+  "category": "open_qa",
+  "instruction": "Whale skin is how many cm deep?"
+ },
+ {
+  "i": 243,
+  "category": "classification",
+  "instruction": "Who amongst these are tennis players: Virat Kohli, Roger Federer, Rafael Nadal, Novak Djokovic, Serena Williams, PV Sindhu, Virender Sehwag, Maria Sharapova, Steffi Graf, Venus Williams."
+ },
+ {
+  "i": 244,
+  "category": "classification",
+  "instruction": "Which of the following words are considered a palindrome, a word that can be spelled the same forwards and backward: deified, kayak, chicken, taco, wow, peep, noon, abba, lizard, bob, penguin, margarita, square"
+ },
+ {
+  "i": 245,
+  "category": "brainstorming",
+  "instruction": "Give me a bulleted list of the seven most recent Chancellors of Federal Republic of Germany"
+ },
+ {
+  "i": 246,
+  "category": "classification",
+  "instruction": "Identify which car manufacturer is German or American: RAM, Artega"
+ },
+ {
+  "i": 247,
+  "category": "brainstorming",
+  "instruction": "Give me a short list with five ideas for hobbies I can do at home."
+ },
+ {
+  "i": 248,
+  "category": "creative_writing",
+  "instruction": "Describe a plan for driving from Florida to New York with some great places to stop with American History."
+ },
+ {
+  "i": 249,
+  "category": "brainstorming",
+  "instruction": "Tell me what to put in a smoothie."
+ },
+ {
+  "i": 250,
+  "category": "classification",
+  "instruction": "Which of the following are breeds of dogs:\nDachshund, Tabby, Russian Blue, Airedale Terrier, Papillon, Bengal, Greyhound"
+ },
+ {
+  "i": 251,
+  "category": "classification",
+  "instruction": "Compared to a human, categorize the following as fast or slow animals: sloth, cheetah, eagle, tortoise, hippo, slug, horse."
+ },
+ {
+  "i": 252,
+  "category": "classification",
+  "instruction": "What are the 7 science classifications?"
+ },
+ {
+  "i": 253,
+  "category": "general_qa",
+  "instruction": "What is the difference between and instructional designer and an elearning developer?"
+ },
+ {
+  "i": 254,
+  "category": "general_qa",
+  "instruction": "Why we have to work?"
+ },
+ {
+  "i": 255,
+  "category": "brainstorming",
+  "instruction": "Give me the top guitar players of all time"
+ },
+ {
+  "i": 256,
+  "category": "open_qa",
+  "instruction": "What genre did Taylor Swift begin her career in?"
+ },
+ {
+  "i": 257,
+  "category": "brainstorming",
+  "instruction": "What are the things I should consider when purchasing an electric car?"
+ },
+ {
+  "i": 258,
+  "category": "open_qa",
+  "instruction": "What years was the BMW 1M made?"
+ },
+ {
+  "i": 259,
+  "category": "open_qa",
+  "instruction": "Name some characters from the first \"Saved by the Bell\" series."
+ },
+ {
+  "i": 260,
+  "category": "classification",
+  "instruction": "Which of the following are not noble gases: helium, sodium, neon, oxygen, argon, hydrogen, calcium, magnesium, lithium, boron, krypton, nitrogen, xenon, aluminium, radon."
+ },
+ {
+  "i": 261,
+  "category": "classification",
+  "instruction": "Choose the word which is different from the rest: chicken, snake, swan, crocodile, frog"
+ },
+ {
+  "i": 262,
+  "category": "open_qa",
+  "instruction": "Who is the best all-time chess player?"
+ },
+ {
+  "i": 263,
+  "category": "classification",
+  "instruction": "Classify the following water bodies into oceans, seas, rivers and lakes- aral, pacific, baikal, superior, amazon, colorado, indian, arabian, north, baltic, okhotosk, tahoe, victoria, lena, danube, arctic, mekong"
+ },
+ {
+  "i": 264,
+  "category": "creative_writing",
+  "instruction": "Describe how skateboarding teaches you about life and to be resilient."
+ },
+ {
+  "i": 265,
+  "category": "general_qa",
+  "instruction": "What’s the easiest coffee brewing method?"
+ },
+ {
+  "i": 266,
+  "category": "open_qa",
+  "instruction": "How do you determine the market capitalization of a publicly traded company?"
+ },
+ {
+  "i": 267,
+  "category": "open_qa",
+  "instruction": "What is the tallest building in Chicago?"
+ },
+ {
+  "i": 268,
+  "category": "general_qa",
+  "instruction": "How do you clear a scuba mask underwater ?"
+ },
+ {
+  "i": 269,
+  "category": "open_qa",
+  "instruction": "Who was the first human to walk on the moon?"
+ },
+ {
+  "i": 270,
+  "category": "creative_writing",
+  "instruction": "Why is music so special?"
+ },
+ {
+  "i": 271,
+  "category": "classification",
+  "instruction": "Identify the bird from the list: Cockroach, Hawfinch, Humpback whale"
+ },
+ {
+  "i": 272,
+  "category": "general_qa",
+  "instruction": "How do we increase voter turnout in the United States?"
+ },
+ {
+  "i": 273,
+  "category": "open_qa",
+  "instruction": "What happens if I let go of a helium balloon?"
+ },
+ {
+  "i": 274,
+  "category": "general_qa",
+  "instruction": "How can I improve my sleep?"
+ },
+ {
+  "i": 275,
+  "category": "classification",
+  "instruction": "Identify which of the following are episodes from Season 4 or Season 5 of The X-Files: Schizogeny, Chinga, The Post-Modern Prometheus, Mind's Eye, All Souls, Herrenvolk, Unruhe, Teliko, Home, Tunguska"
+ },
+ {
+  "i": 276,
+  "category": "open_qa",
+  "instruction": "What is a mediterranean diet?"
+ },
+ {
+  "i": 277,
+  "category": "open_qa",
+  "instruction": "On television what was Flipper"
+ },
+ {
+  "i": 278,
+  "category": "classification",
+  "instruction": "Identify which instrument is string or percussion: Claves, Rabeca"
+ },
+ {
+  "i": 279,
+  "category": "classification",
+  "instruction": "Which of these is an electronic device? Ipad, TV, Rock, Laptop, Tree."
+ },
+ {
+  "i": 280,
+  "category": "open_qa",
+  "instruction": "When was the Philippine House Committee elevated into a standing committee"
+ },
+ {
+  "i": 281,
+  "category": "open_qa",
+  "instruction": "What is the difference between AWD and 4WD?"
+ },
+ {
+  "i": 282,
+  "category": "classification",
+  "instruction": "Classify the cities based on whether they are located in Wallis and Futuna or Morocco.\nCasablanca, El Kelaa des Srarhna, Mata-Utu, Fès, Leava"
+ },
+ {
+  "i": 283,
+  "category": "brainstorming",
+  "instruction": "What are the strongest commonalities between Quakerism and Buddhism?"
+ },
+ {
+  "i": 284,
+  "category": "open_qa",
+  "instruction": "what can we do when coffee spill on laptop to make it working"
+ },
+ {
+  "i": 285,
+  "category": "creative_writing",
+  "instruction": "Why should people convert lawns and ornamental gardens to native plants?"
+ },
+ {
+  "i": 286,
+  "category": "open_qa",
+  "instruction": "What are the titles to the six volumes of Sir Winston Churchill's \"The Second World War\"?"
+ },
+ {
+  "i": 287,
+  "category": "general_qa",
+  "instruction": "Where should I go for vacation?"
+ },
+ {
+  "i": 288,
+  "category": "brainstorming",
+  "instruction": "How can a technical expert identify a business use case?"
+ },
+ {
+  "i": 289,
+  "category": "classification",
+  "instruction": "Tell me whether each state touches the ocean or not: Florida, North Carolina, Nebraska, Oklahoma, Oregon, Texas"
+ },
+ {
+  "i": 290,
+  "category": "classification",
+  "instruction": "Out of these animals, categorize them as either 'small' or 'large: A horse, a mouse, an elephant, a snake, and a whale."
+ },
+ {
+  "i": 291,
+  "category": "creative_writing",
+  "instruction": "Write a story with the theme \"Be wise when you speak.\""
+ },
+ {
+  "i": 292,
+  "category": "brainstorming",
+  "instruction": "Give me some quotes from Aristotle that I might use in a school assignment"
+ },
+ {
+  "i": 293,
+  "category": "brainstorming",
+  "instruction": "Best TV shows I've ever seen."
+ },
+ {
+  "i": 294,
+  "category": "open_qa",
+  "instruction": "What is the capital of Texas?"
+ },
+ {
+  "i": 295,
+  "category": "classification",
+  "instruction": "Which is a species of fish? Sea dragon or Red bearded"
+ },
+ {
+  "i": 296,
+  "category": "open_qa",
+  "instruction": "List five titles by Margaret Atwood."
+ },
+ {
+  "i": 297,
+  "category": "brainstorming",
+  "instruction": "List the five French mother sauces used in classic french cuisine."
+ },
+ {
+  "i": 298,
+  "category": "general_qa",
+  "instruction": "Write a review of Joe Abercrombie's book Before They Are Hanged"
+ },
+ {
+  "i": 299,
+  "category": "creative_writing",
+  "instruction": "Write an argument for keeping public lands under federal control in the Intermountain West."
+ }
+]

@@ -4,7 +4,7 @@ Assembled 2026-09-09 from the author's working folders. Source locations are giv
 
 ## Unchanged by construction
 
-Freeze records, raw records (with the one error-field substitution listed below), store records, results, the IFEval selection and the IFEval files were copied byte for byte. Three plans are byte for byte as frozen; the first plan's public copy has one redacted phrase (PLAN-REDACTION.txt). The plan hashes were checked against the FREEZE files before the redaction: PREREGISTRATION-ADDENDUM-2.md match, PREREGISTRATION-ADDENDUM-3.md match, PREREGISTRATION-ADDENDUM-4.md match, PREREGISTRATION-ADDENDUM.md match.
+Freeze records, raw records (with the one error-field substitution listed below), store records, results, the IFEval selection and the IFEval files were copied byte for byte. Three plans are byte for byte as frozen; the first plan's public copy has one redacted phrase (PLAN-REDACTION.txt). The plan hashes were checked against the FREEZE files before the redaction: PREREGISTRATION-ADDENDUM-2.md match, PREREGISTRATION-ADDENDUM-3.md match, PREREGISTRATION-ADDENDUM-4.md match, PREREGISTRATION-ADDENDUM-8.md match, PREREGISTRATION-ADDENDUM.md match.
 
 IFEval files vendored from google-research/instruction_following_eval; SHA-256 at assembly: ifeval/instruction_following_eval/instructions.py 60e086f5342a03ce; ifeval/instruction_following_eval/instructions_registry.py ec92d72c264f6d90; ifeval/instruction_following_eval/instructions_util.py a73797261eee5bf4; ifeval/input_data.jsonl 67ffeee0fcb87c31. A comparison with the upstream files on 2026-09-09 found all four identical.
 
@@ -22,6 +22,7 @@ Only local file paths and the AWS profile name were changed. Prompts, responses,
 - controls/e6.mjs (from <controls folder>/e6.mjs): the local path of the built kit's entry module replaced 1 time; the local controls folder path replaced 1 time
 - controls/e6b.mjs (from <controls folder>/e6b.mjs): the local path of the built kit's entry module replaced 1 time; the local controls folder path replaced 1 time
 - controls/e6c.mjs (from <controls folder>/e6c.mjs): the local path of the built kit's entry module replaced 1 time; the local controls folder path replaced 1 time
+- controls/e6d.mjs (from <controls folder>/e6d.mjs): the local path of the built kit's entry module replaced 1 time; the local controls folder path replaced 1 time
 - controls/readout-stack.py (from <controls folder>/readout-stack.py): the local controls folder path (with slash) replaced 1 time; D = <controls dir> -> path of this file replaced 1 time
 - controls/readout.py (from <controls folder>/readout.py): the local controls folder path (with slash) replaced 1 time; D = <controls dir> -> path of this file replaced 1 time
 - controls/verify-v23-claims.py (from <controls folder>/verify-v23-claims.py): the local controls folder path (with slash) replaced 1 time; D = <controls dir> -> path of this file replaced 1 time
@@ -29,6 +30,7 @@ Only local file paths and the AWS profile name were changed. Prompts, responses,
 - p4-2026-08-26/p4.mjs (from <cost-pilot folder>/p4.mjs): the local cost-pilot folder path replaced 1 time; the AWS CLI profile name replaced 1 time
 - e4-2026-09-09/e4.mjs (from <E4 folder>/e4.mjs): the local E4 folder path replaced 1 time; the local path of the built kit's entry module replaced 1 time
 - e4-2026-09-09/e4b.mjs (from <E4 folder>/e4b.mjs): the local E4 folder path replaced 1 time; the local path of the built kit's entry module replaced 1 time
+- e7-2026-09-09/e7.mjs (from <E7 folder>/e7.mjs): the local path of the built kit's checkers module replaced 1 time; the local E7 folder path replaced 1 time; the local controls folder path (with slash) replaced 1 time
 
 ## Excluded
 

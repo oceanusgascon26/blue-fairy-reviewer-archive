@@ -1,0 +1,20 @@
+IFEval: 541 prompts, 25 instruction types, parser covers 6; coverable instructions 204, recall 25.0% [19.6, 31.4] (51/204); coverable prompts 194, prompt recall 26.3% [20.6, 32.9] (51/194); prompts with any fire 66; unsupported fires 17 {"sentence-count":7,"no-letter":4,"word-count":3,"ends-with":1,"json":2}
+  punctuation:no_comma                       9.1% [4.2, 18.4] (6/66)
+  change_case:english_lowercase              48.7% [33.9, 63.8] (19/39)
+  detectable_format:number_bullet_lists      0.0% [-0.0, 11.0] (0/31)
+  change_case:english_capital                0.0% [0.0, 13.3] (0/25)
+  detectable_format:json_format              100.0% [81.6, 100.0] (17/17)
+  startend:end_checker                       34.6% [19.4, 53.8] (9/26)
+Dolly: 280 labeled no, 20 labeled yes; false-trigger rate 0.0% [0.0, 1.4] (0/280); recall on yes 5.0% [0.9, 23.6] (1/20); precision of fires 100.0% [20.7, 100.0] (1/1); misses 19, wrong kind 0
+  MISS 13 [ 'line-count' ] | Give me a bulleted list of the seven most recent Harvard University presidents
+  MISS 26 [ 'line-count' ] | Give me a list of 7 of the most popular Pokémon
+  MISS 117 [ 'line-count' ] | 5 ways on prem is better than cloud
+  MISS 121 [ 'line-count' ] | What are three popular mezzo-soprano arias?
+  MISS 146 [ 'line-count' ] | Give me 10 different ideas for how to spend a rainy Saturday afternoon
+  MISS 148 [ 'line-count' ] | Name five MLB teams in the National League.
+  MISS 162 [ 'line-count' ] | Give me a bulleted list of the 5 top-grossing movies of all times.
+  MISS 167 [ 'line-count' ] | Name the past 5 FIFA World Cup Champions
+  MISS 185 [ 'line-count' ] | Think up 4 different cities in California
+  MISS 204 [ 'line-count' ] | Give me a list of 5 famous archeological sites to visit in Mexico.
+  MISS 216 [ 'line-count' ] | 5 best mailing sites
+  MISS 235 [ 'line-count' ] | Name four pork products I could expect to find in a delicatessen

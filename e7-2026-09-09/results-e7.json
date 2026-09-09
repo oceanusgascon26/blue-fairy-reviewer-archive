@@ -1,0 +1,386 @@
+{
+ "experiment": "E7",
+ "parser": "deriveConstraintCheckers, cognitive-middleware 3d20393",
+ "date": "2026-09-09T23:33:05.113Z",
+ "kinds": [
+  "word-count",
+  "sentence-count",
+  "no-letter",
+  "all-lowercase",
+  "all-uppercase",
+  "comma-count",
+  "no-comma",
+  "json",
+  "line-count",
+  "ends-with",
+  "sentence-start",
+  "word-times",
+  "word-caps"
+ ],
+ "coverageMap": {
+  "change_case:english_lowercase": "all-lowercase",
+  "change_case:english_capital": "all-uppercase",
+  "punctuation:no_comma": "no-comma",
+  "detectable_format:json_format": "json",
+  "startend:end_checker": "ends-with",
+  "detectable_format:number_bullet_lists": "line-count"
+ },
+ "ifeval": {
+  "prompts": 541,
+  "instructionTypes": 25,
+  "typesCovered": 6,
+  "coverableInstructions": 204,
+  "recallByType": {
+   "punctuation:no_comma": {
+    "p": 0.09090909090909091,
+    "lo": 0.042332398591397716,
+    "hi": 0.18448943825082814,
+    "k": 6,
+    "n": 66
+   },
+   "change_case:english_lowercase": {
+    "p": 0.48717948717948717,
+    "lo": 0.3386492878313309,
+    "hi": 0.6380089135430342,
+    "k": 19,
+    "n": 39
+   },
+   "detectable_format:number_bullet_lists": {
+    "p": 0,
+    "lo": -1.3877787807814457e-17,
+    "hi": 0.11025900073475385,
+    "k": 0,
+    "n": 31
+   },
+   "change_case:english_capital": {
+    "p": 0,
+    "lo": 0,
+    "hi": 0.13319649395317873,
+    "k": 0,
+    "n": 25
+   },
+   "detectable_format:json_format": {
+    "p": 1,
+    "lo": 0.8156763396284354,
+    "hi": 1,
+    "k": 17,
+    "n": 17
+   },
+   "startend:end_checker": {
+    "p": 0.34615384615384615,
+    "lo": 0.19412014972852126,
+    "hi": 0.5377977099036699,
+    "k": 9,
+    "n": 26
+   }
+  },
+  "recallCoverableInstructions": {
+   "p": 0.25,
+   "lo": 0.19557023805604531,
+   "hi": 0.3136714152029749,
+   "k": 51,
+   "n": 204
+  },
+  "coverablePrompts": 194,
+  "promptRecall": {
+   "p": 0.26288659793814434,
+   "lo": 0.20597752370486383,
+   "hi": 0.32900399686512766,
+   "k": 51,
+   "n": 194
+  },
+  "promptsWithAnyFire": 66,
+  "unsupportedFiresByKind": {
+   "sentence-count": 7,
+   "no-letter": 4,
+   "word-count": 3,
+   "ends-with": 1,
+   "json": 2
+  },
+  "unsupportedFires": 17,
+  "unsupportedExamples": {
+   "sentence-count": [
+    {
+     "key": 1418,
+     "types": [
+      "punctuation:no_comma",
+      "length_constraints:number_sentences",
+      "length_constraints:number_sentences"
+     ],
+     "prompt": "Write a 30-line poem with short sentences without any comma. Each line should contain exactly one sentence. Make sure that you put the right punctuation at the end of each line. Your entire response should contain the po"
+    },
+    {
+     "key": 1837,
+     "types": [
+      "length_constraints:number_sentences",
+      "length_constraints:number_sentences"
+     ],
+     "prompt": "Write a song about miniatures that contains 20 to 25 sentences. Do not forget to add punctuations."
+    },
+    {
+     "key": 2063,
+     "types": [
+      "combination:repeat_prompt",
+      "punctuation:no_comma"
+     ],
+     "prompt": "Titan makes clothing for large men. Write an advertisement for the company that would appeal to a wide audience. Make sentences short. Your response should not contain any comma.\nFirst repeat the request word for word wi"
+    }
+   ],
+   "no-letter": [
+    {
+     "key": 1883,
+     "types": [
+      "keywords:letter_frequency",
+      "length_constraints:number_paragraphs"
+     ],
+     "prompt": "Write a song about being excited to go on vacation, without using the letter e whatsoever in your entire response. Separate your song into 3 parts, where each part is separated with ***."
+    },
+    {
+     "key": 201,
+     "types": [
+      "keywords:letter_frequency"
+     ],
+     "prompt": "Write a story from a perspective of a man. Include some conversation in the story. Avoid using the letter i more than twice."
+    },
+    {
+     "key": 2912,
+     "types": [
+      "combination:two_responses",
+      "keywords:letter_frequency"
+     ],
+     "prompt": "Create a dialogue between two people who are both trying to avoid using the letter t. But somehow they ended up using a lot of t in their dialogue. Break the dialogue into two scenes, separated by 6 asterisk symbols: ***"
+    }
+   ],
+   "word-count": [
+    {
+     "key": 1964,
+     "types": [
+      "keywords:letter_frequency",
+      "length_constraints:number_words"
+     ],
+     "prompt": "Write a 100-word advertisement for a company called \"Drags and Races\". Don't contain the letter \"p\" in your reply."
+    },
+    {
+     "key": 2097,
+     "types": [
+      "detectable_format:title"
+     ],
+     "prompt": "Write a 200 word essay on the 2000 presidential election. The title should be wrapped in double angular brackets, i.e. <<title>>."
+    },
+    {
+     "key": 2904,
+     "types": [
+      "combination:repeat_prompt"
+     ],
+     "prompt": "Write a 500 word story in a poem style about a young girl who is obsessed with her Nintendo DS.\n\nFirst repeat the request above, then give your answer. Just repeat word for word without change. Do not say any words or ch"
+    }
+   ],
+   "ends-with": [
+    {
+     "key": 227,
+     "types": [
+      "detectable_format:constrained_response"
+     ],
+     "prompt": "I have a golden retriever and a poodle. Is the poodle bigger than the golden retriever? Choose from the following: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.') -- please include the exact phrase in yo"
+    }
+   ],
+   "json": [
+    {
+     "key": 2392,
+     "types": [
+      "keywords:frequency"
+     ],
+     "prompt": "Create an itinerary for a 3-day trip to Moscow that uses the word founding less than twice. Don't add anything before and after the JSON code. Your entire output should just contain a JSON code block."
+    },
+    {
+     "key": 3035,
+     "types": [
+      "detectable_content:number_placeholders",
+      "change_case:english_lowercase"
+     ],
+     "prompt": "Write a JSON schema for a beta cruiser that includes at least one placeholder represented by square brackets. The response must be in English and all lowercase letters."
+    }
+   ]
+  }
+ },
+ "dolly": {
+  "prompts": 300,
+  "labeledNo": 280,
+  "labeledYes": 20,
+  "falseTriggerRate": {
+   "p": 0,
+   "lo": 0,
+   "hi": 0.013534309276723356,
+   "k": 0,
+   "n": 280
+  },
+  "recallOnLabeledYes": {
+   "p": 0.05,
+   "lo": 0.008881219432873136,
+   "hi": 0.23613589351256675,
+   "k": 1,
+   "n": 20
+  },
+  "precisionOfFires": {
+   "p": 1,
+   "lo": 0.20654329147389294,
+   "hi": 1,
+   "k": 1,
+   "n": 1
+  },
+  "fires": 1,
+  "falseTriggers": [],
+  "misses": [
+   {
+    "i": 13,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "Give me a bulleted list of the seven most recent Harvard University presidents"
+   },
+   {
+    "i": 26,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "Give me a list of 7 of the most popular Pokémon"
+   },
+   {
+    "i": 117,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "5 ways on prem is better than cloud"
+   },
+   {
+    "i": 121,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "What are three popular mezzo-soprano arias?"
+   },
+   {
+    "i": 146,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "Give me 10 different ideas for how to spend a rainy Saturday afternoon"
+   },
+   {
+    "i": 148,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "Name five MLB teams in the National League."
+   },
+   {
+    "i": 162,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "Give me a bulleted list of the 5 top-grossing movies of all times."
+   },
+   {
+    "i": 167,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "Name the past 5 FIFA World Cup Champions"
+   },
+   {
+    "i": 185,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "Think up 4 different cities in California"
+   },
+   {
+    "i": 204,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "Give me a list of 5 famous archeological sites to visit in Mexico."
+   },
+   {
+    "i": 216,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "5 best mailing sites"
+   },
+   {
+    "i": 235,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "Name four pork products I could expect to find in a delicatessen"
+   },
+   {
+    "i": 237,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "Give me a list of the seven most polluted cities in America"
+   },
+   {
+    "i": 245,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "Give me a bulleted list of the seven most recent Chancellors of Federal Republic of Germany"
+   },
+   {
+    "i": 247,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "Give me a short list with five ideas for hobbies I can do at home."
+   },
+   {
+    "i": 252,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "What are the 7 science classifications?"
+   },
+   {
+    "i": 286,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "What are the titles to the six volumes of Sir Winston Churchill's \"The Second World War\"?"
+   },
+   {
+    "i": 296,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "List five titles by Margaret Atwood."
+   },
+   {
+    "i": 297,
+    "want": [
+     "line-count"
+    ],
+    "instruction": "List the five French mother sauces used in classic french cuisine."
+   }
+  ],
+  "wrongKind": [],
+  "hits": 1,
+  "labelKinds": {
+   "word-count": 1,
+   "sentence-count": 0,
+   "no-letter": 0,
+   "all-lowercase": 0,
+   "all-uppercase": 0,
+   "comma-count": 0,
+   "no-comma": 0,
+   "json": 0,
+   "line-count": 19,
+   "ends-with": 0,
+   "sentence-start": 0,
+   "word-times": 0,
+   "word-caps": 0
+  }
+ }
+}
