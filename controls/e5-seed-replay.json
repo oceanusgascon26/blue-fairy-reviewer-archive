@@ -1,0 +1,43 @@
+{
+ "answers": 2267,
+ "exceptions": {},
+ "seeds": {
+  "0": {
+   "disagreeing_flags": 11,
+   "disagreeing_cases": 7,
+   "prompts": [
+    279,
+    1122
+   ]
+  },
+  "1": {
+   "disagreeing_flags": 9,
+   "disagreeing_cases": 6,
+   "prompts": [
+    279,
+    1122
+   ]
+  },
+  "7": {
+   "disagreeing_flags": 9,
+   "disagreeing_cases": 6,
+   "prompts": [
+    279,
+    1122
+   ]
+  },
+  "42": {
+   "disagreeing_flags": 10,
+   "disagreeing_cases": 6,
+   "prompts": [
+    279,
+    1122
+   ]
+  }
+ },
+ "raw_judgments_vary_by_prompt": {
+  "279": 7,
+  "1122": 37,
+  "1219": 1
+ }
+}

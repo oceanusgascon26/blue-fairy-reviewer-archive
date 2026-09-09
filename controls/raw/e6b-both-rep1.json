@@ -1,0 +1,187 @@
+{
+  "arm": "both",
+  "rep": 1,
+  "pid": 93428,
+  "rows": [
+    {
+      "word": "harvest",
+      "encoded": "pkfyalr",
+      "response": "thrusts",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "pillow",
+      "encoded": "nozzvu",
+      "response": "pillows",
+      "calls": 2,
+      "exact": false,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "canyon",
+      "encoded": "wkgcvg",
+      "response": "voyage",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "whisper",
+      "encoded": "upolnaf",
+      "response": "brushed",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "timber",
+      "encoded": "rojtaf",
+      "response": "threat",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "saddle",
+      "encoded": "lkddza",
+      "response": "study",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "velvet",
+      "encoded": "yazyar",
+      "response": "vivid",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "ember",
+      "encoded": "ajtaf",
+      "response": "music",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "quartz",
+      "encoded": "ibkfre",
+      "response": "query",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "ribbon",
+      "encoded": "fottvg",
+      "response": "butter",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "falcon",
+      "encoded": "skzwvg",
+      "response": "flying",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "marble",
+      "encoded": "jkftza",
+      "response": "moment",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "pepper",
+      "encoded": "nannaf",
+      "response": "pinker",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "tunnel",
+      "encoded": "rbggaz",
+      "response": "trust",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "anchor",
+      "encoded": "kgwpvf",
+      "response": "trying",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "glacier",
+      "encoded": "qzkwoaf",
+      "response": "ground",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "basket",
+      "encoded": "tklmar",
+      "response": "butter",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "copper",
+      "encoded": "wvnnaf",
+      "response": "cinnit",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "violin",
+      "encoded": "yovzog",
+      "response": "violin",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "oyster",
+      "encoded": "vclraf",
+      "response": "violet",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    }
+  ]
+}

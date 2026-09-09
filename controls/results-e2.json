@@ -1,0 +1,1801 @@
+{
+  "experiment": "E2",
+  "model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "temperature": 0.7,
+  "budget": 4,
+  "reps": 5,
+  "date": "2026-09-09T14:30:15.291Z",
+  "repetitions": [
+    {
+      "rep": 1,
+      "oneShot": 0.6410256410256411,
+      "repair": 0.7948717948717948,
+      "resample": 0.717948717948718,
+      "repairMinusResample": {
+        "n": 39,
+        "baseRate": 0.717948717948718,
+        "organRate": 0.7948717948717948,
+        "delta": 0.07692307692307687,
+        "lo": -0.02564102564102564,
+        "hi": 0.1794871794871795,
+        "alpha": 0.05,
+        "iters": 2000,
+        "excludesZero": false
+      },
+      "repairMinusOneShot": {
+        "n": 39,
+        "baseRate": 0.6410256410256411,
+        "organRate": 0.7948717948717948,
+        "delta": 0.15384615384615374,
+        "lo": 0.05128205128205128,
+        "hi": 0.2564102564102564,
+        "alpha": 0.05,
+        "iters": 2000,
+        "excludesZero": true
+      },
+      "resampleMinusOneShot": {
+        "n": 39,
+        "baseRate": 0.6410256410256411,
+        "organRate": 0.717948717948718,
+        "delta": 0.07692307692307687,
+        "lo": 0,
+        "hi": 0.15384615384615385,
+        "alpha": 0.05,
+        "iters": 2000,
+        "excludesZero": false
+      },
+      "rows": [
+        {
+          "id": "wordcount-20",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "wordcount-33",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 3
+        },
+        {
+          "id": "no-letter-e",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-letter-a",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "json-keys",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "json-array-5",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "lowercase-nocomma",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "bullets-4",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "bullets-6",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "word-twice",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "startswith-S",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 3
+        },
+        {
+          "id": "endswith-phrase",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "title-case-line",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "sentences-4",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "no-vowel-a-e",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "exactly-two-commas",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "wc-12",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 2
+        },
+        {
+          "id": "wc-15",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "wc-25",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 3,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "wc-40",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "wc-50",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 3,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-o",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-t",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-s",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 2
+        },
+        {
+          "id": "no-i",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-n",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 3
+        },
+        {
+          "id": "commas-1",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "commas-3",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 3,
+          "resampleOk": true,
+          "resamplePasses": 3
+        },
+        {
+          "id": "sent-2",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "sent-5",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "sent-6",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "start-T",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "start-B",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "start-M",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "water-3",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": true,
+          "resamplePasses": 3
+        },
+        {
+          "id": "time-2",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 2
+        },
+        {
+          "id": "uppercase",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "excl-3",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "title-7",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "oneShot": 0.7692307692307693,
+      "repair": 0.9230769230769231,
+      "resample": 0.7948717948717948,
+      "repairMinusResample": {
+        "n": 39,
+        "baseRate": 0.7948717948717948,
+        "organRate": 0.9230769230769231,
+        "delta": 0.1282051282051283,
+        "lo": 0.02564102564102564,
+        "hi": 0.23076923076923078,
+        "alpha": 0.05,
+        "iters": 2000,
+        "excludesZero": true
+      },
+      "repairMinusOneShot": {
+        "n": 39,
+        "baseRate": 0.7692307692307693,
+        "organRate": 0.9230769230769231,
+        "delta": 0.15384615384615385,
+        "lo": 0.05128205128205128,
+        "hi": 0.28205128205128205,
+        "alpha": 0.05,
+        "iters": 2000,
+        "excludesZero": true
+      },
+      "resampleMinusOneShot": {
+        "n": 39,
+        "baseRate": 0.7692307692307693,
+        "organRate": 0.7948717948717948,
+        "delta": 0.02564102564102555,
+        "lo": 0,
+        "hi": 0.07692307692307693,
+        "alpha": 0.05,
+        "iters": 2000,
+        "excludesZero": false
+      },
+      "rows": [
+        {
+          "id": "wordcount-20",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "wordcount-33",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "no-letter-e",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-letter-a",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 2
+        },
+        {
+          "id": "json-keys",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "json-array-5",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "lowercase-nocomma",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "bullets-4",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "bullets-6",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "word-twice",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "startswith-S",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "endswith-phrase",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "title-case-line",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "sentences-4",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "no-vowel-a-e",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "exactly-two-commas",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "wc-12",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 3
+        },
+        {
+          "id": "wc-15",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "wc-25",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "wc-40",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 3
+        },
+        {
+          "id": "wc-50",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-o",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-t",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-s",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "no-i",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "no-n",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "commas-1",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "commas-3",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 3,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "sent-2",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "sent-5",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "sent-6",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "start-T",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "start-B",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "start-M",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "water-3",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "time-2",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 3
+        },
+        {
+          "id": "uppercase",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "excl-3",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "title-7",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        }
+      ]
+    },
+    {
+      "rep": 3,
+      "oneShot": 0.5897435897435898,
+      "repair": 0.8205128205128205,
+      "resample": 0.7948717948717948,
+      "repairMinusResample": {
+        "n": 39,
+        "baseRate": 0.7948717948717948,
+        "organRate": 0.8205128205128205,
+        "delta": 0.02564102564102566,
+        "lo": -0.05128205128205128,
+        "hi": 0.1282051282051282,
+        "alpha": 0.05,
+        "iters": 2000,
+        "excludesZero": false
+      },
+      "repairMinusOneShot": {
+        "n": 39,
+        "baseRate": 0.5897435897435898,
+        "organRate": 0.8205128205128205,
+        "delta": 0.23076923076923073,
+        "lo": 0.10256410256410256,
+        "hi": 0.358974358974359,
+        "alpha": 0.05,
+        "iters": 2000,
+        "excludesZero": true
+      },
+      "resampleMinusOneShot": {
+        "n": 39,
+        "baseRate": 0.5897435897435898,
+        "organRate": 0.7948717948717948,
+        "delta": 0.20512820512820507,
+        "lo": 0.10256410256410256,
+        "hi": 0.3333333333333333,
+        "alpha": 0.05,
+        "iters": 2000,
+        "excludesZero": true
+      },
+      "rows": [
+        {
+          "id": "wordcount-20",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "wordcount-33",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "no-letter-e",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-letter-a",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "json-keys",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "json-array-5",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "lowercase-nocomma",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "bullets-4",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "bullets-6",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "word-twice",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "startswith-S",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "endswith-phrase",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "title-case-line",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "sentences-4",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "no-vowel-a-e",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "exactly-two-commas",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "wc-12",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "wc-15",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "wc-25",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "wc-40",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 3,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "wc-50",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-o",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-t",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-s",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-i",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "no-n",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "commas-1",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 3,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "commas-3",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 3,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "sent-2",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "sent-5",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "sent-6",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "start-T",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "start-B",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "start-M",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "water-3",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "time-2",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "uppercase",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "excl-3",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "title-7",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        }
+      ]
+    },
+    {
+      "rep": 4,
+      "oneShot": 0.6410256410256411,
+      "repair": 0.8461538461538461,
+      "resample": 0.8205128205128205,
+      "repairMinusResample": {
+        "n": 39,
+        "baseRate": 0.8205128205128205,
+        "organRate": 0.8461538461538461,
+        "delta": 0.02564102564102566,
+        "lo": -0.05128205128205128,
+        "hi": 0.10256410256410256,
+        "alpha": 0.05,
+        "iters": 2000,
+        "excludesZero": false
+      },
+      "repairMinusOneShot": {
+        "n": 39,
+        "baseRate": 0.6410256410256411,
+        "organRate": 0.8461538461538461,
+        "delta": 0.20512820512820507,
+        "lo": 0.07692307692307693,
+        "hi": 0.3333333333333333,
+        "alpha": 0.05,
+        "iters": 2000,
+        "excludesZero": true
+      },
+      "resampleMinusOneShot": {
+        "n": 39,
+        "baseRate": 0.6410256410256411,
+        "organRate": 0.8205128205128205,
+        "delta": 0.1794871794871794,
+        "lo": 0.07692307692307693,
+        "hi": 0.3076923076923077,
+        "alpha": 0.05,
+        "iters": 2000,
+        "excludesZero": true
+      },
+      "rows": [
+        {
+          "id": "wordcount-20",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 3,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "wordcount-33",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 3,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "no-letter-e",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-letter-a",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "json-keys",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "json-array-5",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "lowercase-nocomma",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "bullets-4",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "bullets-6",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "word-twice",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "startswith-S",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "endswith-phrase",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "title-case-line",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "sentences-4",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "no-vowel-a-e",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "exactly-two-commas",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "wc-12",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "wc-15",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "wc-25",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "wc-40",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 3,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "wc-50",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-o",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-t",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-s",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "no-i",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-n",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": true,
+          "resamplePasses": 3
+        },
+        {
+          "id": "commas-1",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 2
+        },
+        {
+          "id": "commas-3",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 3,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "sent-2",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "sent-5",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "sent-6",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "start-T",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "start-B",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "start-M",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "water-3",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": true,
+          "resamplePasses": 3
+        },
+        {
+          "id": "time-2",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 3
+        },
+        {
+          "id": "uppercase",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "excl-3",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "title-7",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        }
+      ]
+    },
+    {
+      "rep": 5,
+      "oneShot": 0.5641025641025641,
+      "repair": 0.8461538461538461,
+      "resample": 0.7948717948717948,
+      "repairMinusResample": {
+        "n": 39,
+        "baseRate": 0.7948717948717948,
+        "organRate": 0.8461538461538461,
+        "delta": 0.05128205128205132,
+        "lo": -0.07692307692307693,
+        "hi": 0.1794871794871795,
+        "alpha": 0.05,
+        "iters": 2000,
+        "excludesZero": false
+      },
+      "repairMinusOneShot": {
+        "n": 39,
+        "baseRate": 0.5641025641025641,
+        "organRate": 0.8461538461538461,
+        "delta": 0.28205128205128205,
+        "lo": 0.15384615384615385,
+        "hi": 0.4358974358974359,
+        "alpha": 0.05,
+        "iters": 2000,
+        "excludesZero": true
+      },
+      "resampleMinusOneShot": {
+        "n": 39,
+        "baseRate": 0.5641025641025641,
+        "organRate": 0.7948717948717948,
+        "delta": 0.23076923076923073,
+        "lo": 0.10256410256410256,
+        "hi": 0.358974358974359,
+        "alpha": 0.05,
+        "iters": 2000,
+        "excludesZero": true
+      },
+      "rows": [
+        {
+          "id": "wordcount-20",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 3,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "wordcount-33",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 3,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-letter-e",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-letter-a",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "json-keys",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "json-array-5",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "lowercase-nocomma",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "bullets-4",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "bullets-6",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "word-twice",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "startswith-S",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "endswith-phrase",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "title-case-line",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "sentences-4",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "no-vowel-a-e",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "exactly-two-commas",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "wc-12",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "wc-15",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "wc-25",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 3,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "wc-40",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 3,
+          "resampleOk": true,
+          "resamplePasses": 2
+        },
+        {
+          "id": "wc-50",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 3,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-o",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "no-t",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": false,
+          "resamplePasses": 0
+        },
+        {
+          "id": "no-s",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "no-i",
+          "firstOk": false,
+          "repairOk": false,
+          "repairCalls": 4,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "no-n",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 3
+        },
+        {
+          "id": "commas-1",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 1
+        },
+        {
+          "id": "commas-3",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": true,
+          "resamplePasses": 3
+        },
+        {
+          "id": "sent-2",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "sent-5",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "sent-6",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "start-T",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "start-B",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "start-M",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "water-3",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": true,
+          "resamplePasses": 3
+        },
+        {
+          "id": "time-2",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": true,
+          "resamplePasses": 3
+        },
+        {
+          "id": "uppercase",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "excl-3",
+          "firstOk": true,
+          "repairOk": true,
+          "repairCalls": 1,
+          "resampleOk": true,
+          "resamplePasses": 4
+        },
+        {
+          "id": "title-7",
+          "firstOk": false,
+          "repairOk": true,
+          "repairCalls": 2,
+          "resampleOk": true,
+          "resamplePasses": 3
+        }
+      ]
+    }
+  ],
+  "pooled": {
+    "repairMinusResample": {
+      "mean": 0.061538461538461535,
+      "lo": 0,
+      "hi": 0.13333333333333333,
+      "n": 39
+    },
+    "repairMinusOneShot": {
+      "mean": 0.20512820512820512,
+      "lo": 0.11282051282051284,
+      "hi": 0.3076923076923076,
+      "n": 39
+    },
+    "resampleMinusOneShot": {
+      "mean": 0.1435897435897436,
+      "lo": 0.08205128205128205,
+      "hi": 0.2153846153846154,
+      "n": 39
+    },
+    "meanRepairCalls": 1.7794871794871794
+  },
+  "calls": 932,
+  "inputTokens": 40883,
+  "outputTokens": 41712,
+  "errors": 0,
+  "verdict": "no separation at the fixed budget: interval includes zero"
+}

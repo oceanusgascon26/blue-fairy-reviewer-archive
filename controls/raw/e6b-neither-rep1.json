@@ -1,0 +1,187 @@
+{
+  "arm": "neither",
+  "rep": 1,
+  "pid": 96712,
+  "rows": [
+    {
+      "word": "harvest",
+      "encoded": "pkfyalr",
+      "response": "fragile",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "pillow",
+      "encoded": "nozzvu",
+      "response": "I need to decode this letter substitution cipher.\n\nLet me try different approaches. With a 6-letter word \"nozzvu\", I notice there are repeated letters (z appears twice, o appears twice).\n\nLet me try common substitution patterns. If this is a simple Caesar cipher:\n- Shift by 1: opaauw\n- Shift by 2: pqbbvx\n- Shift by 3: qrccwy\n- Shift by 4: rsddxz\n- Shift by 5: steeya\n- Shift by 6: tuffzb\n- Shift by 7: uggacg\n- Shift by 8: vhhbdh\n- Shift by 9: wiicei\n- Shift by 10: xjjdfj\n- Shift by 11: ykkeqk\n- Shift by 12: zlfrl\n- Shift by 13: amgsms\n- Shift by 14: bnotnt\n- Shift by 15: couoou\n- Shift by 16: dpvppv\n- Shift by 17: eqwqqw\n- Shift by 18: frxrrx\n- Shift by 19: gsyssy\n- Shift by 20: hztttz\n- Shift by 21: iuuua\n- Shift by 22: jvvvub\n- Shift by 23: kwwwvc\n- Shift by 24: lxxxwd\n- Shift by 25: myyyye\n\nLet me try shift by 7: uggacg - not a word\nLet me try shift by 19: gsyssy - not a word\n\nActually, let me reconsider.",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": false
+    },
+    {
+      "word": "canyon",
+      "encoded": "wkgcvg",
+      "response": "I need to decode this letter substitution cipher.\n\nLet me try different shift values (Caesar cipher approach first):\n\nShift 1: xlhdwh\nShift 2: ymiexif\nShift 3: znjfyjg\nShift 4: aokgzkh\nShift 5: bplhali\nShift 6: cqmibmj\nShift 7: drnjcnk\nShift 8: esokdol\nShift 9: ftplep\nShift 10: guqmfq\nShift 11: hvrngr\nShift 12: iwsohs\nShift 13: jxtpit\nShift 14: kyuqju\nShift 15: lzvrkv\nShift 16: mawslw\nShift 17: nbxtmx\nShift 18: ocyuny\nShift 19: pdzvoz\nShift 20: qeawpa\nShift 21: rfbxqb\nShift 22: sgcyrc\nShift 23: thdzsd\nShift 24: uieate\nShift 25: vjfbuf\n\nLet me try shift 6 backwards (or shift 20 forward):\nw→q, k→e, g→a, c→w, v→p, g→a\n\nThat gives: qeawpa (not a word)\n\nLet me try shift 4 backwards:\nw→s, k→g, g→c, c→y, v→r, g→c\n\nThat gives: sgcyrc (not a word)\n\nLet me try shift 6 forward:\nw→c, k→q, g→m, c→",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": false
+    },
+    {
+      "word": "whisper",
+      "encoded": "upolnaf",
+      "response": "I need to decode this letter substitution cipher.\n\nLet me try different approaches. One common cipher is ROT13 or other simple rotations.\n\nLet me try working backwards from common 7-letter words and see if there's a pattern.\n\nThe word is: upolnaf\n\nLet me try a Caesar cipher with different shifts:\n- Shift 1: vqpmoбg (doesn't work)\n- Shift 5: ztuasek (doesn't work)\n\nLet me think about common 7-letter words and try reverse engineering:\n- If \"upolnaf\" → could it be \"flatgun\"? \n- Or \"natural\"?\n- Or \"painful\"?\n\nLet me check \"painful\":\np-a-i-n-f-u-l\nu-p-o-l-n-a-f\n\nMapping:\n- p → u (shift of 5 forward, or 21 back)\n- a → p (shift of 15 forward)\n- i → o (shift of 6 forward)\n- n → l (shift of -2 or 24 back)\n- f → n (shift of 8 forward)\n- u → a (shift of -20 or 6 back)\n- l → f (shift of -6 or 20 back)\n\nThis doesn't show a consistent pattern.\n\nLet me try \"natural\":\nn-a-t-u-r-a-l\nu-p-o-l-n-a-f\n\nNo clear pattern either.\n\nLet me try \"flaunty\" or \"flaunt\":\nActually, let me try \"flaunt\" extended... or \"flaneur\"...\n\nWait, let me try \"nonfatal\" - no",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": false
+    },
+    {
+      "word": "timber",
+      "encoded": "rojtaf",
+      "response": "fatjor\n\nWait, let me reconsider this more carefully.\n\nrojtaf\n\nTrying different substitution patterns:\n- If r=f, o=a, j=t, t=j, a=a, f=r\n\nThat gives: fatjar\n\nLet me try another approach:\n- r=a, o=f, j=t, t=j, a=a, f=r\n\nActually, the decoded word is: **afjtar**\n\nLet me reconsider once more systematically. The word is: **factor**\n\nThe answer is: **factor**",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": false
+    },
+    {
+      "word": "saddle",
+      "encoded": "lkddza",
+      "response": "I need to find the pattern in this letter substitution cipher.\n\nLet me try common patterns and shifts:\n\nIf I try a Caesar cipher (shifting each letter by a fixed amount):\n- Shift 1: mleaab\n- Shift 2: nmfbbc\n- Shift 3: ongccd\n- Shift 4: pohde\n- Shift 5: qpief\n- Shift -1: kjccyz\n- Shift -2: jibbxy\n- Shift -3: ihaauw\n- Shift -4: hgzztv\n- Shift -5: gfyysu\n\nLet me try shift -5 more carefully:\nl→g, k→f, d→y, d→y, z→u, a→v = gfyyuv (not a word)\n\nLet me try other shifts:\nShift -7: l→e, k→d, d→w, d→w, z→s, a→t = edwwst (not a word)\n\nShift -8: l→d, k→c, d→v, d→v, z→r, a→s = dcvvrs (not a word)\n\nShift -9: l→c, k→b, d→u, d→u, z→q, a→r = cbuuqr (not a word)\n\nShift -10: l→b, k→a, d→t, d→t, z→p, a→q = battpo (not a word)\n\nShift -11: l→a, k→z, d→s, d→s, z→o, a→p = azsoop (not a word)\n\nWait, let me try shift -12:",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": false
+    },
+    {
+      "word": "velvet",
+      "encoded": "yazyar",
+      "response": "bazaar",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "ember",
+      "encoded": "ajtaf",
+      "response": "I need to decode this letter substitution cipher word: ajtaf\n\nLet me try different substitution patterns. This is a 5-letter word.\n\nLet me consider common 5-letter words and see if there's a pattern that makes sense.\n\nIf I try a simple Caesar cipher shift:\n- Shift 1: bkubg\n- Shift 2: clvch\n- Shift 3: dmwdi\n- Shift 4: enxej\n- Shift 5: foyf k\n- Shift 6: gpzgl\n- Shift 7: hqahm\n- Shift 8: irbin\n- Shift 9: jscjo\n- Shift 10: ksdkp\n- Shift 11: ltelq\n- Shift 12: mufmr\n- Shift 13: nvgns\n- Shift 14: owhot\n- Shift 15: pxipu\n- Shift 16: qyjqv\n- Shift 17: rzkrw\n- Shift 18: salsx\n- Shift 19: tbmty\n- Shift 20: ucnuz\n- Shift 21: vdova\n- Shift 22: wepwb\n- Shift 23: xfqxc\n- Shift 24: ygry d\n- Shift 25: zhsze\n\nLet me try shift 9 backwards: ajtaf with shift -9 gives... let me recalculate.\n\nActually, let me try: a→s, j→t, t→a, a→f, f→t\nThat doesn't follow a pattern.\n\nLet me try shift backwards by different amounts:\nShift -9: a",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": false
+    },
+    {
+      "word": "quartz",
+      "encoded": "ibkfre",
+      "response": "friend",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "ribbon",
+      "encoded": "fottvg",
+      "response": "I need to decode \"fottvg\" using a letter substitution cipher.\n\nLet me try different shift values (Caesar cipher):\n\nShift 1: gppuwh\nShift 2: hqqvxi\nShift 3: irrwyj\nShift 4: jssxzk\nShift 5: kttyal\nShift 6: luuzobm\nShift 7: mvvapcn\nShift 8: nwwbqdo\nShift 9: oxxcrep\nShift 10: pyydsf\nShift 11: qzzetg\nShift 12: raafuh\nShift 13: sbbgvi\nShift 14: tcchwj\nShift 15: uddixk\nShift 16: veejyl\nShift 17: wffkzm\nShift 18: xgglan\nShift 19: yhhmbo\nShift 20: ziincp\nShift 21: ajjodq\nShift 22: bkkper\nShift 23: cllqfs\nShift 24: dmirgt\nShift 25: enjshu\n\nLet me try shift backwards:\nShift -1: enssuf\nShift -2: dmsrte\nShift -3: clrqsd\nShift -4: bkqprc\nShift -5: ajpoqb\nShift -6: zionpa\nShift -7: yhnmoz\nShift -8: xgmnly\nShift -9: wflmkx\nShift -10: veklw\nShift -11: udjkv\nShift -12: tciuj\nShift -",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": false
+    },
+    {
+      "word": "falcon",
+      "encoded": "skzwvg",
+      "response": "puzzle",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "marble",
+      "encoded": "jkftza",
+      "response": "I need to find the letter substitution pattern for \"jkftza\".\n\nLet me try common substitution patterns. This appears to be a 6-letter word.\n\nLet me consider if this might be a simple shift cipher (Caesar cipher):\n- Shift of 1: kilgub\n- Shift of 2: ljmhvc\n- Shift of 3: mkniwd\n- Shift of 4: nlojxe\n- Shift of 5: ompkyf\n- Shift of -1: ijeszc\n- Shift of -5: efaouv\n\nLet me try shift of -5 (or +21):\nj→e, k→f, f→a, t→o, z→u, a→v\n\nThat gives \"efaouv\" - not a word.\n\nLet me try shift of +5:\nj→o, k→p, f→k, t→y, z→e, a→f\n\nThat gives \"opkyef\" - not a word.\n\nLet me try shift of -4:\nj→f, k→g, f→b, t→p, z→v, a→w\n\nLet me try shift of +4:\nj→n, k→o, f→j, t→x, z→d, a→e\n\nLet me try shift of -6:\nj→d, k→e, f→z, t→n, z→t, a→u\n\nLet me try shift of +7:\nj→q, k→r, f→m, t→a, z→g, a→h\n\nLet me try shift of -7:\nj→c, k→d, f→y, t→m, z→s, a→t\n\nLet me try",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": false
+    },
+    {
+      "word": "pepper",
+      "encoded": "nannaf",
+      "response": "banana",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "tunnel",
+      "encoded": "rbggaz",
+      "response": "puzzle",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "anchor",
+      "encoded": "kgwpvf",
+      "response": "I need to find the pattern in this letter substitution cipher.\n\nLet me try different shift values (Caesar cipher approach):\n\nShift 1: lhxqwg\nShift 2: liyxrh\nShift 3: jizxsi\nShift 4: jkaytj\nShift 5: klbzuk\nShift 6: lmcavl\nShift 7: mndbwm\nShift 8: noecxn\nShift 9: opfdyo\nShift 10: pqgezp\nShift 11: qrhfaq\nShift 12: rsigbr\nShift 13: sjthcs\nShift 14: tkuidt\nShift 15: ulvjeu\nShift 16: vmwkfv\nShift 17: wnxlgw\nShift 18: xoymhx\nShift 19: ypzni\nShift 20: zqaoj\nShift 21: arbpk\nShift 22: bscql\nShift 23: ctdrm\nShift 24: duesn\nShift 25: ufvto\n\nLet me try shift -5 (or +21): arbpk - not a word\nLet me try shift -6 (or +20): zqaoj - not a word\n\nLet me reconsider with shift 5 backwards: klbzuk - not a word\nShift 5 forward from k: p, g→l, w→b, p→u, v→a, f→k = plbuak - not a word\n\nLet me try shift -4: gcsrub - not a word\nShift -3:",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": false
+    },
+    {
+      "word": "glacier",
+      "encoded": "qzkwoaf",
+      "response": "I need to decode this letter substitution cipher.\n\nLet me try different shift values (Caesar cipher variations):\n\nShift 1: raolxbg\nShift 2: sbpmych\nShift 3: tcqnzdi\nShift 4: udroaej\nShift 5: uespbfk\nShift 6: vftqcgl\nShift 7: wgurdh\nShift 8: xhvsui\nShift 9: yiwtvj\nShift 10: zjxuwk\n\nLet me try reverse/backwards shifts:\n\nShift -1: pyjvnze\nShift -2: oxiumyd\nShift -3: nwhtlxc\nShift -4: mvgskwb\nShift -5: lufrvja\nShift -6: ktuequi\nShift -7: jtsddth\nShift -8: isrccsg\nShift -9: hrqbbrf\nShift -10: gqpaaqe\n\nLet me try a different approach - looking for common words:\n\nShift -5: lufrvja\nShift -6: ktuequi\nShift -7: jtsddph\n\nLet me recalculate shift -5 more carefully:\nq→l, z→u, k→f, w→r, o→j, a→v, f→a\n\nActually, let me try shift -7:\nq→j, z→s, k→d, w→p, o→h, a→t, f→y = jsdphty\n\nLet me try shift -6:\nq→k, z→t, k→e, w→q, o→i, a→u, f",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": false
+    },
+    {
+      "word": "basket",
+      "encoded": "tklmar",
+      "response": "market",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    },
+    {
+      "word": "copper",
+      "encoded": "wvnnaf",
+      "response": "I need to decode this letter substitution cipher.\n\nLet me try different approaches. This is a 6-letter word: wvnnaf\n\nLet me consider common 6-letter words and see if there's a pattern.\n\nIf I try shifting each letter back by a certain amount:\n- w, v, n, n, a, f\n\nLet me try a shift of 1 backward:\n- w→v, v→u, n→m, n→m, a→z, f→e = vummze (not a word)\n\nLet me try thinking about common patterns. The word has two n's in positions 3-4.\n\nLet me try shift of 5 backward:\n- w→r, v→q, n→i, n→i, a→v, f→a = rqiiva (not a word)\n\nLet me try shift of 7 backward:\n- w→p, v→o, n→g, n→g, a→t, f→y = pogty (not quite)\n\nLet me try shift of 6 backward:\n- w→q, v→p, n→h, n→h, a→u, f→z = qphhuz (not a word)\n\nLet me try shift of 4 backward:\n- w→s, v→r, n→j, n→j, a→w, f→b = srjjwb (not a word)\n\nLet me try shift of 3 backward:\n- w→t, v→s, n→k, n→k, a→x, f→c = tskkxc (not a word)\n\nLet me try shift of 2 backward:\n- w→u, v→t, n→l, n→l, a",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": false
+    },
+    {
+      "word": "violin",
+      "encoded": "yovzog",
+      "response": "I need to find the pattern in this letter substitution cipher.\n\nLet me try different shift values (Caesar cipher approach first):\n\nyovzog shifted back by various amounts:\n- Shift 1: xnuynf\n- Shift 2: wmtxme\n- Shift 3: vlswld\n- Shift 4: ukrvkc\n- Shift 5: tjqujb\n- Shift 6: siptia\n- Shift 7: rhoshy\n- Shift 8: qgnrgx\n- Shift 9: pfmqfw\n- Shift 10: oelpev\n- Shift 11: ndkodu\n- Shift 12: mcjnct\n- Shift 13: lbimbs\n- Shift 14: kahlar\n- Shift 15: jagkzq\n- Shift 16: ifjyp\n- Shift 17: heiaxo\n- Shift 18: gdhzwn\n- Shift 19: fcgyvm\n- Shift 20: ebfxul\n- Shift 21: daewkt\n- Shift 22: czdvjs\n- Shift 23: bycuir\n- Shift 24: axtbhq\n- Shift 25: zwsagp\n\nLet me try shift 7 more carefully: r-h-o-s-h-y... that doesn't look right.\n\nLet me try shift 13 (ROT13): l-b-i-m-b-s... not a word.\n\nGoing back to shift 7: yovzog → rhoshy (not a word)\n\nLet me reconsider shift 19: fcgyvm (not",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": false
+    },
+    {
+      "word": "oyster",
+      "encoded": "vclraf",
+      "response": "fractal",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": true
+    }
+  ]
+}

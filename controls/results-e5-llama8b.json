@@ -1,0 +1,1976 @@
+{
+ "experiment": "E5",
+ "slice": 60,
+ "seed": 20260909,
+ "reps": 3,
+ "budget": 4,
+ "temperature": 0.7,
+ "maxTokens": 1200,
+ "bases": {
+  "llama8b": {
+   "model": "us.meta.llama3-1-8b-instruct-v1:0",
+   "repetitions": [
+    {
+     "rep": 1,
+     "oneShot": 0.7666666666666667,
+     "repair": 0.9166666666666666,
+     "resample": 0.9166666666666666,
+     "rows": [
+      {
+       "key": 1943,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_paragraphs",
+        "startend:end_checker"
+       ]
+      },
+      {
+       "key": 3114,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 3,
+       "resample": false,
+       "instructions": [
+        "length_constraints:number_words",
+        "keywords:forbidden_words",
+        "startend:end_checker"
+       ]
+      },
+      {
+       "key": 3608,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:letter_frequency",
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 286,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": false,
+       "instructions": [
+        "startend:end_checker",
+        "length_constraints:number_sentences"
+       ]
+      },
+      {
+       "key": 1967,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_lowercase",
+        "length_constraints:number_sentences"
+       ]
+      },
+      {
+       "key": 3557,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_bullet_lists"
+       ]
+      },
+      {
+       "key": 3536,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "startend:quotation"
+       ]
+      },
+      {
+       "key": 2071,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "combination:repeat_prompt"
+       ]
+      },
+      {
+       "key": 2811,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:forbidden_words"
+       ]
+      },
+      {
+       "key": 1217,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_words"
+       ]
+      },
+      {
+       "key": 3035,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "detectable_content:number_placeholders",
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 3071,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 3204,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "punctuation:no_comma",
+        "change_case:english_capital"
+       ]
+      },
+      {
+       "key": 1691,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:json_format",
+        "keywords:forbidden_words"
+       ]
+      },
+      {
+       "key": 1667,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 1535,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": false,
+       "instructions": [
+        "change_case:english_lowercase",
+        "length_constraints:number_sentences"
+       ]
+      },
+      {
+       "key": 2583,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:frequency",
+        "punctuation:no_comma"
+       ]
+      },
+      {
+       "key": 2534,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:forbidden_words"
+       ]
+      },
+      {
+       "key": 1265,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:existence",
+        "length_constraints:number_sentences"
+       ]
+      },
+      {
+       "key": 247,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "combination:two_responses"
+       ]
+      },
+      {
+       "key": 3653,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "language:response_language"
+       ]
+      },
+      {
+       "key": 2683,
+       "oneShot": false,
+       "repair": false,
+       "repairCalls": 4,
+       "resample": true,
+       "instructions": [
+        "combination:two_responses",
+        "detectable_format:title",
+        "keywords:existence"
+       ]
+      },
+      {
+       "key": 2567,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:existence"
+       ]
+      },
+      {
+       "key": 3710,
+       "oneShot": false,
+       "repair": false,
+       "repairCalls": 4,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections",
+        "detectable_format:title",
+        "detectable_content:postscript"
+       ]
+      },
+      {
+       "key": 2396,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_content:postscript"
+       ]
+      },
+      {
+       "key": 1999,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_capital"
+       ]
+      },
+      {
+       "key": 3680,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:frequency",
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 1377,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_paragraphs"
+       ]
+      },
+      {
+       "key": 1092,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_words"
+       ]
+      },
+      {
+       "key": 2100,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_bullet_lists",
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 2162,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_sentences",
+        "detectable_content:number_placeholders"
+       ]
+      },
+      {
+       "key": 1122,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_lowercase",
+        "keywords:letter_frequency"
+       ]
+      },
+      {
+       "key": 295,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:title"
+       ]
+      },
+      {
+       "key": 168,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 3669,
+       "oneShot": false,
+       "repair": false,
+       "repairCalls": 4,
+       "resample": false,
+       "instructions": [
+        "punctuation:no_comma",
+        "language:response_language"
+       ]
+      },
+      {
+       "key": 1219,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_capital",
+        "detectable_content:postscript",
+        "keywords:frequency"
+       ]
+      },
+      {
+       "key": 1001,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "punctuation:no_comma"
+       ]
+      },
+      {
+       "key": 3428,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:letter_frequency"
+       ]
+      },
+      {
+       "key": 3629,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 2724,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "language:response_language",
+        "startend:quotation"
+       ]
+      },
+      {
+       "key": 2449,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "punctuation:no_comma",
+        "keywords:letter_frequency"
+       ]
+      },
+      {
+       "key": 142,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "startend:quotation",
+        "keywords:frequency",
+        "keywords:existence"
+       ]
+      },
+      {
+       "key": 1381,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_sentences"
+       ]
+      },
+      {
+       "key": 2464,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "language:response_language"
+       ]
+      },
+      {
+       "key": 2563,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "change_case:english_capital"
+       ]
+      },
+      {
+       "key": 1203,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:frequency",
+        "keywords:frequency"
+       ]
+      },
+      {
+       "key": 1609,
+       "oneShot": false,
+       "repair": false,
+       "repairCalls": 4,
+       "resample": true,
+       "instructions": [
+        "length_constraints:nth_paragraph_first_word",
+        "startend:quotation"
+       ]
+      },
+      {
+       "key": 2853,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:capital_word_frequency",
+        "detectable_format:title"
+       ]
+      },
+      {
+       "key": 2392,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:frequency"
+       ]
+      },
+      {
+       "key": 3081,
+       "oneShot": false,
+       "repair": false,
+       "repairCalls": 4,
+       "resample": false,
+       "instructions": [
+        "keywords:forbidden_words"
+       ]
+      },
+      {
+       "key": 2759,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 2374,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "punctuation:no_comma"
+       ]
+      },
+      {
+       "key": 3445,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:forbidden_words"
+       ]
+      },
+      {
+       "key": 1287,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_bullet_lists",
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 1072,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_words"
+       ]
+      },
+      {
+       "key": 1307,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 2517,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 279,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "change_case:english_lowercase",
+        "keywords:letter_frequency",
+        "detectable_format:title"
+       ]
+      },
+      {
+       "key": 3631,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "punctuation:no_comma"
+       ]
+      },
+      {
+       "key": 1980,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 3,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_words",
+        "detectable_format:number_bullet_lists",
+        "detectable_content:postscript"
+       ]
+      }
+     ]
+    },
+    {
+     "rep": 2,
+     "oneShot": 0.75,
+     "repair": 0.9666666666666667,
+     "resample": 0.9166666666666666,
+     "rows": [
+      {
+       "key": 1943,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_paragraphs",
+        "startend:end_checker"
+       ]
+      },
+      {
+       "key": 3114,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 3,
+       "resample": false,
+       "instructions": [
+        "length_constraints:number_words",
+        "keywords:forbidden_words",
+        "startend:end_checker"
+       ]
+      },
+      {
+       "key": 3608,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "keywords:letter_frequency",
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 286,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "startend:end_checker",
+        "length_constraints:number_sentences"
+       ]
+      },
+      {
+       "key": 1967,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_lowercase",
+        "length_constraints:number_sentences"
+       ]
+      },
+      {
+       "key": 3557,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_bullet_lists"
+       ]
+      },
+      {
+       "key": 3536,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "startend:quotation"
+       ]
+      },
+      {
+       "key": 2071,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "combination:repeat_prompt"
+       ]
+      },
+      {
+       "key": 2811,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:forbidden_words"
+       ]
+      },
+      {
+       "key": 1217,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_words"
+       ]
+      },
+      {
+       "key": 3035,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_content:number_placeholders",
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 3071,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 3204,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "punctuation:no_comma",
+        "change_case:english_capital"
+       ]
+      },
+      {
+       "key": 1691,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:json_format",
+        "keywords:forbidden_words"
+       ]
+      },
+      {
+       "key": 1667,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 1535,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": false,
+       "instructions": [
+        "change_case:english_lowercase",
+        "length_constraints:number_sentences"
+       ]
+      },
+      {
+       "key": 2583,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:frequency",
+        "punctuation:no_comma"
+       ]
+      },
+      {
+       "key": 2534,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:forbidden_words"
+       ]
+      },
+      {
+       "key": 1265,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "keywords:existence",
+        "length_constraints:number_sentences"
+       ]
+      },
+      {
+       "key": 247,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "combination:two_responses"
+       ]
+      },
+      {
+       "key": 3653,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "language:response_language"
+       ]
+      },
+      {
+       "key": 2683,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "combination:two_responses",
+        "detectable_format:title",
+        "keywords:existence"
+       ]
+      },
+      {
+       "key": 2567,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:existence"
+       ]
+      },
+      {
+       "key": 3710,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections",
+        "detectable_format:title",
+        "detectable_content:postscript"
+       ]
+      },
+      {
+       "key": 2396,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_content:postscript"
+       ]
+      },
+      {
+       "key": 1999,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_capital"
+       ]
+      },
+      {
+       "key": 3680,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:frequency",
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 1377,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_paragraphs"
+       ]
+      },
+      {
+       "key": 1092,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_words"
+       ]
+      },
+      {
+       "key": 2100,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_bullet_lists",
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 2162,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_sentences",
+        "detectable_content:number_placeholders"
+       ]
+      },
+      {
+       "key": 1122,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_lowercase",
+        "keywords:letter_frequency"
+       ]
+      },
+      {
+       "key": 295,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:title"
+       ]
+      },
+      {
+       "key": 168,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 3669,
+       "oneShot": false,
+       "repair": false,
+       "repairCalls": 4,
+       "resample": false,
+       "instructions": [
+        "punctuation:no_comma",
+        "language:response_language"
+       ]
+      },
+      {
+       "key": 1219,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_capital",
+        "detectable_content:postscript",
+        "keywords:frequency"
+       ]
+      },
+      {
+       "key": 1001,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "punctuation:no_comma"
+       ]
+      },
+      {
+       "key": 3428,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:letter_frequency"
+       ]
+      },
+      {
+       "key": 3629,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 2724,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "language:response_language",
+        "startend:quotation"
+       ]
+      },
+      {
+       "key": 2449,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "punctuation:no_comma",
+        "keywords:letter_frequency"
+       ]
+      },
+      {
+       "key": 142,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "startend:quotation",
+        "keywords:frequency",
+        "keywords:existence"
+       ]
+      },
+      {
+       "key": 1381,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_sentences"
+       ]
+      },
+      {
+       "key": 2464,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "language:response_language"
+       ]
+      },
+      {
+       "key": 2563,
+       "oneShot": false,
+       "repair": false,
+       "repairCalls": 4,
+       "resample": true,
+       "instructions": [
+        "change_case:english_capital"
+       ]
+      },
+      {
+       "key": 1203,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:frequency",
+        "keywords:frequency"
+       ]
+      },
+      {
+       "key": 1609,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:nth_paragraph_first_word",
+        "startend:quotation"
+       ]
+      },
+      {
+       "key": 2853,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:capital_word_frequency",
+        "detectable_format:title"
+       ]
+      },
+      {
+       "key": 2392,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:frequency"
+       ]
+      },
+      {
+       "key": 3081,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": false,
+       "instructions": [
+        "keywords:forbidden_words"
+       ]
+      },
+      {
+       "key": 2759,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 2374,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": false,
+       "instructions": [
+        "punctuation:no_comma"
+       ]
+      },
+      {
+       "key": 3445,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:forbidden_words"
+       ]
+      },
+      {
+       "key": 1287,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_bullet_lists",
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 1072,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_words"
+       ]
+      },
+      {
+       "key": 1307,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 2517,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 279,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_lowercase",
+        "keywords:letter_frequency",
+        "detectable_format:title"
+       ]
+      },
+      {
+       "key": 3631,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "punctuation:no_comma"
+       ]
+      },
+      {
+       "key": 1980,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_words",
+        "detectable_format:number_bullet_lists",
+        "detectable_content:postscript"
+       ]
+      }
+     ]
+    },
+    {
+     "rep": 3,
+     "oneShot": 0.7166666666666667,
+     "repair": 0.9666666666666667,
+     "resample": 0.9,
+     "rows": [
+      {
+       "key": 1943,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_paragraphs",
+        "startend:end_checker"
+       ]
+      },
+      {
+       "key": 3114,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 3,
+       "resample": false,
+       "instructions": [
+        "length_constraints:number_words",
+        "keywords:forbidden_words",
+        "startend:end_checker"
+       ]
+      },
+      {
+       "key": 3608,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:letter_frequency",
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 286,
+       "oneShot": false,
+       "repair": false,
+       "repairCalls": 4,
+       "resample": false,
+       "instructions": [
+        "startend:end_checker",
+        "length_constraints:number_sentences"
+       ]
+      },
+      {
+       "key": 1967,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_lowercase",
+        "length_constraints:number_sentences"
+       ]
+      },
+      {
+       "key": 3557,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_bullet_lists"
+       ]
+      },
+      {
+       "key": 3536,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "startend:quotation"
+       ]
+      },
+      {
+       "key": 2071,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "combination:repeat_prompt"
+       ]
+      },
+      {
+       "key": 2811,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 3,
+       "resample": true,
+       "instructions": [
+        "keywords:forbidden_words"
+       ]
+      },
+      {
+       "key": 1217,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_words"
+       ]
+      },
+      {
+       "key": 3035,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "detectable_content:number_placeholders",
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 3071,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 3204,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "punctuation:no_comma",
+        "change_case:english_capital"
+       ]
+      },
+      {
+       "key": 1691,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "detectable_format:json_format",
+        "keywords:forbidden_words"
+       ]
+      },
+      {
+       "key": 1667,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 1535,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": false,
+       "instructions": [
+        "change_case:english_lowercase",
+        "length_constraints:number_sentences"
+       ]
+      },
+      {
+       "key": 2583,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:frequency",
+        "punctuation:no_comma"
+       ]
+      },
+      {
+       "key": 2534,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:forbidden_words"
+       ]
+      },
+      {
+       "key": 1265,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "keywords:existence",
+        "length_constraints:number_sentences"
+       ]
+      },
+      {
+       "key": 247,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "combination:two_responses"
+       ]
+      },
+      {
+       "key": 3653,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "language:response_language"
+       ]
+      },
+      {
+       "key": 2683,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 4,
+       "resample": true,
+       "instructions": [
+        "combination:two_responses",
+        "detectable_format:title",
+        "keywords:existence"
+       ]
+      },
+      {
+       "key": 2567,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:existence"
+       ]
+      },
+      {
+       "key": 3710,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections",
+        "detectable_format:title",
+        "detectable_content:postscript"
+       ]
+      },
+      {
+       "key": 2396,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_content:postscript"
+       ]
+      },
+      {
+       "key": 1999,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_capital"
+       ]
+      },
+      {
+       "key": 3680,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:frequency",
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 1377,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_paragraphs"
+       ]
+      },
+      {
+       "key": 1092,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_words"
+       ]
+      },
+      {
+       "key": 2100,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_bullet_lists",
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 2162,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_sentences",
+        "detectable_content:number_placeholders"
+       ]
+      },
+      {
+       "key": 1122,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 3,
+       "resample": true,
+       "instructions": [
+        "change_case:english_lowercase",
+        "keywords:letter_frequency"
+       ]
+      },
+      {
+       "key": 295,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:title"
+       ]
+      },
+      {
+       "key": 168,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 3669,
+       "oneShot": false,
+       "repair": false,
+       "repairCalls": 4,
+       "resample": false,
+       "instructions": [
+        "punctuation:no_comma",
+        "language:response_language"
+       ]
+      },
+      {
+       "key": 1219,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_capital",
+        "detectable_content:postscript",
+        "keywords:frequency"
+       ]
+      },
+      {
+       "key": 1001,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "punctuation:no_comma"
+       ]
+      },
+      {
+       "key": 3428,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:letter_frequency"
+       ]
+      },
+      {
+       "key": 3629,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 2724,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "language:response_language",
+        "startend:quotation"
+       ]
+      },
+      {
+       "key": 2449,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "punctuation:no_comma",
+        "keywords:letter_frequency"
+       ]
+      },
+      {
+       "key": 142,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "startend:quotation",
+        "keywords:frequency",
+        "keywords:existence"
+       ]
+      },
+      {
+       "key": 1381,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_sentences"
+       ]
+      },
+      {
+       "key": 2464,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "language:response_language"
+       ]
+      },
+      {
+       "key": 2563,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_capital"
+       ]
+      },
+      {
+       "key": 1203,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:frequency",
+        "keywords:frequency"
+       ]
+      },
+      {
+       "key": 1609,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:nth_paragraph_first_word",
+        "startend:quotation"
+       ]
+      },
+      {
+       "key": 2853,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:capital_word_frequency",
+        "detectable_format:title"
+       ]
+      },
+      {
+       "key": 2392,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:frequency"
+       ]
+      },
+      {
+       "key": 3081,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 4,
+       "resample": false,
+       "instructions": [
+        "keywords:forbidden_words"
+       ]
+      },
+      {
+       "key": 2759,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 2374,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": false,
+       "instructions": [
+        "punctuation:no_comma"
+       ]
+      },
+      {
+       "key": 3445,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "keywords:forbidden_words"
+       ]
+      },
+      {
+       "key": 1287,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_bullet_lists",
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 1072,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_words"
+       ]
+      },
+      {
+       "key": 1307,
+       "oneShot": false,
+       "repair": true,
+       "repairCalls": 2,
+       "resample": true,
+       "instructions": [
+        "detectable_format:number_highlighted_sections"
+       ]
+      },
+      {
+       "key": 2517,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_lowercase"
+       ]
+      },
+      {
+       "key": 279,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "change_case:english_lowercase",
+        "keywords:letter_frequency",
+        "detectable_format:title"
+       ]
+      },
+      {
+       "key": 3631,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "punctuation:no_comma"
+       ]
+      },
+      {
+       "key": 1980,
+       "oneShot": true,
+       "repair": true,
+       "repairCalls": 1,
+       "resample": true,
+       "instructions": [
+        "length_constraints:number_words",
+        "detectable_format:number_bullet_lists",
+        "detectable_content:postscript"
+       ]
+      }
+     ]
+    }
+   ],
+   "pooled": {
+    "repairMinusResample": {
+     "mean": 0.03888888888888889,
+     "lo": -0.016666666666666666,
+     "hi": 0.1,
+     "n": 60
+    },
+    "repairMinusOneShot": {
+     "mean": 0.20555555555555555,
+     "lo": 0.13333333333333333,
+     "hi": 0.28888888888888886,
+     "n": 60
+    },
+    "resampleMinusOneShot": {
+     "mean": 0.16666666666666666,
+     "lo": 0.10555555555555556,
+     "hi": 0.23333333333333334,
+     "n": 60
+    },
+    "oneShotRange": [
+     0.7166666666666667,
+     0.7666666666666667
+    ],
+    "meanRepairCalls": 1.4111111111111112
+   },
+   "calls": 794,
+   "errors": 0,
+   "tokens": {
+    "in": 85247,
+    "out": 268089
+   }
+  }
+ }
+}

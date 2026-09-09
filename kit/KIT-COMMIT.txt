@@ -1,0 +1,1 @@
+cognitive-middleware at commit 3d20393835e1e9184602a6edf563b3b359b2ea80 (2026-08-25T06:16:50-07:00), extracted with git archive. Build with: npm ci && npm run build. The controls import ../kit/dist/src/index.js after that build.

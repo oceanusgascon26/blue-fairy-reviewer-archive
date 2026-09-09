@@ -1,0 +1,8 @@
+[
+  {
+    "id": "substitution-rule-rep3",
+    "cue": "decode",
+    "content": "In the letter substitution cipher used in this task, each encoded letter stands for a plain letter as follows: a means e, b means u, c means y, d means d, e means z, f means r, g means n, i means q, j means m, k means a, l means s, m means k, n means p, o means i, p means h, q means g, r means t, s means f, t means b, u means w, v means o, w means c, y means v, z means l. To decode a word, replace every encoded letter with its plain letter.",
+    "createdAt": "2026-09-09T14:40:32.229Z"
+  }
+]

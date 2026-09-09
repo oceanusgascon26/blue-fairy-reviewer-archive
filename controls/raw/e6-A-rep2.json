@@ -1,0 +1,148 @@
+{
+  "phase": "A",
+  "rep": 2,
+  "pid": 43024,
+  "storeLoaded": false,
+  "rows": [
+    {
+      "word": "harvest",
+      "encoded": "pkfyalr",
+      "response": "I'll decode the word \"pkfyalr\" by substituting each letter according to the cipher provided.\n\np → h\nk → a\nf → r\ny → v\na → e\nl → s\nr → t\n\nThe decoded word is: **harvest**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "pillow",
+      "encoded": "nozzvu",
+      "response": "I'll decode \"nozzvu\" by replacing each letter with its plain letter equivalent.\n\nn → p\no → i\nz → l\nz → l\nv → o\nu → w\n\nThe decoded word is: **pillow**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "canyon",
+      "encoded": "wkgcvg",
+      "response": "I'll decode the word \"wkgcvg\" by replacing each letter according to the cipher:\n\nw → c\nk → a\ng → n\nc → y\nv → o\ng → n\n\nThe decoded word is: **canyon**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "whisper",
+      "encoded": "upolnaf",
+      "response": "I'll decode \"upolnaf\" using the substitution cipher provided.\n\nLet me replace each letter:\n- u → w\n- p → h\n- o → i\n- l → s\n- n → p\n- a → e\n- f → r\n\nThe decoded word is: **whisper**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "timber",
+      "encoded": "rojtaf",
+      "response": "I'll decode \"rojtaf\" by replacing each letter with its plain letter equivalent.\n\nr → t\no → i\nj → m\nt → b\na → e\nf → r\n\n**timber**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "saddle",
+      "encoded": "lkddza",
+      "response": "I'll decode \"lkddza\" using the substitution cipher provided.\n\nLet me replace each letter:\n- l → s\n- k → a\n- d → d\n- d → d\n- z → l\n- a → e\n\nlkddza = saddled\n\nsaddled",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "velvet",
+      "encoded": "yazyar",
+      "response": "I'll decode the word \"yazyar\" using the substitution cipher provided.\n\nLet me replace each letter:\n- y → v\n- a → e\n- z → l\n- y → v\n- a → e\n- r → t\n\nThe decoded word is: **velvet**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "ember",
+      "encoded": "ajtaf",
+      "response": "I'll decode \"ajtaf\" using the substitution cipher provided.\n\na → e\nj → m\nt → b\na → e\nf → r\n\nThe decoded word is: **ember**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "quartz",
+      "encoded": "ibkfre",
+      "response": "I'll decode the word \"ibkfre\" by replacing each letter with its corresponding plain letter.\n\ni → q\nb → u\nk → a\nf → r\nr → t\ne → z\n\nThe decoded word is: **quartz**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "ribbon",
+      "encoded": "fottvg",
+      "response": "I'll decode \"fottvg\" using the substitution cipher provided.\n\nf → r\no → i\nt → b\nt → b\nv → o\ng → n\n\nThe decoded word is: **ribbon**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "falcon",
+      "encoded": "skzwvg",
+      "response": "I'll decode \"skzwvg\" by replacing each letter according to the cipher:\n\ns → f\nk → a\nz → l\nw → c\nv → o\ng → n\n\n**falcon**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "marble",
+      "encoded": "jkftza",
+      "response": "I'll decode the word \"jkftza\" using the substitution cipher provided.\n\nLet me replace each letter:\n- j → m\n- k → a\n- f → r\n- t → b\n- z → l\n- a → e\n\nThe decoded word is: **marble**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "pepper",
+      "encoded": "nannaf",
+      "response": "I'll decode \"nannaf\" using the substitution cipher provided.\n\nn → p\na → e\nn → p\nn → p\na → e\nf → r\n\nThe decoded word is: **pepper**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "tunnel",
+      "encoded": "rbggaz",
+      "response": "I'll decode the word \"rbggaz\" using the substitution cipher provided.\n\nr → t\nb → u\ng → n\ng → n\na → e\nz → l\n\nThe decoded word is: **tunnel**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "anchor",
+      "encoded": "kgwpvf",
+      "response": "I'll decode each letter using the provided substitution cipher:\n\nk → a\ng → n\nw → c\np → h\nv → o\nf → r\n\n**anchor**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "glacier",
+      "encoded": "qzkwoaf",
+      "response": "I'll decode this step by step using the cipher provided.\n\nEncoded word: qzkwoaf\n\nReplacing each letter:\n- q → g\n- z → l\n- k → a\n- w → c\n- o → i\n- a → e\n- f → r\n\nDecoded word: **glacier**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "basket",
+      "encoded": "tklmar",
+      "response": "I'll decode the word \"tklmar\" using the substitution cipher provided.\n\nLet me replace each letter:\n- t → b\n- k → a\n- l → s\n- m → k\n- a → e\n- r → t\n\nThe decoded word is: **basket**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "copper",
+      "encoded": "wvnnaf",
+      "response": "I'll decode the word \"wvnnaf\" by replacing each letter with its plain letter equivalent.\n\nw → c\nv → o\nn → p\nn → p\na → e\nf → r\n\nThe decoded word is: **copper**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "violin",
+      "encoded": "yovzog",
+      "response": "I'll decode \"yovzog\" using the substitution cipher provided.\n\nLet me replace each letter:\n- y → v\n- o → i\n- v → o\n- z → l\n- o → i\n- g → n\n\nThe decoded word is: **violin**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "oyster",
+      "encoded": "vclraf",
+      "response": "I'll decode the word \"vclraf\" using the substitution cipher provided.\n\nv → o\nc → y\nl → s\nr → t\na → e\nf → r\n\nThe decoded word is: **oyster**",
+      "contains": true,
+      "exact": false
+    }
+  ]
+}

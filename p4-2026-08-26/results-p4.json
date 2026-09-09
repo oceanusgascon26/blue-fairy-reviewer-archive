@@ -1,0 +1,650 @@
+{
+  "n": 24,
+  "K": 5,
+  "models": {
+    "SMALL": "us.meta.llama3-1-8b-instruct-v1:0",
+    "BIG": "us.meta.llama3-3-70b-instruct-v1:0"
+  },
+  "priceNote": "illustrative blended $/1M, verify at use",
+  "summary": {
+    "small_oneShot": {
+      "compliance": 62.5,
+      "totalCost": 0.000253,
+      "meanCalls": 1,
+      "n": 24
+    },
+    "small_repair": {
+      "compliance": 91.7,
+      "totalCost": 0.000422,
+      "meanCalls": 1.54,
+      "n": 24
+    },
+    "big_oneShot": {
+      "compliance": 75,
+      "totalCost": 0.001527,
+      "meanCalls": 1,
+      "n": 24
+    },
+    "big_bestOfN": {
+      "compliance": 75,
+      "totalCost": 0.007774,
+      "meanCalls": 5,
+      "n": 24
+    }
+  },
+  "deltas": {
+    "repair_minus_bigOneShot": {
+      "pp": 16.7,
+      "ci": {
+        "lo": 4.2,
+        "hi": 33.3
+      }
+    },
+    "repair_minus_bigBestOfN": {
+      "pp": 16.7,
+      "ci": {
+        "lo": 4.2,
+        "hi": 33.3
+      }
+    },
+    "repair_minus_smallOneShot": {
+      "pp": 29.2,
+      "ci": {
+        "lo": 12.5,
+        "hi": 45.8
+      }
+    }
+  },
+  "compliancePerDollar": {
+    "small_oneShot": 247036,
+    "small_repair": 217299,
+    "big_oneShot": 49116,
+    "big_bestOfN": 9648
+  },
+  "per": {
+    "small_oneShot": [
+      {
+        "id": "w20",
+        "pass": 0,
+        "cost": 0.00000885,
+        "calls": 1
+      },
+      {
+        "id": "w15",
+        "pass": 1,
+        "cost": 0.00000765,
+        "calls": 1
+      },
+      {
+        "id": "w33",
+        "pass": 0,
+        "cost": 0.000010199999999999999,
+        "calls": 1
+      },
+      {
+        "id": "w42",
+        "pass": 0,
+        "cost": 0.00001305,
+        "calls": 1
+      },
+      {
+        "id": "noE",
+        "pass": 0,
+        "cost": 0.000008099999999999999,
+        "calls": 1
+      },
+      {
+        "id": "noA",
+        "pass": 0,
+        "cost": 0.000006,
+        "calls": 1
+      },
+      {
+        "id": "noS",
+        "pass": 0,
+        "cost": 0.00000645,
+        "calls": 1
+      },
+      {
+        "id": "lower",
+        "pass": 1,
+        "cost": 0.000007349999999999999,
+        "calls": 1
+      },
+      {
+        "id": "nocomma",
+        "pass": 1,
+        "cost": 0.00001005,
+        "calls": 1
+      },
+      {
+        "id": "nodigit",
+        "pass": 1,
+        "cost": 0.000007049999999999999,
+        "calls": 1
+      },
+      {
+        "id": "jsonNAC",
+        "pass": 1,
+        "cost": 0.00000885,
+        "calls": 1
+      },
+      {
+        "id": "jsonTAY",
+        "pass": 1,
+        "cost": 0.00001035,
+        "calls": 1
+      },
+      {
+        "id": "jsonArr3",
+        "pass": 1,
+        "cost": 0.00000645,
+        "calls": 1
+      },
+      {
+        "id": "sent3",
+        "pass": 1,
+        "cost": 0.000013199999999999999,
+        "calls": 1
+      },
+      {
+        "id": "sent5",
+        "pass": 1,
+        "cost": 0.00002475,
+        "calls": 1
+      },
+      {
+        "id": "startT",
+        "pass": 1,
+        "cost": 0.00001335,
+        "calls": 1
+      },
+      {
+        "id": "dataX3",
+        "pass": 1,
+        "cost": 0.0000156,
+        "calls": 1
+      },
+      {
+        "id": "seaX2",
+        "pass": 1,
+        "cost": 0.00001785,
+        "calls": 1
+      },
+      {
+        "id": "title12",
+        "pass": 1,
+        "cost": 0.00000795,
+        "calls": 1
+      },
+      {
+        "id": "qmark",
+        "pass": 1,
+        "cost": 0.0000096,
+        "calls": 1
+      },
+      {
+        "id": "lines3",
+        "pass": 1,
+        "cost": 0.000013199999999999999,
+        "calls": 1
+      },
+      {
+        "id": "w25low",
+        "pass": 0,
+        "cost": 0.0000099,
+        "calls": 1
+      },
+      {
+        "id": "noEone",
+        "pass": 0,
+        "cost": 0.00000645,
+        "calls": 1
+      },
+      {
+        "id": "w30",
+        "pass": 0,
+        "cost": 0.00001035,
+        "calls": 1
+      }
+    ],
+    "small_repair": [
+      {
+        "id": "w20",
+        "pass": 1,
+        "cost": 0.0000219,
+        "calls": 2
+      },
+      {
+        "id": "w15",
+        "pass": 1,
+        "cost": 0.0000201,
+        "calls": 2
+      },
+      {
+        "id": "w33",
+        "pass": 1,
+        "cost": 0.0000108,
+        "calls": 1
+      },
+      {
+        "id": "w42",
+        "pass": 0,
+        "cost": 0.0000825,
+        "calls": 5
+      },
+      {
+        "id": "noE",
+        "pass": 1,
+        "cost": 0.0000201,
+        "calls": 2
+      },
+      {
+        "id": "noA",
+        "pass": 0,
+        "cost": 0.0000465,
+        "calls": 5
+      },
+      {
+        "id": "noS",
+        "pass": 1,
+        "cost": 0.0000065999999999999995,
+        "calls": 1
+      },
+      {
+        "id": "lower",
+        "pass": 1,
+        "cost": 0.000007349999999999999,
+        "calls": 1
+      },
+      {
+        "id": "nocomma",
+        "pass": 1,
+        "cost": 0.00001035,
+        "calls": 1
+      },
+      {
+        "id": "nodigit",
+        "pass": 1,
+        "cost": 0.000007349999999999999,
+        "calls": 1
+      },
+      {
+        "id": "jsonNAC",
+        "pass": 1,
+        "cost": 0.00000885,
+        "calls": 1
+      },
+      {
+        "id": "jsonTAY",
+        "pass": 1,
+        "cost": 0.00001035,
+        "calls": 1
+      },
+      {
+        "id": "jsonArr3",
+        "pass": 1,
+        "cost": 0.00000645,
+        "calls": 1
+      },
+      {
+        "id": "sent3",
+        "pass": 1,
+        "cost": 0.00001275,
+        "calls": 1
+      },
+      {
+        "id": "sent5",
+        "pass": 1,
+        "cost": 0.000022349999999999998,
+        "calls": 1
+      },
+      {
+        "id": "startT",
+        "pass": 1,
+        "cost": 0.000013949999999999999,
+        "calls": 1
+      },
+      {
+        "id": "dataX3",
+        "pass": 1,
+        "cost": 0.00001695,
+        "calls": 1
+      },
+      {
+        "id": "seaX2",
+        "pass": 1,
+        "cost": 0.0000189,
+        "calls": 1
+      },
+      {
+        "id": "title12",
+        "pass": 1,
+        "cost": 0.00000765,
+        "calls": 1
+      },
+      {
+        "id": "qmark",
+        "pass": 1,
+        "cost": 0.000009749999999999998,
+        "calls": 1
+      },
+      {
+        "id": "lines3",
+        "pass": 1,
+        "cost": 0.00001095,
+        "calls": 1
+      },
+      {
+        "id": "w25low",
+        "pass": 1,
+        "cost": 0.00002325,
+        "calls": 2
+      },
+      {
+        "id": "noEone",
+        "pass": 1,
+        "cost": 0.000016649999999999998,
+        "calls": 2
+      },
+      {
+        "id": "w30",
+        "pass": 1,
+        "cost": 0.0000096,
+        "calls": 1
+      }
+    ],
+    "big_oneShot": [
+      {
+        "id": "w20",
+        "pass": 0,
+        "cost": 0.00005328,
+        "calls": 1
+      },
+      {
+        "id": "w15",
+        "pass": 1,
+        "cost": 0.00005039999999999999,
+        "calls": 1
+      },
+      {
+        "id": "w33",
+        "pass": 0,
+        "cost": 0.00006335999999999999,
+        "calls": 1
+      },
+      {
+        "id": "w42",
+        "pass": 0,
+        "cost": 0.0000684,
+        "calls": 1
+      },
+      {
+        "id": "noE",
+        "pass": 1,
+        "cost": 0.00004896,
+        "calls": 1
+      },
+      {
+        "id": "noA",
+        "pass": 0,
+        "cost": 0.00004824,
+        "calls": 1
+      },
+      {
+        "id": "noS",
+        "pass": 1,
+        "cost": 0.0000432,
+        "calls": 1
+      },
+      {
+        "id": "lower",
+        "pass": 1,
+        "cost": 0.00004608,
+        "calls": 1
+      },
+      {
+        "id": "nocomma",
+        "pass": 1,
+        "cost": 0.0000648,
+        "calls": 1
+      },
+      {
+        "id": "nodigit",
+        "pass": 1,
+        "cost": 0.00005112,
+        "calls": 1
+      },
+      {
+        "id": "jsonNAC",
+        "pass": 1,
+        "cost": 0.00005976,
+        "calls": 1
+      },
+      {
+        "id": "jsonTAY",
+        "pass": 1,
+        "cost": 0.00006048,
+        "calls": 1
+      },
+      {
+        "id": "jsonArr3",
+        "pass": 1,
+        "cost": 0.00004464,
+        "calls": 1
+      },
+      {
+        "id": "sent3",
+        "pass": 1,
+        "cost": 0.00008784,
+        "calls": 1
+      },
+      {
+        "id": "sent5",
+        "pass": 1,
+        "cost": 0.00012312,
+        "calls": 1
+      },
+      {
+        "id": "startT",
+        "pass": 1,
+        "cost": 0.00007776,
+        "calls": 1
+      },
+      {
+        "id": "dataX3",
+        "pass": 1,
+        "cost": 0.00008784,
+        "calls": 1
+      },
+      {
+        "id": "seaX2",
+        "pass": 1,
+        "cost": 0.00010007999999999999,
+        "calls": 1
+      },
+      {
+        "id": "title12",
+        "pass": 1,
+        "cost": 0.00005039999999999999,
+        "calls": 1
+      },
+      {
+        "id": "qmark",
+        "pass": 1,
+        "cost": 0.00005256,
+        "calls": 1
+      },
+      {
+        "id": "lines3",
+        "pass": 1,
+        "cost": 0.00008568,
+        "calls": 1
+      },
+      {
+        "id": "w25low",
+        "pass": 0,
+        "cost": 0.00005544,
+        "calls": 1
+      },
+      {
+        "id": "noEone",
+        "pass": 1,
+        "cost": 0.00004608,
+        "calls": 1
+      },
+      {
+        "id": "w30",
+        "pass": 0,
+        "cost": 0.000057600000000000004,
+        "calls": 1
+      }
+    ],
+    "big_bestOfN": [
+      {
+        "id": "w20",
+        "pass": 0,
+        "cost": 0.00026712,
+        "calls": 5
+      },
+      {
+        "id": "w15",
+        "pass": 1,
+        "cost": 0.00025056,
+        "calls": 5
+      },
+      {
+        "id": "w33",
+        "pass": 0,
+        "cost": 0.00029304,
+        "calls": 5
+      },
+      {
+        "id": "w42",
+        "pass": 0,
+        "cost": 0.00033336,
+        "calls": 5
+      },
+      {
+        "id": "noE",
+        "pass": 1,
+        "cost": 0.00025343999999999996,
+        "calls": 5
+      },
+      {
+        "id": "noA",
+        "pass": 0,
+        "cost": 0.00023616,
+        "calls": 5
+      },
+      {
+        "id": "noS",
+        "pass": 1,
+        "cost": 0.00022536,
+        "calls": 5
+      },
+      {
+        "id": "lower",
+        "pass": 1,
+        "cost": 0.00023687999999999997,
+        "calls": 5
+      },
+      {
+        "id": "nocomma",
+        "pass": 1,
+        "cost": 0.00031968,
+        "calls": 5
+      },
+      {
+        "id": "nodigit",
+        "pass": 1,
+        "cost": 0.00024335999999999997,
+        "calls": 5
+      },
+      {
+        "id": "jsonNAC",
+        "pass": 1,
+        "cost": 0.00029088,
+        "calls": 5
+      },
+      {
+        "id": "jsonTAY",
+        "pass": 1,
+        "cost": 0.0003024,
+        "calls": 5
+      },
+      {
+        "id": "jsonArr3",
+        "pass": 1,
+        "cost": 0.0002232,
+        "calls": 5
+      },
+      {
+        "id": "sent3",
+        "pass": 1,
+        "cost": 0.00047232,
+        "calls": 5
+      },
+      {
+        "id": "sent5",
+        "pass": 1,
+        "cost": 0.000594,
+        "calls": 5
+      },
+      {
+        "id": "startT",
+        "pass": 1,
+        "cost": 0.00042911999999999996,
+        "calls": 5
+      },
+      {
+        "id": "dataX3",
+        "pass": 1,
+        "cost": 0.00048095999999999995,
+        "calls": 5
+      },
+      {
+        "id": "seaX2",
+        "pass": 1,
+        "cost": 0.00053208,
+        "calls": 5
+      },
+      {
+        "id": "title12",
+        "pass": 1,
+        "cost": 0.00025272,
+        "calls": 5
+      },
+      {
+        "id": "qmark",
+        "pass": 1,
+        "cost": 0.00027648,
+        "calls": 5
+      },
+      {
+        "id": "lines3",
+        "pass": 1,
+        "cost": 0.00046799999999999994,
+        "calls": 5
+      },
+      {
+        "id": "w25low",
+        "pass": 0,
+        "cost": 0.00027791999999999997,
+        "calls": 5
+      },
+      {
+        "id": "noEone",
+        "pass": 1,
+        "cost": 0.00023184,
+        "calls": 5
+      },
+      {
+        "id": "w30",
+        "pass": 0,
+        "cost": 0.00028296,
+        "calls": 5
+      }
+    ]
+  }
+}

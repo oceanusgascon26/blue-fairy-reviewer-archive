@@ -1,0 +1,207 @@
+{
+  "arm": "both",
+  "rep": 3,
+  "pid": 45484,
+  "rows": [
+    {
+      "word": "harvest",
+      "encoded": "pkfyalr",
+      "response": "p → h\nk → a\nf → r\ny → v\na → e\nl → s\nr → t\n\nharvest",
+      "lastLine": "harvest",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "pillow",
+      "encoded": "nozzvu",
+      "response": "n → p\no → i\nz → l\nz → l\nv → o\nu → w\n\npillow",
+      "lastLine": "pillow",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "canyon",
+      "encoded": "wkgcvg",
+      "response": "w → c\nk → a\ng → n\nc → y\nv → o\ng → n\n\ncanyon",
+      "lastLine": "canyon",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "whisper",
+      "encoded": "upolnaf",
+      "response": "u → w\np → h\no → i\nl → s\nn → p\na → e\nf → r\n\nwhisper",
+      "lastLine": "whisper",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "timber",
+      "encoded": "rojtaf",
+      "response": "r → t\no → i\nj → m\nt → b\na → e\nf → r\n\ntimber",
+      "lastLine": "timber",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "saddle",
+      "encoded": "lkddza",
+      "response": "l → s\nk → a\nd → d\nd → d\nz → l\na → e\n\nsaddle",
+      "lastLine": "saddle",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "velvet",
+      "encoded": "yazyar",
+      "response": "y → v\na → e\nz → l\ny → v\na → e\nr → t\n\nvelvet",
+      "lastLine": "velvet",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "ember",
+      "encoded": "ajtaf",
+      "response": "a → e\nj → m\nt → b\na → e\nf → r\n\nember",
+      "lastLine": "ember",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "quartz",
+      "encoded": "ibkfre",
+      "response": "i → q\nb → u\nk → a\nf → r\nr → t\ne → z\n\nquartz",
+      "lastLine": "quartz",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "ribbon",
+      "encoded": "fottvg",
+      "response": "f → r\no → i\nt → b\nt → b\nv → o\ng → n\n\nribbon",
+      "lastLine": "ribbon",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "falcon",
+      "encoded": "skzwvg",
+      "response": "s → f\nk → a\nz → l\nw → c\nv → o\ng → n\n\nfalcon",
+      "lastLine": "falcon",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "marble",
+      "encoded": "jkftza",
+      "response": "j → m\nk → a\nf → r\nt → b\nz → l\na → e\n\nmarble",
+      "lastLine": "marble",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "pepper",
+      "encoded": "nannaf",
+      "response": "n = p\na = e\nn = p\nn = p\na = e\nf = r\n\npepper",
+      "lastLine": "pepper",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "tunnel",
+      "encoded": "rbggaz",
+      "response": "r = t\nb = u\ng = n\ng = n\na = e\nz = l\n\ntunnel",
+      "lastLine": "tunnel",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "anchor",
+      "encoded": "kgwpvf",
+      "response": "k → a\ng → n\nw → c\np → h\nv → o\nf → r\n\nanchor",
+      "lastLine": "anchor",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "glacier",
+      "encoded": "qzkwoaf",
+      "response": "q → g\nz → l\nk → a\nw → c\no → i\na → e\nf → r\n\nglacier",
+      "lastLine": "glacier",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "basket",
+      "encoded": "tklmar",
+      "response": "t → b\nk → a\nl → s\nm → k\na → e\nr → t\n\nbasket",
+      "lastLine": "basket",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "copper",
+      "encoded": "wvnnaf",
+      "response": "w → c\nv → o\nn → p\nn → p\na → e\nf → r\n\ncopper",
+      "lastLine": "copper",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "violin",
+      "encoded": "yovzog",
+      "response": "y → v\no → i\nv → o\nz → l\no → i\ng → n\n\nviolin",
+      "lastLine": "violin",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "oyster",
+      "encoded": "vclraf",
+      "response": "v → o\nc → y\nl → s\nr → t\na → e\nf → r\n\noyster",
+      "lastLine": "oyster",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    }
+  ]
+}

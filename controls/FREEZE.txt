@@ -1,0 +1,1 @@
+PREREGISTRATION-ADDENDUM.md sha256 93dbe96ecff14917bbaf6b8eaeacda64c88da228ced8a5c0001fd39993d9a03d frozen 2026-09-09T14:24:11.761960+00:00 before any experimental call (one smoke-test call of the transport follows the freeze and is logged as exp smoke)

@@ -1,0 +1,207 @@
+{
+  "arm": "memory",
+  "rep": 3,
+  "pid": 39364,
+  "rows": [
+    {
+      "word": "harvest",
+      "encoded": "pkfyalr",
+      "response": "I'll decode the word \"pkfyalr\" by substituting each letter according to the cipher provided.\n\nLet me work through each letter:\n\n- p → h\n- k → a\n- f → r\n- y → v\n- a → e\n- l → s\n- r → t\n\nThe decoded word is: **harvest**",
+      "lastLine": "The decoded word is: **harvest",
+      "calls": 1,
+      "exact": false,
+      "contains": true,
+      "format": false
+    },
+    {
+      "word": "pillow",
+      "encoded": "nozzvu",
+      "response": "I'll decode the word \"nozzvu\" by substituting each letter according to the cipher provided.\n\nLet me work through each letter:\n\n- n → p\n- o → i\n- z → l\n- z → l\n- v → o\n- u → w\n\nDecoded word: **pillow**",
+      "lastLine": "Decoded word: **pillow",
+      "calls": 1,
+      "exact": false,
+      "contains": true,
+      "format": false
+    },
+    {
+      "word": "canyon",
+      "encoded": "wkgcvg",
+      "response": "I'll decode the word \"wkgcvg\" by substituting each letter according to the cipher provided.\n\n**Letter by letter substitution:**\n\n- w → c\n- k → a\n- g → n\n- c → y\n- v → o\n- g → n\n\n**Decoded word:** canyon",
+      "lastLine": "Decoded word:** canyon",
+      "calls": 1,
+      "exact": false,
+      "contains": true,
+      "format": false
+    },
+    {
+      "word": "whisper",
+      "encoded": "upolnaf",
+      "response": "I'll decode the word \"upolnaf\" by substituting each letter according to the cipher provided.\n\n**Letter by letter:**\n\n- u → w\n- p → h\n- o → i\n- l → s\n- n → p\n- a → e\n- f → r\n\n**Decoded word:**\n\nwhisper",
+      "lastLine": "whisper",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "timber",
+      "encoded": "rojtaf",
+      "response": "I'll decode the word \"rojtaf\" by substituting each letter according to the cipher provided.\n\n**Working through each letter:**\n\n- r → t\n- o → i\n- j → m\n- t → b\n- a → e\n- f → r\n\n**Decoded word:** timber",
+      "lastLine": "Decoded word:** timber",
+      "calls": 1,
+      "exact": false,
+      "contains": true,
+      "format": false
+    },
+    {
+      "word": "saddle",
+      "encoded": "lkddza",
+      "response": "I'll decode the word \"lkddza\" by substituting each letter according to the cipher provided.\n\nLet me work through each letter:\n\n- l → s\n- k → a\n- d → d\n- d → d\n- z → l\n- a → e\n\nDecoded word: **saddle**",
+      "lastLine": "Decoded word: **saddle",
+      "calls": 1,
+      "exact": false,
+      "contains": true,
+      "format": false
+    },
+    {
+      "word": "velvet",
+      "encoded": "yazyar",
+      "response": "I'll decode the word \"yazyar\" by substituting each letter according to the cipher provided.\n\n**y** → v\n**a** → e\n**z** → l\n**y** → v\n**a** → e\n**r** → t\n\n**velvet**",
+      "lastLine": "velvet",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "ember",
+      "encoded": "ajtaf",
+      "response": "I'll decode the word \"ajtaf\" by substituting each letter according to the cipher provided.\n\n**Letter by letter:**\n\n- a → e\n- j → m\n- t → b\n- a → e\n- f → r\n\n**Decoded word:**\n\nember",
+      "lastLine": "ember",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "quartz",
+      "encoded": "ibkfre",
+      "response": "I'll decode the word \"ibkfre\" by substituting each letter according to the cipher provided.\n\nLet me work through each letter:\n\n- i → q\n- b → u\n- k → a\n- f → r\n- r → t\n- e → z\n\nDecoded word: **quartet**",
+      "lastLine": "Decoded word: **quartet",
+      "calls": 1,
+      "exact": false,
+      "contains": false,
+      "format": false
+    },
+    {
+      "word": "ribbon",
+      "encoded": "fottvg",
+      "response": "I'll decode the word \"fottvg\" by substituting each letter according to the cipher provided.\n\n**f** → r\n**o** → i\n**t** → b\n**t** → b\n**v** → o\n**g** → n\n\n**ribbon**",
+      "lastLine": "ribbon",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "falcon",
+      "encoded": "skzwvg",
+      "response": "I'll decode the word \"skzwvg\" by substituting each letter according to the cipher provided.\n\n**Working through each letter:**\n\n- s → f\n- k → a\n- z → l\n- w → c\n- v → o\n- g → n\n\n**Decoded word:**\n\nfalcon",
+      "lastLine": "falcon",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "marble",
+      "encoded": "jkftza",
+      "response": "I'll decode the word \"jkftza\" by substituting each letter according to the cipher provided.\n\nj → m\nk → a\nf → r\nt → b\nz → l\na → e\n\nDecoded word: **marble**",
+      "lastLine": "Decoded word: **marble",
+      "calls": 1,
+      "exact": false,
+      "contains": true,
+      "format": false
+    },
+    {
+      "word": "pepper",
+      "encoded": "nannaf",
+      "response": "I'll decode the word \"nannaf\" by substituting each letter according to the cipher provided.\n\nLet me work through each letter:\n\n- n → p\n- a → e\n- n → p\n- n → p\n- a → e\n- f → r\n\nThe decoded word is: **pepper**",
+      "lastLine": "The decoded word is: **pepper",
+      "calls": 1,
+      "exact": false,
+      "contains": true,
+      "format": false
+    },
+    {
+      "word": "tunnel",
+      "encoded": "rbggaz",
+      "response": "I'll decode the word \"rbggaz\" by substituting each letter according to the cipher provided.\n\n**Letter by letter substitution:**\n\n- r → t\n- b → u\n- g → n\n- g → n\n- a → e\n- z → l\n\n**Decoded word:** tunnel",
+      "lastLine": "Decoded word:** tunnel",
+      "calls": 1,
+      "exact": false,
+      "contains": true,
+      "format": false
+    },
+    {
+      "word": "anchor",
+      "encoded": "kgwpvf",
+      "response": "I'll decode this word letter by letter using the substitution cipher provided.\n\nEncoded word: **kgwpvf**\n\nLet me substitute each letter:\n- k → a\n- g → n\n- w → c\n- p → h\n- v → o\n- f → r\n\nDecoded word: **anchor**",
+      "lastLine": "Decoded word: **anchor",
+      "calls": 1,
+      "exact": false,
+      "contains": true,
+      "format": false
+    },
+    {
+      "word": "glacier",
+      "encoded": "qzkwoaf",
+      "response": "I'll decode the word \"qzkwoaf\" by substituting each letter according to the cipher provided.\n\nLet me work through each letter:\n\n- q → g\n- z → l\n- k → a\n- w → c\n- o → i\n- a → e\n- f → r\n\nReading through the substitutions:\nq-z-k-w-o-a-f becomes g-l-a-c-i-e-r\n\n**glacier**",
+      "lastLine": "glacier",
+      "calls": 1,
+      "exact": true,
+      "contains": true,
+      "format": true
+    },
+    {
+      "word": "basket",
+      "encoded": "tklmar",
+      "response": "I'll decode the word \"tklmar\" by substituting each letter according to the cipher provided.\n\nt → b\nk → a\nl → s\nm → k\na → e\nr → t\n\nDecoded word: **basket**",
+      "lastLine": "Decoded word: **basket",
+      "calls": 1,
+      "exact": false,
+      "contains": true,
+      "format": false
+    },
+    {
+      "word": "copper",
+      "encoded": "wvnnaf",
+      "response": "I'll decode the word \"wvnnaf\" by substituting each letter according to the cipher provided.\n\n**Letter by letter:**\n\n- w → c\n- v → o\n- n → p\n- n → p\n- a → e\n- f → r\n\n**Decoded word:** copper",
+      "lastLine": "Decoded word:** copper",
+      "calls": 1,
+      "exact": false,
+      "contains": true,
+      "format": false
+    },
+    {
+      "word": "violin",
+      "encoded": "yovzog",
+      "response": "I'll decode the word \"yovzog\" by substituting each letter according to the cipher:\n\ny → v\no → i\nv → o\nz → l\no → i\ng → n\n\nDecoded word: **violin**",
+      "lastLine": "Decoded word: **violin",
+      "calls": 1,
+      "exact": false,
+      "contains": true,
+      "format": false
+    },
+    {
+      "word": "oyster",
+      "encoded": "vclraf",
+      "response": "I'll decode the word \"vclraf\" by substituting each letter according to the cipher.\n\nv → o\nc → y\nl → s\nr → t\na → e\nf → r\n\nDecoded word: **oyster**",
+      "lastLine": "Decoded word: **oyster",
+      "calls": 1,
+      "exact": false,
+      "contains": true,
+      "format": false
+    }
+  ]
+}

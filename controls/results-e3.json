@@ -1,0 +1,2266 @@
+{
+  "experiment": "E3",
+  "models": {
+    "small": "us.meta.llama3-1-8b-instruct-v1:0",
+    "big": "us.meta.llama3-3-70b-instruct-v1:0"
+  },
+  "temperature": 0.7,
+  "budget": 4,
+  "reps": 3,
+  "pricePerM": {
+    "haiku": 1,
+    "llama8b": 0.22,
+    "llama70b": 0.72
+  },
+  "date": "2026-09-09T14:30:16.785Z",
+  "sets": {
+    "T39": {
+      "repetitions": [
+        {
+          "rep": 1,
+          "rates": {
+            "s1": 0.5128205128205128,
+            "sR": 0.7692307692307693,
+            "b1": 0.7692307692307693,
+            "bR": 0.8461538461538461,
+            "bN": 0.7948717948717948
+          },
+          "sRminusbR": {
+            "n": 39,
+            "baseRate": 0.8461538461538461,
+            "organRate": 0.7692307692307693,
+            "delta": -0.07692307692307687,
+            "lo": -0.20512820512820512,
+            "hi": 0.05128205128205128,
+            "alpha": 0.05,
+            "iters": 2000,
+            "excludesZero": false
+          },
+          "bRminusb1": {
+            "n": 39,
+            "baseRate": 0.7692307692307693,
+            "organRate": 0.8461538461538461,
+            "delta": 0.07692307692307687,
+            "lo": 0,
+            "hi": 0.1794871794871795,
+            "alpha": 0.05,
+            "iters": 2000,
+            "excludesZero": false
+          },
+          "bRminusbN": {
+            "n": 39,
+            "baseRate": 0.7948717948717948,
+            "organRate": 0.8461538461538461,
+            "delta": 0.05128205128205132,
+            "lo": -0.05128205128205128,
+            "hi": 0.15384615384615385,
+            "alpha": 0.05,
+            "iters": 2000,
+            "excludesZero": false
+          },
+          "sRminusb1": {
+            "n": 39,
+            "baseRate": 0.7692307692307693,
+            "organRate": 0.7692307692307693,
+            "delta": 0,
+            "lo": -0.15384615384615385,
+            "hi": 0.15384615384615385,
+            "alpha": 0.05,
+            "iters": 2000,
+            "excludesZero": false
+          },
+          "tokens": {
+            "s1": 3217,
+            "sR": 8802,
+            "b1": 3921,
+            "bR": 7336,
+            "bN": 15409
+          },
+          "illustrativeCostPerPass": {
+            "s1": 0.000035387,
+            "sR": 0.000064548,
+            "b1": 0.00009410399999999999,
+            "bR": 0.00016005818181818183,
+            "bN": 0.00035788645161290324
+          },
+          "rows": [
+            {
+              "id": "wordcount-20",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": false,
+              "bR": true,
+              "bRcalls": 3,
+              "bN": false,
+              "tokens": {
+                "s1": 65,
+                "sR": 427,
+                "b1": 77,
+                "bR": 347,
+                "bN": 309
+              }
+            },
+            {
+              "id": "wordcount-33",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": false,
+              "tokens": {
+                "s1": 81,
+                "sR": 534,
+                "b1": 90,
+                "bR": 574,
+                "bN": 356
+              }
+            },
+            {
+              "id": "no-letter-e",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": false,
+              "tokens": {
+                "s1": 71,
+                "sR": 444,
+                "b1": 82,
+                "bR": 475,
+                "bN": 328
+              }
+            },
+            {
+              "id": "no-letter-a",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 4,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 52,
+                "sR": 449,
+                "b1": 71,
+                "bR": 71,
+                "bN": 287
+              }
+            },
+            {
+              "id": "json-keys",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 72,
+                "sR": 72,
+                "b1": 91,
+                "bR": 91,
+                "bN": 364
+              }
+            },
+            {
+              "id": "json-array-5",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 58,
+                "sR": 58,
+                "b1": 77,
+                "bR": 77,
+                "bN": 304
+              }
+            },
+            {
+              "id": "lowercase-nocomma",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 53,
+                "sR": 53,
+                "b1": 75,
+                "bR": 75,
+                "bN": 291
+              }
+            },
+            {
+              "id": "bullets-4",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 76,
+                "sR": 76,
+                "b1": 107,
+                "bR": 107,
+                "bN": 434
+              }
+            },
+            {
+              "id": "bullets-6",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 73,
+                "sR": 73,
+                "b1": 90,
+                "bR": 90,
+                "bN": 359
+              }
+            },
+            {
+              "id": "word-twice",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 98,
+                "sR": 284,
+                "b1": 120,
+                "bR": 120,
+                "bN": 485
+              }
+            },
+            {
+              "id": "startswith-S",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 83,
+                "sR": 83,
+                "b1": 106,
+                "bR": 106,
+                "bN": 419
+              }
+            },
+            {
+              "id": "endswith-phrase",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 124,
+                "sR": 124,
+                "b1": 162,
+                "bR": 162,
+                "bN": 612
+              }
+            },
+            {
+              "id": "title-case-line",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 58,
+                "sR": 58,
+                "b1": 78,
+                "bR": 78,
+                "bN": 299
+              }
+            },
+            {
+              "id": "sentences-4",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 140,
+                "sR": 140,
+                "b1": 169,
+                "bR": 169,
+                "bN": 608
+              }
+            },
+            {
+              "id": "no-vowel-a-e",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 55,
+                "sR": 332,
+                "b1": 75,
+                "bR": 75,
+                "bN": 291
+              }
+            },
+            {
+              "id": "exactly-two-commas",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 67,
+                "sR": 198,
+                "b1": 79,
+                "bR": 79,
+                "bN": 326
+              }
+            },
+            {
+              "id": "wc-12",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 3,
+              "b1": false,
+              "bR": true,
+              "bRcalls": 2,
+              "bN": false,
+              "tokens": {
+                "s1": 53,
+                "sR": 254,
+                "b1": 68,
+                "bR": 184,
+                "bN": 272
+              }
+            },
+            {
+              "id": "wc-15",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 58,
+                "sR": 385,
+                "b1": 72,
+                "bR": 72,
+                "bN": 287
+              }
+            },
+            {
+              "id": "wc-25",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": false,
+              "bR": true,
+              "bRcalls": 3,
+              "bN": false,
+              "tokens": {
+                "s1": 68,
+                "sR": 68,
+                "b1": 83,
+                "bR": 375,
+                "bN": 328
+              }
+            },
+            {
+              "id": "wc-40",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 4,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": false,
+              "tokens": {
+                "s1": 90,
+                "sR": 598,
+                "b1": 95,
+                "bR": 611,
+                "bN": 383
+              }
+            },
+            {
+              "id": "wc-50",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": false,
+              "tokens": {
+                "s1": 105,
+                "sR": 314,
+                "b1": 112,
+                "bR": 741,
+                "bN": 452
+              }
+            },
+            {
+              "id": "no-o",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 55,
+                "sR": 355,
+                "b1": 79,
+                "bR": 79,
+                "bN": 309
+              }
+            },
+            {
+              "id": "no-t",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": false,
+              "tokens": {
+                "s1": 56,
+                "sR": 359,
+                "b1": 70,
+                "bR": 402,
+                "bN": 279
+              }
+            },
+            {
+              "id": "no-s",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 3,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 54,
+                "sR": 251,
+                "b1": 70,
+                "bR": 70,
+                "bN": 286
+              }
+            },
+            {
+              "id": "no-i",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 57,
+                "sR": 57,
+                "b1": 72,
+                "bR": 72,
+                "bN": 283
+              }
+            },
+            {
+              "id": "no-n",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": true,
+              "tokens": {
+                "s1": 53,
+                "sR": 323,
+                "b1": 70,
+                "bR": 453,
+                "bN": 282
+              }
+            },
+            {
+              "id": "commas-1",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 64,
+                "sR": 190,
+                "b1": 76,
+                "bR": 76,
+                "bN": 310
+              }
+            },
+            {
+              "id": "commas-3",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 57,
+                "sR": 418,
+                "b1": 80,
+                "bR": 80,
+                "bN": 331
+              }
+            },
+            {
+              "id": "sent-2",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 106,
+                "sR": 106,
+                "b1": 121,
+                "bR": 121,
+                "bN": 483
+              }
+            },
+            {
+              "id": "sent-5",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 147,
+                "sR": 147,
+                "b1": 160,
+                "bR": 160,
+                "bN": 650
+              }
+            },
+            {
+              "id": "sent-6",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 166,
+                "sR": 166,
+                "b1": 217,
+                "bR": 217,
+                "bN": 772
+              }
+            },
+            {
+              "id": "start-T",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 109,
+                "sR": 109,
+                "b1": 135,
+                "bR": 135,
+                "bN": 546
+              }
+            },
+            {
+              "id": "start-B",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 108,
+                "sR": 108,
+                "b1": 130,
+                "bR": 130,
+                "bN": 532
+              }
+            },
+            {
+              "id": "start-M",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 112,
+                "sR": 112,
+                "b1": 126,
+                "bR": 126,
+                "bN": 504
+              }
+            },
+            {
+              "id": "water-3",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 3,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 123,
+                "sR": 622,
+                "b1": 141,
+                "bR": 141,
+                "bN": 543
+              }
+            },
+            {
+              "id": "time-2",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 116,
+                "sR": 116,
+                "b1": 133,
+                "bR": 133,
+                "bN": 464
+              }
+            },
+            {
+              "id": "uppercase",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 83,
+                "sR": 83,
+                "b1": 87,
+                "bR": 87,
+                "bN": 340
+              }
+            },
+            {
+              "id": "excl-3",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 93,
+                "sR": 93,
+                "b1": 102,
+                "bR": 102,
+                "bN": 409
+              }
+            },
+            {
+              "id": "title-7",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 58,
+                "sR": 163,
+                "b1": 73,
+                "bR": 73,
+                "bN": 292
+              }
+            }
+          ]
+        },
+        {
+          "rep": 2,
+          "rates": {
+            "s1": 0.5384615384615384,
+            "sR": 0.8461538461538461,
+            "b1": 0.6666666666666666,
+            "bR": 0.8205128205128205,
+            "bN": 0.7692307692307693
+          },
+          "sRminusbR": {
+            "n": 39,
+            "baseRate": 0.8205128205128205,
+            "organRate": 0.8461538461538461,
+            "delta": 0.02564102564102566,
+            "lo": -0.07692307692307693,
+            "hi": 0.1282051282051282,
+            "alpha": 0.05,
+            "iters": 2000,
+            "excludesZero": false
+          },
+          "bRminusb1": {
+            "n": 39,
+            "baseRate": 0.6666666666666666,
+            "organRate": 0.8205128205128205,
+            "delta": 0.15384615384615385,
+            "lo": 0.05128205128205128,
+            "hi": 0.28205128205128205,
+            "alpha": 0.05,
+            "iters": 2000,
+            "excludesZero": true
+          },
+          "bRminusbN": {
+            "n": 39,
+            "baseRate": 0.7692307692307693,
+            "organRate": 0.8205128205128205,
+            "delta": 0.05128205128205121,
+            "lo": -0.07692307692307693,
+            "hi": 0.1794871794871795,
+            "alpha": 0.05,
+            "iters": 2000,
+            "excludesZero": false
+          },
+          "sRminusb1": {
+            "n": 39,
+            "baseRate": 0.6666666666666666,
+            "organRate": 0.8461538461538461,
+            "delta": 0.17948717948717952,
+            "lo": 0.02564102564102564,
+            "hi": 0.3333333333333333,
+            "alpha": 0.05,
+            "iters": 2000,
+            "excludesZero": true
+          },
+          "tokens": {
+            "s1": 3216,
+            "sR": 8139,
+            "b1": 3856,
+            "bR": 8402,
+            "bN": 15369
+          },
+          "illustrativeCostPerPass": {
+            "s1": 0.00003369142857142857,
+            "sR": 0.000054260000000000006,
+            "b1": 0.00010678153846153847,
+            "bR": 0.000189045,
+            "bN": 0.000368856
+          },
+          "rows": [
+            {
+              "id": "wordcount-20",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": false,
+              "bR": true,
+              "bRcalls": 3,
+              "bN": false,
+              "tokens": {
+                "s1": 62,
+                "sR": 62,
+                "b1": 77,
+                "bR": 347,
+                "bN": 308
+              }
+            },
+            {
+              "id": "wordcount-33",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": false,
+              "tokens": {
+                "s1": 76,
+                "sR": 529,
+                "b1": 96,
+                "bR": 602,
+                "bN": 361
+              }
+            },
+            {
+              "id": "no-letter-e",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": false,
+              "tokens": {
+                "s1": 82,
+                "sR": 503,
+                "b1": 81,
+                "bR": 514,
+                "bN": 327
+              }
+            },
+            {
+              "id": "no-letter-a",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 3,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": true,
+              "tokens": {
+                "s1": 51,
+                "sR": 237,
+                "b1": 68,
+                "bR": 499,
+                "bN": 278
+              }
+            },
+            {
+              "id": "json-keys",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 73,
+                "sR": 73,
+                "b1": 91,
+                "bR": 91,
+                "bN": 364
+              }
+            },
+            {
+              "id": "json-array-5",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 58,
+                "sR": 58,
+                "b1": 75,
+                "bR": 75,
+                "bN": 300
+              }
+            },
+            {
+              "id": "lowercase-nocomma",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 49,
+                "sR": 49,
+                "b1": 72,
+                "bR": 72,
+                "bN": 288
+              }
+            },
+            {
+              "id": "bullets-4",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 86,
+                "sR": 86,
+                "b1": 123,
+                "bR": 123,
+                "bN": 450
+              }
+            },
+            {
+              "id": "bullets-6",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 75,
+                "sR": 75,
+                "b1": 89,
+                "bR": 89,
+                "bN": 359
+              }
+            },
+            {
+              "id": "word-twice",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 97,
+                "sR": 278,
+                "b1": 126,
+                "bR": 126,
+                "bN": 480
+              }
+            },
+            {
+              "id": "startswith-S",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 93,
+                "sR": 93,
+                "b1": 116,
+                "bR": 116,
+                "bN": 446
+              }
+            },
+            {
+              "id": "endswith-phrase",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 121,
+                "sR": 121,
+                "b1": 150,
+                "bR": 150,
+                "bN": 593
+              }
+            },
+            {
+              "id": "title-case-line",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 58,
+                "sR": 58,
+                "b1": 71,
+                "bR": 71,
+                "bN": 294
+              }
+            },
+            {
+              "id": "sentences-4",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 141,
+                "sR": 141,
+                "b1": 143,
+                "bR": 143,
+                "bN": 623
+              }
+            },
+            {
+              "id": "no-vowel-a-e",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 56,
+                "sR": 346,
+                "b1": 69,
+                "bR": 69,
+                "bN": 284
+              }
+            },
+            {
+              "id": "exactly-two-commas",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 4,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 57,
+                "sR": 390,
+                "b1": 81,
+                "bR": 81,
+                "bN": 330
+              }
+            },
+            {
+              "id": "wc-12",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": false,
+              "bR": true,
+              "bRcalls": 2,
+              "bN": false,
+              "tokens": {
+                "s1": 53,
+                "sR": 53,
+                "b1": 68,
+                "bR": 184,
+                "bN": 272
+              }
+            },
+            {
+              "id": "wc-15",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 3,
+              "b1": false,
+              "bR": true,
+              "bRcalls": 2,
+              "bN": false,
+              "tokens": {
+                "s1": 58,
+                "sR": 276,
+                "b1": 72,
+                "bR": 196,
+                "bN": 287
+              }
+            },
+            {
+              "id": "wc-25",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 4,
+              "b1": false,
+              "bR": true,
+              "bRcalls": 4,
+              "bN": false,
+              "tokens": {
+                "s1": 69,
+                "sR": 456,
+                "b1": 82,
+                "bR": 517,
+                "bN": 329
+              }
+            },
+            {
+              "id": "wc-40",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 4,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": false,
+              "tokens": {
+                "s1": 91,
+                "sR": 612,
+                "b1": 92,
+                "bR": 593,
+                "bN": 375
+              }
+            },
+            {
+              "id": "wc-50",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": false,
+              "tokens": {
+                "s1": 102,
+                "sR": 304,
+                "b1": 115,
+                "bR": 764,
+                "bN": 444
+              }
+            },
+            {
+              "id": "no-o",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": false,
+              "bR": true,
+              "bRcalls": 2,
+              "bN": true,
+              "tokens": {
+                "s1": 52,
+                "sR": 145,
+                "b1": 75,
+                "bR": 194,
+                "bN": 309
+              }
+            },
+            {
+              "id": "no-t",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": false,
+              "tokens": {
+                "s1": 55,
+                "sR": 354,
+                "b1": 71,
+                "bR": 449,
+                "bN": 285
+              }
+            },
+            {
+              "id": "no-s",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 3,
+              "b1": false,
+              "bR": true,
+              "bRcalls": 2,
+              "bN": true,
+              "tokens": {
+                "s1": 56,
+                "sR": 246,
+                "b1": 73,
+                "bR": 188,
+                "bN": 300
+              }
+            },
+            {
+              "id": "no-i",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 58,
+                "sR": 349,
+                "b1": 69,
+                "bR": 69,
+                "bN": 287
+              }
+            },
+            {
+              "id": "no-n",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": true,
+              "tokens": {
+                "s1": 55,
+                "sR": 375,
+                "b1": 71,
+                "bR": 540,
+                "bN": 285
+              }
+            },
+            {
+              "id": "commas-1",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 3,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 60,
+                "sR": 289,
+                "b1": 75,
+                "bR": 75,
+                "bN": 323
+              }
+            },
+            {
+              "id": "commas-3",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 65,
+                "sR": 65,
+                "b1": 78,
+                "bR": 78,
+                "bN": 323
+              }
+            },
+            {
+              "id": "sent-2",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 93,
+                "sR": 93,
+                "b1": 119,
+                "bR": 119,
+                "bN": 478
+              }
+            },
+            {
+              "id": "sent-5",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 158,
+                "sR": 158,
+                "b1": 162,
+                "bR": 162,
+                "bN": 643
+              }
+            },
+            {
+              "id": "sent-6",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 172,
+                "sR": 172,
+                "b1": 190,
+                "bR": 190,
+                "bN": 736
+              }
+            },
+            {
+              "id": "start-T",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 112,
+                "sR": 112,
+                "b1": 129,
+                "bR": 129,
+                "bN": 548
+              }
+            },
+            {
+              "id": "start-B",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 109,
+                "sR": 109,
+                "b1": 133,
+                "bR": 133,
+                "bN": 535
+              }
+            },
+            {
+              "id": "start-M",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 121,
+                "sR": 121,
+                "b1": 132,
+                "bR": 132,
+                "bN": 497
+              }
+            },
+            {
+              "id": "water-3",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 106,
+                "sR": 106,
+                "b1": 132,
+                "bR": 132,
+                "bN": 523
+              }
+            },
+            {
+              "id": "time-2",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 104,
+                "sR": 295,
+                "b1": 126,
+                "bR": 126,
+                "bN": 459
+              }
+            },
+            {
+              "id": "uppercase",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 68,
+                "sR": 68,
+                "b1": 87,
+                "bR": 87,
+                "bN": 352
+              }
+            },
+            {
+              "id": "excl-3",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 102,
+                "sR": 102,
+                "b1": 104,
+                "bR": 104,
+                "bN": 402
+              }
+            },
+            {
+              "id": "title-7",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 62,
+                "sR": 180,
+                "b1": 73,
+                "bR": 73,
+                "bN": 292
+              }
+            }
+          ]
+        },
+        {
+          "rep": 3,
+          "rates": {
+            "s1": 0.5641025641025641,
+            "sR": 0.8205128205128205,
+            "b1": 0.7692307692307693,
+            "bR": 0.8974358974358975,
+            "bN": 0.7948717948717948
+          },
+          "sRminusbR": {
+            "n": 39,
+            "baseRate": 0.8974358974358975,
+            "organRate": 0.8205128205128205,
+            "delta": -0.07692307692307698,
+            "lo": -0.20512820512820512,
+            "hi": 0.05128205128205128,
+            "alpha": 0.05,
+            "iters": 2000,
+            "excludesZero": false
+          },
+          "bRminusb1": {
+            "n": 39,
+            "baseRate": 0.7692307692307693,
+            "organRate": 0.8974358974358975,
+            "delta": 0.1282051282051282,
+            "lo": 0.02564102564102564,
+            "hi": 0.23076923076923078,
+            "alpha": 0.05,
+            "iters": 2000,
+            "excludesZero": true
+          },
+          "bRminusbN": {
+            "n": 39,
+            "baseRate": 0.7948717948717948,
+            "organRate": 0.8974358974358975,
+            "delta": 0.10256410256410264,
+            "lo": 0.02564102564102564,
+            "hi": 0.20512820512820512,
+            "alpha": 0.05,
+            "iters": 2000,
+            "excludesZero": true
+          },
+          "sRminusb1": {
+            "n": 39,
+            "baseRate": 0.7692307692307693,
+            "organRate": 0.8205128205128205,
+            "delta": 0.05128205128205121,
+            "lo": -0.07692307692307693,
+            "hi": 0.1794871794871795,
+            "alpha": 0.05,
+            "iters": 2000,
+            "excludesZero": false
+          },
+          "tokens": {
+            "s1": 3209,
+            "sR": 7545,
+            "b1": 3901,
+            "bR": 7102,
+            "bN": 15482
+          },
+          "illustrativeCostPerPass": {
+            "s1": 0.00003209,
+            "sR": 0.000051871875,
+            "b1": 0.000093624,
+            "bR": 0.0001460982857142857,
+            "bN": 0.0003595819354838709
+          },
+          "rows": [
+            {
+              "id": "wordcount-20",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": false,
+              "bR": true,
+              "bRcalls": 3,
+              "bN": false,
+              "tokens": {
+                "s1": 64,
+                "sR": 64,
+                "b1": 79,
+                "bR": 357,
+                "bN": 311
+              }
+            },
+            {
+              "id": "wordcount-33",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 3,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": false,
+              "tokens": {
+                "s1": 82,
+                "sR": 401,
+                "b1": 93,
+                "bR": 597,
+                "bN": 366
+              }
+            },
+            {
+              "id": "no-letter-e",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": false,
+              "tokens": {
+                "s1": 79,
+                "sR": 515,
+                "b1": 80,
+                "bR": 490,
+                "bN": 327
+              }
+            },
+            {
+              "id": "no-letter-a",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 47,
+                "sR": 47,
+                "b1": 67,
+                "bR": 67,
+                "bN": 283
+              }
+            },
+            {
+              "id": "json-keys",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 74,
+                "sR": 74,
+                "b1": 91,
+                "bR": 91,
+                "bN": 364
+              }
+            },
+            {
+              "id": "json-array-5",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 56,
+                "sR": 56,
+                "b1": 75,
+                "bR": 75,
+                "bN": 302
+              }
+            },
+            {
+              "id": "lowercase-nocomma",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 54,
+                "sR": 54,
+                "b1": 72,
+                "bR": 72,
+                "bN": 297
+              }
+            },
+            {
+              "id": "bullets-4",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 78,
+                "sR": 78,
+                "b1": 99,
+                "bR": 99,
+                "bN": 432
+              }
+            },
+            {
+              "id": "bullets-6",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 79,
+                "sR": 79,
+                "b1": 90,
+                "bR": 90,
+                "bN": 362
+              }
+            },
+            {
+              "id": "word-twice",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 101,
+                "sR": 287,
+                "b1": 120,
+                "bR": 120,
+                "bN": 491
+              }
+            },
+            {
+              "id": "startswith-S",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 104,
+                "sR": 104,
+                "b1": 114,
+                "bR": 114,
+                "bN": 442
+              }
+            },
+            {
+              "id": "endswith-phrase",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 116,
+                "sR": 116,
+                "b1": 143,
+                "bR": 143,
+                "bN": 612
+              }
+            },
+            {
+              "id": "title-case-line",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 57,
+                "sR": 57,
+                "b1": 70,
+                "bR": 70,
+                "bN": 284
+              }
+            },
+            {
+              "id": "sentences-4",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 120,
+                "sR": 120,
+                "b1": 163,
+                "bR": 163,
+                "bN": 644
+              }
+            },
+            {
+              "id": "no-vowel-a-e",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 55,
+                "sR": 337,
+                "b1": 71,
+                "bR": 71,
+                "bN": 295
+              }
+            },
+            {
+              "id": "exactly-two-commas",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 3,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 63,
+                "sR": 296,
+                "b1": 80,
+                "bR": 80,
+                "bN": 333
+              }
+            },
+            {
+              "id": "wc-12",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": false,
+              "bR": true,
+              "bRcalls": 2,
+              "bN": false,
+              "tokens": {
+                "s1": 53,
+                "sR": 53,
+                "b1": 68,
+                "bR": 184,
+                "bN": 272
+              }
+            },
+            {
+              "id": "wc-15",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 58,
+                "sR": 170,
+                "b1": 72,
+                "bR": 72,
+                "bN": 288
+              }
+            },
+            {
+              "id": "wc-25",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": false,
+              "bR": true,
+              "bRcalls": 3,
+              "bN": false,
+              "tokens": {
+                "s1": 67,
+                "sR": 199,
+                "b1": 83,
+                "bR": 375,
+                "bN": 332
+              }
+            },
+            {
+              "id": "wc-40",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": false,
+              "tokens": {
+                "s1": 91,
+                "sR": 601,
+                "b1": 96,
+                "bR": 615,
+                "bN": 382
+              }
+            },
+            {
+              "id": "wc-50",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": false,
+              "bR": false,
+              "bRcalls": 4,
+              "bN": false,
+              "tokens": {
+                "s1": 109,
+                "sR": 327,
+                "b1": 113,
+                "bR": 749,
+                "bN": 453
+              }
+            },
+            {
+              "id": "no-o",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": false,
+              "bR": true,
+              "bRcalls": 3,
+              "bN": true,
+              "tokens": {
+                "s1": 61,
+                "sR": 439,
+                "b1": 75,
+                "bR": 344,
+                "bN": 304
+              }
+            },
+            {
+              "id": "no-t",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": false,
+              "bR": true,
+              "bRcalls": 2,
+              "bN": false,
+              "tokens": {
+                "s1": 56,
+                "sR": 356,
+                "b1": 137,
+                "bR": 314,
+                "bN": 352
+              }
+            },
+            {
+              "id": "no-s",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 54,
+                "sR": 345,
+                "b1": 70,
+                "bR": 70,
+                "bN": 288
+              }
+            },
+            {
+              "id": "no-i",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 58,
+                "sR": 58,
+                "b1": 69,
+                "bR": 69,
+                "bN": 300
+              }
+            },
+            {
+              "id": "no-n",
+              "s1": false,
+              "sR": false,
+              "sRcalls": 4,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 51,
+                "sR": 334,
+                "b1": 69,
+                "bR": 69,
+                "bN": 286
+              }
+            },
+            {
+              "id": "commas-1",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 3,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 62,
+                "sR": 296,
+                "b1": 81,
+                "bR": 81,
+                "bN": 319
+              }
+            },
+            {
+              "id": "commas-3",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 65,
+                "sR": 188,
+                "b1": 77,
+                "bR": 77,
+                "bN": 320
+              }
+            },
+            {
+              "id": "sent-2",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 93,
+                "sR": 93,
+                "b1": 113,
+                "bR": 113,
+                "bN": 462
+              }
+            },
+            {
+              "id": "sent-5",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 163,
+                "sR": 163,
+                "b1": 169,
+                "bR": 169,
+                "bN": 657
+              }
+            },
+            {
+              "id": "sent-6",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 159,
+                "sR": 159,
+                "b1": 183,
+                "bR": 183,
+                "bN": 709
+              }
+            },
+            {
+              "id": "start-T",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 112,
+                "sR": 112,
+                "b1": 144,
+                "bR": 144,
+                "bN": 529
+              }
+            },
+            {
+              "id": "start-B",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 105,
+                "sR": 105,
+                "b1": 134,
+                "bR": 134,
+                "bN": 540
+              }
+            },
+            {
+              "id": "start-M",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 114,
+                "sR": 114,
+                "b1": 121,
+                "bR": 121,
+                "bN": 476
+              }
+            },
+            {
+              "id": "water-3",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 121,
+                "sR": 121,
+                "b1": 136,
+                "bR": 136,
+                "bN": 536
+              }
+            },
+            {
+              "id": "time-2",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 102,
+                "sR": 293,
+                "b1": 118,
+                "bR": 118,
+                "bN": 489
+              }
+            },
+            {
+              "id": "uppercase",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 71,
+                "sR": 71,
+                "b1": 83,
+                "bR": 83,
+                "bN": 341
+              }
+            },
+            {
+              "id": "excl-3",
+              "s1": true,
+              "sR": true,
+              "sRcalls": 1,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 96,
+                "sR": 96,
+                "b1": 112,
+                "bR": 112,
+                "bN": 411
+              }
+            },
+            {
+              "id": "title-7",
+              "s1": false,
+              "sR": true,
+              "sRcalls": 2,
+              "b1": true,
+              "bR": true,
+              "bRcalls": 1,
+              "bN": true,
+              "tokens": {
+                "s1": 59,
+                "sR": 167,
+                "b1": 71,
+                "bR": 71,
+                "bN": 291
+              }
+            }
+          ]
+        }
+      ],
+      "pooled": {
+        "sRminusbR": {
+          "mean": -0.04273504273504273,
+          "lo": -0.13675213675213674,
+          "hi": 0.051282051282051294,
+          "n": 39
+        },
+        "bRminusb1": {
+          "mean": 0.11965811965811965,
+          "lo": 0.04273504273504273,
+          "hi": 0.22222222222222215,
+          "n": 39
+        },
+        "bRminusbN": {
+          "mean": 0.06837606837606838,
+          "lo": -0.017094017094017096,
+          "hi": 0.17094017094017092,
+          "n": 39
+        },
+        "sRminusb1": {
+          "mean": 0.0769230769230769,
+          "lo": -0.034188034188034185,
+          "hi": 0.18803418803418806,
+          "n": 39
+        },
+        "sRminuss1": {
+          "mean": 0.27350427350427353,
+          "lo": 0.1623931623931624,
+          "hi": 0.39316239316239315,
+          "n": 39
+        }
+      },
+      "verdict": "no separation between 8B+repair and 70B+repair: interval includes zero"
+    }
+  },
+  "calls": {
+    "small": 235,
+    "big": 541
+  },
+  "tokens": {
+    "small": 24486,
+    "big": 57422
+  },
+  "errors": {
+    "small": 0,
+    "big": 0
+  }
+}

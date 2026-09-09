@@ -1,0 +1,3 @@
+{"ts":"2026-09-09T14:29:21.180Z","exp":"smoke","model":"us.anthropic.claude-haiku-4-5-20251001-v1:0","temperature":0.7,"prompt":"Reply with the single word: ready","text":"ready","inputTokens":14,"outputTokens":4,"ms":3960,"error":null}
+{"ts":"2026-09-09T14:29:22.905Z","exp":"smoke","model":"us.meta.llama3-1-8b-instruct-v1:0","temperature":0.7,"prompt":"Reply with the single word: ready","text":"Ready","inputTokens":22,"outputTokens":3,"ms":1722,"error":null}
+{"ts":"2026-09-09T14:29:24.685Z","exp":"smoke","model":"us.meta.llama3-3-70b-instruct-v1:0","temperature":0.7,"prompt":"Reply with the single word: ready","text":"ready","inputTokens":42,"outputTokens":2,"ms":1779,"error":null}

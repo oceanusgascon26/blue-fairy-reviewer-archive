@@ -1,0 +1,123 @@
+## E1
+OK   T39 first-draw failures: computed=16 claimed=16
+OK   T39 majority failures: computed=15 claimed=15
+OK   T39 disagreements: computed=3 claimed=3
+OK   T39 single-draw headroom: computed=41.0 claimed=41.0
+OK   T39 mean failure frequency: computed=36.5 claimed=36.5
+OK   T39 4/8 ties: computed=1 claimed=1
+OK   T39 majority rule is fails>4: computed=True claimed=True
+OK   T20 first-draw failures: computed=6 claimed=6
+OK   T20 majority failures: computed=2 claimed=2
+OK   T20 disagreements: computed=4 claimed=4
+OK   T20 single-draw headroom: computed=30.0 claimed=30.0
+OK   T20 mean failure frequency: computed=23.8 claimed=23.8
+OK   T20 4/8 ties: computed=5 claimed=5
+OK   T20 majority rule is fails>4: computed=True claimed=True
+OK   T39 never failed: computed=20 claimed=20
+OK   T39 failed every draw: computed=5 claimed=5
+OK   T39 intermittent: computed=14 claimed=14
+OK   T39 always-failed ids: computed=['no-i', 'no-letter-e', 'no-o', 'no-t', 'no-vowel-a-e'] claimed=['no-i', 'no-letter-e', 'no-o', 'no-t', 'no-vowel-a-e']
+     items failing >=6 of 8: ['commas-1', 'commas-3', 'no-i', 'no-letter-a', 'no-letter-e', 'no-o', 'no-s', 'no-t', 'no-vowel-a-e', 'wc-12', 'wc-15', 'wc-25', 'wc-40', 'wc-50', 'wordcount-33'] | wordcount-20 fails: 4 | no-n fails: {'no-n': 1}
+OK   E1 calls: computed=472 claimed=472
+OK   E1 errors: computed=0 claimed=0
+OK   E1 raw records: computed=472 claimed=472
+## E2
+OK   one-shot by run: computed=[64.1, 76.9, 59.0, 64.1, 56.4] claimed=[64.1, 76.9, 59.0, 64.1, 56.4]
+OK   repair by run: computed=[79.5, 92.3, 82.1, 84.6, 84.6] claimed=[79.5, 92.3, 82.1, 84.6, 84.6]
+OK   resampling by run: computed=[71.8, 79.5, 79.5, 82.1, 79.5] claimed=[71.8, 79.5, 79.5, 82.1, 79.5]
+OK   means one-shot/repair/resampling: computed=[64.1, 84.6, 78.5] claimed=[64.1, 84.6, 78.5]
+OK   repair-resampling: computed=(6.2, 0.0, 13.3) claimed=(6.2, 0.0, 13.3)
+OK   repair-one-shot: computed=(20.5, 11.3, 30.8) claimed=(20.5, 11.3, 30.8)
+OK   resampling-one-shot: computed=(14.4, 8.2, 21.5) claimed=(14.4, 8.2, 21.5)
+OK   repair generations / item-repetitions: computed=(347, 195) claimed=(347, 195)
+OK   repair calls per item: computed=1.78 claimed=1.78
+OK   E2 calls: computed=932 claimed=932
+OK   E2 errors: computed=0 claimed=0
+OK   E2 raw records: computed=932 claimed=932
+## E3
+     T39 keys: ['repetitions', 'pooled', 'verdict'] | top keys: ['experiment', 'models', 'temperature', 'budget', 'reps', 'pricePerM', 'date', 'sets', 'calls', 'tokens', 'errors']
+OK   mean rates s1/sR/b1/bR/bN: computed=[53.8, 81.2, 73.5, 85.5, 78.6] claimed=[53.8, 81.2, 73.5, 85.5, 78.6]
+OK   wrapped passes 8B/70B of 117: computed=(95, 100) claimed=(95, 100)
+OK   tokens: small total / big repair total: computed=(24486, 22840) claimed=(24486, 22840)
+     small repair-arm tokens by rep sum: 24486
+OK   calls per item sR/bR: computed=(2.01, 1.62) claimed=(2.01, 1.62)
+OK   pooled cost per pass 8B repair / 70B repair / ratio: computed=('0.000056704', '0.000164448', 0.3448) claimed=('0.000056704', '0.000164448', 0.3448)
+OK   mean per-rep cost per pass sR/b1/bR/bN: computed=('0.00006', '0.00010', '0.00017', '0.00036') claimed=('0.00006', '0.00010', '0.00017', '0.00036')
+     pooled keys: ['sRminusbR', 'bRminusb1', 'bRminusbN', 'sRminusb1', 'sRminuss1']
+OK   pooled sRminusbR: computed=(-4.3, -13.7, 5.1) claimed=(-4.3, -13.7, 5.1)
+OK   pooled bRminusb1: computed=(12.0, 4.3, 22.2) claimed=(12.0, 4.3, 22.2)
+OK   pooled sRminusb1: computed=(7.7, -3.4, 18.8) claimed=(7.7, -3.4, 18.8)
+OK   pooled sRminuss1: computed=(27.4, 16.2, 39.3) claimed=(27.4, 16.2, 39.3)
+OK   E3 raw records 8B/70B: computed=(235, 541) claimed=(235, 541)
+OK   E3 errors: computed={'small': 0, 'big': 0} claimed={'small': 0, 'big': 0}
+OK   E3 prices: computed=(0.22, 0.72) claimed=(0.22, 0.72)
+## E5
+OK   haiku one-shot: computed=[91.7, 91.7, 86.7] claimed=[91.7, 91.7, 86.7]
+OK   haiku repair: computed=[100.0, 100.0, 98.3] claimed=[100.0, 100.0, 98.3]
+OK   haiku resampling: computed=[95.0, 98.3, 100.0] claimed=[95.0, 98.3, 100.0]
+OK   haiku repair-resampling: computed=(1.7, -1.1, 5.0) claimed=(1.7, -1.1, 5.0)
+OK   haiku repair-one-shot: computed=(9.4, 3.9, 16.7) claimed=(9.4, 3.9, 16.7)
+OK   haiku repair calls per prompt: computed=1.12 claimed=1.12
+OK   haiku calls (results / raw): computed=(741, 741) claimed=(741, 741)
+OK   haiku errors: computed=0 claimed=0
+OK   llama8b one-shot: computed=[76.7, 75.0, 71.7] claimed=[76.7, 75.0, 71.7]
+OK   llama8b repair: computed=[91.7, 96.7, 96.7] claimed=[91.7, 96.7, 96.7]
+OK   llama8b resampling: computed=[91.7, 91.7, 90.0] claimed=[91.7, 91.7, 90.0]
+OK   llama8b repair-resampling: computed=(3.9, -1.7, 10.0) claimed=(3.9, -1.7, 10.0)
+OK   llama8b repair-one-shot: computed=(20.6, 13.3, 28.9) claimed=(20.6, 13.3, 28.9)
+OK   llama8b repair calls per prompt: computed=1.41 claimed=1.41
+OK   llama8b calls (results / raw): computed=(794, 794) claimed=(794, 794)
+OK   llama8b errors: computed=0 claimed=0
+OK   llama70b one-shot: computed=[91.7, 98.3, 96.7] claimed=[91.7, 98.3, 96.7]
+OK   llama70b repair: computed=[98.3, 98.3, 100.0] claimed=[98.3, 98.3, 100.0]
+OK   llama70b resampling: computed=[100.0, 100.0, 100.0] claimed=[100.0, 100.0, 100.0]
+OK   llama70b repair-resampling: computed=(-1.1, -3.3, 0.0) claimed=(-1.1, -3.3, 0.0)
+OK   llama70b repair-one-shot: computed=(3.3, 1.1, 6.1) claimed=(3.3, 1.1, 6.1)
+OK   llama70b repair calls per prompt: computed=1.07 claimed=1.07
+OK   llama70b calls (results / raw): computed=(732, 732) claimed=(732, 732)
+OK   llama70b errors: computed=0 claimed=0
+OK   pooled repair-resampling: computed=(1.5, -0.7, 4.1) claimed=(1.5, -0.7, 4.1)
+OK   pooled repair-one-shot: computed=(11.1, 7.4, 15.6) claimed=(11.1, 7.4, 15.6)
+OK   pooled resampling-one-shot: computed=(9.6, 6.3, 13.3) claimed=(9.6, 6.3, 13.3)
+OK   E5 total calls: computed=2267 claimed=2267
+OK   selected-arm flags: computed=1620 claimed=1620
+OK   language-detector prompts: computed=(18, True, True) claimed=(18, True, True)
+OK   prompt 1122 instructions: computed=['change_case:english_lowercase', 'keywords:letter_frequency'] claimed=['change_case:english_lowercase', 'keywords:letter_frequency']
+OK   sensitivity n=59 prompts: computed=59 claimed=59
+OK     repair-one-shot: computed=(10.36, 6.59, 14.31) claimed=(10.36, 6.59, 14.31)
+OK     repair-resampling: computed=(1.51, -0.56, 3.95) claimed=(1.51, -0.56, 3.95)
+OK   sensitivity n=58 prompts: computed=58 claimed=58
+OK     repair-one-shot: computed=(9.96, 6.51, 13.79) claimed=(9.96, 6.51, 13.79)
+OK     repair-resampling: computed=(1.53, -0.77, 4.02) claimed=(1.53, -0.77, 4.02)
+OK   sensitivity n=42 prompts: computed=42 claimed=42
+OK     repair-one-shot: computed=(7.94, 4.76, 11.38) claimed=(7.94, 4.76, 11.38)
+OK     repair-resampling: computed=(0.79, -1.32, 3.17) claimed=(0.79, -1.32, 3.17)
+OK   1122 wrong-feedback quote present in raw haiku log: computed=True claimed=True
+## E6
+OK   contains cold/warm/key/coldRepeat: computed=(0, 58, 60, 0) claimed=(0, 58, 60, 0)
+OK   exact all arms: computed=(0, 0, 0, 0) claimed=(0, 0, 0, 0)
+OK   warm-cold: computed=(96.7, 90.0, 100.0) claimed=(96.7, 90.0, 100.0)
+OK   warm-key: computed=(-3.3, -10.0, 0.0) claimed=(-3.3, -10.0, 0.0)
+OK   warm misses: computed=['quartz', 'quartz'] claimed=['quartz', 'quartz']
+OK   E6 raw records: computed=240 claimed=240
+OK   E6 raw errors: computed=0 claimed=0
+     prompt templates (2):
+        120 Decode the W W. It was W W a W W W. Reply W W the W W. Encoded W: W
+        120 You W W the W in W W. Apply it: - In the W W W W in W W, W W W W for a
+     phases: Counter({'s1-cold': 60, 's2': 60, 'A': 60, 'B': 60})
+## E6b
+OK   run triplets: computed=[['0/0/8', '0/19/0', '0/0/20', '1/2/20'], ['0/0/9', '0/19/0', '0/0/20', '1/1/20'], ['0/0/7', '0/20/0', '0/0/20', '0/0/20']] claimed=[['0/0/8', '0/19/0', '0/0/20', '1/2/20'], ['0/0/9', '0/19/0', '0/0/20', '1/1/20'], ['0/0/7', '0/20/0', '0/0/20', '0/0/20']]
+OK   both-best single: computed=(3.3, 0.0, 8.3) claimed=(3.3, 0.0, 8.3)
+OK   E6b raw records: computed=244 claimed=244
+## E6c
+OK   run triplets: computed=[['0/0/0', '11/19/12', '0/0/8', '20/20/20'], ['0/0/4', '6/20/6', '0/0/10', '19/19/20'], ['0/0/6', '6/19/6', '0/0/12', '20/20/20']] claimed=[['0/0/0', '11/19/12', '0/0/8', '20/20/20'], ['0/0/4', '6/20/6', '0/0/10', '19/19/20'], ['0/0/6', '6/19/6', '0/0/12', '20/20/20']]
+OK   pooled exact neither/memory/repair/both: computed=(0.0, 38.3, 0.0, 98.3) claimed=(0.0, 38.3, 0.0, 98.3)
+OK   both-best single: computed=(60.0, 48.3, 71.7) claimed=(60.0, 48.3, 71.7)
+OK   interaction: computed=(60.0, 48.3, 71.7) claimed=(60.0, 48.3, 71.7)
+OK   mean calls repair/both: computed=(2.65, 1.0) claimed=(2.65, 1.0)
+OK   both first-attempt format every time: computed=True claimed=True
+OK   E6c raw by arm: computed={'neither': 60, 'memory': 60, 'repair': 159, 'both': 60} claimed={'neither': 60, 'memory': 60, 'repair': 159, 'both': 60}
+DIFF E6c errors (arm, rep, item, empty text): computed=[('repair', 3, 'copper', True)] claimed=[('repair', '3', 'copper', True)]
+OK   results-e6c has no top-level error total: computed=True claimed=True
+
+DIFFS: ['E6c errors (arm, rep, item, empty text)']

@@ -1,0 +1,977 @@
+{
+  "experiment": "E1",
+  "model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "temperature": 0.7,
+  "draws": 8,
+  "date": "2026-09-09T14:30:13.137Z",
+  "sets": {
+    "T39": {
+      "n": 39,
+      "rows": [
+        {
+          "id": "wordcount-20",
+          "passes": [
+            false,
+            false,
+            true,
+            true,
+            false,
+            true,
+            false,
+            true
+          ],
+          "pFail": 0.5,
+          "firstDrawFail": true,
+          "majorityFail": false
+        },
+        {
+          "id": "wordcount-33",
+          "passes": [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "pFail": 0.875,
+          "firstDrawFail": false,
+          "majorityFail": true
+        },
+        {
+          "id": "no-letter-e",
+          "passes": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "pFail": 1,
+          "firstDrawFail": true,
+          "majorityFail": true
+        },
+        {
+          "id": "no-letter-a",
+          "passes": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          "pFail": 0.875,
+          "firstDrawFail": true,
+          "majorityFail": true
+        },
+        {
+          "id": "json-keys",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "json-array-5",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "lowercase-nocomma",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "bullets-4",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "bullets-6",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "word-twice",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "startswith-S",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "endswith-phrase",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "title-case-line",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "sentences-4",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "no-vowel-a-e",
+          "passes": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "pFail": 1,
+          "firstDrawFail": true,
+          "majorityFail": true
+        },
+        {
+          "id": "exactly-two-commas",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "wc-12",
+          "passes": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          "pFail": 0.875,
+          "firstDrawFail": true,
+          "majorityFail": true
+        },
+        {
+          "id": "wc-15",
+          "passes": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          "pFail": 0.875,
+          "firstDrawFail": true,
+          "majorityFail": true
+        },
+        {
+          "id": "wc-25",
+          "passes": [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "pFail": 0.875,
+          "firstDrawFail": true,
+          "majorityFail": true
+        },
+        {
+          "id": "wc-40",
+          "passes": [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "pFail": 0.875,
+          "firstDrawFail": true,
+          "majorityFail": true
+        },
+        {
+          "id": "wc-50",
+          "passes": [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          "pFail": 0.75,
+          "firstDrawFail": true,
+          "majorityFail": true
+        },
+        {
+          "id": "no-o",
+          "passes": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "pFail": 1,
+          "firstDrawFail": true,
+          "majorityFail": true
+        },
+        {
+          "id": "no-t",
+          "passes": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "pFail": 1,
+          "firstDrawFail": true,
+          "majorityFail": true
+        },
+        {
+          "id": "no-s",
+          "passes": [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "pFail": 0.875,
+          "firstDrawFail": true,
+          "majorityFail": true
+        },
+        {
+          "id": "no-i",
+          "passes": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "pFail": 1,
+          "firstDrawFail": true,
+          "majorityFail": true
+        },
+        {
+          "id": "no-n",
+          "passes": [
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0.125,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "commas-1",
+          "passes": [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          "pFail": 0.75,
+          "firstDrawFail": true,
+          "majorityFail": true
+        },
+        {
+          "id": "commas-3",
+          "passes": [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          "pFail": 0.75,
+          "firstDrawFail": true,
+          "majorityFail": true
+        },
+        {
+          "id": "sent-2",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "sent-5",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "sent-6",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "start-T",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "start-B",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "start-M",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "water-3",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "pFail": 0.125,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "time-2",
+          "passes": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0.125,
+          "firstDrawFail": true,
+          "majorityFail": false
+        },
+        {
+          "id": "uppercase",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "excl-3",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "title-7",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        }
+      ],
+      "singleDrawFailures": 16,
+      "majorityFailures": 15,
+      "disagreements": 3,
+      "singleDrawHeadroom": 0.41025641025641024,
+      "expectedHeadroom": 0.36538461538461536
+    },
+    "T20": {
+      "n": 20,
+      "rows": [
+        {
+          "id": "words-20",
+          "passes": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "pFail": 0.5,
+          "firstDrawFail": true,
+          "majorityFail": false
+        },
+        {
+          "id": "words-33",
+          "passes": [
+            true,
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true
+          ],
+          "pFail": 0.5,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "no-e-2sent",
+          "passes": [
+            false,
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true
+          ],
+          "pFail": 0.5,
+          "firstDrawFail": true,
+          "majorityFail": false
+        },
+        {
+          "id": "no-a-1sent",
+          "passes": [
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0.25,
+          "firstDrawFail": true,
+          "majorityFail": false
+        },
+        {
+          "id": "lower-nocomma-25to30",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "pFail": 0.125,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "json-nac",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "json-tyr-num",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "bullets-4",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "bullets-6",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "each-sent-S",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "data-x3",
+          "passes": [
+            true,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          "pFail": 0.5,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "secure-x2-le40",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "lines-3",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "sent-5",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "short-words-15",
+          "passes": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "pFail": 0.5,
+          "firstDrawFail": true,
+          "majorityFail": false
+        },
+        {
+          "id": "two-digits",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "ends-phrase",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "words-50",
+          "passes": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "pFail": 1,
+          "firstDrawFail": true,
+          "majorityFail": true
+        },
+        {
+          "id": "json-arr-3",
+          "passes": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "pFail": 0,
+          "firstDrawFail": false,
+          "majorityFail": false
+        },
+        {
+          "id": "titlecase-12",
+          "passes": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          "pFail": 0.875,
+          "firstDrawFail": true,
+          "majorityFail": true
+        }
+      ],
+      "singleDrawFailures": 6,
+      "majorityFailures": 2,
+      "disagreements": 4,
+      "singleDrawHeadroom": 0.3,
+      "expectedHeadroom": 0.2375
+    }
+  },
+  "calls": 472,
+  "inputTokens": 14080,
+  "outputTokens": 20940,
+  "errors": 0
+}
