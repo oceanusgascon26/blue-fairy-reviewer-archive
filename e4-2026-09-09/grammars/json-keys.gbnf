@@ -1,0 +1,4 @@
+root ::= "{" ws "\"name\"" ws ":" ws str ws "," ws "\"age\"" ws ":" ws (num | str) ws "," ws "\"city\"" ws ":" ws str ws "}"
+str ::= "\"" [^"\\\n]* "\""
+num ::= [0-9]+
+ws ::= [ \n]*

@@ -1,0 +1,10 @@
+E4b rep1 word-twice   one=f repair=P(2) resample=P constrained=P | "Coffee is a popular beverage that many people enjoy in the morning to start thei"
+E4b rep1 water-3      one=f repair=P(2) resample=P constrained=P | "The river flows gently through the valley with its crystal clear water. Its tran"
+E4b rep1 time-2       one=P repair=P(1) resample=P constrained=P | "A grandfather clock stands tall in the corner of the room as it measures time wi"
+E4b rep2 word-twice   one=P repair=P(1) resample=P constrained=P | "Starting the morning with a cup of coffee can be invigorating and help increase "
+E4b rep2 water-3      one=P repair=P(1) resample=P constrained=P | "The river flows gently through the valley with its crystal clear water. Along it"
+E4b rep2 time-2       one=f repair=f(4) resample=P constrained=P | "Clocks are essential devices that help us keep track of time and stay organized "
+E4b rep3 word-twice   one=P repair=P(1) resample=P constrained=P | "Starting the morning with a warm cup of coffee is a great way to boost energy an"
+E4b rep3 water-3      one=P repair=P(1) resample=P constrained=P | "The serene river flows gently through the landscape with its clear water. Along "
+E4b rep3 time-2       one=f repair=f(4) resample=f constrained=P | "Clocks have been a crucial part of human life for centuries as they help us meas"
+E4b DONE: {"oneShot":{"passed":5,"of":9},"repair":{"passed":7,"of":9},"resample":{"passed":8,"of":9},"constrained":{"passed":9,"of":9}} | constrained-repair 22.2 [0.0, 66.7] over three item clusters (descriptive)

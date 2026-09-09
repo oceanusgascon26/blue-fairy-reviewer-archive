@@ -1,0 +1,5 @@
+PREREGISTRATION-ADDENDUM-6.md sha256 e6ce3c6741e71504ff45bd483f4cb187ca6007d50fdf4d82ca85f541c8324282
+grammars-e4b.json sha256 1ecb8a0e42dc17c553a042f09414e29bd3c9cfc44648b19dd192563bf9e02ad3
+e4b.mjs sha256 fe1cdbcb589f3a5f01849525fa22520b420636d0247a505e59a928106ca946fe
+make-grammars-e4b.py sha256 91d9d57ab131f4f6e6ef2dac905ca7035f637c0e0efa5f75c553bff19e6c5a00
+frozen 2026-09-09T22:22:00.742228Z after E4 completed and before any E4b call; the three one-token parse checks logged to raw/parse-check-e4b.jsonl preceded this freeze and are not outcome data; one smoke pair on the first item follows and is logged to raw/smoke-e4b.jsonl

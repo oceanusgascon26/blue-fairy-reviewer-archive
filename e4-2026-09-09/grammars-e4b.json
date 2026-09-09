@@ -1,0 +1,41 @@
+{
+ "tests": {
+  "word-twice": {
+   "positive": [
+    "Morning coffee wakes me. The morning is slow. I drink it warm.",
+    "Mornings come. Morning again. Morning too."
+   ],
+   "negative": [
+    "Morning coffee wakes me. The morning is slow.",
+    "Coffee wakes me. It is slow. I drink it warm.",
+    "Morning coffee. Morning tea. Morning again."
+   ]
+  },
+  "water-3": {
+   "positive": [
+    "Water runs. Water falls. The water shines. Fish swim.",
+    "Wat water. Water falls. Water glows. Fish swim."
+   ],
+   "negative": [
+    "Water runs. Water falls. Fish swim. Birds sing.",
+    "Water runs. Water falls. Water shines. Water glows.",
+    "Wat water. Water. Water!"
+   ]
+  },
+  "time-2": {
+   "positive": [
+    "Time passes. The time is late. Clocks tick.",
+    "Timeless time. Time again. Tick."
+   ],
+   "negative": [
+    "Time passes. Clocks tick. Hands move.",
+    "Time. Time. Time."
+   ]
+  }
+ },
+ "grammars": {
+  "word-twice": "nt ::= [ABCDEFGHIJKLNOPQRSTUVWXYZabcdefghijklnopqrstuvwxyz] L* | [mM] p1\np1 ::= ([ABCDEFGHIJKLMNPQRSTUVWXYZabcdefghijklmnpqrstuvwxyz] L* | [oO] p2)?\np2 ::= ([ABCDEFGHIJKLMNOPQSTUVWXYZabcdefghijklmnopqstuvwxyz] L* | [rR] p3)?\np3 ::= ([ABCDEFGHIJKLMOPQRSTUVWXYZabcdefghijklmopqrstuvwxyz] L* | [nN] p4)?\np4 ::= ([ABCDEFGHJKLMNOPQRSTUVWXYZabcdefghjklmnopqrstuvwxyz] L* | [iI] p5)?\np5 ::= ([ABCDEFGHIJKLMOPQRSTUVWXYZabcdefghijklmopqrstuvwxyz] L* | [nN] p6)?\np6 ::= ([ABCDEFHIJKLMNOPQRSTUVWXYZabcdefhijklmnopqrstuvwxyz] L* | [gG] p7)?\np7 ::= L+\ntgt ::= [mM] [oO] [rR] [nN] [iI] [nN] [gG]\nL ::= [A-Za-z]\nroot ::= s-0-0\ns-0-0 ::= nt m-0-0 | tgt m-1-0\nm-0-0 ::= \" \" nt m-0-0 | \" \" tgt m-1-0 | [.!?] \" \" s-0-1\ns-0-1 ::= nt m-0-1 | tgt m-1-1\nm-0-1 ::= \" \" nt m-0-1 | \" \" tgt m-1-1 | [.!?] \" \" s-0-2\ns-0-2 ::= nt m-0-2 | tgt m-1-2\nm-0-2 ::= \" \" nt m-0-2 | \" \" tgt m-1-2\ns-1-0 ::= nt m-1-0 | tgt m-2-0\nm-1-0 ::= \" \" nt m-1-0 | \" \" tgt m-2-0 | [.!?] \" \" s-1-1\ns-1-1 ::= nt m-1-1 | tgt m-2-1\nm-1-1 ::= \" \" nt m-1-1 | \" \" tgt m-2-1 | [.!?] \" \" s-1-2\ns-1-2 ::= nt m-1-2 | tgt m-2-2\nm-1-2 ::= \" \" nt m-1-2 | \" \" tgt m-2-2\ns-2-0 ::= nt m-2-0\nm-2-0 ::= \" \" nt m-2-0 | [.!?] \" \" s-2-1\ns-2-1 ::= nt m-2-1\nm-2-1 ::= \" \" nt m-2-1 | [.!?] \" \" s-2-2\ns-2-2 ::= nt m-2-2\nm-2-2 ::= \" \" nt m-2-2 | [.!?]",
+  "water-3": "nt ::= [ABCDEFGHIJKLMNOPQRSTUVXYZabcdefghijklmnopqrstuvxyz] L* | [wW] p1\np1 ::= ([BCDEFGHIJKLMNOPQRSTUVWXYZbcdefghijklmnopqrstuvwxyz] L* | [aA] p2)?\np2 ::= ([ABCDEFGHIJKLMNOPQRSUVWXYZabcdefghijklmnopqrsuvwxyz] L* | [tT] p3)?\np3 ::= ([ABCDFGHIJKLMNOPQRSTUVWXYZabcdfghijklmnopqrstuvwxyz] L* | [eE] p4)?\np4 ::= ([ABCDEFGHIJKLMNOPQSTUVWXYZabcdefghijklmnopqstuvwxyz] L* | [rR] p5)?\np5 ::= L+\ntgt ::= [wW] [aA] [tT] [eE] [rR]\nL ::= [A-Za-z]\nroot ::= s-0-0\ns-0-0 ::= nt m-0-0 | tgt m-1-0\nm-0-0 ::= \" \" nt m-0-0 | \" \" tgt m-1-0 | [.!?] \" \" s-0-1\ns-0-1 ::= nt m-0-1 | tgt m-1-1\nm-0-1 ::= \" \" nt m-0-1 | \" \" tgt m-1-1 | [.!?] \" \" s-0-2\ns-0-2 ::= nt m-0-2 | tgt m-1-2\nm-0-2 ::= \" \" nt m-0-2 | \" \" tgt m-1-2 | [.!?] \" \" s-0-3\ns-0-3 ::= nt m-0-3 | tgt m-1-3\nm-0-3 ::= \" \" nt m-0-3 | \" \" tgt m-1-3\ns-1-0 ::= nt m-1-0 | tgt m-2-0\nm-1-0 ::= \" \" nt m-1-0 | \" \" tgt m-2-0 | [.!?] \" \" s-1-1\ns-1-1 ::= nt m-1-1 | tgt m-2-1\nm-1-1 ::= \" \" nt m-1-1 | \" \" tgt m-2-1 | [.!?] \" \" s-1-2\ns-1-2 ::= nt m-1-2 | tgt m-2-2\nm-1-2 ::= \" \" nt m-1-2 | \" \" tgt m-2-2 | [.!?] \" \" s-1-3\ns-1-3 ::= nt m-1-3 | tgt m-2-3\nm-1-3 ::= \" \" nt m-1-3 | \" \" tgt m-2-3\ns-2-0 ::= nt m-2-0 | tgt m-3-0\nm-2-0 ::= \" \" nt m-2-0 | \" \" tgt m-3-0 | [.!?] \" \" s-2-1\ns-2-1 ::= nt m-2-1 | tgt m-3-1\nm-2-1 ::= \" \" nt m-2-1 | \" \" tgt m-3-1 | [.!?] \" \" s-2-2\ns-2-2 ::= nt m-2-2 | tgt m-3-2\nm-2-2 ::= \" \" nt m-2-2 | \" \" tgt m-3-2 | [.!?] \" \" s-2-3\ns-2-3 ::= nt m-2-3 | tgt m-3-3\nm-2-3 ::= \" \" nt m-2-3 | \" \" tgt m-3-3\ns-3-0 ::= nt m-3-0\nm-3-0 ::= \" \" nt m-3-0 | [.!?] \" \" s-3-1\ns-3-1 ::= nt m-3-1\nm-3-1 ::= \" \" nt m-3-1 | [.!?] \" \" s-3-2\ns-3-2 ::= nt m-3-2\nm-3-2 ::= \" \" nt m-3-2 | [.!?] \" \" s-3-3\ns-3-3 ::= nt m-3-3\nm-3-3 ::= \" \" nt m-3-3 | [.!?]",
+  "time-2": "nt ::= [ABCDEFGHIJKLMNOPQRSUVWXYZabcdefghijklmnopqrsuvwxyz] L* | [tT] p1\np1 ::= ([ABCDEFGHJKLMNOPQRSTUVWXYZabcdefghjklmnopqrstuvwxyz] L* | [iI] p2)?\np2 ::= ([ABCDEFGHIJKLNOPQRSTUVWXYZabcdefghijklnopqrstuvwxyz] L* | [mM] p3)?\np3 ::= ([ABCDFGHIJKLMNOPQRSTUVWXYZabcdfghijklmnopqrstuvwxyz] L* | [eE] p4)?\np4 ::= L+\ntgt ::= [tT] [iI] [mM] [eE]\nL ::= [A-Za-z]\nroot ::= s-0-0\ns-0-0 ::= nt m-0-0 | tgt m-1-0\nm-0-0 ::= \" \" nt m-0-0 | \" \" tgt m-1-0 | [.!?] \" \" s-0-1\ns-0-1 ::= nt m-0-1 | tgt m-1-1\nm-0-1 ::= \" \" nt m-0-1 | \" \" tgt m-1-1 | [.!?] \" \" s-0-2\ns-0-2 ::= nt m-0-2 | tgt m-1-2\nm-0-2 ::= \" \" nt m-0-2 | \" \" tgt m-1-2\ns-1-0 ::= nt m-1-0 | tgt m-2-0\nm-1-0 ::= \" \" nt m-1-0 | \" \" tgt m-2-0 | [.!?] \" \" s-1-1\ns-1-1 ::= nt m-1-1 | tgt m-2-1\nm-1-1 ::= \" \" nt m-1-1 | \" \" tgt m-2-1 | [.!?] \" \" s-1-2\ns-1-2 ::= nt m-1-2 | tgt m-2-2\nm-1-2 ::= \" \" nt m-1-2 | \" \" tgt m-2-2\ns-2-0 ::= nt m-2-0\nm-2-0 ::= \" \" nt m-2-0 | [.!?] \" \" s-2-1\ns-2-1 ::= nt m-2-1\nm-2-1 ::= \" \" nt m-2-1 | [.!?] \" \" s-2-2\ns-2-2 ::= nt m-2-2\nm-2-2 ::= \" \" nt m-2-2 | [.!?]"
+ }
+}

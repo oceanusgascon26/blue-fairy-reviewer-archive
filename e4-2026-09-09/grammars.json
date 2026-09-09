@@ -1,0 +1,379 @@
+{
+ "tests": {
+  "wordcount-20": {
+   "positive": [
+    "word word word word word word word word word word word word word word word word word word word word"
+   ],
+   "negative": [
+    "word word word word word word word word word word word word word word word word word word word",
+    "word word word word word word word word word word word word word word word word word word word word word",
+    "word word word word word word word word word word word word word word word word word word word word "
+   ]
+  },
+  "wordcount-33": {
+   "positive": [
+    "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word"
+   ],
+   "negative": [
+    "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word"
+   ]
+  },
+  "no-letter-e": {
+   "positive": [
+    "A mountain holds its snow. It stands tall."
+   ],
+   "negative": [
+    "A mountain holds its snow. It stands tall. Extra.",
+    "The mountain."
+   ]
+  },
+  "no-letter-a": {
+   "positive": [
+    "Music soothes the mind."
+   ],
+   "negative": [
+    "Music has a beat."
+   ]
+  },
+  "json-keys": {
+   "positive": [
+    "{\"name\": \"Ann\", \"age\": 33, \"city\": \"Oslo\"}",
+    "{\"name\":\"A\",\"age\":\"x\",\"city\":\"B\"}"
+   ],
+   "negative": [
+    "{\"name\": \"Ann\", \"age\": 33}",
+    "{\"age\": 1, \"name\": \"A\", \"city\": \"B\"}"
+   ]
+  },
+  "json-array-5": {
+   "positive": [
+    "[\"apple\", \"pear\", \"fig\", \"kiwi\", \"plum\"]"
+   ],
+   "negative": [
+    "[\"apple\", \"pear\"]",
+    "[1,2,3,4,5]"
+   ]
+  },
+  "lowercase-nocomma": {
+   "positive": [
+    "snow falls quietly on the roofs."
+   ],
+   "negative": [
+    "Snow falls.",
+    "snow falls, quietly."
+   ]
+  },
+  "bullets-4": {
+   "positive": [
+    "- hold\n- clip\n- pick\n- hook"
+   ],
+   "negative": [
+    "- hold\n- clip\n- pick",
+    "* hold\n* clip\n* pick\n* hook"
+   ]
+  },
+  "bullets-6": {
+   "positive": [
+    "* a\n* b\n* c\n* d\n* e\n* f"
+   ],
+   "negative": [
+    "* a\n* b\n* c\n* d\n* e"
+   ]
+  },
+  "word-twice": {
+   "positive": [
+    "Morning coffee wakes me. The morning is slow. I drink it warm."
+   ],
+   "negative": [
+    "Morning coffee wakes me. The morning is slow.",
+    "Coffee wakes me. It is slow. I drink it warm.",
+    "Morning coffee. Morning tea. Morning again."
+   ]
+  },
+  "startswith-S": {
+   "positive": [
+    "Sam runs. Sally jumps. Spot sleeps."
+   ],
+   "negative": [
+    "Sam runs. Sally jumps.",
+    "Sam runs. Bob jumps. Spot sleeps."
+   ]
+  },
+  "endswith-phrase": {
+   "positive": [
+    "Plants take light. They make sugar. THE END"
+   ],
+   "negative": [
+    "Plants take light. THE END",
+    "Plants take light. They make sugar."
+   ]
+  },
+  "title-case-line": {
+   "positive": [
+    "Stars Beyond The Quiet Dark"
+   ],
+   "negative": [
+    "Stars beyond the quiet dark",
+    "Stars Beyond The Dark"
+   ]
+  },
+  "sentences-4": {
+   "positive": [
+    "A. B. C. D."
+   ],
+   "negative": [
+    "A. B. C.",
+    "A. B. C. D. E."
+   ]
+  },
+  "no-vowel-a-e": {
+   "positive": [
+    "Sky glows bright."
+   ],
+   "negative": [
+    "The sky glows."
+   ]
+  },
+  "exactly-two-commas": {
+   "positive": [
+    "Stalls, voices, and fruit fill the market."
+   ],
+   "negative": [
+    "Stalls and fruit fill the market.",
+    "Stalls, voices, fruit, and noise."
+   ]
+  },
+  "wc-12": {
+   "positive": [
+    "word word word word word word word word word word word word"
+   ],
+   "negative": [
+    "word word word word word word word word word word word"
+   ]
+  },
+  "wc-15": {
+   "positive": [
+    "word word word word word word word word word word word word word word word"
+   ],
+   "negative": [
+    "word word word word word word word word word word word word word word word word"
+   ]
+  },
+  "wc-25": {
+   "positive": [
+    "word word word word word word word word word word word word word word word word word word word word word word word word word"
+   ],
+   "negative": [
+    "word word word word word word word word word word word word word word word word word word word word word word word word"
+   ]
+  },
+  "wc-40": {
+   "positive": [
+    "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word"
+   ],
+   "negative": [
+    "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word"
+   ]
+  },
+  "wc-50": {
+   "positive": [
+    "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word"
+   ],
+   "negative": [
+    "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word"
+   ]
+  },
+  "no-o": {
+   "positive": [
+    "A vast sea sparkles."
+   ],
+   "negative": [
+    "The ocean sparkles."
+   ]
+  },
+  "no-t": {
+   "positive": [
+    "A garden blooms."
+   ],
+   "negative": [
+    "The garden blooms."
+   ]
+  },
+  "no-s": {
+   "positive": [
+    "A train waited."
+   ],
+   "negative": [
+    "A train waits."
+   ]
+  },
+  "no-i": {
+   "positive": [
+    "A bakery smells warm."
+   ],
+   "negative": [
+    "A bakery is warm."
+   ]
+  },
+  "no-n": {
+   "positive": [
+    "A desert bakes."
+   ],
+   "negative": [
+    "A desert burns."
+   ]
+  },
+  "commas-1": {
+   "positive": [
+    "Books, quiet."
+   ],
+   "negative": [
+    "Books quiet.",
+    "Books, quiet, rows."
+   ]
+  },
+  "commas-3": {
+   "positive": [
+    "Boats, ropes, gulls, salt."
+   ],
+   "negative": [
+    "Boats, ropes, gulls."
+   ]
+  },
+  "sent-2": {
+   "positive": [
+    "A. B."
+   ],
+   "negative": [
+    "A."
+   ]
+  },
+  "sent-5": {
+   "positive": [
+    "A. B. C. D. E."
+   ],
+   "negative": [
+    "A. B. C. D."
+   ]
+  },
+  "sent-6": {
+   "positive": [
+    "A. B. C. D. E. F."
+   ],
+   "negative": [
+    "A. B. C. D. E."
+   ]
+  },
+  "start-T": {
+   "positive": [
+    "Trees. Tall. Thick. Tough."
+   ],
+   "negative": [
+    "Trees. Tall. Thick.",
+    "Trees. Big. Thick. Tough."
+   ]
+  },
+  "start-B": {
+   "positive": [
+    "Boats. Bells. Birds. Bays."
+   ],
+   "negative": [
+    "Boats. Bells. Birds."
+   ]
+  },
+  "start-M": {
+   "positive": [
+    "Moss. Mist. Mud. Maple."
+   ],
+   "negative": [
+    "Moss. Mist. Mud."
+   ]
+  },
+  "water-3": {
+   "positive": [
+    "Water runs. Water falls. The water shines. Fish swim."
+   ],
+   "negative": [
+    "Water runs. Water falls. Fish swim. Birds sing.",
+    "Water runs. Water falls. Water shines. Water glows."
+   ]
+  },
+  "time-2": {
+   "positive": [
+    "Time passes. The time is late. Clocks tick."
+   ],
+   "negative": [
+    "Time passes. Clocks tick. Hands move.",
+    "Time. Time. Time."
+   ]
+  },
+  "uppercase": {
+   "positive": [
+    "WE WON THE DAY."
+   ],
+   "negative": [
+    "We won.",
+    "WE WON. TWICE."
+   ]
+  },
+  "excl-3": {
+   "positive": [
+    "Drums beat! Lights shine! We dance!"
+   ],
+   "negative": [
+    "Drums beat! Lights shine!",
+    "Drums beat. Lights shine! We dance!"
+   ]
+  },
+  "title-7": {
+   "positive": [
+    "Seven Ships Sail Past The Frozen Coast"
+   ],
+   "negative": [
+    "Seven ships sail past the frozen coast",
+    "Seven Ships Sail Past The Coast"
+   ]
+  }
+ },
+ "grammars": {
+  "wordcount-20": "root ::= w (\" \" w){19}\nw ::= [^ \\t\\n]+",
+  "wordcount-33": "root ::= w (\" \" w){32}\nw ::= [^ \\t\\n]+",
+  "no-letter-e": "root ::= s (\" \" s){1}\ns ::= [^Ee.!?\\n]+ [.!?]",
+  "no-letter-a": "root ::= s\ns ::= [^Aa.!?\\n]+ [.!?]",
+  "json-keys": "root ::= \"{\" ws \"\\\"name\\\"\" ws \":\" ws str ws \",\" ws \"\\\"age\\\"\" ws \":\" ws (num | str) ws \",\" ws \"\\\"city\\\"\" ws \":\" ws str ws \"}\"\nstr ::= \"\\\"\" [^\"\\\\\\n]* \"\\\"\"\nnum ::= [0-9]+\nws ::= [ \\n]*",
+  "json-array-5": "root ::= \"[\" ws str (ws \",\" ws str){4} ws \"]\"\nstr ::= \"\\\"\" [^\"\\\\\\n]* \"\\\"\"\nws ::= [ \\n]*",
+  "lowercase-nocomma": "root ::= [^A-Z,.!?\\n]+ [.!?]",
+  "bullets-4": "root ::= line (\"\\n\" line){3}\nline ::= \"- \" [^\\n]+",
+  "bullets-6": "root ::= line (\"\\n\" line){5}\nline ::= \"* \" [^\\n]+",
+  "word-twice": "nt ::= [ABCDEFGHIJKLNOPQRSTUVWXYZabcdefghijklnopqrstuvwxyz] L* | [mM] p1\np1 ::= [ABCDEFGHIJKLMNPQRSTUVWXYZabcdefghijklmnpqrstuvwxyz] L* | [oO] p2 |\np2 ::= [ABCDEFGHIJKLMNOPQSTUVWXYZabcdefghijklmnopqstuvwxyz] L* | [rR] p3 |\np3 ::= [ABCDEFGHIJKLMOPQRSTUVWXYZabcdefghijklmopqrstuvwxyz] L* | [nN] p4 |\np4 ::= [ABCDEFGHJKLMNOPQRSTUVWXYZabcdefghjklmnopqrstuvwxyz] L* | [iI] p5 |\np5 ::= [ABCDEFGHIJKLMOPQRSTUVWXYZabcdefghijklmopqrstuvwxyz] L* | [nN] p6 |\np6 ::= [ABCDEFHIJKLMNOPQRSTUVWXYZabcdefhijklmnopqrstuvwxyz] L* | [gG] p7 |\np7 ::= L+\ntgt ::= [mM] [oO] [rR] [nN] [iI] [nN] [gG]\nL ::= [A-Za-z]\nroot ::= s_0_0\ns_0_0 ::= nt m_0_0 | tgt m_1_0\nm_0_0 ::= \" \" nt m_0_0 | \" \" tgt m_1_0 | [.!?] \" \" s_0_1\ns_0_1 ::= nt m_0_1 | tgt m_1_1\nm_0_1 ::= \" \" nt m_0_1 | \" \" tgt m_1_1 | [.!?] \" \" s_0_2\ns_0_2 ::= nt m_0_2 | tgt m_1_2\nm_0_2 ::= \" \" nt m_0_2 | \" \" tgt m_1_2\ns_1_0 ::= nt m_1_0 | tgt m_2_0\nm_1_0 ::= \" \" nt m_1_0 | \" \" tgt m_2_0 | [.!?] \" \" s_1_1\ns_1_1 ::= nt m_1_1 | tgt m_2_1\nm_1_1 ::= \" \" nt m_1_1 | \" \" tgt m_2_1 | [.!?] \" \" s_1_2\ns_1_2 ::= nt m_1_2 | tgt m_2_2\nm_1_2 ::= \" \" nt m_1_2 | \" \" tgt m_2_2\ns_2_0 ::= nt m_2_0\nm_2_0 ::= \" \" nt m_2_0 | [.!?] \" \" s_2_1\ns_2_1 ::= nt m_2_1\nm_2_1 ::= \" \" nt m_2_1 | [.!?] \" \" s_2_2\ns_2_2 ::= nt m_2_2\nm_2_2 ::= \" \" nt m_2_2 | [.!?]",
+  "startswith-S": "root ::= s (\" \" s){2}\ns ::= [sS] [^.!?\\n]* [.!?]",
+  "endswith-phrase": "root ::= s \" \" s \" THE END\"\ns ::= [^.!?\\n]+ [.!?]",
+  "title-case-line": "root ::= w (\" \" w){4}\nw ::= [A-Z] [^ \\t\\n]*",
+  "sentences-4": "root ::= s (\" \" s){3}\ns ::= [^.!?\\n]+ [.!?]",
+  "no-vowel-a-e": "root ::= s\ns ::= [^AEae.!?\\n]+ [.!?]",
+  "exactly-two-commas": "root ::= seg (\",\" seg){2} [.!?]\nseg ::= [^,.!?\\n]+",
+  "wc-12": "root ::= w (\" \" w){11}\nw ::= [^ \\t\\n]+",
+  "wc-15": "root ::= w (\" \" w){14}\nw ::= [^ \\t\\n]+",
+  "wc-25": "root ::= w (\" \" w){24}\nw ::= [^ \\t\\n]+",
+  "wc-40": "root ::= w (\" \" w){39}\nw ::= [^ \\t\\n]+",
+  "wc-50": "root ::= w (\" \" w){49}\nw ::= [^ \\t\\n]+",
+  "no-o": "root ::= s\ns ::= [^Oo.!?\\n]+ [.!?]",
+  "no-t": "root ::= s\ns ::= [^Tt.!?\\n]+ [.!?]",
+  "no-s": "root ::= s\ns ::= [^Ss.!?\\n]+ [.!?]",
+  "no-i": "root ::= s\ns ::= [^Ii.!?\\n]+ [.!?]",
+  "no-n": "root ::= s\ns ::= [^Nn.!?\\n]+ [.!?]",
+  "commas-1": "root ::= seg (\",\" seg){1} [.!?]\nseg ::= [^,.!?\\n]+",
+  "commas-3": "root ::= seg (\",\" seg){3} [.!?]\nseg ::= [^,.!?\\n]+",
+  "sent-2": "root ::= s (\" \" s){1}\ns ::= [^.!?\\n]+ [.!?]",
+  "sent-5": "root ::= s (\" \" s){4}\ns ::= [^.!?\\n]+ [.!?]",
+  "sent-6": "root ::= s (\" \" s){5}\ns ::= [^.!?\\n]+ [.!?]",
+  "start-T": "root ::= s (\" \" s){3}\ns ::= [tT] [^.!?\\n]* [.!?]",
+  "start-B": "root ::= s (\" \" s){3}\ns ::= [bB] [^.!?\\n]* [.!?]",
+  "start-M": "root ::= s (\" \" s){3}\ns ::= [mM] [^.!?\\n]* [.!?]",
+  "water-3": "nt ::= [ABCDEFGHIJKLMNOPQRSTUVXYZabcdefghijklmnopqrstuvxyz] L* | [wW] p1\np1 ::= [BCDEFGHIJKLMNOPQRSTUVWXYZbcdefghijklmnopqrstuvwxyz] L* | [aA] p2 |\np2 ::= [ABCDEFGHIJKLMNOPQRSUVWXYZabcdefghijklmnopqrsuvwxyz] L* | [tT] p3 |\np3 ::= [ABCDFGHIJKLMNOPQRSTUVWXYZabcdfghijklmnopqrstuvwxyz] L* | [eE] p4 |\np4 ::= [ABCDEFGHIJKLMNOPQSTUVWXYZabcdefghijklmnopqstuvwxyz] L* | [rR] p5 |\np5 ::= L+\ntgt ::= [wW] [aA] [tT] [eE] [rR]\nL ::= [A-Za-z]\nroot ::= s_0_0\ns_0_0 ::= nt m_0_0 | tgt m_1_0\nm_0_0 ::= \" \" nt m_0_0 | \" \" tgt m_1_0 | [.!?] \" \" s_0_1\ns_0_1 ::= nt m_0_1 | tgt m_1_1\nm_0_1 ::= \" \" nt m_0_1 | \" \" tgt m_1_1 | [.!?] \" \" s_0_2\ns_0_2 ::= nt m_0_2 | tgt m_1_2\nm_0_2 ::= \" \" nt m_0_2 | \" \" tgt m_1_2 | [.!?] \" \" s_0_3\ns_0_3 ::= nt m_0_3 | tgt m_1_3\nm_0_3 ::= \" \" nt m_0_3 | \" \" tgt m_1_3\ns_1_0 ::= nt m_1_0 | tgt m_2_0\nm_1_0 ::= \" \" nt m_1_0 | \" \" tgt m_2_0 | [.!?] \" \" s_1_1\ns_1_1 ::= nt m_1_1 | tgt m_2_1\nm_1_1 ::= \" \" nt m_1_1 | \" \" tgt m_2_1 | [.!?] \" \" s_1_2\ns_1_2 ::= nt m_1_2 | tgt m_2_2\nm_1_2 ::= \" \" nt m_1_2 | \" \" tgt m_2_2 | [.!?] \" \" s_1_3\ns_1_3 ::= nt m_1_3 | tgt m_2_3\nm_1_3 ::= \" \" nt m_1_3 | \" \" tgt m_2_3\ns_2_0 ::= nt m_2_0 | tgt m_3_0\nm_2_0 ::= \" \" nt m_2_0 | \" \" tgt m_3_0 | [.!?] \" \" s_2_1\ns_2_1 ::= nt m_2_1 | tgt m_3_1\nm_2_1 ::= \" \" nt m_2_1 | \" \" tgt m_3_1 | [.!?] \" \" s_2_2\ns_2_2 ::= nt m_2_2 | tgt m_3_2\nm_2_2 ::= \" \" nt m_2_2 | \" \" tgt m_3_2 | [.!?] \" \" s_2_3\ns_2_3 ::= nt m_2_3 | tgt m_3_3\nm_2_3 ::= \" \" nt m_2_3 | \" \" tgt m_3_3\ns_3_0 ::= nt m_3_0\nm_3_0 ::= \" \" nt m_3_0 | [.!?] \" \" s_3_1\ns_3_1 ::= nt m_3_1\nm_3_1 ::= \" \" nt m_3_1 | [.!?] \" \" s_3_2\ns_3_2 ::= nt m_3_2\nm_3_2 ::= \" \" nt m_3_2 | [.!?] \" \" s_3_3\ns_3_3 ::= nt m_3_3\nm_3_3 ::= \" \" nt m_3_3 | [.!?]",
+  "time-2": "nt ::= [ABCDEFGHIJKLMNOPQRSUVWXYZabcdefghijklmnopqrsuvwxyz] L* | [tT] p1\np1 ::= [ABCDEFGHJKLMNOPQRSTUVWXYZabcdefghjklmnopqrstuvwxyz] L* | [iI] p2 |\np2 ::= [ABCDEFGHIJKLNOPQRSTUVWXYZabcdefghijklnopqrstuvwxyz] L* | [mM] p3 |\np3 ::= [ABCDFGHIJKLMNOPQRSTUVWXYZabcdfghijklmnopqrstuvwxyz] L* | [eE] p4 |\np4 ::= L+\ntgt ::= [tT] [iI] [mM] [eE]\nL ::= [A-Za-z]\nroot ::= s_0_0\ns_0_0 ::= nt m_0_0 | tgt m_1_0\nm_0_0 ::= \" \" nt m_0_0 | \" \" tgt m_1_0 | [.!?] \" \" s_0_1\ns_0_1 ::= nt m_0_1 | tgt m_1_1\nm_0_1 ::= \" \" nt m_0_1 | \" \" tgt m_1_1 | [.!?] \" \" s_0_2\ns_0_2 ::= nt m_0_2 | tgt m_1_2\nm_0_2 ::= \" \" nt m_0_2 | \" \" tgt m_1_2\ns_1_0 ::= nt m_1_0 | tgt m_2_0\nm_1_0 ::= \" \" nt m_1_0 | \" \" tgt m_2_0 | [.!?] \" \" s_1_1\ns_1_1 ::= nt m_1_1 | tgt m_2_1\nm_1_1 ::= \" \" nt m_1_1 | \" \" tgt m_2_1 | [.!?] \" \" s_1_2\ns_1_2 ::= nt m_1_2 | tgt m_2_2\nm_1_2 ::= \" \" nt m_1_2 | \" \" tgt m_2_2\ns_2_0 ::= nt m_2_0\nm_2_0 ::= \" \" nt m_2_0 | [.!?] \" \" s_2_1\ns_2_1 ::= nt m_2_1\nm_2_1 ::= \" \" nt m_2_1 | [.!?] \" \" s_2_2\ns_2_2 ::= nt m_2_2\nm_2_2 ::= \" \" nt m_2_2 | [.!?]",
+  "uppercase": "root ::= [^a-z.!?\\n]+ [.!?]",
+  "excl-3": "root ::= s (\" \" s){2}\ns ::= [^.!?\\n]+ \"!\"",
+  "title-7": "root ::= w (\" \" w){6}\nw ::= [A-Z] [^ \\t\\n]*"
+ }
+}

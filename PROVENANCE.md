@@ -27,6 +27,8 @@ Only local file paths and the AWS profile name were changed. Prompts, responses,
 - controls/verify-v23-claims.py (from <controls folder>/verify-v23-claims.py): the local controls folder path (with slash) replaced 1 time; D = <controls dir> -> path of this file replaced 1 time
 - controls/raw/e6c-haiku.jsonl (from <controls folder>/raw/e6c-haiku.jsonl): in the error field, the local controls folder path (with slash) replaced 1 time
 - p4-2026-08-26/p4.mjs (from <cost-pilot folder>/p4.mjs): the local cost-pilot folder path replaced 1 time; the AWS CLI profile name replaced 1 time
+- e4-2026-09-09/e4.mjs (from <E4 folder>/e4.mjs): the local E4 folder path replaced 1 time; the local path of the built kit's entry module replaced 1 time
+- e4-2026-09-09/e4b.mjs (from <E4 folder>/e4b.mjs): the local E4 folder path replaced 1 time; the local path of the built kit's entry module replaced 1 time
 
 ## Excluded
 

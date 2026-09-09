@@ -10,6 +10,7 @@ Assembled 2026-09-09 by the author's tooling from the working folders that produ
 - controls/*.mjs and controls/*.py: the run scripts, with local paths and the AWS profile substituted (see PROVENANCE.md). They are the code that ran; running them again needs Amazon Bedrock access and makes new calls.
 - controls/ifeval/: the reference IFEval checkers and data (Google, Apache 2.0), vendored unchanged. tools/check-ifeval-upstream.py compares them with upstream.
 - p4-2026-08-26/: the twenty-four item cost pilot script and its results.
+- e4-2026-09-09/: the fifth plan (grammar-constrained decoding on a local CPU build of llama.cpp with Llama 3.1 8B Instruct Q4_K_M) and FREEZE-5.txt, which also records the model file's hash; the 39 grammars, the generator and offline tester that built them (make-grammars.py, no model call), the runner (e4.mjs), the frozen topic-keyword map, results-e4.json, run.log, and 746 raw records of the local run in raw/ (2 smoke-test records in smoke.jsonl). The model file and the llama.cpp binaries are not included; their hashes and versions are in FREEZE-5.txt. The E4b files (addendum 6, FREEZE-6.txt, grammars-e4b.json, make-grammars-e4b.py, e4b.mjs, results-e4b.json and the e4b, smoke-e4b and parse-check-e4b records) are the disclosed follow-up on the three word-frequency grammars the server's parser rejected in E4.
 - kit/: cognitive-middleware at commit 3d20393, the revision the controls specified. kit/KIT-COMMIT.txt gives the build step.
 - tools/: verify-manifest.py, hash-plans.py, check-ifeval-upstream.py.
 - MANIFEST.sha256: the SHA-256 of every file. PROVENANCE.md: where each file came from and what was changed.
@@ -21,7 +22,8 @@ Assembled 2026-09-09 by the author's tooling from the working folders that produ
 3. python controls/verify-v23-claims.py. Recomputes every number the book's evidence appendix states about E1, E2, E3, E5, E6, E6b and E6c from the results files and the raw records, and prints OK or DIFF for each. Needs Python 3.
 4. python controls/e5-seed-replay.py. Replays all saved IFEval answers through the reference checkers under fixed seeds and reports how many of the 1,620 selected-arm flags disagree with the saved ones. Needs the langdetect, nltk, immutabledict and absl-py packages.
 5. In kit/, npm ci, npm run build, npm test. The hermetic tests run against a scripted base with no key or network.
-6. Optional, needs network: python tools/check-ifeval-upstream.py.
+6. python e4-2026-09-09/make-grammars.py, where present. Rebuilds the 39 grammars and re-runs their offline acceptance tests; the printed hash of grammars.json must match FREEZE-5.txt.
+7. Optional, needs network: python tools/check-ifeval-upstream.py.
 
 ## What the archive cannot do
 

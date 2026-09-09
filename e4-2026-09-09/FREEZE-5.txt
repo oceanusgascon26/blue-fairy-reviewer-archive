@@ -1,0 +1,8 @@
+PREREGISTRATION-ADDENDUM-5.md sha256 f6c075c7e5e1a2da19a543684fa0a178348e63fcf1933651ac98b99bcd41a485
+grammars.json sha256 e2aa30fa80ae384d32362cf2d7e0669e4379ab344bce1f32781febdd81e54fb3
+keywords.json sha256 93cde103030926001f7f6eaadf3be6940747beb6331829f82ba158412112bd76
+e4.mjs sha256 d0eef75b63376ffadeea8d805d8896cca4c62124bfd7e47345be4c6c9c212a6e
+make-grammars.py sha256 b8041e7f5aca7be5a93916cef143e9e75019cae77caee64836a84ee3f813670e
+models/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf sha256 7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c
+llama.cpp build b10883 bin-win-cpu-x64 sha256 05865586d8cc235e7ed1e975e0df4c6d02ba81cab637845aed888ad5fe4ba061
+frozen 2026-09-09T21:15:35.287807Z before any E4 call (one smoke pair, a bare and a constrained call on the first task, follows and is logged to raw/smoke.jsonl)

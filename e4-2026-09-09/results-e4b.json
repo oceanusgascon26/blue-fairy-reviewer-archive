@@ -1,0 +1,475 @@
+{
+ "experiment": "E4b",
+ "items": [
+  "word-twice",
+  "water-3",
+  "time-2"
+ ],
+ "model": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf (bartowski) on llama.cpp b10883, CPU only",
+ "temperature": 0.7,
+ "maxTokens": 400,
+ "budget": 4,
+ "reps": 3,
+ "seed0": 20260910,
+ "date": "2026-09-09T22:22:17.664Z",
+ "generationSettings": {
+  "seed": 20360910,
+  "temperature": 0.699999988079071,
+  "dynatemp_range": 0,
+  "dynatemp_exponent": 1,
+  "top_k": 40,
+  "top_p": 0.949999988079071,
+  "min_p": 0.05000000074505806,
+  "top_n_sigma": -1,
+  "xtc_probability": 0,
+  "xtc_threshold": 0.10000000149011612,
+  "typical_p": 1,
+  "repeat_last_n": 64,
+  "repeat_penalty": 1,
+  "presence_penalty": 0,
+  "frequency_penalty": 0,
+  "dry_multiplier": 0,
+  "dry_base": 1.75,
+  "dry_allowed_length": 2,
+  "dry_penalty_last_n": 64,
+  "dry_sequence_breakers": [
+   "\n",
+   ":",
+   "\"",
+   "*"
+  ],
+  "mirostat": 0,
+  "mirostat_tau": 5,
+  "mirostat_eta": 0.10000000149011612,
+  "adaptive_target": -1,
+  "adaptive_decay": 0.8999999761581421,
+  "stop": [],
+  "max_tokens": 400,
+  "n_predict": 400,
+  "n_keep": 0,
+  "n_discard": 0,
+  "ignore_eos": false,
+  "stream": false,
+  "logit_bias": [],
+  "n_probs": 0,
+  "min_keep": 0,
+  "grammar": "",
+  "grammar_lazy": false,
+  "grammar_triggers": [],
+  "preserved_tokens": [],
+  "chat_format": "Content-only",
+  "reasoning_format": "deepseek",
+  "reasoning_in_content": false,
+  "generation_prompt": "",
+  "samplers": [
+   "penalties",
+   "dry",
+   "top_n_sigma",
+   "top_k",
+   "typ_p",
+   "top_p",
+   "min_p",
+   "xtc",
+   "temperature"
+  ],
+  "speculative.types": "none",
+  "timings_per_token": false,
+  "post_sampling_probs": false,
+  "backend_sampling": false,
+  "lora": []
+ },
+ "repetitions": [
+  {
+   "rep": 1,
+   "rates": {
+    "oneShot": 0.3333333333333333,
+    "repair": 1,
+    "resample": 1,
+    "constrained": 1
+   },
+   "rows": [
+    {
+     "id": "word-twice",
+     "class": "word frequency",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 2,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 62,
+      "repair": 118,
+      "resample": 261,
+      "constrained": 48
+     },
+     "ms": {
+      "first": 7297,
+      "repair": 14870,
+      "resample": 29695,
+      "constrained": 5729
+     },
+     "constrainedText": "Coffee is a popular beverage that many people enjoy in the morning to start their day. The aroma of freshly brewed coffee can be a wonderful way to wake up in the morning. Whether you prefer it black or with cream and sugar added."
+    },
+    {
+     "id": "water-3",
+     "class": "word frequency",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 2,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 78,
+      "repair": 149,
+      "resample": 311,
+      "constrained": 69
+     },
+     "ms": {
+      "first": 8753,
+      "repair": 17934,
+      "resample": 34437,
+      "constrained": 8134
+     },
+     "constrainedText": "The river flows gently through the valley with its crystal clear water. Its tranquil surroundings and soft currents make it a peaceful destination for nature lovers. The riverbank is lined with lush greenery and trees that stretch towards the sky above the water. As the seasons change the river transforms into a vibrant display of colors with its ever changing water flow."
+    },
+    {
+     "id": "time-2",
+     "class": "word frequency",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 51,
+      "repair": 51,
+      "resample": 239,
+      "constrained": 50
+     },
+     "ms": {
+      "first": 5808,
+      "repair": 5808,
+      "resample": 27112,
+      "constrained": 6587
+     },
+     "constrainedText": "A grandfather clock stands tall in the corner of the room as it measures time with precision. The ticking sound of the clock is a reminder of the passing of time. A simple digital clock on the wall displays the current hour and minute with ease."
+    }
+   ]
+  },
+  {
+   "rep": 2,
+   "rates": {
+    "oneShot": 0.6666666666666666,
+    "repair": 0.6666666666666666,
+    "resample": 1,
+    "constrained": 1
+   },
+   "rows": [
+    {
+     "id": "word-twice",
+     "class": "word frequency",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 57,
+      "repair": 57,
+      "resample": 250,
+      "constrained": 50
+     },
+     "ms": {
+      "first": 6479,
+      "repair": 6479,
+      "resample": 28412,
+      "constrained": 5888
+     },
+     "constrainedText": "Starting the morning with a cup of coffee can be invigorating and help increase alertness. The aroma of freshly brewed coffee is a staple of many morning routines. Whether enjoyed hot or iced throughout the day or the morningelight of dawn."
+    },
+    {
+     "id": "water-3",
+     "class": "word frequency",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 82,
+      "repair": 82,
+      "resample": 328,
+      "constrained": 64
+     },
+     "ms": {
+      "first": 9110,
+      "repair": 9110,
+      "resample": 36581,
+      "constrained": 7414
+     },
+     "constrainedText": "The river flows gently through the valley with its crystal clear water. Along its banks are lush green trees that provide shade for people to relax. The water from the river is used for irrigation and drinking purposes by the local community. As the sun sets over the riverbank the sound of flowing water creates a soothing melody."
+    },
+    {
+     "id": "time-2",
+     "class": "word frequency",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 53,
+      "repair": 194,
+      "resample": 242,
+      "constrained": 51
+     },
+     "ms": {
+      "first": 5966,
+      "repair": 25204,
+      "resample": 26983,
+      "constrained": 5909
+     },
+     "constrainedText": "Clocks are essential devices that help us keep track of time and stay organized throughout the day. The ticking sound of a clock can be soothing and reassuring as it marks the passing of time. Mechanical clocks have been a cornerstone of human civilization for centuries."
+    }
+   ]
+  },
+  {
+   "rep": 3,
+   "rates": {
+    "oneShot": 0.6666666666666666,
+    "repair": 0.6666666666666666,
+    "resample": 0.6666666666666666,
+    "constrained": 1
+   },
+   "rows": [
+    {
+     "id": "word-twice",
+     "class": "word frequency",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 70,
+      "repair": 70,
+      "resample": 267,
+      "constrained": 63
+     },
+     "ms": {
+      "first": 7617,
+      "repair": 7617,
+      "resample": 29732,
+      "constrained": 7231
+     },
+     "constrainedText": "Starting the morning with a warm cup of coffee is a great way to boost energy and set a positive tone for the day. Many people rely on coffee to help them feel more alert and awake in the morning. Whether it is a rich espresso or a mild roast coffee bean blend is a matter of personal preference."
+    },
+    {
+     "id": "water-3",
+     "class": "word frequency",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 82,
+      "repair": 82,
+      "resample": 325,
+      "constrained": 63
+     },
+     "ms": {
+      "first": 9098,
+      "repair": 9098,
+      "resample": 35829,
+      "constrained": 7267
+     },
+     "constrainedText": "The serene river flows gently through the landscape with its clear water. Along its banks are lush green trees and vibrant flowers that bloom with the changing seasons. The water level of the river changes with the weather patterns and the rainfall it receives. At its source is a small waterfall that feeds the river with fresh water."
+    },
+    {
+     "id": "time-2",
+     "class": "word frequency",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 58,
+      "repair": 224,
+      "resample": 258,
+      "constrained": 56
+     },
+     "ms": {
+      "first": 6473,
+      "repair": 28985,
+      "resample": 28511,
+      "constrained": 6554
+     },
+     "constrainedText": "Clocks have been a crucial part of human life for centuries as they help us measure and understand time. Analog clocks use hands to indicate the current time on a circular face. Digital clocks display the timeusing electronic displays and often come with additional features such as alarms and timers."
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "oneShot": {
+   "passed": 5,
+   "of": 9
+  },
+  "repair": {
+   "passed": 7,
+   "of": 9
+  },
+  "resample": {
+   "passed": 8,
+   "of": 9
+  },
+  "constrained": {
+   "passed": 9,
+   "of": 9
+  }
+ },
+ "pooled": {
+  "constrainedMinusRepair": {
+   "mean": 0.2222222222222222,
+   "lo": 0,
+   "hi": 0.6666666666666666,
+   "n": 3
+  },
+  "constrainedMinusResample": {
+   "mean": 0.1111111111111111,
+   "lo": 0,
+   "hi": 0.3333333333333333,
+   "n": 3
+  },
+  "constrainedMinusOneShot": {
+   "mean": 0.4444444444444444,
+   "lo": 0.3333333333333333,
+   "hi": 0.6666666666666666,
+   "n": 3
+  }
+ },
+ "cost": {
+  "first": {
+   "generations": 9,
+   "tokensOut": 593,
+   "ms": 66601
+  },
+  "repair": {
+   "generations": 17,
+   "tokensOut": 1027,
+   "ms": 125105
+  },
+  "resample": {
+   "generations": 36,
+   "tokensOut": 2481,
+   "ms": 277292
+  },
+  "constrained": {
+   "generations": 9,
+   "tokensOut": 514,
+   "ms": 60713
+  }
+ },
+ "topic": {
+  "first": {
+   "applicable": 9,
+   "hits": 9
+  },
+  "repair": {
+   "applicable": 9,
+   "hits": 9
+  },
+  "resample": {
+   "applicable": 9,
+   "hits": 9
+  },
+  "constrained": {
+   "applicable": 9,
+   "hits": 9
+  }
+ },
+ "constrainedLimitHits": 0,
+ "constrainedErrors": 0
+}

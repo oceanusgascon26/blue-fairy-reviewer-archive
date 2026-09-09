@@ -1,0 +1,3909 @@
+{
+ "experiment": "E4",
+ "model": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf (bartowski) on llama.cpp b10883, CPU only",
+ "temperature": 0.7,
+ "maxTokens": 400,
+ "budget": 4,
+ "reps": 3,
+ "seed0": 20260909,
+ "date": "2026-09-09T21:26:29.452Z",
+ "generationSettings": {
+  "seed": 20360909,
+  "temperature": 0.699999988079071,
+  "dynatemp_range": 0,
+  "dynatemp_exponent": 1,
+  "top_k": 40,
+  "top_p": 0.949999988079071,
+  "min_p": 0.05000000074505806,
+  "top_n_sigma": -1,
+  "xtc_probability": 0,
+  "xtc_threshold": 0.10000000149011612,
+  "typical_p": 1,
+  "repeat_last_n": 64,
+  "repeat_penalty": 1,
+  "presence_penalty": 0,
+  "frequency_penalty": 0,
+  "dry_multiplier": 0,
+  "dry_base": 1.75,
+  "dry_allowed_length": 2,
+  "dry_penalty_last_n": 64,
+  "dry_sequence_breakers": [
+   "\n",
+   ":",
+   "\"",
+   "*"
+  ],
+  "mirostat": 0,
+  "mirostat_tau": 5,
+  "mirostat_eta": 0.10000000149011612,
+  "adaptive_target": -1,
+  "adaptive_decay": 0.8999999761581421,
+  "stop": [],
+  "max_tokens": 400,
+  "n_predict": 400,
+  "n_keep": 0,
+  "n_discard": 0,
+  "ignore_eos": false,
+  "stream": false,
+  "logit_bias": [],
+  "n_probs": 0,
+  "min_keep": 0,
+  "grammar": "",
+  "grammar_lazy": false,
+  "grammar_triggers": [],
+  "preserved_tokens": [],
+  "chat_format": "Content-only",
+  "reasoning_format": "deepseek",
+  "reasoning_in_content": false,
+  "generation_prompt": "",
+  "samplers": [
+   "penalties",
+   "dry",
+   "top_n_sigma",
+   "top_k",
+   "typ_p",
+   "top_p",
+   "min_p",
+   "xtc",
+   "temperature"
+  ],
+  "speculative.types": "none",
+  "timings_per_token": false,
+  "post_sampling_probs": false,
+  "backend_sampling": false,
+  "lora": []
+ },
+ "repetitions": [
+  {
+   "rep": 1,
+   "rates": {
+    "oneShot": 0.6153846153846154,
+    "repair": 0.8205128205128205,
+    "resample": 0.7692307692307693,
+    "constrained": 0.9230769230769231
+   },
+   "rows": [
+    {
+     "id": "wordcount-20",
+     "class": "word count",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 4,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 27,
+      "repair": 108,
+      "resample": 110,
+      "constrained": 27
+     },
+     "ms": {
+      "first": 3483,
+      "repair": 15363,
+      "resample": 13449,
+      "constrained": 3304
+     },
+     "constrainedText": "The vast ocean is a majestic, deep, and mysterious entity, with diverse marine life and ever-changing waves and tides always."
+    },
+    {
+     "id": "wordcount-33",
+     "class": "word count",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 45,
+      "repair": 168,
+      "resample": 174,
+      "constrained": 55
+     },
+     "ms": {
+      "first": 5131,
+      "repair": 21735,
+      "resample": 20042,
+      "constrained": 6361
+     },
+     "constrainedText": "Autumn brings vibrant colors, crunching leaves, and a crisp breeze, signaling the season's transition from warmth to cooler temperatures, often accompanied by harvest festivals and cozy evenings spent indoors. Nature's kaleidoscope unfolds inky,orange,red,yellow,green."
+    },
+    {
+     "id": "no-letter-e",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 18,
+      "repair": 74,
+      "resample": 117,
+      "constrained": 22
+     },
+     "ms": {
+      "first": 2396,
+      "repair": 11729,
+      "resample": 14021,
+      "constrained": 2902
+     },
+     "constrainedText": "Tall sand-stooky mound stands tall in sand. Sandy summit soars high in sandy lands."
+    },
+    {
+     "id": "no-letter-a",
+     "class": "forbidden letter",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 13,
+      "repair": 13,
+      "resample": 48,
+      "constrained": 7
+     },
+     "ms": {
+      "first": 1898,
+      "repair": 1898,
+      "resample": 7131,
+      "constrained": 1281
+     },
+     "constrainedText": "Everyone enjoys eclectic electronic music."
+    },
+    {
+     "id": "json-keys",
+     "class": "JSON shape",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 23,
+      "repair": 23,
+      "resample": 93,
+      "constrained": 21
+     },
+     "ms": {
+      "first": 2995,
+      "repair": 2995,
+      "resample": 12252,
+      "constrained": 2830
+     },
+     "constrainedText": "{\"name\": \"John Doe\", \"age\": 30, \"city\": \"New York\"}"
+    },
+    {
+     "id": "json-array-5",
+     "class": "JSON shape",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 20,
+      "repair": 20,
+      "resample": 77,
+      "constrained": 19
+     },
+     "ms": {
+      "first": 2579,
+      "repair": 2579,
+      "resample": 10011,
+      "constrained": 2453
+     },
+     "constrainedText": "[\"Apple\", \"Banana\", \"Cherry\", \"Orange\", \"Mango\"]"
+    },
+    {
+     "id": "lowercase-nocomma",
+     "class": "casing",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 21,
+      "repair": 21,
+      "resample": 71,
+      "constrained": 9
+     },
+     "ms": {
+      "first": 2628,
+      "repair": 2628,
+      "resample": 9517,
+      "constrained": 1501
+     },
+     "constrainedText": "winter days are often cold and snowy."
+    },
+    {
+     "id": "bullets-4",
+     "class": "bullet lines",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 43,
+      "repair": 43,
+      "resample": 148,
+      "constrained": 36
+     },
+     "ms": {
+      "first": 5039,
+      "repair": 5039,
+      "resample": 17664,
+      "constrained": 4290
+     },
+     "constrainedText": "- Temporary fix for a broken zipper or a torn page\n- Holding together multiple papers or documents\n- Creating a makeshift bookmark or divider\n- Securing loose cables or wires"
+    },
+    {
+     "id": "bullets-6",
+     "class": "bullet lines",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 26,
+      "repair": 26,
+      "resample": 127,
+      "constrained": 42
+     },
+     "ms": {
+      "first": 3350,
+      "repair": 3350,
+      "resample": 15325,
+      "constrained": 4870
+     },
+     "constrainedText": "* Water bottle or hydration pack\n* First aid kit\n* Map and compass\n* Extra snacks (energy bars, nuts, etc.)\n* Lightweight rain jacket or poncho\n* Headlamp or flashlight"
+    },
+    {
+     "id": "word-twice",
+     "class": "word frequency",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": false,
+     "constrainedStop": null,
+     "constrainedError": "{\"code\":400,\"message\":\"Failed to initialize samplers: failed to parse grammar\",\"type\":\"invalid_request_error\"}",
+     "constrainedViolation": "error",
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 62,
+      "repair": 62,
+      "resample": 252,
+      "constrained": 0
+     },
+     "ms": {
+      "first": 6755,
+      "repair": 6755,
+      "resample": 27368,
+      "constrained": 13
+     },
+     "constrainedText": ""
+    },
+    {
+     "id": "startswith-S",
+     "class": "sentence-initial letter",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 44,
+      "repair": 44,
+      "resample": 183,
+      "constrained": 52
+     },
+     "ms": {
+      "first": 5032,
+      "repair": 5032,
+      "resample": 21007,
+      "constrained": 5809
+     },
+     "constrainedText": "Serving as loyal companions, dogs bring joy to millions of people around the world. Supported by their keen senses, dogs can detect subtle changes in their environment. Smaller breeds of dogs often make popular pets due to their compact size and affectionate nature."
+    },
+    {
+     "id": "endswith-phrase",
+     "class": "ending",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 66,
+      "repair": 66,
+      "resample": 282,
+      "constrained": 76
+     },
+     "ms": {
+      "first": 7358,
+      "repair": 7358,
+      "resample": 30864,
+      "constrained": 8204
+     },
+     "constrainedText": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy in the form of glucose, a type of sugar that serves as a source of fuel for the organism. This process also produces oxygen as a byproduct, which is released into the atmosphere and is essential for the survival of most living organisms on Earth. THE END"
+    },
+    {
+     "id": "title-case-line",
+     "class": "casing",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": false,
+      "repair": false,
+      "resample": false,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 14,
+      "repair": 14,
+      "resample": 47,
+      "constrained": 13
+     },
+     "ms": {
+      "first": 2078,
+      "repair": 2078,
+      "resample": 7351,
+      "constrained": 1959
+     },
+     "constrainedText": "GALAXIES EXIST BEYOND OUR PLANET"
+    },
+    {
+     "id": "sentences-4",
+     "class": "sentence count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 79,
+      "repair": 79,
+      "resample": 362,
+      "constrained": 89
+     },
+     "ms": {
+      "first": 8458,
+      "repair": 8458,
+      "resample": 38413,
+      "constrained": 9449
+     },
+     "constrainedText": "Rivers are natural flowing bodies of water that play a vital role in shaping our environment and supporting ecosystems. They often originate from mountains or hills and flow through valleys and plains before eventually emptying into lakes, oceans, or other water bodies. Rivers are essential for human consumption, agriculture, and industry, providing a source of freshwater and supporting economic a"
+    },
+    {
+     "id": "no-vowel-a-e",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 10,
+      "repair": 41,
+      "resample": 40,
+      "constrained": 12
+     },
+     "ms": {
+      "first": 1689,
+      "repair": 8177,
+      "resample": 6998,
+      "constrained": 2011
+     },
+     "constrainedText": "Boldly tingling blurs softly hug tiny blobs."
+    },
+    {
+     "id": "exactly-two-commas",
+     "class": "comma count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 24,
+      "repair": 24,
+      "resample": 95,
+      "constrained": 25
+     },
+     "ms": {
+      "first": 2936,
+      "repair": 2936,
+      "resample": 11697,
+      "constrained": 3046
+     },
+     "constrainedText": "The historic city market, known for its vibrant atmosphere, offered a wide variety of fresh produce and local handicrafts."
+    },
+    {
+     "id": "wc-12",
+     "class": "word count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 16,
+      "repair": 16,
+      "resample": 62,
+      "constrained": 17
+     },
+     "ms": {
+      "first": 2234,
+      "repair": 2234,
+      "resample": 8484,
+      "constrained": 2296
+     },
+     "constrainedText": "The vast, deep, and mysterious ocean covers most of the Earth's surface."
+    },
+    {
+     "id": "wc-15",
+     "class": "word count",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 3,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 21,
+      "repair": 60,
+      "resample": 82,
+      "constrained": 22
+     },
+     "ms": {
+      "first": 2633,
+      "repair": 8836,
+      "resample": 10538,
+      "constrained": 2809
+     },
+     "constrainedText": "A serene garden filled with vibrant flowers, lush greenery, and soothing water features surrounds aZen-like."
+    },
+    {
+     "id": "wc-25",
+     "class": "word count",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 3,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 34,
+      "repair": 89,
+      "resample": 131,
+      "constrained": 32
+     },
+     "ms": {
+      "first": 3979,
+      "repair": 12333,
+      "resample": 15529,
+      "constrained": 3785
+     },
+     "constrainedText": "The historic train station features ornate architecture, a grand clock tower, and bustling platforms where passengers rush to catch departing trains daily. Outside, taxis and."
+    },
+    {
+     "id": "wc-40",
+     "class": "word count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 51,
+      "repair": 51,
+      "resample": 214,
+      "constrained": 63
+     },
+     "ms": {
+      "first": 5770,
+      "repair": 5770,
+      "resample": 23417,
+      "constrained": 6801
+     },
+     "constrainedText": "The cozy bakery, \"Sweet Delights,\" is a warm and inviting haven filled with the aroma of freshly baked bread and pastries. Shelves lined with colorful cupcakes, cookies, and cakes, and a glass case displaying an assortment of mouth-watering treats, makingcustomers'eyeslightupwithdelight."
+    },
+    {
+     "id": "wc-50",
+     "class": "word count",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 2,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 69,
+      "repair": 141,
+      "resample": 281,
+      "constrained": 68
+     },
+     "ms": {
+      "first": 7412,
+      "repair": 16429,
+      "resample": 30092,
+      "constrained": 7456
+     },
+     "constrainedText": "The desert landscape stretches endlessly, a sea of sand and rock beneath a vast expanse of blue sky. Dunes shift and swirl, sculpted by wind and sun. Cacti stand sentinel, their spines a testament to the harsh environment. Silence reigns, broken only by the whispers of the desert wind. Warmth."
+    },
+    {
+     "id": "no-o",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 15,
+      "repair": 60,
+      "resample": 63,
+      "constrained": 14
+     },
+     "ms": {
+      "first": 2153,
+      "repair": 10098,
+      "resample": 8797,
+      "constrained": 2096
+     },
+     "constrainedText": "The library had a vast array yet its shelves were nearly bare."
+    },
+    {
+     "id": "no-t",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": false,
+      "repair": false,
+      "resample": false,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 21,
+      "repair": 86,
+      "resample": 68,
+      "constrained": 16
+     },
+     "ms": {
+      "first": 2744,
+      "repair": 12976,
+      "resample": 9212,
+      "constrained": 2283
+     },
+     "constrainedText": "A serene ocean bay offers peaceful views of vessels anchored in a secure harbor."
+    },
+    {
+     "id": "no-s",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 2,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": false,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 17,
+      "repair": 33,
+      "resample": 68,
+      "constrained": 19
+     },
+     "ms": {
+      "first": 2288,
+      "repair": 5083,
+      "resample": 9223,
+      "constrained": 2660
+     },
+     "constrainedText": "The tall, emerald-green fern-filled area glowed warmly in the fading evening light."
+    },
+    {
+     "id": "no-i",
+     "class": "forbidden letter",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 15,
+      "repair": 15,
+      "resample": 61,
+      "constrained": 16
+     },
+     "ms": {
+      "first": 2081,
+      "repair": 2081,
+      "resample": 8391,
+      "constrained": 2283
+     },
+     "constrainedText": "The ocean's vast depths are home to many types of colorful sea creatures."
+    },
+    {
+     "id": "no-n",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": false,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 16,
+      "repair": 103,
+      "resample": 60,
+      "constrained": 20
+     },
+     "ms": {
+      "first": 2176,
+      "repair": 14159,
+      "resample": 8368,
+      "constrained": 2955
+     },
+     "constrainedText": "The beauty of the lush, emerald oasis is a peaceful escape from the city's hustle."
+    },
+    {
+     "id": "commas-1",
+     "class": "comma count",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 2,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 20,
+      "repair": 40,
+      "resample": 72,
+      "constrained": 19
+     },
+     "ms": {
+      "first": 2632,
+      "repair": 5813,
+      "resample": 9519,
+      "constrained": 2452
+     },
+     "constrainedText": "The train station was bustling with people waiting for their trains, some of which were delayed."
+    },
+    {
+     "id": "commas-3",
+     "class": "comma count",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 4,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 21,
+      "repair": 104,
+      "resample": 102,
+      "constrained": 30
+     },
+     "ms": {
+      "first": 2706,
+      "repair": 14825,
+      "resample": 12455,
+      "constrained": 3521
+     },
+     "constrainedText": "The bakery, known for its delicious pastries, offered a wide variety of freshly baked bread every day, including croissants and muffins."
+    },
+    {
+     "id": "sent-2",
+     "class": "sentence count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 59,
+      "repair": 59,
+      "resample": 217,
+      "constrained": 69
+     },
+     "ms": {
+      "first": 6360,
+      "repair": 6360,
+      "resample": 23506,
+      "constrained": 7246
+     },
+     "constrainedText": "The desert is a vast and arid region characterized by extreme temperatures and limited vegetation, found in various parts of the world, including North Africa, the Middle East, and the Americas. The desert ecosystem is home to a unique array of plants and animals that have adapted to survive in the harsh conditions of sand, heat, and dryness."
+    },
+    {
+     "id": "sent-5",
+     "class": "sentence count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 111,
+      "repair": 111,
+      "resample": 437,
+      "constrained": 121
+     },
+     "ms": {
+      "first": 11623,
+      "repair": 11623,
+      "resample": 45612,
+      "constrained": 12386
+     },
+     "constrainedText": "A library is a quiet and peaceful place where people can come to read, study, and learn. It is a treasure trove of books, journals, and other resources, providing access to a vast array of knowledge and information. The library's collection is carefully curated to meet the needs of its patrons, ranging from classics to contemporary bestsellers and beyond. Visitors can browse the shelves, check out"
+    },
+    {
+     "id": "sent-6",
+     "class": "sentence count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 118,
+      "repair": 118,
+      "resample": 547,
+      "constrained": 116
+     },
+     "ms": {
+      "first": 12219,
+      "repair": 12219,
+      "resample": 56389,
+      "constrained": 12003
+     },
+     "constrainedText": "A harbor is a sheltered body of water where ships can safely dock and anchor. It is often surrounded by land on three sides, providing protection from the open sea. Harbors can be natural or man-made, with the latter being created by dredging or constructing breakwaters. The calm waters within a harbor make it an ideal location for ship repair and maintenance. Harbors are also important for trade "
+    },
+    {
+     "id": "start-T",
+     "class": "sentence-initial letter",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 69,
+      "repair": 69,
+      "resample": 270,
+      "constrained": 73
+     },
+     "ms": {
+      "first": 7426,
+      "repair": 7426,
+      "resample": 29077,
+      "constrained": 7963
+     },
+     "constrainedText": "Tall trees tower above the forest floor, their leaves rustling in the gentle breeze. Tranquil streams flow through the forest, creating a soothing melody. The forest is teeming with a diverse array of wildlife, including birds, deer, and squirrels. Through the seasons, the forest undergoes a transformation, with each one bringing its own unique charm."
+    },
+    {
+     "id": "start-B",
+     "class": "sentence-initial letter",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 75,
+      "repair": 75,
+      "resample": 289,
+      "constrained": 83
+     },
+     "ms": {
+      "first": 8045,
+      "repair": 8045,
+      "resample": 31114,
+      "constrained": 8919
+     },
+     "constrainedText": "Beneath the surface of the ocean lies a vast array of marine life, including colorful fish and coral reefs. Beautiful sunsets can be seen over the ocean, reflecting the vibrant hues of the sky. Boats of all sizes navigate through the waves, carrying passengers and cargo across the water. Beneath the ocean's waves, scientists have discovered hidden treasures, such as shipwrecks and underwater caves"
+    },
+    {
+     "id": "start-M",
+     "class": "sentence-initial letter",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 61,
+      "repair": 61,
+      "resample": 231,
+      "constrained": 67
+     },
+     "ms": {
+      "first": 6695,
+      "repair": 6695,
+      "resample": 25674,
+      "constrained": 7101
+     },
+     "constrainedText": "Morning sunlight filters through the lush green leaves of the garden's towering trees. Majestic flowers bloom in every color of the rainbow, drawing in busy bees and butterflies. Many types of herbs are planted alongside the vegetables, adding fragrance to the air. Making its way through the winding pathways, a gentle stream provides a soothing background melody."
+    },
+    {
+     "id": "water-3",
+     "class": "word frequency",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": true,
+     "constrained": false,
+     "constrainedStop": null,
+     "constrainedError": "{\"code\":400,\"message\":\"Failed to initialize samplers: failed to parse grammar\",\"type\":\"invalid_request_error\"}",
+     "constrainedViolation": "error",
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 92,
+      "repair": 360,
+      "resample": 319,
+      "constrained": 0
+     },
+     "ms": {
+      "first": 9708,
+      "repair": 42989,
+      "resample": 34487,
+      "constrained": 14
+     },
+     "constrainedText": ""
+    },
+    {
+     "id": "time-2",
+     "class": "word frequency",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 2,
+     "resample": false,
+     "constrained": false,
+     "constrainedStop": null,
+     "constrainedError": "{\"code\":400,\"message\":\"Failed to initialize samplers: failed to parse grammar\",\"type\":\"invalid_request_error\"}",
+     "constrainedViolation": "error",
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 76,
+      "repair": 144,
+      "resample": 271,
+      "constrained": 0
+     },
+     "ms": {
+      "first": 8114,
+      "repair": 16657,
+      "resample": 29186,
+      "constrained": 14
+     },
+     "constrainedText": ""
+    },
+    {
+     "id": "uppercase",
+     "class": "casing",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 28,
+      "repair": 28,
+      "resample": 106,
+      "constrained": 22
+     },
+     "ms": {
+      "first": 3465,
+      "repair": 3465,
+      "resample": 12825,
+      "constrained": 2691
+     },
+     "constrainedText": "VICTORY IS THE ULTIMATE REWARD FOR THOSE WHO DARE TO DREAM BIG."
+    },
+    {
+     "id": "excl-3",
+     "class": "ending",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 53,
+      "repair": 53,
+      "resample": 189,
+      "constrained": 56
+     },
+     "ms": {
+      "first": 5819,
+      "repair": 5819,
+      "resample": 21381,
+      "constrained": 6259
+     },
+     "constrainedText": "The annual music festival is taking place on the beach, attracting thousands of visitors from all over the world! The lineup features a diverse range of artists, from rock to pop to electronic music! The festival grounds are filled with colorful stalls selling food, drinks, and handmade crafts!"
+    },
+    {
+     "id": "title-7",
+     "class": "casing",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 17,
+      "repair": 17,
+      "resample": 71,
+      "constrained": 17
+     },
+     "ms": {
+      "first": 2348,
+      "repair": 2348,
+      "resample": 9692,
+      "constrained": 2337
+     },
+     "constrainedText": "VAST OCEANS CALL FOR DARING HUMAN EXPLORERS."
+    }
+   ]
+  },
+  {
+   "rep": 2,
+   "rates": {
+    "oneShot": 0.6153846153846154,
+    "repair": 0.7948717948717948,
+    "resample": 0.7692307692307693,
+    "constrained": 0.9230769230769231
+   },
+   "rows": [
+    {
+     "id": "wordcount-20",
+     "class": "word count",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 2,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 28,
+      "repair": 57,
+      "resample": 104,
+      "constrained": 37
+     },
+     "ms": {
+      "first": 3351,
+      "repair": 7647,
+      "resample": 12672,
+      "constrained": 4317
+     },
+     "constrainedText": "The ocean's vast expanse of blue waters, with waves gently lapping against the shore, creates a soothing natural wonder.assistantassistant (second,alternative)"
+    },
+    {
+     "id": "wordcount-33",
+     "class": "word count",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 2,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 41,
+      "repair": 83,
+      "resample": 176,
+      "constrained": 46
+     },
+     "ms": {
+      "first": 4547,
+      "repair": 10222,
+      "resample": 19457,
+      "constrained": 5006
+     },
+     "constrainedText": "Autumn brings vibrant colors, crisp air, and cozy evenings, as leaves rustle and trees stand tall, signaling the season's fleeting beauty, a time of transition, and the promise of winter's peaceful slumber slowly."
+    },
+    {
+     "id": "no-letter-e",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 27,
+      "repair": 189,
+      "resample": 107,
+      "constrained": 31
+     },
+     "ms": {
+      "first": 3254,
+      "repair": 24140,
+      "resample": 13067,
+      "constrained": 4050
+     },
+     "constrainedText": "Tall sand-stack mountain sits high in sandy soil. Its rocky top is snow-cov'd and sandy paths wind down its sandy flanks."
+    },
+    {
+     "id": "no-letter-a",
+     "class": "forbidden letter",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": false,
+      "repair": false,
+      "resample": false,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 10,
+      "repair": 10,
+      "resample": 47,
+      "constrained": 13
+     },
+     "ms": {
+      "first": 1621,
+      "repair": 1621,
+      "resample": 7083,
+      "constrained": 1902
+     },
+     "constrainedText": "Echoes of melody often emerge softly in evening's breeze."
+    },
+    {
+     "id": "json-keys",
+     "class": "JSON shape",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 21,
+      "repair": 21,
+      "resample": 91,
+      "constrained": 22
+     },
+     "ms": {
+      "first": 2855,
+      "repair": 2855,
+      "resample": 11991,
+      "constrained": 2908
+     },
+     "constrainedText": "{\"name\": \"Evelyn Jenkins\", \"age\": 27, \"city\": \"Portland\"}"
+    },
+    {
+     "id": "json-array-5",
+     "class": "JSON shape",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 19,
+      "repair": 19,
+      "resample": 80,
+      "constrained": 21
+     },
+     "ms": {
+      "first": 2409,
+      "repair": 2409,
+      "resample": 10248,
+      "constrained": 2631
+     },
+     "constrainedText": "[\"Apple\", \"Banana\", \"Mango\", \"Pineapple\", \"Watermelon\"]"
+    },
+    {
+     "id": "lowercase-nocomma",
+     "class": "casing",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 20,
+      "repair": 20,
+      "resample": 63,
+      "constrained": 13
+     },
+     "ms": {
+      "first": 2695,
+      "repair": 2695,
+      "resample": 8799,
+      "constrained": 1901
+     },
+     "constrainedText": "winter days are often cold and dark with very little sunlight."
+    },
+    {
+     "id": "bullets-4",
+     "class": "bullet lines",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 42,
+      "repair": 42,
+      "resample": 161,
+      "constrained": 71
+     },
+     "ms": {
+      "first": 4745,
+      "repair": 4745,
+      "resample": 18748,
+      "constrained": 7738
+     },
+     "constrainedText": "- Temporary fix for a broken zipper or a small hole in a piece of clothing.\n- Holding together multiple sheets of paper for easier carrying or storage.\n- Securing a small item such as a key or a piece of jewelry to a bag or a keychain.\n- Making a DIY bookmark by attaching it to a piece of paper or a card."
+    },
+    {
+     "id": "bullets-6",
+     "class": "bullet lines",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 26,
+      "repair": 26,
+      "resample": 130,
+      "constrained": 32
+     },
+     "ms": {
+      "first": 3365,
+      "repair": 3365,
+      "resample": 15562,
+      "constrained": 3732
+     },
+     "constrainedText": "* Water bottle\n* First aid kit\n* Map and compass\n* Extra socks\n* Snacks (e.g. energy bars)\n* Headlamp"
+    },
+    {
+     "id": "word-twice",
+     "class": "word frequency",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": false,
+     "constrainedStop": null,
+     "constrainedError": "{\"code\":400,\"message\":\"Failed to initialize samplers: failed to parse grammar\",\"type\":\"invalid_request_error\"}",
+     "constrainedViolation": "error",
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 63,
+      "repair": 63,
+      "resample": 253,
+      "constrained": 0
+     },
+     "ms": {
+      "first": 7080,
+      "repair": 7080,
+      "resample": 27681,
+      "constrained": 13
+     },
+     "constrainedText": ""
+    },
+    {
+     "id": "startswith-S",
+     "class": "sentence-initial letter",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 52,
+      "repair": 52,
+      "resample": 214,
+      "constrained": 56
+     },
+     "ms": {
+      "first": 5711,
+      "repair": 5711,
+      "resample": 23975,
+      "constrained": 6396
+     },
+     "constrainedText": "Some breeds of dogs are known for their high energy levels and require regular exercise. Smaller dogs often make better pets for people living in apartments due to their space requirements. Sadly, many dogs are abandoned or neglected each year, which can have devastating effects on their mental health."
+    },
+    {
+     "id": "endswith-phrase",
+     "class": "ending",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 71,
+      "repair": 71,
+      "resample": 285,
+      "constrained": 74
+     },
+     "ms": {
+      "first": 8110,
+      "repair": 8110,
+      "resample": 31475,
+      "constrained": 8078
+     },
+     "constrainedText": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy in the form of glucose, releasing oxygen as a byproduct. This complex process involves the use of chlorophyll and other pigments, as well as the breakdown of carbon dioxide and water, to produce energy and sustain life on Earth. THE END"
+    },
+    {
+     "id": "title-case-line",
+     "class": "casing",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 13,
+      "repair": 13,
+      "resample": 49,
+      "constrained": 11
+     },
+     "ms": {
+      "first": 1963,
+      "repair": 1963,
+      "resample": 7754,
+      "constrained": 1796
+     },
+     "constrainedText": "EXPANDING FRONTIERS OF THE COSMOS"
+    },
+    {
+     "id": "sentences-4",
+     "class": "sentence count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 105,
+      "repair": 105,
+      "resample": 379,
+      "constrained": 96
+     },
+     "ms": {
+      "first": 11386,
+      "repair": 11386,
+      "resample": 40519,
+      "constrained": 10301
+     },
+     "constrainedText": "Rivers are essential natural waterways that flow across the Earth's surface, playing a crucial role in shaping the surrounding landscape. They are formed by the accumulation of rainwater, melting snow, and underground water sources, which gradually flow towards the ocean. Rivers support a diverse range of aquatic life, including fish, plants, and other organisms that rely on them for survival. In "
+    },
+    {
+     "id": "no-vowel-a-e",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 12,
+      "repair": 91,
+      "resample": 38,
+      "constrained": 11
+     },
+     "ms": {
+      "first": 1956,
+      "repair": 13760,
+      "resample": 6727,
+      "constrained": 1870
+     },
+     "constrainedText": "Turbid blurs softly surround muddy blobs."
+    },
+    {
+     "id": "exactly-two-commas",
+     "class": "comma count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 22,
+      "repair": 22,
+      "resample": 95,
+      "constrained": 22
+     },
+     "ms": {
+      "first": 2721,
+      "repair": 2721,
+      "resample": 12129,
+      "constrained": 2736
+     },
+     "constrainedText": "The bustling city market, filled with vibrant colors, offered a wide variety of fresh produce and handmade crafts."
+    },
+    {
+     "id": "wc-12",
+     "class": "word count",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 2,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 13,
+      "repair": 27,
+      "resample": 59,
+      "constrained": 15
+     },
+     "ms": {
+      "first": 1878,
+      "repair": 4497,
+      "resample": 8413,
+      "constrained": 2185
+     },
+     "constrainedText": "The vast and powerful ocean covers most of our planet's surface slowly."
+    },
+    {
+     "id": "wc-15",
+     "class": "word count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 21,
+      "repair": 21,
+      "resample": 80,
+      "constrained": 20
+     },
+     "ms": {
+      "first": 2853,
+      "repair": 2853,
+      "resample": 10683,
+      "constrained": 2712
+     },
+     "constrainedText": "A serene and vibrant garden filled with colorful flowers, lush greenery, and soothing water features."
+    },
+    {
+     "id": "wc-25",
+     "class": "word count",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 28,
+      "repair": 117,
+      "resample": 120,
+      "constrained": 30
+     },
+     "ms": {
+      "first": 3490,
+      "repair": 16489,
+      "resample": 14824,
+      "constrained": 3574
+     },
+     "constrainedText": "A bustling train station with high ceilings, wooden benches, and ticket counters, surrounded by vibrant advertisements and the gentle hum of arriving and departing trains."
+    },
+    {
+     "id": "wc-40",
+     "class": "word count",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 2,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 55,
+      "repair": 111,
+      "resample": 224,
+      "constrained": 58
+     },
+     "ms": {
+      "first": 6197,
+      "repair": 13402,
+      "resample": 24763,
+      "constrained": 6458
+     },
+     "constrainedText": "The bakery is a cozy, inviting space filled with the sweet scent of freshly baked goods. Glass cases display an array of colorful pastries, breads, and cakes, while a brick oven in the background emits a warm, comforting glow. Customers'eyeslightupatthesight."
+    },
+    {
+     "id": "wc-50",
+     "class": "word count",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 4,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 74,
+      "repair": 291,
+      "resample": 278,
+      "constrained": 69
+     },
+     "ms": {
+      "first": 7916,
+      "repair": 35272,
+      "resample": 30340,
+      "constrained": 7376
+     },
+     "constrainedText": "Endless dunes of golden sand stretch across the desert horizon, meeting the sky in a breathtaking fusion. Scorching sun beats down relentlessly, casting an otherworldly glow. Sparse cacti and twisted trees stand sentinel, while whispers of ancient winds carry secrets across the arid landscape, a desolate yet majestic sight. Silence."
+    },
+    {
+     "id": "no-o",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 16,
+      "repair": 102,
+      "resample": 67,
+      "constrained": 17
+     },
+     "ms": {
+      "first": 2227,
+      "repair": 15255,
+      "resample": 9328,
+      "constrained": 2429
+     },
+     "constrainedText": "The library's vast array includes a wide variety literary texts and silent study areas."
+    },
+    {
+     "id": "no-t",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 16,
+      "repair": 70,
+      "resample": 58,
+      "constrained": 19
+     },
+     "ms": {
+      "first": 2214,
+      "repair": 11455,
+      "resample": 8218,
+      "constrained": 2596
+     },
+     "constrainedText": "A serene ocean bay offers a peaceful refuge for sailers and fishermen in a secluded haven."
+    },
+    {
+     "id": "no-s",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 2,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": false,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 15,
+      "repair": 30,
+      "resample": 63,
+      "constrained": 17
+     },
+     "ms": {
+      "first": 2187,
+      "repair": 4816,
+      "resample": 8916,
+      "constrained": 2424
+     },
+     "constrainedText": "The tall, ancient tree trunk towered high above the fern-covered earth."
+    },
+    {
+     "id": "no-i",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 12,
+      "repair": 70,
+      "resample": 62,
+      "constrained": 15
+     },
+     "ms": {
+      "first": 1995,
+      "repair": 11767,
+      "resample": 9124,
+      "constrained": 2199
+     },
+     "constrainedText": "The calm ocean waves gently touched the sandy shores beneath the warm sun."
+    },
+    {
+     "id": "no-n",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": false,
+      "repair": false,
+      "resample": false,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 15,
+      "repair": 66,
+      "resample": 57,
+      "constrained": 99
+     },
+     "ms": {
+      "first": 2176,
+      "repair": 10593,
+      "resample": 8201,
+      "constrained": 11142
+     },
+     "constrainedText": "The beautiful backyard features a variety of colorful flowers, lush trees, soft grass, a small brook, a large oak tree, a few bushes, a pretty gazebo, a large rock, a delicate flower pot, a small table, a few chairs, a big umbrella, a small bridge, a small waterfall, a few large rocks, a beautiful view, a small gate, a small path, a few steps, a pretty door, a large wall, a small tree house."
+    },
+    {
+     "id": "commas-1",
+     "class": "comma count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 16,
+      "repair": 16,
+      "resample": 69,
+      "constrained": 308
+     },
+     "ms": {
+      "first": 2198,
+      "repair": 2198,
+      "resample": 9249,
+      "constrained": 33856
+     },
+     "constrainedText": "The train station had a large waiting area with several shops nearby including a newsstand and a coffee shop downstairs it also had a ticket booth where passengers could purchase their tickets and a restaurant on the upper level serving a variety of meals to hungry travelers but it was the old-fashioned clock tower that caught everyone's attention as it stood proudly in the center of the station's"
+    },
+    {
+     "id": "commas-3",
+     "class": "comma count",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 20,
+      "repair": 92,
+      "resample": 91,
+      "constrained": 30
+     },
+     "ms": {
+      "first": 2763,
+      "repair": 13658,
+      "resample": 11633,
+      "constrained": 3572
+     },
+     "constrainedText": "The bakery, known for its delicious pastries, offered a variety of fresh breads every morning, including croissants and baguettes."
+    },
+    {
+     "id": "sent-2",
+     "class": "sentence count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 56,
+      "repair": 56,
+      "resample": 223,
+      "constrained": 56
+     },
+     "ms": {
+      "first": 6313,
+      "repair": 6313,
+      "resample": 24853,
+      "constrained": 6065
+     },
+     "constrainedText": "The desert is a vast and arid region characterized by extreme temperatures and limited vegetation. Many deserts around the world, such as the Sahara in Africa and the Mojave in North America, are home to unique and adapted species that have evolved to survive in these harsh environments."
+    },
+    {
+     "id": "sent-5",
+     "class": "sentence count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 98,
+      "repair": 98,
+      "resample": 412,
+      "constrained": 112
+     },
+     "ms": {
+      "first": 10292,
+      "repair": 10292,
+      "resample": 44682,
+      "constrained": 12092
+     },
+     "constrainedText": "The library is a quiet and peaceful place where people can come to read, study, and learn. It houses a vast collection of books, journals, and other resources on various subjects. The library's shelves are stacked with fiction and non-fiction books, covering everything from science and history to romance and fantasy. In addition to its vast book collection, the library also offers access to online"
+    },
+    {
+     "id": "sent-6",
+     "class": "sentence count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 159,
+      "repair": 159,
+      "resample": 611,
+      "constrained": 128
+     },
+     "ms": {
+      "first": 16369,
+      "repair": 16369,
+      "resample": 63368,
+      "constrained": 13526
+     },
+     "constrainedText": "A harbor is a body of water where ships and boats can safely anchor and dock. Harbors are often located in sheltered areas, such as bays or inlets, to protect against strong winds and waves. They serve as vital transportation hubs, connecting cities and towns to international trade routes. Harbors also provide a safe haven for fishing vessels, allowing them to unload their catch and replenish supp"
+    },
+    {
+     "id": "start-T",
+     "class": "sentence-initial letter",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 61,
+      "repair": 61,
+      "resample": 273,
+      "constrained": 62
+     },
+     "ms": {
+      "first": 6871,
+      "repair": 6871,
+      "resample": 29899,
+      "constrained": 6882
+     },
+     "constrainedText": "Through the dense foliage, sunlight filters down to the forest floor. Tranquil streams flow gently through the heart of the forest, providing a soothing melody. Tall trees stretch towards the sky, their leaves rustling softly in the breeze. Tucked away in the forest's depths, hidden clearings await discovery."
+    },
+    {
+     "id": "start-B",
+     "class": "sentence-initial letter",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 57,
+      "repair": 57,
+      "resample": 280,
+      "constrained": 70
+     },
+     "ms": {
+      "first": 6315,
+      "repair": 6315,
+      "resample": 30367,
+      "constrained": 7588
+     },
+     "constrainedText": "Beneath the surface of the ocean lies a vast array of marine life. Beautiful coral reefs support a diverse ecosystem that is home to countless species. Billions of gallons of water flow through the ocean every day, shaping its constantly changing landscape. Bubbling with energy, the ocean's waves crash against the shore, creating a soothing melody."
+    },
+    {
+     "id": "start-M",
+     "class": "sentence-initial letter",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 55,
+      "repair": 55,
+      "resample": 233,
+      "constrained": 63
+     },
+     "ms": {
+      "first": 6153,
+      "repair": 6153,
+      "resample": 26008,
+      "constrained": 6797
+     },
+     "constrainedText": "Maintaining a garden requires regular care and attention to detail. Many types of flowers and plants thrive in a garden setting, providing a variety of colors and textures. Morning sunlight is often essential for the growth and development of certain plants. Making time for gardening can be a great way to relax and connect with nature."
+    },
+    {
+     "id": "water-3",
+     "class": "word frequency",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": false,
+     "constrainedStop": null,
+     "constrainedError": "{\"code\":400,\"message\":\"Failed to initialize samplers: failed to parse grammar\",\"type\":\"invalid_request_error\"}",
+     "constrainedViolation": "error",
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 77,
+      "repair": 77,
+      "resample": 315,
+      "constrained": 0
+     },
+     "ms": {
+      "first": 8311,
+      "repair": 8311,
+      "resample": 33808,
+      "constrained": 14
+     },
+     "constrainedText": ""
+    },
+    {
+     "id": "time-2",
+     "class": "word frequency",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": false,
+     "constrainedStop": null,
+     "constrainedError": "{\"code\":400,\"message\":\"Failed to initialize samplers: failed to parse grammar\",\"type\":\"invalid_request_error\"}",
+     "constrainedViolation": "error",
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 62,
+      "repair": 62,
+      "resample": 263,
+      "constrained": 0
+     },
+     "ms": {
+      "first": 6702,
+      "repair": 6702,
+      "resample": 28686,
+      "constrained": 13
+     },
+     "constrainedText": ""
+    },
+    {
+     "id": "uppercase",
+     "class": "casing",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 19,
+      "repair": 19,
+      "resample": 111,
+      "constrained": 28
+     },
+     "ms": {
+      "first": 2492,
+      "repair": 2492,
+      "resample": 13450,
+      "constrained": 3320
+     },
+     "constrainedText": "VICTORY IS THE ULTIMATE REWARD FOR THOSE WHO DARE TO DREAM BIG AND STRIVE FOR GREATNESS."
+    },
+    {
+     "id": "excl-3",
+     "class": "ending",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 49,
+      "repair": 49,
+      "resample": 204,
+      "constrained": 50
+     },
+     "ms": {
+      "first": 5515,
+      "repair": 5515,
+      "resample": 22888,
+      "constrained": 5619
+     },
+     "constrainedText": "The vibrant colors and lively music filled the air at the summer festival! People from all over the city came to enjoy the delicious food and drinks on offer! The festival grounds were packed with excited attendees, all eager to experience the fun and excitement!"
+    },
+    {
+     "id": "title-7",
+     "class": "casing",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 3,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": false,
+      "repair": false,
+      "resample": false,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 20,
+      "repair": 55,
+      "resample": 84,
+      "constrained": 16
+     },
+     "ms": {
+      "first": 2597,
+      "repair": 8617,
+      "resample": 10849,
+      "constrained": 2255
+     },
+     "constrainedText": "VAST LANDSCAPES WAIT TO BE FULLY EXPLORED."
+    }
+   ]
+  },
+  {
+   "rep": 3,
+   "rates": {
+    "oneShot": 0.6153846153846154,
+    "repair": 0.8205128205128205,
+    "resample": 0.7435897435897436,
+    "constrained": 0.9230769230769231
+   },
+   "rows": [
+    {
+     "id": "wordcount-20",
+     "class": "word count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 28,
+      "repair": 28,
+      "resample": 108,
+      "constrained": 35
+     },
+     "ms": {
+      "first": 3354,
+      "repair": 3354,
+      "resample": 12911,
+      "constrained": 4044
+     },
+     "constrainedText": "The vast and mysterious ocean covers over 70% of the Earth, home to diverse marine ecosystems and life. <div style=\"page-break-after:always;\"></div>"
+    },
+    {
+     "id": "wordcount-33",
+     "class": "word count",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 43,
+      "repair": 173,
+      "resample": 174,
+      "constrained": 46
+     },
+     "ms": {
+      "first": 4825,
+      "repair": 22499,
+      "resample": 19492,
+      "constrained": 5014
+     },
+     "constrainedText": "Autumn arrives with vibrant colors, as trees change leaves, and the air cools. The scent of woodsmoke and ripe fruits fills the atmosphere, a season of harvest and cozy nights. Nature's beauty abounds."
+    },
+    {
+     "id": "no-letter-e",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 24,
+      "repair": 98,
+      "resample": 90,
+      "constrained": 40
+     },
+     "ms": {
+      "first": 2972,
+      "repair": 13783,
+      "resample": 11386,
+      "constrained": 4805
+     },
+     "constrainedText": "Sandwiching lush tundra, this snow-covr'd mound's craggy outcroppings soar. Twisting paths wind thru its rocky, moss-drap'd flanks."
+    },
+    {
+     "id": "no-letter-a",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": false,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 13,
+      "repair": 91,
+      "resample": 46,
+      "constrained": 13
+     },
+     "ms": {
+      "first": 1903,
+      "repair": 13408,
+      "resample": 7018,
+      "constrained": 1991
+     },
+     "constrainedText": "Music often brings people together in blissful symphonies."
+    },
+    {
+     "id": "json-keys",
+     "class": "JSON shape",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 22,
+      "repair": 22,
+      "resample": 89,
+      "constrained": 21
+     },
+     "ms": {
+      "first": 2942,
+      "repair": 2942,
+      "resample": 11965,
+      "constrained": 2844
+     },
+     "constrainedText": "{\"name\": \"John Doe\", \"age\": 30, \"city\": \"New York\"}"
+    },
+    {
+     "id": "json-array-5",
+     "class": "JSON shape",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 20,
+      "repair": 20,
+      "resample": 78,
+      "constrained": 20
+     },
+     "ms": {
+      "first": 2696,
+      "repair": 2696,
+      "resample": 10432,
+      "constrained": 2612
+     },
+     "constrainedText": "[\"Apple\", \"Banana\", \"Mango\", \"Orange\", \"Pineapple\"]"
+    },
+    {
+     "id": "lowercase-nocomma",
+     "class": "casing",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 12,
+      "repair": 12,
+      "resample": 54,
+      "constrained": 18
+     },
+     "ms": {
+      "first": 1795,
+      "repair": 1795,
+      "resample": 7595,
+      "constrained": 2679
+     },
+     "constrainedText": "winter is a season of cold temperatures and snowfall across many parts of the world."
+    },
+    {
+     "id": "bullets-4",
+     "class": "bullet lines",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 39,
+      "repair": 39,
+      "resample": 134,
+      "constrained": 34
+     },
+     "ms": {
+      "first": 4557,
+      "repair": 4557,
+      "resample": 16424,
+      "constrained": 4056
+     },
+     "constrainedText": "- Holding together papers or documents.\n- Creating a temporary fix for a broken zipper.\n- Marking pages in a book or document.\n- Creating a makeshift bookmark."
+    },
+    {
+     "id": "bullets-6",
+     "class": "bullet lines",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 32,
+      "repair": 32,
+      "resample": 111,
+      "constrained": 29
+     },
+     "ms": {
+      "first": 4204,
+      "repair": 4204,
+      "resample": 15097,
+      "constrained": 3615
+     },
+     "constrainedText": "* Water bottle\n* First aid kit\n* Map and compass\n* Extra layers of clothing\n* Snack bars\n* Flashlight"
+    },
+    {
+     "id": "word-twice",
+     "class": "word frequency",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": false,
+     "constrainedStop": null,
+     "constrainedError": "{\"code\":400,\"message\":\"Failed to initialize samplers: failed to parse grammar\",\"type\":\"invalid_request_error\"}",
+     "constrainedViolation": "error",
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 76,
+      "repair": 76,
+      "resample": 278,
+      "constrained": 0
+     },
+     "ms": {
+      "first": 8141,
+      "repair": 8141,
+      "resample": 30674,
+      "constrained": 11
+     },
+     "constrainedText": ""
+    },
+    {
+     "id": "startswith-S",
+     "class": "sentence-initial letter",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 54,
+      "repair": 54,
+      "resample": 208,
+      "constrained": 63
+     },
+     "ms": {
+      "first": 6194,
+      "repair": 6194,
+      "resample": 23662,
+      "constrained": 6835
+     },
+     "constrainedText": "Surprisingly, dogs have been domesticated for thousands of years, making them one of the most loyal companions. Some breeds of dogs, like the Greyhound, are bred specifically for speed and agility. Staying active is essential for a dog's physical and mental well-being, promoting a happy and healthy life."
+    },
+    {
+     "id": "endswith-phrase",
+     "class": "ending",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": null,
+      "repair": null,
+      "resample": null,
+      "constrained": null
+     },
+     "tokensOut": {
+      "first": 66,
+      "repair": 66,
+      "resample": 297,
+      "constrained": 77
+     },
+     "ms": {
+      "first": 7158,
+      "repair": 7158,
+      "resample": 32438,
+      "constrained": 8198
+     },
+     "constrainedText": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy in the form of glucose, releasing oxygen as a byproduct, and using water and carbon dioxide as reactants. This essential process supports life on Earth by providing energy and organic compounds for growth and development, while also producing oxygen that sustains aerobic o"
+    },
+    {
+     "id": "title-case-line",
+     "class": "casing",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": false,
+      "repair": false,
+      "resample": false,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 14,
+      "repair": 14,
+      "resample": 48,
+      "constrained": 15
+     },
+     "ms": {
+      "first": 2080,
+      "repair": 2080,
+      "resample": 7610,
+      "constrained": 2344
+     },
+     "constrainedText": "ASTRONAUTS EXPLORE THE COSMIC UNIVERSE."
+    },
+    {
+     "id": "sentences-4",
+     "class": "sentence count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 83,
+      "repair": 83,
+      "resample": 354,
+      "constrained": 76
+     },
+     "ms": {
+      "first": 8848,
+      "repair": 8848,
+      "resample": 37604,
+      "constrained": 8358
+     },
+     "constrainedText": "Rivers are a vital part of our ecosystem, providing water for drinking, irrigation, and industrial use. They play a crucial role in shaping the landscape and supporting diverse aquatic life. Many rivers are also significant cultural and historical landmarks, with some holding spiritual or symbolic importance for local communities. The world's longest river, the Nile, flows through 11 countries in "
+    },
+    {
+     "id": "no-vowel-a-e",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 14,
+      "repair": 98,
+      "resample": 41,
+      "constrained": 11
+     },
+     "ms": {
+      "first": 2163,
+      "repair": 14750,
+      "resample": 6957,
+      "constrained": 1823
+     },
+     "constrainedText": "Turbid bluish tints fill sky."
+    },
+    {
+     "id": "exactly-two-commas",
+     "class": "comma count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 23,
+      "repair": 23,
+      "resample": 92,
+      "constrained": 18
+     },
+     "ms": {
+      "first": 2862,
+      "repair": 2862,
+      "resample": 11455,
+      "constrained": 2456
+     },
+     "constrainedText": "The city market was filled with vibrant colors, fresh produce, and lively street performers."
+    },
+    {
+     "id": "wc-12",
+     "class": "word count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 16,
+      "repair": 16,
+      "resample": 65,
+      "constrained": 14
+     },
+     "ms": {
+      "first": 2186,
+      "repair": 2186,
+      "resample": 8935,
+      "constrained": 1968
+     },
+     "constrainedText": "The vast and mysterious ocean covers over seventy percent of the planet."
+    },
+    {
+     "id": "wc-15",
+     "class": "word count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": false,
+      "repair": false,
+      "resample": false,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 20,
+      "repair": 20,
+      "resample": 79,
+      "constrained": 20
+     },
+     "ms": {
+      "first": 2539,
+      "repair": 2539,
+      "resample": 10410,
+      "constrained": 2627
+     },
+     "constrainedText": "A serene and vibrant garden filled with lush greenery, colorful blooms, and soothing water features."
+    },
+    {
+     "id": "wc-25",
+     "class": "word count",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 4,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 30,
+      "repair": 120,
+      "resample": 114,
+      "constrained": 34
+     },
+     "ms": {
+      "first": 3557,
+      "repair": 16708,
+      "resample": 13672,
+      "constrained": 4057
+     },
+     "constrainedText": "The historic train station's grand Victorian architecture features intricately designed ironwork, high ceilings, and large windows, exuding a sense of classic elegance and nostalgia warmly."
+    },
+    {
+     "id": "wc-40",
+     "class": "word count",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 2,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 56,
+      "repair": 109,
+      "resample": 238,
+      "constrained": 54
+     },
+     "ms": {
+      "first": 6093,
+      "repair": 13177,
+      "resample": 26337,
+      "constrained": 6180
+     },
+     "constrainedText": "The bakery is a cozy, inviting space filled with the sweet aroma of freshly baked goods. Glass cases display an assortment of colorful pastries, bread, and cakes, while the sounds of sizzling and gentle chatter create a warm and welcoming,/homey,environment."
+    },
+    {
+     "id": "wc-50",
+     "class": "word count",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 3,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 68,
+      "repair": 209,
+      "resample": 281,
+      "constrained": 76
+     },
+     "ms": {
+      "first": 7506,
+      "repair": 25291,
+      "resample": 30613,
+      "constrained": 8410
+     },
+     "constrainedText": "The desert is a vast, arid landscape of sand and rock, characterized by scorching temperatures, limited vegetation, and scarce water sources. Endless dunes shift in the wind, while sun-baked mountains and canyons stretch towards the horizon, creating an unforgiving yet breathtakingly beautiful environment of unrelenting heat and stark beauty. Nature's罚."
+    },
+    {
+     "id": "no-o",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 14,
+      "repair": 56,
+      "resample": 64,
+      "constrained": 11
+     },
+     "ms": {
+      "first": 2034,
+      "repair": 9647,
+      "resample": 8809,
+      "constrained": 1778
+     },
+     "constrainedText": "The library staff carefully maintained the vast array system."
+    },
+    {
+     "id": "no-t",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": false,
+      "repair": false,
+      "resample": false,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 17,
+      "repair": 98,
+      "resample": 63,
+      "constrained": 12
+     },
+     "ms": {
+      "first": 2274,
+      "repair": 13710,
+      "resample": 8780,
+      "constrained": 1946
+     },
+     "constrainedText": "Ocean vessels dock and sail in a busy ocean haven."
+    },
+    {
+     "id": "no-s",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": false,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 15,
+      "repair": 62,
+      "resample": 57,
+      "constrained": 20
+     },
+     "ms": {
+      "first": 2227,
+      "repair": 10549,
+      "resample": 8735,
+      "constrained": 2666
+     },
+     "constrainedText": "The tall, ancient tree trunk towered above the earthy, emerald-green terrain."
+    },
+    {
+     "id": "no-i",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 2,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 17,
+      "repair": 34,
+      "resample": 62,
+      "constrained": 16
+     },
+     "ms": {
+      "first": 2362,
+      "repair": 5449,
+      "resample": 9348,
+      "constrained": 2274
+     },
+     "constrainedText": "The vast blue waters of the ocean cover most of the Earth's surface."
+    },
+    {
+     "id": "no-n",
+     "class": "forbidden letter",
+     "oneShot": false,
+     "repair": false,
+     "repairCalls": 4,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": false,
+      "repair": false,
+      "resample": false,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 14,
+      "repair": 165,
+      "resample": 65,
+      "constrained": 16
+     },
+     "ms": {
+      "first": 2014,
+      "repair": 21873,
+      "resample": 9076,
+      "constrained": 2470
+     },
+     "constrainedText": "A beautiful estate boasts a lovely outdoor space where colorful flowers are carefully placed."
+    },
+    {
+     "id": "commas-1",
+     "class": "comma count",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 2,
+     "resample": false,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 15,
+      "repair": 39,
+      "resample": 73,
+      "constrained": 17
+     },
+     "ms": {
+      "first": 2156,
+      "repair": 5854,
+      "resample": 10205,
+      "constrained": 2378
+     },
+     "constrainedText": "The train station was bustling with activity, passengers rushing to catch their departing trains."
+    },
+    {
+     "id": "commas-3",
+     "class": "comma count",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 2,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 28,
+      "repair": 50,
+      "resample": 97,
+      "constrained": 25
+     },
+     "ms": {
+      "first": 3498,
+      "repair": 7085,
+      "resample": 12445,
+      "constrained": 3231
+     },
+     "constrainedText": "The bakery, known for its delicious pastries, offers a variety of freshly baked breads, including gluten-free options."
+    },
+    {
+     "id": "sent-2",
+     "class": "sentence count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 45,
+      "repair": 45,
+      "resample": 209,
+      "constrained": 46
+     },
+     "ms": {
+      "first": 5156,
+      "repair": 5156,
+      "resample": 23365,
+      "constrained": 5508
+     },
+     "constrainedText": "The desert is a vast and arid region characterized by extreme temperatures and limited vegetation. Its unique landscape is often formed by sand dunes, rocky outcrops, and oases that provide temporary relief from the harsh conditions."
+    },
+    {
+     "id": "sent-5",
+     "class": "sentence count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 128,
+      "repair": 128,
+      "resample": 458,
+      "constrained": 108
+     },
+     "ms": {
+      "first": 13235,
+      "repair": 13235,
+      "resample": 48468,
+      "constrained": 11839
+     },
+     "constrainedText": "The library is a quiet and peaceful place where people can go to read, study, and learn. It houses a vast collection of books, magazines, and other resources that cater to various interests and age groups. The library is often equipped with comfortable seating areas, study tables, and meeting rooms for group discussions and events. Many libraries also offer free Wi-Fi, computers, and other digital"
+    },
+    {
+     "id": "sent-6",
+     "class": "sentence count",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 141,
+      "repair": 141,
+      "resample": 563,
+      "constrained": 136
+     },
+     "ms": {
+      "first": 14862,
+      "repair": 14862,
+      "resample": 61185,
+      "constrained": 14453
+     },
+     "constrainedText": "A harbor is a body of water that provides a safe haven for ships and boats to dock and anchor. It is often surrounded by land on three sides, with the fourth side being open to the sea. Harbors can be natural or man-made, and they serve as critical infrastructure for trade, commerce, and recreation. The walls and breakwaters of a harbor help to protect it from the harsh effects of the ocean, such "
+    },
+    {
+     "id": "start-T",
+     "class": "sentence-initial letter",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 74,
+      "repair": 74,
+      "resample": 306,
+      "constrained": 73
+     },
+     "ms": {
+      "first": 8407,
+      "repair": 8407,
+      "resample": 34336,
+      "constrained": 8279
+     },
+     "constrainedText": "Towering trees stand tall amidst the forest, their leaves rustling softly in the breeze. Tranquil streams flow gently through the underbrush, providing a soothing melody. Teeming with wildlife, the forest is home to a diverse array of animals. Through the canopy above, the sun's warm rays filter down, casting dappled shadows on the forest floor."
+    },
+    {
+     "id": "start-B",
+     "class": "sentence-initial letter",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 89,
+      "repair": 89,
+      "resample": 355,
+      "constrained": 81
+     },
+     "ms": {
+      "first": 9932,
+      "repair": 9932,
+      "resample": 39040,
+      "constrained": 9143
+     },
+     "constrainedText": "Beneath the waves, a vast array of marine life thrives in the ocean's depths. Bringing in massive amounts of nutrients, the ocean plays a crucial role in the Earth's ecosystem. Beneath the surface, the ocean's currents and tides create a dynamic and constantly changing environment. Bringing beauty and wonder to our world, the ocean remains a source of awe and inspiration for many people."
+    },
+    {
+     "id": "start-M",
+     "class": "sentence-initial letter",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 52,
+      "repair": 52,
+      "resample": 210,
+      "constrained": 75
+     },
+     "ms": {
+      "first": 6119,
+      "repair": 6119,
+      "resample": 24801,
+      "constrained": 8436
+     },
+     "constrainedText": "Many vibrant flowers bloom in the garden, creating a colorful atmosphere. Majestically towering above the rest are the tall sunflowers, their faces always smiling towards the sun. Moisture from the nearby pond creates a misty veil, adding an air of mystery to the garden. Making its way through the garden path is a winding stone walkway, inviting visitors to explore."
+    },
+    {
+     "id": "water-3",
+     "class": "word frequency",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": false,
+     "constrainedStop": null,
+     "constrainedError": "{\"code\":400,\"message\":\"Failed to initialize samplers: failed to parse grammar\",\"type\":\"invalid_request_error\"}",
+     "constrainedViolation": "error",
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 74,
+      "repair": 74,
+      "resample": 313,
+      "constrained": 0
+     },
+     "ms": {
+      "first": 8143,
+      "repair": 8143,
+      "resample": 34670,
+      "constrained": 14
+     },
+     "constrainedText": ""
+    },
+    {
+     "id": "time-2",
+     "class": "word frequency",
+     "oneShot": false,
+     "repair": true,
+     "repairCalls": 2,
+     "resample": true,
+     "constrained": false,
+     "constrainedStop": null,
+     "constrainedError": "{\"code\":400,\"message\":\"Failed to initialize samplers: failed to parse grammar\",\"type\":\"invalid_request_error\"}",
+     "constrainedViolation": "error",
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 63,
+      "repair": 121,
+      "resample": 228,
+      "constrained": 0
+     },
+     "ms": {
+      "first": 7658,
+      "repair": 15548,
+      "resample": 27009,
+      "constrained": 9
+     },
+     "constrainedText": ""
+    },
+    {
+     "id": "uppercase",
+     "class": "casing",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 32,
+      "repair": 32,
+      "resample": 110,
+      "constrained": 27
+     },
+     "ms": {
+      "first": 4095,
+      "repair": 4095,
+      "resample": 14025,
+      "constrained": 3397
+     },
+     "constrainedText": "VICTORY IS A SWEET FEELING THAT COMES WITH GREAT ACHIEVEMENT AND TRIUMPH."
+    },
+    {
+     "id": "excl-3",
+     "class": "ending",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": true,
+      "repair": true,
+      "resample": true,
+      "constrained": true
+     },
+     "tokensOut": {
+      "first": 52,
+      "repair": 52,
+      "resample": 213,
+      "constrained": 48
+     },
+     "ms": {
+      "first": 5959,
+      "repair": 5959,
+      "resample": 24374,
+      "constrained": 5430
+     },
+     "constrainedText": "The vibrant colors and lively music filled the air at the summer festival! People from all over the city gathered to enjoy the delicious food and drinks! The grand finale of the festival, a spectacular fireworks display, lit up the night sky!"
+    },
+    {
+     "id": "title-7",
+     "class": "casing",
+     "oneShot": true,
+     "repair": true,
+     "repairCalls": 1,
+     "resample": true,
+     "constrained": true,
+     "constrainedStop": "eos",
+     "constrainedError": null,
+     "constrainedViolation": null,
+     "topic": {
+      "first": false,
+      "repair": false,
+      "resample": false,
+      "constrained": false
+     },
+     "tokensOut": {
+      "first": 15,
+      "repair": 15,
+      "resample": 69,
+      "constrained": 16
+     },
+     "ms": {
+      "first": 2258,
+      "repair": 2258,
+      "resample": 9784,
+      "constrained": 2281
+     },
+     "constrainedText": "EXPLORING NEW FRONTIERS OF THE UNSEEN WORLD."
+    }
+   ]
+  }
+ ],
+ "pooled": {
+  "constrainedMinusRepair": {
+   "mean": 0.11111111111111108,
+   "lo": -0.03418803418803419,
+   "hi": 0.2564102564102564,
+   "n": 39
+  },
+  "constrainedMinusResample": {
+   "mean": 0.1623931623931624,
+   "lo": 0.01709401709401708,
+   "hi": 0.3162393162393163,
+   "n": 39
+  },
+  "constrainedMinusOneShot": {
+   "mean": 0.3076923076923077,
+   "lo": 0.1452991452991453,
+   "hi": 0.4700854700854701,
+   "n": 39
+  },
+  "repairMinusOneShot": {
+   "mean": 0.19658119658119658,
+   "lo": 0.1111111111111111,
+   "hi": 0.29914529914529914,
+   "n": 39
+  },
+  "repairMinusResample": {
+   "mean": 0.05128205128205128,
+   "lo": -0.025641025641025637,
+   "hi": 0.1367521367521368,
+   "n": 39
+  },
+  "oneShot": {
+   "mean": 0.6153846153846155,
+   "lo": 0.48717948717948717,
+   "hi": 0.7435897435897436,
+   "n": 39
+  },
+  "repair": {
+   "mean": 0.811965811965812,
+   "lo": 0.7008547008547008,
+   "hi": 0.9145299145299146,
+   "n": 39
+  },
+  "resample": {
+   "mean": 0.7606837606837606,
+   "lo": 0.641025641025641,
+   "hi": 0.8717948717948718,
+   "n": 39
+  },
+  "constrained": {
+   "mean": 0.9230769230769231,
+   "lo": 0.8205128205128205,
+   "hi": 1,
+   "n": 39
+  }
+ },
+ "byClass": {
+  "word count": {
+   "n": 21,
+   "oneShot": 6,
+   "repair": 18,
+   "resample": 15,
+   "constrained": 21
+  },
+  "forbidden letter": {
+   "n": 24,
+   "oneShot": 3,
+   "repair": 7,
+   "resample": 6,
+   "constrained": 24
+  },
+  "JSON shape": {
+   "n": 6,
+   "oneShot": 6,
+   "repair": 6,
+   "resample": 6,
+   "constrained": 6
+  },
+  "casing": {
+   "n": 12,
+   "oneShot": 11,
+   "repair": 12,
+   "resample": 12,
+   "constrained": 12
+  },
+  "bullet lines": {
+   "n": 6,
+   "oneShot": 6,
+   "repair": 6,
+   "resample": 6,
+   "constrained": 6
+  },
+  "word frequency": {
+   "n": 9,
+   "oneShot": 6,
+   "repair": 8,
+   "resample": 8,
+   "constrained": 0
+  },
+  "sentence-initial letter": {
+   "n": 12,
+   "oneShot": 12,
+   "repair": 12,
+   "resample": 12,
+   "constrained": 12
+  },
+  "ending": {
+   "n": 6,
+   "oneShot": 6,
+   "repair": 6,
+   "resample": 6,
+   "constrained": 6
+  },
+  "sentence count": {
+   "n": 12,
+   "oneShot": 12,
+   "repair": 12,
+   "resample": 12,
+   "constrained": 12
+  },
+  "comma count": {
+   "n": 9,
+   "oneShot": 4,
+   "repair": 8,
+   "resample": 6,
+   "constrained": 9
+  }
+ },
+ "cost": {
+  "first": {
+   "generations": 117,
+   "tokensOut": 4834,
+   "ms": 559192
+  },
+  "repair": {
+   "generations": 220,
+   "tokensOut": 8094,
+   "ms": 1026081
+  },
+  "resample": {
+   "generations": 468,
+   "tokensOut": 19440,
+   "ms": 2247657
+  },
+  "constrained": {
+   "generations": 117,
+   "tokensOut": 4744,
+   "ms": 549141
+  }
+ },
+ "topic": {
+  "first": {
+   "applicable": 99,
+   "hits": 89
+  },
+  "repair": {
+   "applicable": 99,
+   "hits": 85
+  },
+  "resample": {
+   "applicable": 99,
+   "hits": 88
+  },
+  "constrained": {
+   "applicable": 99,
+   "hits": 73
+  }
+ },
+ "constrainedLimitHits": 0,
+ "constrainedErrors": 9,
+ "verdict": "no separation on the self-authored set between grammar-constrained decoding and the repair loop"
+}
