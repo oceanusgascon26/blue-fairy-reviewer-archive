@@ -30,6 +30,11 @@ Assembled 2026-09-09 by the author's tooling from the working folders that produ
 
 It cannot regenerate the model answers without Bedrock access, and a new run would produce new text. It cannot supply a pinned commit for the historical runs, which recorded none. The freeze records are local files whose times precede the first calls; they are not an independent registration.
 
+## Where this archive lives
+
+- Repository: https://github.com/oceanusgascon26/blue-fairy-reviewer-archive (the current revision).
+- Deposit: a zip of the archive as of its fourth commit (171ae54, through E6d) is in the registered report's public OSF project, https://osf.io/eduak, file https://osf.io/3r4pq, SHA-256 d4a54d88587ed21f... (full hash in PROVENANCE.md). That project carries a CC0 label from its own creation; the archive's content is governed by LICENSE.md here (CC BY 4.0).
+
 ## License
 
 The kit source is under its MIT license (kit/LICENSE). The plans, records, results and tools in this archive are released under CC BY 4.0; see LICENSE.md.

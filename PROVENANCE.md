@@ -61,3 +61,8 @@ kit/ is git archive of cognitive-middleware at 3d20393835e1e9184602a6edf563b3b35
 
 - The first plan's public copy is redacted in one phrase, with both hashes recorded (the author, 2026-09-09).
 - License for the archive's own content: CC BY 4.0 (the author, 2026-09-09).
+
+## Deposits
+
+- Repository: https://github.com/oceanusgascon26/blue-fairy-reviewer-archive.
+- OSF: reviewer-archive-2026-09-09.zip in the registered report's public project https://osf.io/eduak (file https://osf.io/3r4pq), uploaded 2026-09-09; the zip is the archive at commit 171ae54 (through E6d), SHA-256 d4a54d88587ed21fb45cc05f3123e40780647850cfabfed23c5181c69efe42c6. Later commits to the repository are not mirrored to OSF unless a new zip is deposited.
