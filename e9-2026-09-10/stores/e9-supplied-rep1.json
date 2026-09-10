@@ -1,0 +1,27 @@
+[
+  {
+    "id": "e9-wordcount",
+    "cue": "Word count",
+    "content": "Word count tasks: count every word before you finish and stay inside the requested window. Earlier answers ran long; when unsure, write fewer words and count again."
+  },
+  {
+    "id": "e9-sentences",
+    "cue": "sentences",
+    "content": "Sentence count tasks: count the sentences before you finish, one per terminal mark, and match the requested number exactly. Earlier answers added an extra sentence."
+  },
+  {
+    "id": "e9-noletter",
+    "cue": "without using the letter",
+    "content": "Forbidden letter tasks: scan every word for the banned letter before you finish and replace any word that contains it, including the topic itself if needed."
+  },
+  {
+    "id": "e9-commas",
+    "cue": "comma",
+    "content": "Comma count tasks: count the commas before you finish and match the requested number exactly; rephrase to add or remove commas rather than adding text."
+  },
+  {
+    "id": "e9-frequency",
+    "cue": "Use the word",
+    "content": "Word frequency tasks: count the exact occurrences of the required word before you finish, including plurals and capitalized forms, and match the number exactly."
+  }
+]

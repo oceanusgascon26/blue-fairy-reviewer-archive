@@ -33,6 +33,8 @@ Only local file paths and the AWS profile name were changed. Prompts, responses,
 - e7-2026-09-09/e7.mjs (from <E7 folder>/e7.mjs): the local path of the built kit's checkers module replaced 1 time; the local E7 folder path replaced 1 time; the local controls folder path (with slash) replaced 1 time
 - e8-2026-09-10/bedrock-e8.mjs (from <E8 folder>/bedrock-e8.mjs): the local E8 folder path replaced 1 time; the AWS CLI profile name replaced 1 time
 - e8-2026-09-10/e8.mjs (from <E8 folder>/e8.mjs): the local path of the built kit's entry module replaced 1 time
+- e9-2026-09-10/bedrock-e9.mjs (from <E9 folder>/bedrock-e9.mjs): the local E9 folder path replaced 1 time; the AWS CLI profile name replaced 1 time
+- e9-2026-09-10/e9.mjs (from <E9 folder>/e9.mjs): the local path of the built kit's entry module replaced 1 time
 
 ## Excluded
 
@@ -74,4 +76,5 @@ kit/ is git archive of cognitive-middleware at 3d20393835e1e9184602a6edf563b3b35
 - OSF: reviewer-archive-2026-09-09.zip in the registered report's public project https://osf.io/eduak (file https://osf.io/3r4pq), uploaded 2026-09-09; the zip is the archive at commit 171ae54 (through E6d), SHA-256 d4a54d88587ed21fb45cc05f3123e40780647850cfabfed23c5181c69efe42c6. Later commits to the repository are not mirrored to OSF unless a new zip is deposited.
 - Zenodo (the kit): release v0.0.1 of oceanusgascon26/cognitive-middleware, code identical to the pinned commit, DOI 10.5281/zenodo.22683481, concept DOI 10.5281/zenodo.22683480, archived 2026-09-10 through Zenodo's GitHub integration.
 - OSF (E8): the E8 plan and frozen files were uploaded to the folder e8-composition-pilot of the same project and registered publicly as https://osf.io/qc3db on 2026-09-10 before the run; the registration was approved the same day and carries the DOI 10.17605/OSF.IO/QC3DB. After its archiving completed, the E8 results (results-e8.json, READOUT-E8.md, E8-NOTE.md, run-e8.log, readout-e8.py, REGISTRATION-E8.txt and e8-raw-and-stores-2026-09-10.zip) were uploaded to the same folder.
+- OSF (E9): the E9 plan and frozen files were uploaded to the folder e9-composition-pilot of the same project and registered publicly as https://osf.io/t6jkz on 2026-09-10 before the run; the registration was approved the same day and carries the DOI 10.17605/OSF.IO/T6JKZ. After its archiving completed, the E9 results (results-e9.json, READOUT-E9.md, E9-NOTE.md, run-e9.log, REGISTRATION-E9.txt and e9-raw-and-stores-2026-09-10.zip) were uploaded to the same folder.
 - OSF, second deposit: reviewer-archive-2026-09-10.zip in the same project (file https://osf.io/u9ajt), uploaded 2026-09-10; the zip is git archive of the repository at commit bf4b77a (through E8), 3,460,844 bytes, SHA-256 c40e7ea4921744f5af9b0ca67e7c101eefba9acc98af946001364ad55adb3e47.

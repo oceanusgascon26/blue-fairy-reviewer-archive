@@ -1,0 +1,6 @@
+E9 public OSF registration
+Registration: https://osf.io/t6jkz (Open-Ended Registration, from project osf.io/eduak, CC BY 4.0, "make public immediately")
+Submitted: 2026-09-10T13:36Z (2026-09-10 06:36 Pacific), before any model call. Draft id 6aa2b1861539208c7f1f1378.
+Files: project folder e9-composition-pilot (osf.io/eduak, folder id 6aa2b101efb82cea8cbce339): PREREGISTRATION-E9.md, FREEZE-E9.txt, tasks-e9.json, e9-tasks.mjs, bedrock-e9.mjs, e9.mjs, readout-e9.py, PLAN-DRAFT-E9.md, all with sha256 matching FREEZE-E9.txt (checked through the OSF API after upload).
+Status at submission: pending approval (OSF's 48-hour window for the admin contributor); the summary and description carry the plan hash 6c808b23a6445a9a6d1750af655f4e621ced8c5a406995df77cb88aa5e8849c7.
+Approved and public: 2026-09-10 (OSF API: public true, pending approval false, archiving false, date_registered 2026-09-10T13:35:56). Registration DOI (minted by OSF on publication): 10.17605/OSF.IO/T6JKZ. Results were uploaded to the project folder only after archiving completed.

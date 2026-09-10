@@ -1,0 +1,27 @@
+[
+  {
+    "id": "e9-noletter",
+    "cue": "without using the letter",
+    "content": "Forbidden letter tasks have failed the check 24 times so far. Latest failure: the response uses the letter \"l\" 13 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+  },
+  {
+    "id": "e9-commas",
+    "cue": "comma",
+    "content": "Comma count tasks have failed the check 11 times so far. Latest failure: the response has 7 commas; the task asked for exactly 5. Satisfy the comma count rule before finishing."
+  },
+  {
+    "id": "e9-wordcount",
+    "cue": "Word count",
+    "content": "Word count tasks have failed the check 20 times so far. Latest failure: the response has 31 words; the task asked for exactly 30 words. Satisfy the word count rule before finishing."
+  },
+  {
+    "id": "e9-frequency",
+    "cue": "Use the word",
+    "content": "Word frequency tasks have failed the check 4 times so far. Latest failure: the word \"ladder\" appears 4 times in the response; the task asked for exactly 5. Satisfy the word frequency rule before finishing."
+  },
+  {
+    "id": "e9-sentences",
+    "cue": "sentences",
+    "content": "Sentence count tasks have failed the check 2 times so far. Latest failure: the response has 4 sentences; the task asked for exactly 3. Satisfy the sentence count rule before finishing."
+  }
+]

@@ -1,0 +1,2414 @@
+{
+  "arm": "wireA",
+  "rep": 2,
+  "pid": 12144,
+  "model": "bedrock:haiku",
+  "calls": 274,
+  "inputTokens": 49907,
+  "outputTokens": 31230,
+  "errors": 0,
+  "lessons": [
+    {
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 24 times so far. Latest failure: the response uses the letter \"l\" 15 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "id": "e9-commas",
+      "cue": "comma",
+      "content": "Comma count tasks have failed the check 15 times so far. Latest failure: the response has 10 commas; the task asked for exactly 5. Satisfy the comma count rule before finishing."
+    },
+    {
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 22 times so far. Latest failure: the response has 36 words; the task asked for exactly 30 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "id": "e9-frequency",
+      "cue": "Use the word",
+      "content": "Word frequency tasks have failed the check 7 times so far. Latest failure: the word \"ladder\" appears 6 times in the response; the task asked for exactly 5. Satisfy the word frequency rule before finishing."
+    },
+    {
+      "id": "e9-sentences",
+      "cue": "sentences",
+      "content": "Sentence count tasks have failed the check 1 time so far. Latest failure: the response has 8 sentences; the task asked for exactly 6. Satisfy the sentence count rule before finishing."
+    }
+  ],
+  "lessonLog": [
+    {
+      "pos": 1,
+      "item": "noletter-08",
+      "cls": "noletter",
+      "param": "d",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 1 time so far. Latest failure: the response uses the letter \"d\" 6 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 3,
+      "item": "commas-09",
+      "cls": "commas",
+      "param": "n3",
+      "id": "e9-commas",
+      "cue": "comma",
+      "content": "Comma count tasks have failed the check 1 time so far. Latest failure: the response has 4 commas; the task asked for exactly 3. Satisfy the comma count rule before finishing."
+    },
+    {
+      "pos": 4,
+      "item": "wordcount-23",
+      "cls": "wordcount",
+      "param": "N20",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 1 time so far. Latest failure: the response has 21 words; the task asked for exactly 20 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 5,
+      "item": "noletter-01",
+      "cls": "noletter",
+      "param": "l",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 2 times so far. Latest failure: the response uses the letter \"l\" 8 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 6,
+      "item": "wordcount-01",
+      "cls": "wordcount",
+      "param": "N20",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 2 times so far. Latest failure: the response has 22 words; the task asked for exactly 20 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 7,
+      "item": "noletter-19",
+      "cls": "noletter",
+      "param": "s",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 3 times so far. Latest failure: the response uses the letter \"s\" 24 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 8,
+      "item": "commas-07",
+      "cls": "commas",
+      "param": "n1",
+      "id": "e9-commas",
+      "cue": "comma",
+      "content": "Comma count tasks have failed the check 2 times so far. Latest failure: the response has 2 commas; the task asked for exactly 1. Satisfy the comma count rule before finishing."
+    },
+    {
+      "pos": 9,
+      "item": "commas-18",
+      "cls": "commas",
+      "param": "n5",
+      "id": "e9-commas",
+      "cue": "comma",
+      "content": "Comma count tasks have failed the check 3 times so far. Latest failure: the response has 7 commas; the task asked for exactly 5. Satisfy the comma count rule before finishing."
+    },
+    {
+      "pos": 10,
+      "item": "noletter-17",
+      "cls": "noletter",
+      "param": "c",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 4 times so far. Latest failure: the response uses the letter \"c\" 7 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 11,
+      "item": "noletter-04",
+      "cls": "noletter",
+      "param": "s",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 5 times so far. Latest failure: the response uses the letter \"s\" 9 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 12,
+      "item": "wordcount-06",
+      "cls": "wordcount",
+      "param": "N20",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 3 times so far. Latest failure: the response has 22 words; the task asked for exactly 20 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 13,
+      "item": "wordcount-17",
+      "cls": "wordcount",
+      "param": "N60",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 4 times so far. Latest failure: the response has 58 words; the task asked for exactly 60 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 15,
+      "item": "frequency-16",
+      "cls": "frequency",
+      "param": "river-3",
+      "id": "e9-frequency",
+      "cue": "Use the word",
+      "content": "Word frequency tasks have failed the check 1 time so far. Latest failure: the word \"river\" appears 4 times in the response; the task asked for exactly 3. Satisfy the word frequency rule before finishing."
+    },
+    {
+      "pos": 18,
+      "item": "commas-05",
+      "cls": "commas",
+      "param": "n2",
+      "id": "e9-commas",
+      "cue": "comma",
+      "content": "Comma count tasks have failed the check 4 times so far. Latest failure: the response has 6 commas; the task asked for exactly 2. Satisfy the comma count rule before finishing."
+    },
+    {
+      "pos": 20,
+      "item": "wordcount-11",
+      "cls": "wordcount",
+      "param": "N75",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 5 times so far. Latest failure: the response has 80 words; the task asked for exactly 75 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 23,
+      "item": "commas-22",
+      "cls": "commas",
+      "param": "n4",
+      "id": "e9-commas",
+      "cue": "comma",
+      "content": "Comma count tasks have failed the check 5 times so far. Latest failure: the response has 3 commas; the task asked for exactly 4. Satisfy the comma count rule before finishing."
+    },
+    {
+      "pos": 28,
+      "item": "noletter-16",
+      "cls": "noletter",
+      "param": "m",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 6 times so far. Latest failure: the response uses the letter \"m\" 6 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 29,
+      "item": "wordcount-20",
+      "cls": "wordcount",
+      "param": "N75",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 6 times so far. Latest failure: the response has 76 words; the task asked for exactly 75 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 30,
+      "item": "noletter-22",
+      "cls": "noletter",
+      "param": "l",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 7 times so far. Latest failure: the response uses the letter \"l\" 11 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 35,
+      "item": "wordcount-18",
+      "cls": "wordcount",
+      "param": "N40",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 7 times so far. Latest failure: the response has 48 words; the task asked for exactly 40 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 36,
+      "item": "wordcount-13",
+      "cls": "wordcount",
+      "param": "N50",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 8 times so far. Latest failure: the response has 47 words; the task asked for exactly 50 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 42,
+      "item": "commas-20",
+      "cls": "commas",
+      "param": "n4",
+      "id": "e9-commas",
+      "cue": "comma",
+      "content": "Comma count tasks have failed the check 6 times so far. Latest failure: the response has 5 commas; the task asked for exactly 4. Satisfy the comma count rule before finishing."
+    },
+    {
+      "pos": 43,
+      "item": "wordcount-22",
+      "cls": "wordcount",
+      "param": "N40",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 9 times so far. Latest failure: the response has 35 words; the task asked for exactly 40 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 44,
+      "item": "noletter-06",
+      "cls": "noletter",
+      "param": "p",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 8 times so far. Latest failure: the response uses the letter \"p\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 45,
+      "item": "frequency-21",
+      "cls": "frequency",
+      "param": "ladder-5",
+      "id": "e9-frequency",
+      "cue": "Use the word",
+      "content": "Word frequency tasks have failed the check 2 times so far. Latest failure: the word \"ladder\" appears 6 times in the response; the task asked for exactly 5. Satisfy the word frequency rule before finishing."
+    },
+    {
+      "pos": 46,
+      "item": "commas-02",
+      "cls": "commas",
+      "param": "n4",
+      "id": "e9-commas",
+      "cue": "comma",
+      "content": "Comma count tasks have failed the check 7 times so far. Latest failure: the response has 2 commas; the task asked for exactly 4. Satisfy the comma count rule before finishing."
+    },
+    {
+      "pos": 47,
+      "item": "noletter-14",
+      "cls": "noletter",
+      "param": "m",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 9 times so far. Latest failure: the response uses the letter \"m\" 17 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 50,
+      "item": "noletter-13",
+      "cls": "noletter",
+      "param": "c",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 10 times so far. Latest failure: the response uses the letter \"c\" 11 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 51,
+      "item": "frequency-15",
+      "cls": "frequency",
+      "param": "river-3",
+      "id": "e9-frequency",
+      "cue": "Use the word",
+      "content": "Word frequency tasks have failed the check 3 times so far. Latest failure: the word \"river\" appears 4 times in the response; the task asked for exactly 3. Satisfy the word frequency rule before finishing."
+    },
+    {
+      "pos": 52,
+      "item": "commas-13",
+      "cls": "commas",
+      "param": "n3",
+      "id": "e9-commas",
+      "cue": "comma",
+      "content": "Comma count tasks have failed the check 8 times so far. Latest failure: the response has 5 commas; the task asked for exactly 3. Satisfy the comma count rule before finishing."
+    },
+    {
+      "pos": 53,
+      "item": "noletter-05",
+      "cls": "noletter",
+      "param": "p",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 11 times so far. Latest failure: the response uses the letter \"p\" 5 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 54,
+      "item": "wordcount-05",
+      "cls": "wordcount",
+      "param": "N60",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 10 times so far. Latest failure: the response has 66 words; the task asked for exactly 60 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 55,
+      "item": "commas-21",
+      "cls": "commas",
+      "param": "n1",
+      "id": "e9-commas",
+      "cue": "comma",
+      "content": "Comma count tasks have failed the check 9 times so far. Latest failure: the response has 5 commas; the task asked for exactly 1. Satisfy the comma count rule before finishing."
+    },
+    {
+      "pos": 57,
+      "item": "wordcount-08",
+      "cls": "wordcount",
+      "param": "N50",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 11 times so far. Latest failure: the response has 47 words; the task asked for exactly 50 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 59,
+      "item": "noletter-20",
+      "cls": "noletter",
+      "param": "c",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 12 times so far. Latest failure: the response uses the letter \"c\" 12 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 61,
+      "item": "commas-11",
+      "cls": "commas",
+      "param": "n3",
+      "id": "e9-commas",
+      "cue": "comma",
+      "content": "Comma count tasks have failed the check 10 times so far. Latest failure: the response has 2 commas; the task asked for exactly 3. Satisfy the comma count rule before finishing."
+    },
+    {
+      "pos": 63,
+      "item": "frequency-03",
+      "cls": "frequency",
+      "param": "window-5",
+      "id": "e9-frequency",
+      "cue": "Use the word",
+      "content": "Word frequency tasks have failed the check 4 times so far. Latest failure: the word \"window\" appears 4 times in the response; the task asked for exactly 5. Satisfy the word frequency rule before finishing."
+    },
+    {
+      "pos": 67,
+      "item": "noletter-12",
+      "cls": "noletter",
+      "param": "p",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 13 times so far. Latest failure: the response uses the letter \"p\" 5 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 71,
+      "item": "noletter-03",
+      "cls": "noletter",
+      "param": "l",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 14 times so far. Latest failure: the response uses the letter \"l\" 18 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 72,
+      "item": "noletter-15",
+      "cls": "noletter",
+      "param": "d",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 15 times so far. Latest failure: the response uses the letter \"d\" 15 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 73,
+      "item": "noletter-18",
+      "cls": "noletter",
+      "param": "p",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 16 times so far. Latest failure: the response uses the letter \"p\" 7 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 75,
+      "item": "wordcount-09",
+      "cls": "wordcount",
+      "param": "N50",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 12 times so far. Latest failure: the response has 52 words; the task asked for exactly 50 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 76,
+      "item": "wordcount-21",
+      "cls": "wordcount",
+      "param": "N30",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 13 times so far. Latest failure: the response has 33 words; the task asked for exactly 30 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 77,
+      "item": "commas-14",
+      "cls": "commas",
+      "param": "n5",
+      "id": "e9-commas",
+      "cue": "comma",
+      "content": "Comma count tasks have failed the check 11 times so far. Latest failure: the response has 8 commas; the task asked for exactly 5. Satisfy the comma count rule before finishing."
+    },
+    {
+      "pos": 78,
+      "item": "wordcount-03",
+      "cls": "wordcount",
+      "param": "N50",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 14 times so far. Latest failure: the response has 46 words; the task asked for exactly 50 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 81,
+      "item": "noletter-02",
+      "cls": "noletter",
+      "param": "m",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 17 times so far. Latest failure: the response uses the letter \"m\" 6 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 82,
+      "item": "wordcount-02",
+      "cls": "wordcount",
+      "param": "N60",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 15 times so far. Latest failure: the response has 59 words; the task asked for exactly 60 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 83,
+      "item": "noletter-10",
+      "cls": "noletter",
+      "param": "c",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 18 times so far. Latest failure: the response uses the letter \"c\" 6 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 84,
+      "item": "noletter-21",
+      "cls": "noletter",
+      "param": "s",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 19 times so far. Latest failure: the response uses the letter \"s\" 21 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 85,
+      "item": "commas-03",
+      "cls": "commas",
+      "param": "n5",
+      "id": "e9-commas",
+      "cue": "comma",
+      "content": "Comma count tasks have failed the check 12 times so far. Latest failure: the response has 4 commas; the task asked for exactly 5. Satisfy the comma count rule before finishing."
+    },
+    {
+      "pos": 90,
+      "item": "commas-12",
+      "cls": "commas",
+      "param": "n4",
+      "id": "e9-commas",
+      "cue": "comma",
+      "content": "Comma count tasks have failed the check 13 times so far. Latest failure: the response has 6 commas; the task asked for exactly 4. Satisfy the comma count rule before finishing."
+    },
+    {
+      "pos": 91,
+      "item": "sentences-07",
+      "cls": "sentences",
+      "param": "n6",
+      "id": "e9-sentences",
+      "cue": "sentences",
+      "content": "Sentence count tasks have failed the check 1 time so far. Latest failure: the response has 8 sentences; the task asked for exactly 6. Satisfy the sentence count rule before finishing."
+    },
+    {
+      "pos": 94,
+      "item": "wordcount-04",
+      "cls": "wordcount",
+      "param": "N30",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 16 times so far. Latest failure: the response has 29 words; the task asked for exactly 30 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 96,
+      "item": "commas-01",
+      "cls": "commas",
+      "param": "n3",
+      "id": "e9-commas",
+      "cue": "comma",
+      "content": "Comma count tasks have failed the check 14 times so far. Latest failure: the response has 4 commas; the task asked for exactly 3. Satisfy the comma count rule before finishing."
+    },
+    {
+      "pos": 97,
+      "item": "frequency-11",
+      "cls": "frequency",
+      "param": "window-5",
+      "id": "e9-frequency",
+      "cue": "Use the word",
+      "content": "Word frequency tasks have failed the check 5 times so far. Latest failure: the word \"window\" appears 4 times in the response; the task asked for exactly 5. Satisfy the word frequency rule before finishing."
+    },
+    {
+      "pos": 98,
+      "item": "noletter-23",
+      "cls": "noletter",
+      "param": "s",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 20 times so far. Latest failure: the response uses the letter \"s\" 4 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 99,
+      "item": "noletter-24",
+      "cls": "noletter",
+      "param": "d",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 21 times so far. Latest failure: the response uses the letter \"d\" 14 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 100,
+      "item": "noletter-11",
+      "cls": "noletter",
+      "param": "m",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 22 times so far. Latest failure: the response uses the letter \"m\" 8 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 101,
+      "item": "wordcount-07",
+      "cls": "wordcount",
+      "param": "N60",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 17 times so far. Latest failure: the response has 62 words; the task asked for exactly 60 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 108,
+      "item": "noletter-07",
+      "cls": "noletter",
+      "param": "d",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 23 times so far. Latest failure: the response uses the letter \"d\" 16 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 110,
+      "item": "wordcount-16",
+      "cls": "wordcount",
+      "param": "N30",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 18 times so far. Latest failure: the response has 32 words; the task asked for exactly 30 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 112,
+      "item": "wordcount-14",
+      "cls": "wordcount",
+      "param": "N20",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 19 times so far. Latest failure: the response has 25 words; the task asked for exactly 20 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 113,
+      "item": "commas-17",
+      "cls": "commas",
+      "param": "n5",
+      "id": "e9-commas",
+      "cue": "comma",
+      "content": "Comma count tasks have failed the check 15 times so far. Latest failure: the response has 10 commas; the task asked for exactly 5. Satisfy the comma count rule before finishing."
+    },
+    {
+      "pos": 114,
+      "item": "wordcount-10",
+      "cls": "wordcount",
+      "param": "N40",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 20 times so far. Latest failure: the response has 41 words; the task asked for exactly 40 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 115,
+      "item": "wordcount-12",
+      "cls": "wordcount",
+      "param": "N75",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 21 times so far. Latest failure: the response has 74 words; the task asked for exactly 75 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 116,
+      "item": "wordcount-24",
+      "cls": "wordcount",
+      "param": "N30",
+      "id": "e9-wordcount",
+      "cue": "Word count",
+      "content": "Word count tasks have failed the check 22 times so far. Latest failure: the response has 36 words; the task asked for exactly 30 words. Satisfy the word count rule before finishing."
+    },
+    {
+      "pos": 118,
+      "item": "noletter-09",
+      "cls": "noletter",
+      "param": "l",
+      "id": "e9-noletter",
+      "cue": "without using the letter",
+      "content": "Forbidden letter tasks have failed the check 24 times so far. Latest failure: the response uses the letter \"l\" 15 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+    },
+    {
+      "pos": 119,
+      "item": "frequency-23",
+      "cls": "frequency",
+      "param": "ladder-5",
+      "id": "e9-frequency",
+      "cue": "Use the word",
+      "content": "Word frequency tasks have failed the check 6 times so far. Latest failure: the word \"ladder\" appears 6 times in the response; the task asked for exactly 5. Satisfy the word frequency rule before finishing."
+    },
+    {
+      "pos": 120,
+      "item": "frequency-07",
+      "cls": "frequency",
+      "param": "ladder-5",
+      "id": "e9-frequency",
+      "cue": "Use the word",
+      "content": "Word frequency tasks have failed the check 7 times so far. Latest failure: the word \"ladder\" appears 6 times in the response; the task asked for exactly 5. Satisfy the word frequency rule before finishing."
+    }
+  ],
+  "rows": [
+    {
+      "pos": 1,
+      "id": "noletter-08",
+      "cls": "noletter",
+      "param": "d",
+      "recalled": [],
+      "firstOk": false,
+      "ok": true,
+      "calls": 3,
+      "text": "Glass blowing is an ancient art form that transforms molten glass into beautiful objects through skillful manipulation. Artists heat glass to extreme temperatures until it becomes pliable plus workable. Using a long metal tube, the craftsperson gathers a portion of the molten material plus carefully blows air through the tube to create hollow forms. The artist continuously rotates, shapes the glowing glass, applying tools plus techniques to achieve the vision. This spectacular craft requires years of practice, precision, plus artistic talent to master the intricate process of creating vases, bowls, ornaments, plus sculptures from raw glass.",
+      "firstText": "Glass blowing is an ancient art form that transforms molten glass into beautiful objects through skillful manipulation. Artists heat glass to extreme temperatures until it becomes pliable and workable. Using a long metal tube, the craftsperson gathers a portion of the molten material and carefully blows air through the tube to create hollow forms. The artist continuously rotates and shapes the glowing glass, applying tools and techniques to achieve the vision. This spectacular craft requires years of practice, precision, and artistic talent to master the intricate process of creating vases, bowls, ornaments, and sculptures from raw glass.",
+      "storeSize": 0
+    },
+    {
+      "pos": 2,
+      "id": "frequency-20",
+      "cls": "frequency",
+      "param": "river-5",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "# The Northern Lights\n\nThe northern lights, or aurora borealis, create a breathtaking river of green and purple light that flows across the Arctic sky. This natural phenomenon occurs when charged particles from the sun collide with Earth's atmosphere, producing waves of color that ripple like a river of energy. Observers in places like Alaska and Norway often describe watching the aurora as witnessing a river of luminescence dancing overhead. The lights seem to pour across the heavens in patterns reminiscent of a river's current, twisting and turning with ethereal grace. Standing beneath this cosmic river of radiance, viewers experience one of nature's most magnificent and humbling displays, a reminder of our planet's connection to the sun.",
+      "firstText": "# The Northern Lights\n\nThe northern lights, or aurora borealis, create a breathtaking river of green and purple light that flows across the Arctic sky. This natural phenomenon occurs when charged particles from the sun collide with Earth's atmosphere, producing waves of color that ripple like a river of energy. Observers in places like Alaska and Norway often describe watching the aurora as witnessing a river of luminescence dancing overhead. The lights seem to pour across the heavens in patterns reminiscent of a river's current, twisting and turning with ethereal grace. Standing beneath this cosmic river of radiance, viewers experience one of nature's most magnificent and humbling displays, a reminder of our planet's connection to the sun.",
+      "storeSize": 1
+    },
+    {
+      "pos": 3,
+      "id": "commas-09",
+      "cls": "commas",
+      "param": "n3",
+      "recalled": [],
+      "firstOk": false,
+      "ok": true,
+      "calls": 3,
+      "text": "City pigeons are ubiquitous birds found in urban areas around the world, and they have adapted remarkably well to life among humans. These intelligent creatures scavenge for food in parks and streets, gather in large flocks near public squares and roost on building ledges. Despite their reputation as nuisances, pigeons play an important ecological role by consuming waste and serving as food for urban predators.",
+      "firstText": "City pigeons are ubiquitous birds found in urban areas around the world, and they have adapted remarkably well to life among humans. These intelligent creatures scavenge for food in parks and streets, gather in large flocks near public squares, and roost on building ledges and bridges. Despite their reputation as nuisances, pigeons play an important ecological role by consuming waste and serving as food for urban predators like hawks and falcons.",
+      "storeSize": 1
+    },
+    {
+      "pos": 4,
+      "id": "wordcount-23",
+      "cls": "wordcount",
+      "param": "N20",
+      "recalled": [],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "Cast-iron pans are durable cookware that heats evenly, lasts generations, and improves with seasoning. They're versatile for stovetop and oven.",
+      "firstText": "Cast-iron pans are durable cookware that heats evenly, lasts generations, and improves with seasoning. They're versatile for stovetop and oven cooking.",
+      "storeSize": 2
+    },
+    {
+      "pos": 5,
+      "id": "noletter-01",
+      "cls": "noletter",
+      "param": "l",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "A thick mist rises from the water, covering the harbor in a soft, gray shroud. Ships become ghosty shapes, barely seen through heavy vapor. The fog horns sound warnings, echoing across the bay as boats move warily through murky air. Fishermen wait on piers, watching mist swirl around them. Everything becomes quiet and mysterious when fog settles in, transforming the busy harbor into a hushed, ethereal scene.",
+      "firstText": "A thick mist rises from the water, covering the harbor in a soft, gray blanket. Ships become ghostly shapes, barely visible through the heavy vapor. The fog horns sound their warnings, echoing across the bay as boats move cautiously through the murky air. Fishermen wait on the piers, watching the mist swirl around them. Everything becomes quiet and mysterious when the fog settles in, transforming the busy harbor into a hushed, ethereal scene.",
+      "storeSize": 3
+    },
+    {
+      "pos": 6,
+      "id": "wordcount-01",
+      "cls": "wordcount",
+      "param": "N20",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "Lighthouse keepers maintained beacons guiding ships safely through treacherous waters. Their dedicated work protected countless sailors, preventing disasters during storms.",
+      "firstText": "Lighthouse keepers maintained beacons guiding ships safely through treacherous waters. Their dedicated work protected countless sailors, preventing disasters during storms and fog.",
+      "storeSize": 3
+    },
+    {
+      "pos": 7,
+      "id": "noletter-19",
+      "cls": "noletter",
+      "param": "s",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 3,
+      "text": "Winter wheat grow during the colder month when no other crop remain dormant. Farmer plant the hardy grain in autumn, and they develop root in the chilly period. Come warmer weather, the young wheat emerge from the frozen earth and begin it rapid growth toward maturity. By early ummer, the golden head are ready for harveting. Thi hardy crop thrive in temperate region and provide a vital food ource for people around the world.",
+      "firstText": "Winter wheat grows during the colder months when most other crops remain dormant. Farmers plant these hardy grains in autumn, and they develop root systems through the chilly season. Come spring, the young wheat emerges from the frozen earth and begins its rapid growth toward maturity. By early summer, the golden heads are ready for harvesting. This hardy crop thrives in temperate regions and provides a vital food source for people around the world.",
+      "storeSize": 3
+    },
+    {
+      "pos": 8,
+      "id": "commas-07",
+      "cls": "commas",
+      "param": "n1",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "Stone walls built without mortar rely on the careful placement and balance of individual rocks, and they have been used for centuries across many cultures. The stones are selected for their shape and size then fitted together so precisely that they can stand for generations without any binding agent. This ancient building technique remains popular today for creating rustic garden borders and property boundaries.",
+      "firstText": "Stone walls built without mortar rely on the careful placement and balance of individual rocks, and they have been used for centuries across many cultures. The stones are selected for their shape and size, then fitted together so precisely that they can stand for generations without any binding agent. This ancient building technique remains popular today for creating rustic garden borders and property boundaries.",
+      "storeSize": 3
+    },
+    {
+      "pos": 9,
+      "id": "commas-18",
+      "cls": "commas",
+      "param": "n5",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 3,
+      "text": "Ice cream has a fascinating history spanning thousands of years and multiple continents. The earliest frozen desserts were created in ancient China around 200 BCE, and they were made from snow mixed with fruit and honey. Later, the Romans developed a similar treat and this concept eventually spread to Persia and the Arab world. During the Renaissance in Italy, ice cream became more refined and popular among the wealthy. By the 18th century, ice cream had become a beloved dessert throughout Europe and America, and today it remains one of the world's most cherished frozen treats.",
+      "firstText": "Ice cream has a fascinating history that spans thousands of years and multiple continents. The earliest frozen desserts were created in ancient China around 200 BCE, and they were made from snow mixed with fruit and honey. Later, the Romans developed a similar treat, and this concept eventually spread to Persia and the Arab world. During the Renaissance in Italy, ice cream became more refined and popular among the wealthy, and it later arrived in France where it gained tremendous popularity. By the 18th century, ice cream had become a beloved dessert throughout Europe and America, and today it remains one of the world's most cherished frozen treats.",
+      "storeSize": 3
+    },
+    {
+      "pos": 10,
+      "id": "noletter-17",
+      "cls": "noletter",
+      "param": "c",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Hand-drawn maps hold a timeless appeal that digital alternatives often fail to rival. These artfully rendered navigational tools display the maker's personality and artistic flair through deliberate linework, thoughtful labeling, and imaginative embellishment. From medieval portolan maps adorned with mythical beasts to modern hiking trail illustrations, hand-drawn versions offer a tangible, human quality that invites exploration. The flaws and unique flourishes make them memorable and engaging, transforming the simple art of wayfinding into an adventure. Many travelers and artists still prefer drawing their own maps, finding the meditative rhythm of drawing to be as rewarding as the finished item itself.",
+      "firstText": "Hand-drawn maps hold a timeless appeal that digital alternatives often fail to match. These artfully rendered navigational tools display the maker's personality and artistic flair through deliberate linework, thoughtful labeling, and imaginative embellishment. From medieval portolan maps adorned with mythical beasts to modern hiking trail illustrations, hand-drawn versions offer a tangible, human quality that invites exploration. The imperfections and unique flourishes make them memorable and engaging, transforming the simple act of wayfinding into an adventure. Many travelers and artists still prefer sketching their own maps, finding the meditative rhythm of drawing to be as rewarding as the finished product itself.",
+      "storeSize": 3
+    },
+    {
+      "pos": 11,
+      "id": "noletter-04",
+      "cls": "noletter",
+      "param": "s",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 3,
+      "text": "The violin maker toil at hi workbench, holding a delicate wooden board. He examine the grain with keen eye, then begin to form it with hand tool. The knife glide along the maple, removing thin layer after thin layer. He work through the afternoon, taking only to wipe away the fine du that float in the air. By evening, the beautiful form emerge—a violin body that will one day ring with pure, melodiou tone. The maker feel proud of hi labor, knowing thi in trument will bring joy to many.",
+      "firstText": "The violin maker sits at his workbench, holding a delicate wooden board. He examines the grain with keen eye, then begin to shape it with hand tool. The knife glide along the maple, removing thin layer after thin layer. He work through the afternoon, pausing only to wipe away the fine dust that float in the air. By evening, the beautiful form emerge—a violin body that will one day ring with pure, melodious tone. The maker feel proud of hi labor, knowing thi instrument will bring joy to many.",
+      "storeSize": 3
+    },
+    {
+      "pos": 12,
+      "id": "wordcount-06",
+      "cls": "wordcount",
+      "param": "N20",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 3,
+      "text": "Ferry crossings connect distant shores, transporting passengers and vehicles across waterways. They provide essential transportation links between islands and mainland.",
+      "firstText": "Ferry crossings connect distant shores, transporting passengers and vehicles across waterways. They provide essential transportation links between islands and mainland communities daily.",
+      "storeSize": 3
+    },
+    {
+      "pos": 13,
+      "id": "wordcount-17",
+      "cls": "wordcount",
+      "param": "N60",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 3,
+      "text": "Wild blueberries thrive in acidic soils across northern forests and mountainous regions. These small, dark berries burst with antioxidants and natural sweetness. Indigenous peoples harvested them for centuries, using them fresh or dried for winter storage. Today, wild blueberries remain prized for their intense flavor and remarkable health benefits, far surpassing cultivated varieties in both nutritional value and superior taste.",
+      "firstText": "Wild blueberries thrive in acidic soils across northern forests and mountainous regions. These small, dark berries burst with antioxidants and natural sweetness. Indigenous peoples harvested them for centuries, using them fresh or dried for winter storage. Today, wild blueberries remain prized for their intense flavor and remarkable health benefits, far surpassing cultivated varieties in nutritional value and taste.",
+      "storeSize": 3
+    },
+    {
+      "pos": 14,
+      "id": "frequency-01",
+      "cls": "frequency",
+      "param": "river-5",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The old bicycle bell hung from the handlebars like a relic from another era, its once-shiny surface now covered in rust that resembled the muddy banks of a river. Every time the cyclist pedaled along the path by the river, the bell would produce a weak, crackling sound that echoed across the water. The rust had accumulated over years of neglect, much like sediment settling at the bottom of a river. One rainy afternoon, as the cyclist crossed the bridge over the river, they wondered if the bell would ever ring clearly again. The river breeze seemed to whisper a reminder that even broken things, like this rusty bell, still held memories of their former purpose.",
+      "firstText": "The old bicycle bell hung from the handlebars like a relic from another era, its once-shiny surface now covered in rust that resembled the muddy banks of a river. Every time the cyclist pedaled along the path by the river, the bell would produce a weak, crackling sound that echoed across the water. The rust had accumulated over years of neglect, much like sediment settling at the bottom of a river. One rainy afternoon, as the cyclist crossed the bridge over the river, they wondered if the bell would ever ring clearly again. The river breeze seemed to whisper a reminder that even broken things, like this rusty bell, still held memories of their former purpose.",
+      "storeSize": 3
+    },
+    {
+      "pos": 15,
+      "id": "frequency-16",
+      "cls": "frequency",
+      "param": "river-3",
+      "recalled": [],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "The winter solstice marks the shortest day of the year in the Northern Hemisphere, when the sun reaches its lowest point in the sky. Ancient civilizations often celebrated this astronomical event, believing it symbolized the rebirth of the sun, much like a river flowing toward renewal. In many cultures, people gathered near a frozen river or by open water to perform rituals ensuring the sun's return. The solstice has inspired countless traditions, from lighting bonfires to leaving offerings, reflecting humanity's deep connection to natural cycles and the eternal flow of seasons, as constant and powerful as a river cutting through stone.",
+      "firstText": "The winter solstice marks the shortest day of the year in the Northern Hemisphere, when the sun reaches its lowest point in the sky. Ancient civilizations often celebrated this astronomical event, believing it symbolized the rebirth of the sun, much like a river flowing toward renewal. In many cultures, people gathered near a frozen river or by open water to perform rituals ensuring the sun's return. The solstice has inspired countless traditions, from lighting bonfires to leaving offerings by a river, reflecting humanity's deep connection to natural cycles and the eternal flow of seasons, as constant and powerful as a river cutting through stone.",
+      "storeSize": 3
+    },
+    {
+      "pos": 16,
+      "id": "commas-06",
+      "cls": "commas",
+      "param": "n1",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "Ravens are highly intelligent birds that can solve complex puzzles, and they are known to use tools in the wild. These remarkable creatures have adapted to thrive in diverse environments across the Northern Hemisphere.",
+      "firstText": "Ravens are highly intelligent birds that can solve complex puzzles, and they are known to use tools in the wild. These remarkable creatures have adapted to thrive in diverse environments across the Northern Hemisphere.",
+      "storeSize": 4
+    },
+    {
+      "pos": 17,
+      "id": "frequency-24",
+      "cls": "frequency",
+      "param": "ladder-3",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The last bus of the night rolled through empty streets like a ladder connecting the city's lonely corners. An old woman climbed aboard, her shopping bags heavy as if she'd been climbing a ladder all day. The driver, familiar with this route, knew every stop by heart—a ladder of destinations that led nowhere and everywhere at once. As midnight approached, the bus emptied slowly, each passenger descending into the darkness, leaving only the hum of the engine and the promise that tomorrow night, another last bus would arrive.",
+      "firstText": "The last bus of the night rolled through empty streets like a ladder connecting the city's lonely corners. An old woman climbed aboard, her shopping bags heavy as if she'd been climbing a ladder all day. The driver, familiar with this route, knew every stop by heart—a ladder of destinations that led nowhere and everywhere at once. As midnight approached, the bus emptied slowly, each passenger descending into the darkness, leaving only the hum of the engine and the promise that tomorrow night, another last bus would arrive.",
+      "storeSize": 4
+    },
+    {
+      "pos": 18,
+      "id": "commas-05",
+      "cls": "commas",
+      "param": "n2",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "Steam locomotives powered the Industrial Revolution and transformed transportation across the world. These magnificent machines burned coal to heat water, creating steam that drove massive pistons and wheels forward. Though diesel engines eventually replaced them, steam locomotives remain beloved symbols of engineering achievement and industrial heritage.",
+      "firstText": "Steam locomotives, which powered the Industrial Revolution, transformed transportation and commerce across the world. These magnificent machines burned coal to heat water, creating steam that drove massive pistons and wheels forward. Engineers operated them with skill and precision, managing fuel consumption and steam pressure throughout long journeys. The distinctive whistle sound became iconic, announcing arrivals in towns and villages everywhere. Though diesel engines eventually replaced them, steam locomotives remain beloved symbols of engineering achievement and industrial heritage.",
+      "storeSize": 4
+    },
+    {
+      "pos": 19,
+      "id": "sentences-02",
+      "cls": "sentences",
+      "param": "n8",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "# Chalk Cliffs\n\nChalk cliffs are dramatic coastal formations composed primarily of chalk, a soft, fine-grained limestone created from the shells and skeletons of marine organisms. These magnificent structures are found in various locations around the world, with the most famous examples being the White Cliffs of Dover in England. Chalk cliffs typically display brilliant white coloring, which creates stunning visual contrasts against blue ocean waters and skies. The formation of chalk cliffs dates back millions of years to when ancient seas covered vast areas of what is now dry land. Over time, weathering and erosion continuously reshape these cliffs, causing them to retreat inland at varying rates depending on environmental conditions. The soft nature of chalk makes these cliffs relatively unstable compared to harder rock formations, leading to frequent rockfalls and landslides. Chalk cliffs support unique ecosystems and have become important habitats for seabirds, plants, and other wildlife adapted to these harsh environments. These natural wonders attract millions of visitors annually and hold significant cultural, geological, and scientific importance for researchers studying Earth's history.",
+      "firstText": "# Chalk Cliffs\n\nChalk cliffs are dramatic coastal formations composed primarily of chalk, a soft, fine-grained limestone created from the shells and skeletons of marine organisms. These magnificent structures are found in various locations around the world, with the most famous examples being the White Cliffs of Dover in England. Chalk cliffs typically display brilliant white coloring, which creates stunning visual contrasts against blue ocean waters and skies. The formation of chalk cliffs dates back millions of years to when ancient seas covered vast areas of what is now dry land. Over time, weathering and erosion continuously reshape these cliffs, causing them to retreat inland at varying rates depending on environmental conditions. The soft nature of chalk makes these cliffs relatively unstable compared to harder rock formations, leading to frequent rockfalls and landslides. Chalk cliffs support unique ecosystems and have become important habitats for seabirds, plants, and other wildlife adapted to these harsh environments. These natural wonders attract millions of visitors annually and hold significant cultural, geological, and scientific importance for researchers studying Earth's history.",
+      "storeSize": 4
+    },
+    {
+      "pos": 20,
+      "id": "wordcount-11",
+      "cls": "wordcount",
+      "param": "N75",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Ice fishing is a captivating winter sport where anglers drill holes through frozen lakes to catch fish below. Participants bundle up warmly and sit patiently on the ice, waiting for bites. Essential equipment includes an ice auger, fishing rod, and shelter for protection from harsh weather. The activity requires patience and skill. Many enthusiasts enjoy the peaceful solitude and camaraderie with fellow fishers. Ice fishing offers an exciting way to experience nature during winter.",
+      "firstText": "Ice fishing is a captivating winter sport where anglers drill holes through frozen lakes to catch fish below. Participants bundle up warmly and sit patiently on the ice, waiting for bites. Essential equipment includes an ice auger, fishing rod, and shelter for protection from harsh weather. The activity requires patience and skill. Many enthusiasts enjoy the peaceful solitude and camaraderie with fellow fishers. Ice fishing offers an exciting way to experience nature during winter months while pursuing their favorite hobby.",
+      "storeSize": 4
+    },
+    {
+      "pos": 21,
+      "id": "frequency-08",
+      "cls": "frequency",
+      "param": "ladder-3",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "A library card is like a ladder to knowledge, opening doors to countless worlds within the library's walls. Each time you climb that ladder of learning, you discover new authors, genres, and ideas that expand your mind. The librarian helps you navigate this ladder toward the perfect book, whether you seek fiction, history, or science. With your library card in hand, you're equipped to reach the highest shelves of imagination and understanding.",
+      "firstText": "A library card is like a ladder to knowledge, opening doors to countless worlds within the library's walls. Each time you climb that ladder of learning, you discover new authors, genres, and ideas that expand your mind. The librarian helps you navigate this ladder toward the perfect book, whether you seek fiction, history, or science. With your library card in hand, you're equipped to reach the highest shelves of imagination and understanding.",
+      "storeSize": 4
+    },
+    {
+      "pos": 22,
+      "id": "sentences-08",
+      "cls": "sentences",
+      "param": "n7",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "# Wooden Rollercoasters\n\nWooden rollercoasters have been thrilling amusement park visitors for over a century, with their origins tracing back to the late 1800s. These classic attractions are constructed with a wooden track system supported by a lattice framework of wooden beams and steel reinforcements. The distinctive clacking sound of wooden coasters, created by the wheels rolling over the track segments, has become iconic to the amusement park experience. Despite their wooden appearance, modern wooden rollercoasters incorporate advanced engineering and safety features to ensure rider protection and smooth operation. The airtime sensation produced by wooden coasters, where riders briefly leave their seats, is one of the most exhilarating aspects of the ride. Many enthusiasts prefer wooden coasters over steel alternatives for their unique character, nostalgic charm, and the more intense physical sensations they provide. Today, wooden rollercoasters remain popular attractions at parks worldwide, with new designs continuing to push the boundaries of speed, height, and innovative track configurations.",
+      "firstText": "# Wooden Rollercoasters\n\nWooden rollercoasters have been thrilling amusement park visitors for over a century, with their origins tracing back to the late 1800s. These classic attractions are constructed with a wooden track system supported by a lattice framework of wooden beams and steel reinforcements. The distinctive clacking sound of wooden coasters, created by the wheels rolling over the track segments, has become iconic to the amusement park experience. Despite their wooden appearance, modern wooden rollercoasters incorporate advanced engineering and safety features to ensure rider protection and smooth operation. The airtime sensation produced by wooden coasters, where riders briefly leave their seats, is one of the most exhilarating aspects of the ride. Many enthusiasts prefer wooden coasters over steel alternatives for their unique character, nostalgic charm, and the more intense physical sensations they provide. Today, wooden rollercoasters remain popular attractions at parks worldwide, with new designs continuing to push the boundaries of speed, height, and innovative track configurations.",
+      "storeSize": 4
+    },
+    {
+      "pos": 23,
+      "id": "commas-22",
+      "cls": "commas",
+      "param": "n4",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Coffee roasting is a delicate process that transforms green beans into the aromatic brown beans we recognize. The roaster must carefully monitor temperature, time, and airflow to achieve the desired flavor profile. Light roasts preserve more acidity and origin characteristics, while dark roasts develop bold smoky notes. Each roast level requires precision, expertise, and careful attention to detail.",
+      "firstText": "Coffee roasting is a delicate process that transforms green beans into the aromatic brown beans we recognize. The roaster must carefully monitor temperature, time, and airflow to achieve the desired flavor profile. Light roasts preserve more acidity and origin characteristics, while dark roasts develop bold and smoky notes. Each roast level requires precision and expertise.",
+      "storeSize": 4
+    },
+    {
+      "pos": 24,
+      "id": "sentences-16",
+      "cls": "sentences",
+      "param": "n7",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "# River Barges\n\nRiver barges are flat-bottomed vessels designed to transport cargo efficiently along inland waterways and rivers. These sturdy boats have been used for centuries to move goods such as grain, coal, oil, and manufactured products between cities and ports. Modern barges are typically unpowered and must be towed or pushed by tugboats through locks, channels, and open water. The shallow draft of river barges allows them to navigate waterways that deeper ocean-going ships cannot access, making them invaluable for inland commerce. A single tugboat can push or tow multiple barges lashed together, creating a powerful transportation unit that moves massive quantities of freight. River barge transportation is considered one of the most economical and environmentally friendly methods of moving bulk cargo over long distances. Today, river barge systems remain critical infrastructure for trade and industry in regions like the Mississippi River Valley and European waterway networks.",
+      "firstText": "# River Barges\n\nRiver barges are flat-bottomed vessels designed to transport cargo efficiently along inland waterways and rivers. These sturdy boats have been used for centuries to move goods such as grain, coal, oil, and manufactured products between cities and ports. Modern barges are typically unpowered and must be towed or pushed by tugboats through locks, channels, and open water. The shallow draft of river barges allows them to navigate waterways that deeper ocean-going ships cannot access, making them invaluable for inland commerce. A single tugboat can push or tow multiple barges lashed together, creating a powerful transportation unit that moves massive quantities of freight. River barge transportation is considered one of the most economical and environmentally friendly methods of moving bulk cargo over long distances. Today, river barge systems remain critical infrastructure for trade and industry in regions like the Mississippi River Valley and European waterway networks.",
+      "storeSize": 4
+    },
+    {
+      "pos": 25,
+      "id": "sentences-15",
+      "cls": "sentences",
+      "param": "n3",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The lighthouse foghorn pierces through thick fog and darkness with its deep, resonant blast, guiding lost ships safely toward the shore. This mechanical sentinel has saved countless lives over the centuries by cutting through the most impenetrable weather conditions when visibility is nearly zero. The foghorn's rhythmic call—often described as both haunting and comforting—remains an essential navigational aid and a symbol of maritime safety.",
+      "firstText": "The lighthouse foghorn pierces through thick fog and darkness with its deep, resonant blast, guiding lost ships safely toward the shore. This mechanical sentinel has saved countless lives over the centuries by cutting through the most impenetrable weather conditions when visibility is nearly zero. The foghorn's rhythmic call—often described as both haunting and comforting—remains an essential navigational aid and a symbol of maritime safety.",
+      "storeSize": 4
+    },
+    {
+      "pos": 26,
+      "id": "sentences-06",
+      "cls": "sentences",
+      "param": "n6",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "# The Faithful Hammer\n\nThe hammer's wooden handle has been worn smooth by decades of hands, its surface darkened to the color of old mahogany. Its steel head bears the dents and dings of countless projects, each mark a testament to honest work. The face shows uneven wear where it has struck nails at every conceivable angle, and the claw bears scratches from prying open stubborn boards. Despite its age, the tool remains perfectly balanced, the weight distributed exactly as the craftsman's grip expects. No newer hammer could replace it, for this one knows the rhythm and pressure required for every task. It hangs on the garage wall like a trusted friend, ready for whatever work comes next.",
+      "firstText": "# The Faithful Hammer\n\nThe hammer's wooden handle has been worn smooth by decades of hands, its surface darkened to the color of old mahogany. Its steel head bears the dents and dings of countless projects, each mark a testament to honest work. The face shows uneven wear where it has struck nails at every conceivable angle, and the claw bears scratches from prying open stubborn boards. Despite its age, the tool remains perfectly balanced, the weight distributed exactly as the craftsman's grip expects. No newer hammer could replace it, for this one knows the rhythm and pressure required for every task. It hangs on the garage wall like a trusted friend, ready for whatever work comes next.",
+      "storeSize": 4
+    },
+    {
+      "pos": 27,
+      "id": "sentences-13",
+      "cls": "sentences",
+      "param": "n7",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "# Copper Roofs Turning Green\n\nCopper roofs develop a distinctive green patina through a natural chemical process called oxidation. When copper is exposed to oxygen and moisture in the air, it undergoes a transformation that gradually changes its shiny reddish-brown color. This weathering process typically takes between ten to thirty years to fully develop, depending on environmental conditions and climate. The green layer that forms is called verdigris, which is a combination of copper carbonate and copper sulfate compounds. This patina actually protects the underlying copper from further corrosion, making it a beneficial development for the roof's longevity. Historic buildings and landmarks, such as the Statue of Liberty, showcase the striking blue-green appearance that mature copper roofs achieve. Homeowners and architects often appreciate this natural aging process as it gives buildings character and a distinguished appearance over time.",
+      "firstText": "# Copper Roofs Turning Green\n\nCopper roofs develop a distinctive green patina through a natural chemical process called oxidation. When copper is exposed to oxygen and moisture in the air, it undergoes a transformation that gradually changes its shiny reddish-brown color. This weathering process typically takes between ten to thirty years to fully develop, depending on environmental conditions and climate. The green layer that forms is called verdigris, which is a combination of copper carbonate and copper sulfate compounds. This patina actually protects the underlying copper from further corrosion, making it a beneficial development for the roof's longevity. Historic buildings and landmarks, such as the Statue of Liberty, showcase the striking blue-green appearance that mature copper roofs achieve. Homeowners and architects often appreciate this natural aging process as it gives buildings character and a distinguished appearance over time.",
+      "storeSize": 4
+    },
+    {
+      "pos": 28,
+      "id": "noletter-16",
+      "cls": "noletter",
+      "param": "m",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Volcanic islands are created when hot lava erupts from beneath the ocean floor. Over time, layer upon layer of cooled lava build up until they break through the water's surface. The Hawaiian chain and Iceland provide excellent examples of this geologic process. These striking landscapes feature hot springs, craters, and fertile soil that attract both scientists and tourists. Many volcanic islands continue to grow today as undersea volcanoes keep erupting and adding new rock to their surface.",
+      "firstText": "Volcanic island are formed when hot lava erupt from beneath the ocean floor. Over time, layer upon layer of cooled lava build up until they break through the water'a aurfce. The Hawaiian chain and Iceland provide excellent example of thi geologic proce. Thee dramatic landcape feature hot apringa, crater, and fertile aol that attract both acientiat and tourit. Many volcanic iland continue to grow today a underaea volcano keep erupting and adding new rock to their aurfce.",
+      "storeSize": 4
+    },
+    {
+      "pos": 29,
+      "id": "wordcount-20",
+      "cls": "wordcount",
+      "param": "N75",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Paper lanterns illuminate celebrations across cultures, casting warm, gentle glows that transform ordinary spaces into magical environments. These delicate creations, crafted from thin paper and bamboo frames, have graced festivals for centuries. Whether floating skyward during Asian festivals or decorating gardens at parties, they symbolize hope and renewal. Their soft light creates intimate atmospheres, perfect for weddings, memorials, and gatherings. Paper lanterns remind us that simple beauty can profoundly touch our hearts and connect us spiritually.",
+      "firstText": "Paper lanterns illuminate celebrations across cultures, casting warm, gentle glows that transform ordinary spaces into magical environments. These delicate creations, crafted from thin paper and bamboo frames, have graced festivals for centuries. Whether floating skyward during Asian festivals or decorating gardens at parties, they symbolize hope and renewal. Their soft light creates intimate atmospheres, perfect for weddings, memorials, and gatherings. Paper lanterns remind us that simple beauty can profoundly touch our hearts and connect us spiritually.",
+      "storeSize": 4
+    },
+    {
+      "pos": 30,
+      "id": "noletter-22",
+      "cls": "noletter",
+      "param": "l",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Street chess is a fascinating urban activity where enthusiasts gather in parks and open spaces to compete. Chess fans of varying expertise engage in rapid games, often betting small amounts of cash or just competing for bragging rights. The atmosphere buzzes with energy as spectators watch intense contests unfold across checkered boards. These chess communities foster friendships and provide opportunities for both beginners and experienced chess fans to test their strategic thinking. Street chess represents a vibrant, accessible form of the ancient game that thrives in cities across the world.",
+      "firstText": "Street chess is a fascinating urban pastime where enthusiasts gather in parks and public spaces to compete. Players of varying skis engage in rapid games, often betting small amounts of cash or simply playing for bragging rights. The atmosphere buzzes with energy as spectators watch intense battles unfold across checkered boards. These chess communities foster friendships and provide opportunities for both beginners and experienced players to test their strategic thinking. Street chess represents a vibrant, accessible form of the ancient game that thrives in cities across the world.",
+      "storeSize": 4
+    },
+    {
+      "pos": 31,
+      "id": "sentences-23",
+      "cls": "sentences",
+      "param": "n5",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "# Urban Beekeeping\n\nUrban beekeeping has emerged as a sustainable practice that transforms city spaces into productive ecosystems while supporting pollinator populations. Beekeepers in cities can maintain hives on rooftops, balconies, and in community gardens, utilizing otherwise unused space to produce local honey and beeswax. This practice offers numerous benefits to urban environments, including improved pollination of local plants and crops, enhanced biodiversity, and increased awareness about the importance of bees. Many cities have adapted their regulations to permit beekeeping, recognizing its environmental and educational value for residents seeking to reconnect with nature. Urban beekeeping demonstrates that even in concrete jungles, people can engage in meaningful agricultural practices that benefit both their communities and the planet.",
+      "firstText": "# Urban Beekeeping\n\nUrban beekeeping has emerged as a sustainable practice that transforms city spaces into productive ecosystems while supporting pollinator populations. Beekeepers in cities can maintain hives on rooftops, balconies, and in community gardens, utilizing otherwise unused space to produce local honey and beeswax. This practice offers numerous benefits to urban environments, including improved pollination of local plants and crops, enhanced biodiversity, and increased awareness about the importance of bees. Many cities have adapted their regulations to permit beekeeping, recognizing its environmental and educational value for residents seeking to reconnect with nature. Urban beekeeping demonstrates that even in concrete jungles, people can engage in meaningful agricultural practices that benefit both their communities and the planet.",
+      "storeSize": 4
+    },
+    {
+      "pos": 32,
+      "id": "sentences-18",
+      "cls": "sentences",
+      "param": "n4",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The annual kite festival transforms the sky into a vibrant tapestry of colors and shapes as hundreds of enthusiasts gather to fly their handcrafted creations. Participants of all ages compete in traditional kite fighting competitions, where skilled flyers maneuver their kites with precision to cut down opponents' strings in an exhilarating aerial battle. The festival grounds are filled with music, food vendors, and spectators who cheer as the kites dance and swirl overhead in synchronized patterns. As the sun sets, illuminated kites glow against the darkening sky, creating a magical finale to a day celebrating this ancient and cherished tradition.",
+      "firstText": "The annual kite festival transforms the sky into a vibrant tapestry of colors and shapes as hundreds of enthusiasts gather to fly their handcrafted creations. Participants of all ages compete in traditional kite fighting competitions, where skilled flyers maneuver their kites with precision to cut down opponents' strings in an exhilarating aerial battle. The festival grounds are filled with music, food vendors, and spectators who cheer as the kites dance and swirl overhead in synchronized patterns. As the sun sets, illuminated kites glow against the darkening sky, creating a magical finale to a day celebrating this ancient and cherished tradition.",
+      "storeSize": 4
+    },
+    {
+      "pos": 33,
+      "id": "sentences-03",
+      "cls": "sentences",
+      "param": "n6",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "# Tide Tables\n\nTide tables are essential tools that predict the times and heights of tides at specific coastal locations. These tables are based on astronomical calculations involving the gravitational effects of the moon and sun on Earth's oceans. Mariners, fishermen, and coastal planners rely on tide tables to schedule their activities and ensure safe navigation in shallow waters. The information in tide tables is typically presented in an easy-to-read format showing high tides, low tides, and the exact times they occur each day. Tide tables are usually published annually by government agencies such as NOAA in the United States and can also be accessed online through various maritime websites. Understanding how to read tide tables is a fundamental skill for anyone who works with or recreates on the water.",
+      "firstText": "# Tide Tables\n\nTide tables are essential tools that predict the times and heights of tides at specific coastal locations. These tables are based on astronomical calculations involving the gravitational effects of the moon and sun on Earth's oceans. Mariners, fishermen, and coastal planners rely on tide tables to schedule their activities and ensure safe navigation in shallow waters. The information in tide tables is typically presented in an easy-to-read format showing high tides, low tides, and the exact times they occur each day. Tide tables are usually published annually by government agencies such as NOAA in the United States and can also be accessed online through various maritime websites. Understanding how to read tide tables is a fundamental skill for anyone who works with or recreates on the water.",
+      "storeSize": 4
+    },
+    {
+      "pos": 34,
+      "id": "sentences-01",
+      "cls": "sentences",
+      "param": "n8",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "# Old Maps of the Moon\n\nThe earliest lunar maps were created by astronomers in the 17th century after the invention of the telescope, with Galileo Galilei producing some of the first detailed observations of the Moon's surface. These primitive maps depicted the Moon's craters, mountains, and dark plains, which early astronomers mistakenly believed might be seas and named \"maria.\" Thomas Harriot and Johannes Hevelius created increasingly sophisticated lunar maps throughout the 1600s, establishing the foundation for modern selenography. The naming conventions developed during this period, with features named after famous scientists and philosophers, remain largely in use today. Pre-telescopic maps from ancient and medieval times were largely speculative, showing the Moon as a smooth celestial body with little detail. By the 18th and 19th centuries, lunar cartography had become more accurate as telescope technology improved and astronomers could observe finer surface details. These historical maps served not only scientific purposes but also inspired artists and writers who were fascinated by Earth's nearest celestial neighbor. The evolution from crude sketches to precise maps demonstrates how technological advancement and human curiosity drove our understanding of the lunar landscape.",
+      "firstText": "# Old Maps of the Moon\n\nThe earliest lunar maps were created by astronomers in the 17th century after the invention of the telescope, with Galileo Galilei producing some of the first detailed observations of the Moon's surface. These primitive maps depicted the Moon's craters, mountains, and dark plains, which early astronomers mistakenly believed might be seas and named \"maria.\" Thomas Harriot and Johannes Hevelius created increasingly sophisticated lunar maps throughout the 1600s, establishing the foundation for modern selenography. The naming conventions developed during this period, with features named after famous scientists and philosophers, remain largely in use today. Pre-telescopic maps from ancient and medieval times were largely speculative, showing the Moon as a smooth celestial body with little detail. By the 18th and 19th centuries, lunar cartography had become more accurate as telescope technology improved and astronomers could observe finer surface details. These historical maps served not only scientific purposes but also inspired artists and writers who were fascinated by Earth's nearest celestial neighbor. The evolution from crude sketches to precise maps demonstrates how technological advancement and human curiosity drove our understanding of the lunar landscape.",
+      "storeSize": 4
+    },
+    {
+      "pos": 35,
+      "id": "wordcount-18",
+      "cls": "wordcount",
+      "param": "N40",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Frozen lakes transform into natural ice rinks during winter, offering pristine landscapes and outdoor recreation opportunities. Thick ice supports skating, ice fishing, and cross-country skiing adventures. These seasonal wonders attract visitors seeking peaceful solitude and exciting winter sports activities.",
+      "firstText": "Frozen lakes transform into natural ice rinks during winter, offering pristine landscapes of crystalline beauty. Thick ice layers support skating, ice fishing, and cross-country adventures. These seasonal wonders attract visitors seeking outdoor recreation and peaceful solitude. As temperatures rise, ice gradually melts, returning lakes to their liquid state.",
+      "storeSize": 4
+    },
+    {
+      "pos": 36,
+      "id": "wordcount-13",
+      "cls": "wordcount",
+      "param": "N50",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 4,
+      "text": "The crunch of gravel beneath your feet creates a satisfying, gritty symphony. Each step produces a distinct crackling sound as small stones compress and shift beneath you. This auditory feedback grounds you in the present moment, offering a simple pleasure that connects you directly to the natural earth below you.",
+      "firstText": "The crunch of gravel beneath your feet creates a satisfying, gritty symphony. Each step produces a distinct crackling sound as small stones compress and shift. This auditory feedback grounds you in the present moment, offering a simple pleasure that connects you directly to the earth beneath you.",
+      "storeSize": 4
+    },
+    {
+      "pos": 37,
+      "id": "sentences-14",
+      "cls": "sentences",
+      "param": "n8",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "# Offshore Wind Farms\n\nOffshore wind farms harness the power of ocean winds to generate clean, renewable electricity for coastal communities. These massive installations consist of turbines mounted on fixed or floating platforms positioned miles away from shore. The ocean environment provides stronger and more consistent winds than land-based locations, making offshore farms significantly more efficient. Modern offshore turbines can be enormous, with some reaching heights of over 250 meters and generating 12 megawatts or more of power. Countries like Denmark, Germany, and the United Kingdom have become leaders in offshore wind technology and deployment. Despite their environmental benefits, offshore wind farms require substantial initial investment and present engineering challenges related to marine conditions. The farms have minimal impact on marine ecosystems compared to traditional fossil fuel extraction methods. As technology advances and costs decrease, offshore wind farms are becoming an increasingly important part of the global transition to sustainable energy.",
+      "firstText": "# Offshore Wind Farms\n\nOffshore wind farms harness the power of ocean winds to generate clean, renewable electricity for coastal communities. These massive installations consist of turbines mounted on fixed or floating platforms positioned miles away from shore. The ocean environment provides stronger and more consistent winds than land-based locations, making offshore farms significantly more efficient. Modern offshore turbines can be enormous, with some reaching heights of over 250 meters and generating 12 megawatts or more of power. Countries like Denmark, Germany, and the United Kingdom have become leaders in offshore wind technology and deployment. Despite their environmental benefits, offshore wind farms require substantial initial investment and present engineering challenges related to marine conditions. The farms have minimal impact on marine ecosystems compared to traditional fossil fuel extraction methods. As technology advances and costs decrease, offshore wind farms are becoming an increasingly important part of the global transition to sustainable energy.",
+      "storeSize": 4
+    },
+    {
+      "pos": 38,
+      "id": "frequency-19",
+      "cls": "frequency",
+      "param": "window-3",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "Planting tulip bulbs in autumn is a rewarding gardening task that brings vibrant spring color to your landscape. Choose a sunny location near a window where you can admire the blooms as they emerge. Before planting, prepare well-draining soil and space each bulb about six inches apart. Water thoroughly after planting, then wait patiently through winter. Come spring, check on your progress from your bedroom window as the first green shoots push through the soil. By late April, your tulips will burst into spectacular color, visible from every window in your home. These elegant flowers typically last two to three weeks, providing a beautiful seasonal display.",
+      "firstText": "Planting tulip bulbs in autumn is a rewarding gardening task that brings vibrant spring color to your landscape. Choose a sunny location near a window where you can admire the blooms as they emerge. Before planting, prepare well-draining soil and space each bulb about six inches apart. Water thoroughly after planting, then wait patiently through winter. Come spring, check on your progress from your bedroom window as the first green shoots push through the soil. By late April, your tulips will burst into spectacular color, visible from every window in your home. These elegant flowers typically last two to three weeks, providing a beautiful seasonal display.",
+      "storeSize": 4
+    },
+    {
+      "pos": 39,
+      "id": "frequency-13",
+      "cls": "frequency",
+      "param": "window-5",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The early morning quiet settles softly around the house as dawn breaks. Through the window beside my bed, pale light filters gently across the floor. I sit with my coffee, gazing out the window at the stillness of the street below, where nothing stirs. Another window in the hallway frames the garden, where frost glistens on the grass in perfect silence. The window of opportunity for this peaceful solitude is brief, so I linger here, savoring how the final window of darkness gradually gives way to the new day. In these moments before the world wakes, there is only the quiet hum of my own breathing and the soft beauty of the beginning.",
+      "firstText": "The early morning quiet settles softly around the house as dawn breaks. Through the window beside my bed, pale light filters gently across the floor. I sit with my coffee, gazing out the window at the stillness of the street below, where nothing stirs. Another window in the hallway frames the garden, where frost glistens on the grass in perfect silence. The window of opportunity for this peaceful solitude is brief, so I linger here, savoring how the final window of darkness gradually gives way to the new day. In these moments before the world wakes, there is only the quiet hum of my own breathing and the soft beauty of the beginning.",
+      "storeSize": 4
+    },
+    {
+      "pos": 40,
+      "id": "frequency-17",
+      "cls": "frequency",
+      "param": "river-3",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "Little Emma stood by the river, determined to master the art of whistling. Her older brother had shown her how to pucker her lips and blow gently, just like the birds singing near the river's edge. Day after day, she practiced by the river, producing only squeaks and chirps at first. But soon, a clear, sweet melody emerged from her lips. Emma's face glowed with pride as she whistled her favorite tune, the sound carrying across the water like the songs of the riverside birds she admired so much.",
+      "firstText": "Little Emma stood by the river, determined to master the art of whistling. Her older brother had shown her how to pucker her lips and blow gently, just like the birds singing near the river's edge. Day after day, she practiced by the river, producing only squeaks and chirps at first. But soon, a clear, sweet melody emerged from her lips. Emma's face glowed with pride as she whistled her favorite tune, the sound carrying across the water like the songs of the riverside birds she admired so much.",
+      "storeSize": 4
+    },
+    {
+      "pos": 41,
+      "id": "frequency-12",
+      "cls": "frequency",
+      "param": "ladder-3",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "Canal locks are fascinating engineering structures that allow boats to navigate between different water levels. These systems work like a giant ladder, with each lock serving as a rung that raises or lowers vessels safely. The process resembles climbing a ladder in reverse when descending, as water is gradually released to lower the boat. Engineers designed these mechanisms as cleverly as a ladder helps people reach new heights, enabling boats to traverse terrain that would otherwise be impossible.",
+      "firstText": "Canal locks are fascinating engineering structures that allow boats to navigate between different water levels. These systems work like a giant ladder, with each lock serving as a rung that raises or lowers vessels safely. The process resembles climbing a ladder in reverse when descending, as water is gradually released to lower the boat. Engineers designed these mechanisms as cleverly as a ladder helps people reach new heights, enabling boats to traverse terrain that would otherwise be impossible.",
+      "storeSize": 4
+    },
+    {
+      "pos": 42,
+      "id": "commas-20",
+      "cls": "commas",
+      "param": "n4",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "The umbrella's history dates back thousands of years, with early versions appearing in ancient Egypt and China. These primitive designs were crafted from papyrus and silk and served primarily to shield the wealthy from the sun. During the 18th century, Europeans began waterproofing umbrellas with wax and oil, transforming them into practical rain protection. Today's modern umbrellas come in countless styles and materials, making them essential accessories for people worldwide.",
+      "firstText": "The umbrella's history dates back thousands of years, with early versions appearing in ancient Egypt and China. These primitive designs were crafted from papyrus and silk, and they served primarily to shield the wealthy from the sun rather than rain. During the 18th century, Europeans began waterproofing umbrellas with wax and oil, transforming them into practical rain protection. Today's modern umbrellas come in countless styles and materials, making them essential accessories for people worldwide.",
+      "storeSize": 4
+    },
+    {
+      "pos": 43,
+      "id": "wordcount-22",
+      "cls": "wordcount",
+      "param": "N40",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 3,
+      "text": "Deep within the ancient forest, a hidden waterfall cascades down moss-covered rocks, creating a misty veil. The thundering water crashes into an emerald pool below, surrounded by lush ferns and colorful wildflowers. Few ever discover this secret paradise tucked away.",
+      "firstText": "Deep within the ancient forest, a hidden waterfall cascades down moss-covered rocks, creating a misty veil. The thundering water crashes into an emerald pool below, surrounded by ferns and wildflowers. Few discover this secret paradise.",
+      "storeSize": 4
+    },
+    {
+      "pos": 44,
+      "id": "noletter-06",
+      "cls": "noletter",
+      "param": "p",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "Summer thunderstorms bring dramatic skies and intense weather. Dark clouds gather quickly, and wind begins to swirl. Rain comes down in heavy sheets while thunder roars overhead. Bright flashes of electricity streak across the sky during these mighty storms. The air becomes fresh and cool after the rain ends, giving relief from summer heat. These storms can be dangerous, so it's best to stay indoors when they arrive. Many enjoy watching them from safe shelter, admiring nature's raw strength and beauty.",
+      "firstText": "Summer thunderstorms bring dramatic skies and intense weather. Dark clouds gather quickly, and wind begins to swirl. Rain comes down in heavy sheets while thunder roars overhead. Bright flashes of electricity streak across the sky during these powerful storms. The air becomes fresh and cool after the rain ends, giving relief from summer heat. These storms can be dangerous, so it's best to stay indoors when they arrive. Many enjoy watching them from safe shelter, admiring nature's raw strength and beauty.",
+      "storeSize": 4
+    },
+    {
+      "pos": 45,
+      "id": "frequency-21",
+      "cls": "frequency",
+      "param": "ladder-5",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "The ancient stone wall displayed a thick carpet of moss that climbed like a natural ladder toward the weathered roof. Each crevice in the mortar served as another rung on nature's ladder, allowing the delicate green growth to spread upward. A gardener might use a ladder to examine the moss more closely, though the soft texture requires careful observation. The moss creates its own ladder of life, where tiny organisms flourish in the damp shade. This verdant ladder of growth transforms the old wall into a living monument of time.",
+      "firstText": "The ancient stone wall displayed a thick carpet of moss that climbed like a natural ladder toward the weathered roof. Each crevice in the mortar served as another rung on nature's ladder, allowing the delicate green growth to spread upward. A gardener might use a ladder to examine the moss more closely, though the soft texture requires no ladder for careful observation. The moss creates its own ladder of life, where tiny organisms flourish in the damp shade. This verdant ladder of growth transforms the old wall into a living monument of time.",
+      "storeSize": 4
+    },
+    {
+      "pos": 46,
+      "id": "commas-02",
+      "cls": "commas",
+      "param": "n4",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "Canned food was invented in the early 1800s when Nicolas Appert developed a preservation method using sealed glass jars, and his technique involved heating food to kill bacteria. Peter Durand patented the tin can in 1810, which proved more practical and durable than glass, making it the preferred container. This innovation revolutionized food storage, and it made it possible to transport provisions across long distances without spoilage.",
+      "firstText": "Canned food was invented in the early 1800s when Nicolas Appert developed a preservation method using sealed glass jars. His technique involved heating food to kill bacteria and then sealing containers to prevent contamination. Later, Peter Durand patented the tin can in 1810, which proved more practical and durable than glass. This innovation revolutionized food storage and made it possible to transport provisions across long distances without spoilage.",
+      "storeSize": 4
+    },
+    {
+      "pos": 47,
+      "id": "noletter-14",
+      "cls": "noletter",
+      "param": "m",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Grandfather clocks are tall, elegant timepieces that stand on the floor and feature a swinging bob. These classic clocks have been treasured for centuries, known for their distinctive chiming sounds and ornate wooden cases. The internal workings inside these clocks rely on weights and a series of gears to keep accurate hours. Several families have inherited these beautiful antique clocks as heirlooms, displaying them in their living rooms or hallways. The rhythmic ticking and hourly chimes create a nostalgic, soothing atmosphere in any home. These timeless instruments continue to be valued by collectors and clock enthusiasts today.\n\nGrandfather clocks are tall, elegant devices that stand on the floor and feature a swinging bob. These classic clocks have been treasured for centuries, known for their distinctive chiming sounds and ornate wooden cases. The internal workings inside these clocks rely on weights and a series of gears to keep accurate hours. Several families have inherited these beautiful antique clocks as heirlooms, displaying them in their living rooms or hallways. The rhythmic ticking and hourly chimes create a nostalgic, soothing feel in any dwelling. These ageless instruments continue to be valued by collectors and clock enthusiasts today.",
+      "firstText": "Grandfather clocks are tall, elegant timepieces that stand on the floor and feature a swinging bob. These classic clocks have been treasured for centuries, known for their distinctive chiming sounds and ornate wooden cases. The mechanical movement inside these clocks relies on weights and a series of gears to keep accurate time. Many families have inherited these beautiful antique clocks as heirlooms, displaying them in their living rooms or hallways. The rhythmic ticking and hourly chimes create a nostalgic, soothing atmosphere in any home. These timeless instruments continue to be valued by collectors and clock enthusiasts today.",
+      "storeSize": 4
+    },
+    {
+      "pos": 48,
+      "id": "commas-19",
+      "cls": "commas",
+      "param": "n0",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The first telephones were invented in the late 1800s and represented a revolutionary breakthrough in communication technology. Alexander Graham Bell is often credited with patenting the telephone in 1876 although other inventors contributed to its development. These early devices were crude by modern standards and required operators to connect calls manually through switchboards. People had to speak into a mouthpiece and listen through an earpiece to hear the other person's voice. The technology spread rapidly across cities and towns despite its limitations. Telephone lines were strung between buildings and poles to carry the electrical signals that transmitted sound. These pioneering instruments transformed how people conducted business and maintained relationships across distances.",
+      "firstText": "The first telephones were invented in the late 1800s and represented a revolutionary breakthrough in communication technology. Alexander Graham Bell is often credited with patenting the telephone in 1876 although other inventors contributed to its development. These early devices were crude by modern standards and required operators to connect calls manually through switchboards. People had to speak into a mouthpiece and listen through an earpiece to hear the other person's voice. The technology spread rapidly across cities and towns despite its limitations. Telephone lines were strung between buildings and poles to carry the electrical signals that transmitted sound. These pioneering instruments transformed how people conducted business and maintained relationships across distances.",
+      "storeSize": 4
+    },
+    {
+      "pos": 49,
+      "id": "wordcount-15",
+      "cls": "wordcount",
+      "param": "N40",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "Handwritten recipes carry cherished family traditions through generations. Faded ink and stained pages tell stories of countless meals prepared with love. These personal documents preserve unique techniques and ingredient proportions that digital formats cannot capture. They remain irreplaceable kitchen treasures.",
+      "firstText": "Handwritten recipes carry cherished family traditions through generations. Faded ink and stained pages tell stories of countless meals prepared with love. These personal documents preserve unique techniques and ingredient proportions that digital formats cannot capture. They remain irreplaceable kitchen treasures.",
+      "storeSize": 4
+    },
+    {
+      "pos": 50,
+      "id": "noletter-13",
+      "cls": "noletter",
+      "param": "c",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Lost mittens are frustrating to find. You take off your gloves, set them down, and they vanish into thin air. Perhaps they fall behind the sofa or get left at a friend's house. Winter weather often leads to this annoying situation. Kids especially lose their hand gear regularly. The best solution is to label your winter items or keep them in one designated spot. Wool or knitted pairs are notably easy to lose since they're so light. If you do lose your favorite pair, retrace your steps to the places you've been. Thrift stores and lost-and-found bins are good places to search for replacement pairs.\n\nLost mittens are frustrating to find. You take off your gloves, set them down, and they vanish into thin air. Perhaps they fall behind the sofa or get left at a friend's house. Winter weather often leads to this annoying situation. Kids lose their hand gear regularly. The best solution is to label your winter items or keep them in one designated spot. Wool or knitted pairs are notably easy to lose since they're so light. If you do lose your favorite pair, retrace your steps to the places you've been. Thrift stores and lost-and-found bins are good places to search for replacement pairs.\n\nLost mittens are frustrating to find. You take off your gloves, set them down, and they vanish into thin air. Perhaps they fall behind the sofa or get left at a friend's house. Winter weather often leads to this annoying situation. Kids lose their hand gear regularly. The best solution is to label your winter items or keep them in one designated spot. Wool or knitted pairs are notably easy to lose since they're so light. If you do lose your favorite pair, retrace your steps to the places you've been. Thrift stores and lost-and-found bins are good places to",
+      "firstText": "Lost mittens are frustrating to find. You take off your gloves, set them down, and they vanish into thin air. Perhaps they fall behind the sofa or get left at a friend's house. Winter weather often leads to this annoying situation. Children especially lose their hand gear regularly. The best solution is to label your winter accessories or keep them in one designated spot. Wool or knitted pairs are particularly easy to lose since they're so lightweight. If you do lose your favorite pair, retrace your steps to the places you've been. Thrift stores and lost-and-found bins are good places to search for replacement pairs.",
+      "storeSize": 4
+    },
+    {
+      "pos": 51,
+      "id": "frequency-15",
+      "cls": "frequency",
+      "param": "river-3",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "As the sun dips toward the horizon, the sky transforms into a canvas of breathtaking colors at dusk. The soft orange and pink hues reflect beautifully off the river below, creating a mirror of light across the water. A gentle breeze carries the scent of evening air along the river's edge, while clouds drift lazily overhead. The landscape itself seems to glow with the day's final warmth, as purple and deep blue tones gradually replace the golden light. This magical transition between day and night paints the entire scenery in shades that exist nowhere else, making dusk the most enchanting time to watch the sky transform above the river.",
+      "firstText": "As the sun dips toward the horizon, the sky transforms into a canvas of breathtaking colors at dusk. The soft orange and pink hues reflect beautifully off the river below, creating a mirror of light across the water. A gentle breeze carries the scent of evening air along the river's edge, while clouds drift lazily overhead. The river itself seems to glow with the day's final warmth, as purple and deep blue tones gradually replace the golden light. This magical transition between day and night paints the entire landscape in shades that exist nowhere else, making dusk the most enchanting time to watch the sky transform above the river.",
+      "storeSize": 4
+    },
+    {
+      "pos": 52,
+      "id": "commas-13",
+      "cls": "commas",
+      "param": "n3",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 4,
+      "text": "As the sun dips below the horizon, starlings gather in massive flocks above the trees. Their synchronized movements create mesmerizing patterns across the darkening sky, and thousands of birds twist and turn together in perfect harmony. The air fills with their chirping calls, creating a natural symphony that echoes through the evening as they settle into the branches for the night.",
+      "firstText": "As the sun dips below the horizon, starlings gather in massive flocks above the trees. Their synchronized movements create mesmerizing patterns across the darkening sky, and thousands of birds twist and turn together in perfect harmony. The air fills with their chirping calls, creating a natural symphony that echoes through the evening. Within minutes, they settle into the branches for the night, and silence falls over the landscape.",
+      "storeSize": 4
+    },
+    {
+      "pos": 53,
+      "id": "noletter-05",
+      "cls": "noletter",
+      "param": "p",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 4,
+      "text": "Wool sweaters are timeless garments that offer warmth and style. These knitted items are made from fleece from animals, which delivers excellent insulation during frigid weather. The natural fibers in wool make these sweaters durable and long-lasting. Many individuals enjoy wearing wool sweaters during autumn and winter months. The soft texture feels wonderful against skin, and wool has natural moisture-wicking abilities that maintain dryness. Available in various styles, from fitted designs to loose fits, wool sweaters work for many occasions. Whether you want a neutral tone or a bold hue, there's a wool sweater for everyone.",
+      "firstText": "Wool sweaters are timeless garments that offer warmth and style. These knitted items are made from sheep's wool, which provides excellent insulation during frigid weather. The natural fibers in wool make these sweaters durable and long-lasting. Many people enjoy wearing wool sweaters during autumn and winter months. The soft texture feels wonderful against skin, and wool has natural moisture-wicking abilities that keep you dry. Available in various styles, from fitted designs to loose fits, wool sweaters work for many occasions. Whether you want a neutral tone or a bold hue, there's a wool sweater for everyone.",
+      "storeSize": 4
+    },
+    {
+      "pos": 54,
+      "id": "wordcount-05",
+      "cls": "wordcount",
+      "param": "N60",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "The pencil's history begins in the sixteenth century when graphite deposits were discovered in England. Initially, people wrapped raw graphite in string. Later, wood casings were added for protection and usability. In 1761, a Frenchman created the first modern pencil by mixing graphite powder with clay. This innovation revolutionized writing. Mass production began in the nineteenth century, making pencils affordable and accessible.",
+      "firstText": "The pencil's history begins in the sixteenth century when graphite deposits were discovered in England. Initially, people wrapped raw graphite in string. Later, wood casings were added for protection and usability. In 1761, a Frenchman created the first modern pencil by mixing graphite powder with clay. This innovation revolutionized writing instruments. Mass production began in the nineteenth century, making pencils affordable and accessible worldwide for everyone.",
+      "storeSize": 4
+    },
+    {
+      "pos": 55,
+      "id": "commas-21",
+      "cls": "commas",
+      "param": "n1",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "A honeybee's life begins as a tiny egg and transforms through several fascinating stages of development, then the worker bee emerges after about three weeks to start cleaning cells, feeding larvae, and building honeycomb before venturing outside to forage for nectar and pollen that sustains the entire colony.",
+      "firstText": "A honeybee's life begins as a tiny egg laid by the queen, and it transforms through several fascinating stages of development. The worker bee emerges after about three weeks and immediately starts cleaning cells and feeding larvae. As it matures, the bee progresses to building honeycomb and guarding the hive. Finally, in its last weeks of life, the bee ventures outside to forage for nectar and pollen, traveling up to three miles from home to collect resources for the colony.",
+      "storeSize": 4
+    },
+    {
+      "pos": 56,
+      "id": "frequency-09",
+      "cls": "frequency",
+      "param": "window-3",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "A good book carries weight that extends far beyond its physical pages. When you open a book, you open a window into another world, where characters breathe and stories unfold with purpose and meaning. The heft of a well-crafted novel in your hands becomes a window to understanding human experience, offering insights that linger long after you finish reading. Like gazing through a window at a distant landscape, a meaningful book allows you to see perspectives you might never otherwise encounter, making its weight feel insignificant compared to the value it provides.",
+      "firstText": "A good book carries weight that extends far beyond its physical pages. When you open a book, you open a window into another world, where characters breathe and stories unfold with purpose and meaning. The heft of a well-crafted novel in your hands becomes a window to understanding human experience, offering insights that linger long after you finish reading. Like gazing through a window at a distant landscape, a meaningful book allows you to see perspectives you might never otherwise encounter, making its weight feel insignificant compared to the value it provides.",
+      "storeSize": 4
+    },
+    {
+      "pos": 57,
+      "id": "wordcount-08",
+      "cls": "wordcount",
+      "param": "N50",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "A spinning top twirls gracefully across smooth surfaces, defying gravity through angular momentum. Children delight in watching its mesmerizing rotation, fascinated by how it balances on a single point. Eventually friction slows its spin until it wobbles and falls, ending its hypnotic dance with a gentle clatter on the floor.",
+      "firstText": "A spinning top twirls gracefully across smooth surfaces, defying gravity through angular momentum. Children delight in watching its mesmerizing rotation, fascinated by how it balances on a single point. Eventually friction slows its spin until it wobbles and falls, ending its hypnotic dance with a gentle clatter.",
+      "storeSize": 4
+    },
+    {
+      "pos": 58,
+      "id": "sentences-20",
+      "cls": "sentences",
+      "param": "n4",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The paper clip was invented in the 1890s by Johan Vaaler, a Norwegian inventor who patented his design in 1899. Vaaler's original design featured a wire bent into an overlapping loop that could securely hold papers together without damaging them. However, the most recognizable modern paper clip design was created by Gem Manufacturing Company in Britain around 1899, which became the standard \"gem clip\" still widely used today. The simple yet ingenious invention revolutionized office organization and remains one of the most practical and enduring tools in workplaces worldwide over a century later.",
+      "firstText": "The paper clip was invented in the 1890s by Johan Vaaler, a Norwegian inventor who patented his design in 1899. Vaaler's original design featured a wire bent into an overlapping loop that could securely hold papers together without damaging them. However, the most recognizable modern paper clip design was created by Gem Manufacturing Company in Britain around 1899, which became the standard \"gem clip\" still widely used today. The simple yet ingenious invention revolutionized office organization and remains one of the most practical and enduring tools in workplaces worldwide over a century later.",
+      "storeSize": 4
+    },
+    {
+      "pos": 59,
+      "id": "noletter-20",
+      "cls": "noletter",
+      "param": "c",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Fireflies are amazing bugs known for their glow-making ability. These beetles make light through a natural reaction in their abdomens, allowing them to flash in the dark. During summer evenings, fireflies drift through gardens and forests, using their glowing signals to attract mates. Their mesmerizing light show has delighted humans for generations. These remarkable beings are most active on warm, humid nights when they illuminate the sky with their natural glow.",
+      "firstText": "Fireflies are fascinating insects known for their bioluminescence. These beetles create light through a chemical reaction in their abdomens, allowing them to flash in the darkness. During summer evenings, fireflies drift through gardens and forests, using their glowing signals to attract mates. Their mesmerizing light show has delighted humans for generations. These remarkable creatures are most active on warm, humid nights when they illuminate the sky with their natural brilliance.",
+      "storeSize": 4
+    },
+    {
+      "pos": 60,
+      "id": "commas-04",
+      "cls": "commas",
+      "param": "n2",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "Cobblestone streets have lined European cities for centuries, creating a distinctive charm that modern roads cannot replicate. These ancient pathways tell stories of merchants and travelers who once walked their uneven surfaces, and they remain popular tourist attractions today.",
+      "firstText": "Cobblestone streets have lined European cities for centuries, creating a distinctive charm that modern roads cannot replicate. These ancient pathways tell stories of merchants and travelers who once walked their uneven surfaces, and they remain popular tourist attractions today.",
+      "storeSize": 4
+    },
+    {
+      "pos": 61,
+      "id": "commas-11",
+      "cls": "commas",
+      "param": "n3",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 3,
+      "text": "Hand-knit socks are a cozy and practical addition to any wardrobe. They require patience and skill, but the result is worth every stitch. Knitters often choose soft yarns in their favorite colors and can customize the fit perfectly for their feet. These socks provide warmth, comfort, and durability that mass-produced alternatives simply cannot match.",
+      "firstText": "Hand-knit socks are a cozy and practical addition to any wardrobe. They require patience and skill, but the result is worth every stitch. Knitters often choose soft yarns in their favorite colors, and they can customize the fit perfectly for their feet. These socks provide warmth and comfort that mass-produced alternatives simply cannot match.",
+      "storeSize": 4
+    },
+    {
+      "pos": 62,
+      "id": "frequency-04",
+      "cls": "frequency",
+      "param": "river-5",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The thermos was invented in 1892 by Sir James Dewar, a Scottish scientist who sought to solve a problem as persistent as a river flowing downhill. His double-walled vacuum flask design worked like a river of insulation, preventing heat from escaping into the cold air around it. The technology became commercially successful when Reinhold Burger patented an improved version, and the product name \"Thermos\" became as common as a river in the landscape of household items. Just as a river maintains its temperature despite external conditions, the thermos kept beverages hot or cold for hours. Today, this ingenious container remains popular, proving that Dewar's innovation was as enduring as a river carving through stone.",
+      "firstText": "The thermos was invented in 1892 by Sir James Dewar, a Scottish scientist who sought to solve a problem as persistent as a river flowing downhill. His double-walled vacuum flask design worked like a river of insulation, preventing heat from escaping into the cold air around it. The technology became commercially successful when Reinhold Burger patented an improved version, and the product name \"Thermos\" became as common as a river in the landscape of household items. Just as a river maintains its temperature despite external conditions, the thermos kept beverages hot or cold for hours. Today, this ingenious container remains popular, proving that Dewar's innovation was as enduring as a river carving through stone.",
+      "storeSize": 4
+    },
+    {
+      "pos": 63,
+      "id": "frequency-03",
+      "cls": "frequency",
+      "param": "window-5",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "Bridge tolls serve as a critical funding mechanism for infrastructure maintenance and expansion. During the collection window, drivers must have their payment ready or use electronic systems. Many toll facilities now offer a convenient payment window through mobile apps, eliminating the need to stop at booths. The administrative window for processing toll revenues has expanded significantly with modern technology. Commuters often budget for tolls within a specific financial window each month. Looking through the window of historical data, tolls have proven essential for keeping bridges safe and well-maintained for all travelers.",
+      "firstText": "Bridge tolls serve as a critical funding mechanism for infrastructure maintenance and expansion. During the collection window, drivers must have their payment ready or use electronic systems. Many toll facilities now offer a convenient payment window through mobile apps, eliminating the need to stop at booths. The administrative window for processing toll revenues has expanded significantly with modern technology. Commuters often budget for tolls within a specific financial window each month. These fees help ensure that bridges remain safe and well-maintained for all travelers.",
+      "storeSize": 4
+    },
+    {
+      "pos": 64,
+      "id": "frequency-18",
+      "cls": "frequency",
+      "param": "window-3",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "Pocket watches have long been treasured timepieces, often featuring an ornate metal case with a small window displaying the dial face. Through the transparent window, collectors can admire the intricate mechanical movements that power these elegant instruments. The crystal window protects the delicate components while allowing owners to appreciate the craftsmanship and precision engineering that makes each pocket watch a functional work of art.",
+      "firstText": "Pocket watches have long been treasured timepieces, often featuring an ornate metal case with a small window displaying the dial face. Through the transparent window, collectors can admire the intricate mechanical movements that power these elegant instruments. The crystal window protects the delicate components while allowing owners to appreciate the craftsmanship and precision engineering that makes each pocket watch a functional work of art.",
+      "storeSize": 4
+    },
+    {
+      "pos": 65,
+      "id": "commas-23",
+      "cls": "commas",
+      "param": "n2",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "Night trains offer a unique travel experience, allowing passengers to sleep while crossing vast distances. These locomotives rumble through darkness, connecting distant cities with an efficient and romantic mode of transportation.",
+      "firstText": "Night trains offer a unique travel experience, allowing passengers to sleep while crossing vast distances. These locomotives rumble through darkness, connecting distant cities with an efficient and romantic mode of transportation.",
+      "storeSize": 4
+    },
+    {
+      "pos": 66,
+      "id": "sentences-09",
+      "cls": "sentences",
+      "param": "n3",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The hourglass was invented during the medieval period, likely in the 8th century, as a practical timekeeping device that didn't rely on celestial observations or water clocks. It consisted of two glass bulbs connected by a narrow passage, with sand flowing from the upper chamber to the lower one at a consistent rate to measure the passage of time. The hourglass became widely used on ships and in daily life because it was portable, reliable, and worked regardless of weather conditions, making it an essential tool for navigation and scheduling activities before mechanical clocks became common.",
+      "firstText": "The hourglass was invented during the medieval period, likely in the 8th century, as a practical timekeeping device that didn't rely on celestial observations or water clocks. It consisted of two glass bulbs connected by a narrow passage, with sand flowing from the upper chamber to the lower one at a consistent rate to measure the passage of time. The hourglass became widely used on ships and in daily life because it was portable, reliable, and worked regardless of weather conditions, making it an essential tool for navigation and scheduling activities before mechanical clocks became common.",
+      "storeSize": 4
+    },
+    {
+      "pos": 67,
+      "id": "noletter-12",
+      "cls": "noletter",
+      "param": "p",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "Saltwater aquariums are fascinating environments that require knowledge and dedication. These tanks house marine life like fish, invertebrates, and algae from ocean habitats. Maintaining ideal salinity, heat, and filtration is essential for the health of your aquatic residents. Many enthusiasts find that saltwater systems offer stunning visual exhibits with vibrant organisms and beautiful reef formations. Starting this hobby demands initial investment in gear and ongoing maintenance, but the rewards are truly worthwhile for those who love the ocean.",
+      "firstText": "Saltwater aquariums are fascinating environments that require knowledge and dedication. These tanks house marine life like fish, invertebrates, and algae from ocean habitats. Maintaining proper salinity, temperature, and filtration is essential for the health of your aquatic residents. Many enthusiasts find that saltwater systems offer stunning visual displays with vibrant organisms and beautiful reef formations. Starting this hobby demands initial investment in equipment and ongoing maintenance, but the rewards are truly worthwhile for those who love the ocean.",
+      "storeSize": 4
+    },
+    {
+      "pos": 68,
+      "id": "sentences-04",
+      "cls": "sentences",
+      "param": "n3",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The aroma of fresh bread is a warm, inviting scent that fills the air with notes of yeast, butter, and toasted grain. It carries a comforting sweetness mixed with earthiness, evoking feelings of home and nostalgia in those who encounter it. This unmistakable fragrance has the power to draw people toward a bakery or kitchen, awakening their senses and stirring their appetite with its simple, honest appeal.",
+      "firstText": "The aroma of fresh bread is a warm, inviting scent that fills the air with notes of yeast, butter, and toasted grain. It carries a comforting sweetness mixed with earthiness, evoking feelings of home and nostalgia in those who encounter it. This unmistakable fragrance has the power to draw people toward a bakery or kitchen, awakening their senses and stirring their appetite with its simple, honest appeal.",
+      "storeSize": 4
+    },
+    {
+      "pos": 69,
+      "id": "frequency-14",
+      "cls": "frequency",
+      "param": "ladder-5",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The town square at dawn transforms into a place of quiet discovery, where a ladder leans against the old bakery wall and a ladder rests near the fountain for maintenance work. A street vendor climbs a ladder to hang fresh flowers from the market stall, while another ladder sits abandoned by the closed café. As the first light touches the cobblestones, a final ladder appears in the hands of a worker preparing the square for the day ahead, and the empty plaza becomes alive with purpose and preparation.",
+      "firstText": "The town square at dawn transforms into a place of quiet discovery, where a ladder leans against the old bakery wall and a ladder rests near the fountain for maintenance work. A street vendor climbs a ladder to hang fresh flowers from the market stall, while another ladder sits abandoned by the closed café. As the first light touches the cobblestones, a final ladder appears in the hands of a worker preparing the square for the day ahead, and the empty plaza becomes alive with purpose and preparation.",
+      "storeSize": 4
+    },
+    {
+      "pos": 70,
+      "id": "sentences-10",
+      "cls": "sentences",
+      "param": "n4",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "Seashell collecting is a beloved hobby that combines relaxation with the thrill of discovery along beaches and shorelines. Collectors search for shells of various shapes, sizes, and colors, from delicate spiral snail shells to robust clam shells, each telling a story of ocean life. The practice requires minimal equipment—just a bucket or bag—making it accessible to people of all ages and abilities. Whether kept as decorative displays, used in crafts, or studied for their natural beauty, seashells connect us to the marine world and preserve memories of time spent by the sea.",
+      "firstText": "Seashell collecting is a beloved hobby that combines relaxation with the thrill of discovery along beaches and shorelines. Collectors search for shells of various shapes, sizes, and colors, from delicate spiral snail shells to robust clam shells, each telling a story of ocean life. The practice requires minimal equipment—just a bucket or bag—making it accessible to people of all ages and abilities. Whether kept as decorative displays, used in crafts, or studied for their natural beauty, seashells connect us to the marine world and preserve memories of time spent by the sea.",
+      "storeSize": 4
+    },
+    {
+      "pos": 71,
+      "id": "noletter-03",
+      "cls": "noletter",
+      "param": "l",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Tugboats are compact, sturdy boats designed to move and guide much bigger ships through narrow waterways and harbors. These mighty workhorses use their strong engines and trained crews to tow or shove massive cargo ships, tankers, and other vessels into dock. Tugboats maneuver through tight channels and congested waters with remarkable agility, thanks to their rotating tractor screws and jet nozzles. The crews aboard these boats demonstrate incredible skies and coordination, ensuring safe navigation in challenging maritime environments. Tugboats remain essential to modern shipping, serving as indispensable assets in every major harbor around the world.\n\nTugboats are compact, sturdy boats made to move and guide much bigger ships through narrow waterways and harbors. These mighty workhorses use their strong engines and trained crews to tow or shove massive cargo ships, tankers, and other boats into dock. Tugboats navigate through tight areas and busy waters with remarkable skill, thanks to their rotating tractor screws and jet nozzles. The crews aboard these boats demonstrate incredible focus and coordination, ensuring safe navigation in challenging maritime environments. Tugboats remain essential to modern shipping, serving as indispensable assets in every major harbor around the world.",
+      "firstText": "Tugboats are small, sturdy vessels designed to move and guide much bigger ships through narrow waterways and harbors. These mighty workhorses use their strong engines and skilled crews to tow or shove massive cargo ships, tankers, and other vessels into dock. Tugboats maneuver through tight channels and congested waters with remarkable agility, thanks to their rotating tractor screws and jet nozzles. The crews aboard these boats demonstrate incredible skill and coordination, ensuring safe navigation in challenging maritime environments. Tugboats remain essential to modern shipping, serving as indispensable assets in every major harbor around the world.",
+      "storeSize": 4
+    },
+    {
+      "pos": 72,
+      "id": "noletter-15",
+      "cls": "noletter",
+      "param": "d",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 4,
+      "text": "Clay pottery represents one of humanity's most ancient crafts, with proof of ceramic vessels stretching back many years across various cultures. Artisans shape wet clay using fingers or on a spinning wheel, creating functional items such as bowls, vases, or jars. The process requires patience, skill, as the material must be carefully form, smooth, sometimes carve with intricate patterns. After shaping, pieces are typically fire in a kiln at high temperatures, transforming the soft clay into strong, permanent ceramics. This timeless art form continues to captivate makers, collectors, who appreciate both the beauty, utility of craftsmanship pottery.",
+      "firstText": "Clay pottery represents one of humanity's most ancient crafts, with evidence of ceramic vessels stretching back thousands of years across many cultures. Artisans shape wet clay by hand or on a spinning wheel, creating functional items such as bowls, vases, and jars. The process requires patience and skill, as the material must be carefully formed, smoothed, and sometimes carved with intricate patterns. After shaping, pieces are typically fired in a kiln at high temperatures, transforming the soft clay into hard, permanent ceramics. This timeless art form continues to captivate makers and collectors, who appreciate both the beauty and utility of handcrafted pottery.",
+      "storeSize": 4
+    },
+    {
+      "pos": 73,
+      "id": "noletter-18",
+      "cls": "noletter",
+      "param": "p",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 3,
+      "text": "Bus shelters are common structures found along streets in most towns and cities. These structures offer safety from rain and sun while commuters wait for their buses to arrive. They usually feature a roof, walls on some sides, and benches for folks to sit on. Many shelters include information about bus routes and schedules. Some modern shelters have amenities like lighting and heating. Bus shelters serve an essential role in making transit more comfortable for everyone who uses mass transit systems.",
+      "firstText": "Bus shelters are common structures found along streets in most towns and cities. These structures offer protection from rain and sun while commuters wait for their buses to arrive. They typically feature a roof, walls on some sides, and benches for people to sit on. Many shelters include information about bus routes and schedules. Some modern shelters have amenities like lighting and heating. Bus shelters serve an important role in making transit more comfortable for everyone who uses public transportation.",
+      "storeSize": 4
+    },
+    {
+      "pos": 74,
+      "id": "commas-08",
+      "cls": "commas",
+      "param": "n2",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "Radio towers stand tall across the landscape, transmitting signals to millions of people every day. These structures are essential for communication, and they come in many different heights and designs depending on their purpose.",
+      "firstText": "Radio towers stand tall across the landscape, transmitting signals to millions of people every day. These structures are essential for communication, and they come in many different heights and designs depending on their purpose.",
+      "storeSize": 4
+    },
+    {
+      "pos": 75,
+      "id": "wordcount-09",
+      "cls": "wordcount",
+      "param": "N50",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "Suspension footbridges are engineering marvels spanning vast distances using cables and towers. These structures suspend the walkway from strong steel cables anchored securely at both ends. They're ideal for crossing rivers, valleys, and gorges. Famous examples include the Golden Gate Bridge and Brooklyn Bridge, showcasing human innovation and architectural brilliance.",
+      "firstText": "Suspension footbridges are engineering marvels that span vast distances using cables and towers. These structures suspend the walkway from strong steel cables anchored securely at both ends. They're ideal for crossing rivers, valleys, and gorges. Famous examples include the Golden Gate Bridge and Brooklyn Bridge, showcasing human innovation and architectural brilliance worldwide.",
+      "storeSize": 4
+    },
+    {
+      "pos": 76,
+      "id": "wordcount-21",
+      "cls": "wordcount",
+      "param": "N30",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 3,
+      "text": "Hot-air balloons drift gracefully through blue skies, carrying adventurous passengers high above the landscape. The colorful envelopes fill with heated air, creating lift. Pilots skillfully navigate winds, experiencing breathtaking views.",
+      "firstText": "Hot-air balloons drift gracefully through blue skies, carrying adventurous passengers high above the landscape. The colorful envelopes fill with heated air, creating lift. Pilots skillfully navigate winds, experiencing breathtaking views and pure freedom.",
+      "storeSize": 4
+    },
+    {
+      "pos": 77,
+      "id": "commas-14",
+      "cls": "commas",
+      "param": "n5",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Marathon pacing is a critical skill that requires runners to balance speed with endurance throughout the entire race. Many beginners make the mistake of starting too fast, burning out before the finish line. The ideal approach involves running at a steady pace, maintaining energy reserves for the final miles. Experienced marathoners often use a negative split strategy, running the second half faster than the first. By practicing proper pacing and staying hydrated, you can achieve your marathon goals successfully.",
+      "firstText": "Marathon pacing is a critical skill, requiring runners to balance speed with endurance throughout the entire race. Many beginners make the mistake of starting too fast, burning out before reaching the finish line. The ideal approach involves running at a steady, sustainable pace, maintaining energy reserves for the final miles. Experienced marathoners often use a negative split strategy, running the second half faster than the first. By practicing proper pacing, training consistently, and listening to your body, you can achieve your marathon goals successfully.",
+      "storeSize": 4
+    },
+    {
+      "pos": 78,
+      "id": "wordcount-03",
+      "cls": "wordcount",
+      "param": "N50",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Early weather forecasting relied on observational methods and natural signs. Meteorologists studied cloud patterns, wind directions, and atmospheric pressure changes using basic instruments. By the nineteenth century, telegraph technology enabled sharing observations across distant regions. These advances created the essential foundation for modern weather prediction systems we use today.",
+      "firstText": "Early weather forecasting relied on observational methods and natural signs. Meteorologists studied cloud patterns, wind directions, and atmospheric pressure changes using basic instruments. By the nineteenth century, telegraph technology enabled sharing observations across regions. These advances created the foundation for modern weather prediction and forecasting systems.",
+      "storeSize": 4
+    },
+    {
+      "pos": 79,
+      "id": "frequency-22",
+      "cls": "frequency",
+      "param": "ladder-3",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "Mountain passes in snow present formidable challenges for travelers navigating treacherous terrain. Each step becomes a careful ladder of progression, where climbers must ascend methodically through blinding whiteouts and avalanche zones. The path itself resembles a ladder of switchbacks carved into the mountainside, offering the only viable route through the peaks. Experienced mountaineers treat the journey like climbing a ladder, taking deliberate precautions at each level to ensure survival in these harsh conditions where one mistake can prove fatal.",
+      "firstText": "Mountain passes in snow present formidable challenges for travelers navigating treacherous terrain. Each step becomes a careful ladder of progression, where climbers must ascend methodically through blinding whiteouts and avalanche zones. The path itself resembles a ladder of switchbacks carved into the mountainside, offering the only viable route through the peaks. Experienced mountaineers treat the journey like climbing a ladder, taking deliberate precautions at each level to ensure survival in these harsh conditions where one mistake can prove fatal.",
+      "storeSize": 4
+    },
+    {
+      "pos": 80,
+      "id": "commas-15",
+      "cls": "commas",
+      "param": "n0",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The fog rolled thick across the empty street as I stepped outside for my morning run. My breath came in white clouds that dissolved into the mist around me. The world felt smaller and quieter with visibility reduced to just a few feet ahead. I focused on my breathing and my footsteps echoing softly on the pavement. The cool damp air filled my lungs as I pushed forward through the haze. By the time I finished my route the sun had begun to burn away the fog and reveal the familiar landscape once more.",
+      "firstText": "The fog rolled thick across the empty street as I stepped outside for my morning run. My breath came in white clouds that dissolved into the mist around me. The world felt smaller and quieter with visibility reduced to just a few feet ahead. I focused on my breathing and my footsteps echoing softly on the pavement. The cool damp air filled my lungs as I pushed forward through the haze. By the time I finished my route the sun had begun to burn away the fog and reveal the familiar landscape once more.",
+      "storeSize": 4
+    },
+    {
+      "pos": 81,
+      "id": "noletter-02",
+      "cls": "noletter",
+      "param": "m",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "The loaf sits on the kitchen counter, its golden crust cooling gradually. Heat rises from the fresh bread as it settles into a firmer texture. The scent fills the air with delightful aroma. After several hours, the bread will be ready to slice and enjoy. This freshly baked treat looks absolutely delicious and inviting.\n\nThe loaf sits on the kitchen counter, its golden crust cooling gradually. Heat radiates outward as the fresh bread settles into a solid, dense texture. The scent fills the air with delightful fragrance. After several hours, the bread will be ready to slice and enjoy. This freshly baked treat looks absolutely delicious and inviting.",
+      "firstText": "The loaf sits on the kitchen counter, its golden crust cooling gradually. Steam rises from the fresh bread as it settles into a firmer texture. The aroma fills the air with warmth and comfort. After several hours, the bread will be ready to slice and enjoy. This freshly baked treat looks absolutely delicious and inviting.",
+      "storeSize": 4
+    },
+    {
+      "pos": 82,
+      "id": "wordcount-02",
+      "cls": "wordcount",
+      "param": "N60",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "Tea ceremonies represent profound cultural traditions emphasizing mindfulness and respect. In Japan, the chanoyu ritual involves precise movements, aesthetic appreciation, and meditative focus. Participants gather in serene spaces, observing carefully choreographed procedures. The host prepares matcha tea with deliberate grace while guests appreciate every detail. These ceremonies cultivate harmony, tranquility, and meaningful human connection through shared experience and artistic expression.",
+      "firstText": "Tea ceremonies represent profound cultural traditions emphasizing mindfulness and respect. In Japan, the chanoyu ritual involves precise movements, aesthetic appreciation, and meditative focus. Participants gather in serene spaces, observing carefully choreographed procedures. The host prepares matcha tea with deliberate grace while guests appreciate every detail. These ceremonies cultivate harmony, tranquility, and human connection through shared experience and artistic expression.",
+      "storeSize": 4
+    },
+    {
+      "pos": 83,
+      "id": "noletter-10",
+      "cls": "noletter",
+      "param": "c",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Pine needles release a fresh, invigorating aroma that fills the forest air with natural sweetness. The sharp, resinous odor lingers on your hands after brushing against the boughs, offering an earthy fragrance that feels both soothing and energizing. This notable smell awakens the senses and transports you to tranquil woodland settings, evoking feelings of serenity and rejuvenation. The pungent, woodsy notes of pine are instantly familiar and beloved by those who enjoy nature's pure, unfiltered perfumes.\n\nPine needles release a fresh, invigorating aroma that fills the forest air with natural sweetness. The sharp, resinous odor lingers on your hands after brushing against the boughs, offering an earthy scent that feels both soothing and energizing. This notable smell awakens the senses and transports you to tranquil woodland settings, evoking feelings of serenity and rejuvenation. The pungent, woodsy notes of pine are instantly familiar and beloved by those who enjoy nature's pure, unfiltered perfumes.",
+      "firstText": "Pine needles release a fresh, invigorating aroma that fills the forest air with natural sweetness. The sharp, resinous scent lingers on your hands after brushing against the branches, offering an earthy fragrance that feels both soothing and energizing. This distinctive odor awakens the senses and transports you to tranquil woodland settings, evoking feelings of peace and rejuvenation. The pungent, woodsy notes of pine are instantly recognizable and beloved by those who enjoy nature's pure, unfiltered perfumes.",
+      "storeSize": 4
+    },
+    {
+      "pos": 84,
+      "id": "noletter-21",
+      "cls": "noletter",
+      "param": "s",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "A wooden boat built by hand offer a timeless way to explore waterway. The builder mold the hull from log, bending and fitting plank together with kill and patience. Paddle propel the veal forward through tream and lake. Many people enjoy the quiet, meditative experience of rowing uch a boat. The natural wood age beautifully, developing a rich patina over time. Traditional method of boat-making remain popular among enthiuiast who value handmade quality and durability.",
+      "firstText": "A wooden boat built by hand offers a timeless way to explore waterways. The builder shapes the hull from logs, bending and fitting planks together with skill and patience. Paddles propel the vessel forward through streams and lakes. Many people enjoy the quiet, meditative experience of rowing such a boat. The natural wood ages beautifully, developing a rich patina over time. Traditional methods of boat-making remain popular among enthusiasts who value handmade quality and durability.",
+      "storeSize": 4
+    },
+    {
+      "pos": 85,
+      "id": "commas-03",
+      "cls": "commas",
+      "param": "n5",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "The first photographs emerged in the 1820s, when inventors developed new chemical processes. Joseph Nicéphore Niépce captured the earliest known image, and his work revolutionized visual documentation. These pioneering photographs were grainy and required long exposure times, yet they fascinated the public. William Henry Fox Talbot later invented the negative process, which allowed multiple prints from a single image, and photography transformed how people recorded history and understood their world.",
+      "firstText": "The first photographs emerged in the 1820s, when inventors developed new chemical processes. Joseph Nicéphore Niépce captured the earliest known image, and his work revolutionized visual documentation. These pioneering photographs were grainy and required long exposure times, yet they fascinated the public. William Henry Fox Talbot later invented the negative process, which allowed multiple prints from a single image. Photography transformed how people recorded history and understood their world.",
+      "storeSize": 4
+    },
+    {
+      "pos": 86,
+      "id": "commas-24",
+      "cls": "commas",
+      "param": "n1",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The mountain stream cascades down rocky slopes, tumbling over boulders and creating a soothing melody that echoes through the valley below.",
+      "firstText": "The mountain stream cascades down rocky slopes, tumbling over boulders and creating a soothing melody that echoes through the valley below.",
+      "storeSize": 4
+    },
+    {
+      "pos": 87,
+      "id": "frequency-02",
+      "cls": "frequency",
+      "param": "window-3",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "When a tree falls, its rings become a fascinating window into the past, revealing decades of growth patterns and environmental conditions. Each ring represents a single year, creating a natural window of time that scientists can read like pages in a history book. The rings tell stories of droughts, abundant rainfall, and forest fires, offering a window into the climate and ecology of bygone eras. By counting and analyzing these concentric circles, researchers can determine the tree's age and understand how it responded to changing conditions throughout its lifetime.",
+      "firstText": "When a tree falls, its rings become a fascinating window into the past, revealing decades of growth patterns and environmental conditions. Each ring represents a single year, creating a natural window of time that scientists can read like pages in a history book. The rings tell stories of droughts, abundant rainfall, and forest fires, offering a window into the climate and ecology of bygone eras. By counting and analyzing these concentric circles, researchers can determine the tree's age and understand how it responded to changing conditions throughout its lifetime.",
+      "storeSize": 4
+    },
+    {
+      "pos": 88,
+      "id": "sentences-17",
+      "cls": "sentences",
+      "param": "n5",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "# Porch Swings\n\nPorch swings have been a cherished fixture of American homes for generations, offering a peaceful retreat from the hustle and bustle of daily life. These gentle swaying seats, typically suspended from the ceiling by chains or ropes, create a soothing rhythm that promotes relaxation and contemplation. Whether enjoyed alone with a good book or shared with family and friends, porch swings foster meaningful conversations and connection with loved ones. The soft creaking of the chains and the cool evening breeze make porch swings the perfect spot to watch sunsets or enjoy the simple pleasures of neighborhood life. Today, porch swings remain a timeless symbol of comfort and nostalgia, representing a slower pace of living that many people desperately seek.",
+      "firstText": "# Porch Swings\n\nPorch swings have been a cherished fixture of American homes for generations, offering a peaceful retreat from the hustle and bustle of daily life. These gentle swaying seats, typically suspended from the ceiling by chains or ropes, create a soothing rhythm that promotes relaxation and contemplation. Whether enjoyed alone with a good book or shared with family and friends, porch swings foster meaningful conversations and connection with loved ones. The soft creaking of the chains and the cool evening breeze make porch swings the perfect spot to watch sunsets or enjoy the simple pleasures of neighborhood life. Today, porch swings remain a timeless symbol of comfort and nostalgia, representing a slower pace of living that many people desperately seek.",
+      "storeSize": 4
+    },
+    {
+      "pos": 89,
+      "id": "sentences-22",
+      "cls": "sentences",
+      "param": "n7",
+      "recalled": [],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "# The Sound of a Cello\n\nThe cello produces a warm, resonant tone that closely mirrors the human voice, capable of expressing profound emotion with every note. Its deep, rich timbre emerges from the vibration of four strings stretched across a wooden body, creating frequencies that seem to emanate from the very soul of the instrument. When the bow draws across the strings, it generates a singing quality that can soar above an orchestra or whisper intimately in chamber settings. The lower register of the cello rumbles with a gravitas and weight that anchors musical compositions, while its higher notes ring with clarity and brilliance. Vibrato techniques allow cellists to add a subtle wavering quality to sustained notes, infusing them with expressiveness and depth. The instrument's natural sustain allows musicians to craft long, legato phrases that flow like silk, creating an almost hypnotic effect on listeners. Whether playing Bach's demanding suites or contemporary experimental music, the cello's versatile voice remains one of the most moving and recognizable sounds in all of music.",
+      "firstText": "# The Sound of a Cello\n\nThe cello produces a warm, resonant tone that closely mirrors the human voice, capable of expressing profound emotion with every note. Its deep, rich timbre emerges from the vibration of four strings stretched across a wooden body, creating frequencies that seem to emanate from the very soul of the instrument. When the bow draws across the strings, it generates a singing quality that can soar above an orchestra or whisper intimately in chamber settings. The lower register of the cello rumbles with a gravitas and weight that anchors musical compositions, while its higher notes ring with clarity and brilliance. Vibrato techniques allow cellists to add a subtle wavering quality to sustained notes, infusing them with expressiveness and depth. The instrument's natural sustain allows musicians to craft long, legato phrases that flow like silk, creating an almost hypnotic effect on listeners. Whether playing Bach's demanding suites or contemporary experimental music, the cello's versatile voice remains one of the most moving and recognizable sounds in all of music.",
+      "storeSize": 4
+    },
+    {
+      "pos": 90,
+      "id": "commas-12",
+      "cls": "commas",
+      "param": "n4",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "The first bicycles were invented in the early 1800s as wooden contraptions with no pedals. Riders pushed themselves forward with their feet, and these machines were called hobby horses. Later designs added pedals directly to the front wheel, which made cycling more efficient. By the 1880s, the safety bicycle emerged with two equal-sized wheels, a chain drive, and improved braking systems.",
+      "firstText": "The first bicycles, invented in the early 1800s, were wooden contraptions with no pedals. Riders pushed themselves forward with their feet, and these machines were called hobby horses. Later designs added pedals directly to the front wheel, which made cycling more efficient. By the 1880s, the safety bicycle emerged with two equal-sized wheels and a chain drive, creating the modern bicycle design we know today.",
+      "storeSize": 4
+    },
+    {
+      "pos": 91,
+      "id": "sentences-07",
+      "cls": "sentences",
+      "param": "n6",
+      "recalled": [],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "# The First Air Mail\n\nThe first official airmail service in the United States was established on May 15, 1918, between Washington, D.C., and New York City. Pilot Stephen Bonsal flew the inaugural flight from Polo Grounds in Washington, carrying approximately 140 pounds of mail in a specially designed pouch. The service faced significant challenges, including frequent crashes, unreliable aircraft, and unpredictable weather conditions that plagued early operations. Despite these difficulties, airmail proved to be faster than traditional railroad mail delivery, reducing cross-country delivery time from several days to just hours. The success of this initial service led to the rapid expansion of airmail routes across the United States and eventually internationally. Today, airmail remains a critical component of global logistics and communications, fundamentally transforming how mail and packages are delivered worldwide.",
+      "firstText": "# The First Air Mail\n\nThe first official airmail service in the United States was established on May 15, 1918, between Washington, D.C., and New York City. Pilot Stephen Bonsal flew the inaugural flight from Polo Grounds in Washington, carrying approximately 140 pounds of mail in a specially designed pouch. However, the service faced significant challenges, including frequent crashes, unreliable aircraft, and unpredictable weather conditions that plagued early operations. Despite these difficulties, airmail proved to be faster than traditional railroad mail delivery, reducing cross-country delivery time from several days to just hours. The success of this initial service led to the rapid expansion of airmail routes across the United States and eventually internationally. Today, airmail remains a critical component of global logistics and communications, fundamentally transforming how mail and packages are delivered worldwide.",
+      "storeSize": 4
+    },
+    {
+      "pos": 92,
+      "id": "frequency-06",
+      "cls": "frequency",
+      "param": "window-5",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The delicate art of folding origami cranes has captivated people for centuries. Through the window of Japanese tradition, we discover how each precise fold creates beauty. Many artists display their finished cranes in a window to catch the light beautifully. The legend says that folding one thousand cranes grants a wish, a belief passed through the window of cultural storytelling. Whether you view origami through the window of meditation or artistic expression, the crane remains a symbol of peace. Looking out a window while holding a completed crane reminds us of the tranquility this ancient craft brings to our modern lives.",
+      "firstText": "The delicate art of folding origami cranes has captivated people for centuries. Through the window of Japanese tradition, we discover how each precise fold creates beauty. Many artists display their finished cranes in a window to catch the light beautifully. The legend says that folding one thousand cranes grants a wish, a belief passed through the window of cultural storytelling. Whether you view origami through the window of meditation or artistic expression, the crane remains a symbol of peace. Looking out a window while holding a completed crane reminds us of the tranquility this ancient craft brings to our modern lives.",
+      "storeSize": 5
+    },
+    {
+      "pos": 93,
+      "id": "sentences-05",
+      "cls": "sentences",
+      "param": "n5",
+      "recalled": [
+        "e9-sentences"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The mountain lookout tower stands tall against the sky, offering breathtaking views of the surrounding peaks and valleys. Built decades ago, this structure has served as a vital post for spotting wildfires and monitoring weather patterns across the vast landscape. Visitors who climb the steep wooden stairs are rewarded with panoramic vistas that stretch for miles in every direction. The tower's weathered walls tell stories of countless seasons and the dedicated rangers who have kept watch from this remote perch. Today, it remains an iconic landmark that draws hikers and nature enthusiasts seeking both adventure and solitude.",
+      "firstText": "The mountain lookout tower stands tall against the sky, offering breathtaking views of the surrounding peaks and valleys. Built decades ago, this structure has served as a vital post for spotting wildfires and monitoring weather patterns across the vast landscape. Visitors who climb the steep wooden stairs are rewarded with panoramic vistas that stretch for miles in every direction. The tower's weathered walls tell stories of countless seasons and the dedicated rangers who have kept watch from this remote perch. Today, it remains an iconic landmark that draws hikers and nature enthusiasts seeking both adventure and solitude.",
+      "storeSize": 5
+    },
+    {
+      "pos": 94,
+      "id": "wordcount-04",
+      "cls": "wordcount",
+      "param": "N30",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Soft flakes drift silently through cold air, blanketing the world in pristine white. Trees bow under crystalline layers. The earth sleeps peacefully, muffled by nature's gentle and quiet coverlet of snow.",
+      "firstText": "Soft flakes drift silently through cold air, blanketing the world in pristine white. Trees bow under crystalline layers. The earth sleeps peacefully, muffled by nature's gentle coverlet of snow.",
+      "storeSize": 5
+    },
+    {
+      "pos": 95,
+      "id": "sentences-12",
+      "cls": "sentences",
+      "param": "n6",
+      "recalled": [
+        "e9-sentences"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The wind whips across the sandy beach, perfect for flying kites of every color and shape. Children and adults alike grip their strings tightly as their kites dance and soar high above the dunes. The colorful fabric catches the sunlight, creating a mesmerizing display against the blue sky. Some kites perform daring loops and dives while others glide smoothly on the steady ocean breeze. The laughter and shouts of joy from the beach fill the air as people celebrate their flying success. On a windy beach day like this, kites transform an ordinary afternoon into pure magic and wonder.",
+      "firstText": "The wind whips across the sandy beach, perfect for flying kites of every color and shape. Children and adults alike grip their strings tightly as their kites dance and soar high above the dunes. The colorful fabric catches the sunlight, creating a mesmerizing display against the blue sky. Some kites perform daring loops and dives while others glide smoothly on the steady ocean breeze. The laughter and shouts of joy from the beach fill the air as people celebrate their flying success. On a windy beach day like this, kites transform an ordinary afternoon into pure magic and wonder.",
+      "storeSize": 5
+    },
+    {
+      "pos": 96,
+      "id": "commas-01",
+      "cls": "commas",
+      "param": "n3",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 3,
+      "text": "Sand dunes are fascinating natural formations that shape coastal and desert landscapes, created by wind and water erosion. These rolling hills of sand provide habitats for specialized plants and animals, while protecting shorelines from storms. Dunes support unique ecosystems, and they attract visitors from around the world.",
+      "firstText": "Sand dunes are fascinating natural formations that shape coastal and desert landscapes. These rolling hills of sand, created by wind and water erosion, provide habitats for specialized plants and animals. Dunes protect shorelines from storms, support unique ecosystems, and offer recreational opportunities for visitors.",
+      "storeSize": 5
+    },
+    {
+      "pos": 97,
+      "id": "frequency-11",
+      "cls": "frequency",
+      "param": "window-5",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "The sleeping cat lay curled on the windowsill, bathed in afternoon sunlight streaming through the window. Outside the window, birds chirped in the garden, but the cat remained undisturbed by the sounds beyond the window. With one paw stretched toward the window, the peaceful feline dreamed contentedly in its favorite spot.",
+      "firstText": "The sleeping cat lay curled on the windowsill, bathed in afternoon sunlight streaming through the window. Outside the window, birds chirped in the garden, but the cat remained undisturbed by the sounds beyond the window. With one paw stretched toward the window, the peaceful feline dreamed contentedly in its favorite spot.",
+      "storeSize": 5
+    },
+    {
+      "pos": 98,
+      "id": "noletter-23",
+      "cls": "noletter",
+      "param": "s",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "River otter life revolve around water habitat. The otter hunt for food like perch and crayfish in river and lake. Young otter learn from their mother how to dive and catch prey. River otter are playful animal that enjoy gliding on mud bank and playing with other otter. They build den near the water edge to live and rear their young. River otter have thick fur that keep them warm and dry in cold water. During the day, they remain active and alert, watching for danger. At night, they often hide in their den to relax. River otter live together in family group and communicate through chirp and clicking note. Their life depend on clean, healthy water environment where they can find plenty of food and remain protected from predator.",
+      "firstText": "River otter life revolve around water habitat. The otter hunt for food like fish and crayfish in river and lake. Young otter learn from their mother how to dive and catch prey. River otter are playful animal that enjoy sliding on mud bank and playing with other otter. They build den near the water edge to live and raise their young. River otter have thick fur that keep them warm and dry in cold water. During the day, they remain active and alert, watching for danger. At night, they often hide in their den to relax. River otter live together in family group and communicate through chirp and clicking note. Their life depend on clean, healthy water environment where they can find plenty of food and remain protected from predator.",
+      "storeSize": 5
+    },
+    {
+      "pos": 99,
+      "id": "noletter-24",
+      "cls": "noletter",
+      "param": "d",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "The busy fish market bursts with activity every morning. Vendor call out their catch to hungry customer, offering fresh tuna, mackerel, and other variety. Ice keep the fish cold while people haggle over price. The air fill with the pungent aroma of the ocean. Fishmonger expertly fillet, wrap purchase in paper, or prepare meal. Young one point at the large tank containing lobster, crab, or other creature. The marketplace echo with laughter, negotiation, the clang of metal tool, the chop of knife. By noon, most vendor have already pack up their leftover inventory, ready for another busy tomorrow.",
+      "firstText": "The busy fish market bursts with activity every morning. Vendor call out their catch to hungry customer, offering fresh tuna, flounder, and mackerel. Ice keep the fish cold while people haggle over price. The air fill with the pungent aroma of the ocean. Fishmonger expertly fillet and wrap order in paper. Children point at the large tank containing lobster and crab. The marketplace echo with laughter, negotiation, and the clang of metal tool. By noon, most vendor have already pack up their leftover inventory and head home, ready for another busy tomorrow.",
+      "storeSize": 5
+    },
+    {
+      "pos": 100,
+      "id": "noletter-11",
+      "cls": "noletter",
+      "param": "m",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Cold water has a crisp, refreshing taste that feels pure on the tongue. It carries a subtle sweetness with no heaviness, offering a clean sensation as it flows across the palate. The chill enhances its neutrality, creating an almost crystalline and alive quality. There's a gentle, invigorating character to it—a basic quality that quenches without any aftertaste. The low heat sharpens its clarity, providing a satisfying, straightforward experience that feels both soothing and revitalizing.",
+      "firstText": "Cold water has a crisp, refreshing taste that feels pure on the tongue. It carries a subtle sweetness with no heaviness, offering a clean sensation as it flows across the palate. The chill enhances its neutrality, making it feel almost crystalline and alive. There's a gentle, almost invigorating quality to it—a simplicity that quenches without any aftertaste. The temperature amplifies its clarity, providing a satisfying, uncomplicated experience that feels both calming and revitalizing.",
+      "storeSize": 5
+    },
+    {
+      "pos": 101,
+      "id": "wordcount-07",
+      "cls": "wordcount",
+      "param": "N60",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Garden snails are fascinating creatures that move slowly across soil and plants. These gastropods possess spiral shells protecting their soft bodies. They consume vegetables and leaves, making them common garden pests. Snails prefer moist environments and emerge after rainfall. They navigate using their muscular foot, leaving slime trails. Despite their reputation, snails play important ecological roles in decomposition and nutrient cycling.",
+      "firstText": "Garden snails are fascinating creatures that move slowly across soil and plants. These gastropods possess spiral shells protecting their soft bodies. They consume vegetables and leaves, making them common garden pests. Snails prefer moist environments and emerge after rainfall. They navigate using their muscular foot, leaving characteristic slime trails. Despite their reputation, snails play important ecological roles in decomposition and nutrient cycling.",
+      "storeSize": 5
+    },
+    {
+      "pos": 102,
+      "id": "sentences-24",
+      "cls": "sentences",
+      "param": "n3",
+      "recalled": [
+        "e9-sentences"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The zipper was invented in the late 19th century by Elias Howe, who patented an \"Automatic, Continuous Clothing Closure\" in 1891, though his design was impractical for widespread use. Gideon Sundback, a Swedish-American engineer, improved upon Howe's invention in 1913 by creating the \"Hookless Fastener,\" which featured interlocking teeth that could be opened and closed smoothly with a slider. Sundback's design was eventually refined and marketed as the zipper, becoming one of the most important fastening innovations in fashion and everyday life.",
+      "firstText": "The zipper was invented in the late 19th century by Elias Howe, who patented an \"Automatic, Continuous Clothing Closure\" in 1891, though his design was impractical for widespread use. Gideon Sundback, a Swedish-American engineer, improved upon Howe's invention in 1913 by creating the \"Hookless Fastener,\" which featured interlocking teeth that could be opened and closed smoothly with a slider. Sundback's design was eventually refined and marketed as the zipper, becoming one of the most important fastening innovations in fashion and everyday life.",
+      "storeSize": 5
+    },
+    {
+      "pos": 103,
+      "id": "commas-10",
+      "cls": "commas",
+      "param": "n0",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "Tidal pools are shallow areas of ocean water that become trapped between rocks when the tide goes out. These small ecosystems support a wide variety of marine life including starfish and sea anemones and small fish. The water in these pools can become quite warm during sunny days and the salinity levels may change as rain falls or water evaporates. Visitors to rocky coastlines often enjoy exploring tidal pools to observe the fascinating creatures that live in these temporary habitats.",
+      "firstText": "Tidal pools are shallow areas of ocean water that become trapped between rocks when the tide goes out. These small ecosystems support a wide variety of marine life including starfish and sea anemones and small fish. The water in these pools can become quite warm during sunny days and the salinity levels may change as rain falls or water evaporates. Visitors to rocky coastlines often enjoy exploring tidal pools to observe the fascinating creatures that live in these temporary habitats.",
+      "storeSize": 5
+    },
+    {
+      "pos": 104,
+      "id": "frequency-05",
+      "cls": "frequency",
+      "param": "river-3",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "Cliff swallows are remarkable birds that build their distinctive mud nests on rocky cliffs and bridge structures near water sources. These agile flyers often nest in colonies along a river, where they can easily access insects for food. The birds migrate seasonally, following river systems during their journey to and from breeding grounds. Their dependence on a river for sustenance and nesting sites makes them excellent indicators of healthy aquatic ecosystems and riparian habitats.",
+      "firstText": "Cliff swallows are remarkable birds that build their distinctive mud nests on rocky cliffs and bridge structures near water sources. These agile flyers often nest in colonies along a river, where they can easily access insects for food. The birds migrate seasonally, following river systems during their journey to and from breeding grounds. Their dependence on a river for sustenance and nesting sites makes them excellent indicators of healthy aquatic ecosystems and riparian habitats.",
+      "storeSize": 5
+    },
+    {
+      "pos": 105,
+      "id": "frequency-10",
+      "cls": "frequency",
+      "param": "river-5",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "Every autumn, geese begin their remarkable journey southward, often following the same river their ancestors traveled for generations. As they fly in their characteristic V-formation, they navigate by landmarks, including a river they recognize from previous migrations. When they need to rest, they land on the banks of a river to drink and feed before continuing their voyage. The river serves as both a guide and a refuge during their long flight. Many geese return to the same river each year, demonstrating an incredible homing instinct that ensures they complete their migration successfully.",
+      "firstText": "Every autumn, geese begin their remarkable journey southward, often following the same river their ancestors traveled for generations. As they fly in their characteristic V-formation, they navigate by landmarks, including a river they recognize from previous migrations. When they need to rest, they land on the banks of a river to drink and feed before continuing their voyage. The river serves as both a guide and a refuge during their long flight. Many geese return to the same river each year, demonstrating an incredible homing instinct that ensures they complete their migration successfully.",
+      "storeSize": 5
+    },
+    {
+      "pos": 106,
+      "id": "sentences-11",
+      "cls": "sentences",
+      "param": "n8",
+      "recalled": [
+        "e9-sentences"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "Maple syrup season arrives in early spring when temperatures begin to fluctuate between freezing nights and mild days. The sap starts flowing through the maple trees during this perfect weather window, allowing farmers to tap the trees and collect the precious liquid. Sugar houses across the region come alive with activity as workers process the sap by boiling it down to create the thick, golden syrup. The boiling process requires careful monitoring to ensure the syrup reaches the exact right consistency and temperature. Families often celebrate the season by visiting sugar houses to watch the production and enjoy traditional maple treats like taffy on snow. The harvest typically lasts four to six weeks, depending on weather conditions and when the buds begin to appear on the trees. Many regions hold maple festivals during this time, featuring pancake breakfasts, live music, and demonstrations of traditional syrup-making techniques. This cherished tradition connects people to nature and agricultural heritage while producing one of the world's most beloved sweeteners.",
+      "firstText": "Maple syrup season arrives in early spring when temperatures begin to fluctuate between freezing nights and mild days. The sap starts flowing through the maple trees during this perfect weather window, allowing farmers to tap the trees and collect the precious liquid. Sugar houses across the region come alive with activity as workers process the sap by boiling it down to create the thick, golden syrup. The boiling process requires careful monitoring to ensure the syrup reaches the exact right consistency and temperature. Families often celebrate the season by visiting sugar houses to watch the production and enjoy traditional maple treats like taffy on snow. The harvest typically lasts four to six weeks, depending on weather conditions and when the buds begin to appear on the trees. Many regions hold maple festivals during this time, featuring pancake breakfasts, live music, and demonstrations of traditional syrup-making techniques. This cherished tradition connects people to nature and agricultural heritage while producing one of the world's most beloved sweeteners.",
+      "storeSize": 5
+    },
+    {
+      "pos": 107,
+      "id": "wordcount-19",
+      "cls": "wordcount",
+      "param": "N75",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The platform stretches silent and bare, devoid of passengers and purpose. Fluorescent lights cast harsh shadows across weathered benches where no one sits. A single discarded newspaper tumbles across concrete in the stale breeze. The departure board displays no trains, frozen in time. Rails gleam dully under gray afternoon light. A forgotten umbrella leans against a pillar, abandoned and forlorn. The station feels suspended, waiting endlessly for travelers who never arrive, for journeys never taken.",
+      "firstText": "The platform stretches silent and bare, devoid of passengers and purpose. Fluorescent lights cast harsh shadows across weathered benches where no one sits. A single discarded newspaper tumbles across concrete in the stale breeze. The departure board displays no trains, frozen in time. Rails gleam dully under gray afternoon light. A forgotten umbrella leans against a pillar, abandoned and forlorn. The station feels suspended, waiting endlessly for travelers who never arrive, for journeys never taken.",
+      "storeSize": 5
+    },
+    {
+      "pos": 108,
+      "id": "noletter-07",
+      "cls": "noletter",
+      "param": "d",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Ships in bottles represent a fascinating craft that has captivate enthusiasts for centuries. These intricate vessels are painstakingly constructe within glass containers, showcasing remarkable skill as well as patience. Artisans carefully assemble tiny wooden hulls, rigging, as well as sails through the bottle's narrow opening using specialise tools. The final step involves securing the ship in place with glue once it's positione perfectly. These charming creations serve as both artistic achievements as well as conversation pieces, often gifte as treasure keepsakes. The hobby requires careful attention, focus, as well as an appreciation for nautical history. Each bottle-ship tells its own story, representing hours of careful labor as well as unwavering commitment to this unique art form.",
+      "firstText": "Ships in bottles represent a fascinating craft that has captivated enthusiasts for centuries. These intricate vessels are painstakingly constructed within glass containers, showcasing remarkable skill and patience. Artisans carefully assemble tiny wooden hulls, rigging, and sails through the bottle's narrow opening using specialized tools. The final step involves securing the ship in place with adhesive once it's positioned perfectly. These charming creations serve as both artistic achievements and conversation pieces, often gifted as treasured keepsakes. The hobby requires steady hands, attention to fine details, and an appreciation for nautical history. Each bottle-ship tells its own story, representing hours of careful labor and unwavering commitment to this unique art form.",
+      "storeSize": 5
+    },
+    {
+      "pos": 109,
+      "id": "sentences-21",
+      "cls": "sentences",
+      "param": "n5",
+      "recalled": [
+        "e9-sentences"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "Mountain huts serve as essential refuges for hikers and climbers exploring remote alpine regions. These rustic structures provide shelter, warmth, and basic amenities during challenging expeditions. Many huts are strategically located along popular trekking routes to offer rest stops between valleys and peaks. Staffed by dedicated caretakers, they often provide meals and lodging for weary travelers. Mountain huts represent humanity's remarkable ability to create safe havens in the world's most inhospitable environments.",
+      "firstText": "Mountain huts serve as essential refuges for hikers and climbers exploring remote alpine regions. These rustic structures provide shelter, warmth, and basic amenities during challenging expeditions. Many huts are strategically located along popular trekking routes to offer rest stops between valleys and peaks. Staffed by dedicated caretakers, they often provide meals and lodging for weary travelers. Mountain huts represent humanity's remarkable ability to create safe havens in the world's most inhospitable environments.",
+      "storeSize": 5
+    },
+    {
+      "pos": 110,
+      "id": "wordcount-16",
+      "cls": "wordcount",
+      "param": "N30",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Apple orchards flourish in temperate climates, producing crisp, juicy fruit. Rows of trees require careful pruning, pest management, and seasonal harvesting. Visitors enjoy picking fresh apples during autumn festivals.",
+      "firstText": "Apple orchards flourish in temperate climates, producing crisp, juicy fruit. Rows of trees require careful pruning, pest management, and seasonal harvesting. Visitors enjoy picking apples fresh from branches during autumn harvest festivals.",
+      "storeSize": 5
+    },
+    {
+      "pos": 111,
+      "id": "commas-16",
+      "cls": "commas",
+      "param": "n0",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "The two friends huddled together under a single umbrella as rain poured down around them. Sarah held one side while Marcus gripped the other and they walked slowly down the wet street. The umbrella was small so they had to stay very close to each other. They laughed about how awkward it felt but neither of them wanted to let go. By the time they reached the coffee shop they were already planning to share an umbrella again on the way back home.",
+      "firstText": "The two friends huddled together under a single umbrella as rain poured down around them. Sarah held one side while Marcus gripped the other and they walked slowly down the wet street. The umbrella was small so they had to stay very close to each other. They laughed about how awkward it felt but neither of them wanted to let go. By the time they reached the coffee shop they were already planning to share an umbrella again on the way back home.",
+      "storeSize": 5
+    },
+    {
+      "pos": 112,
+      "id": "wordcount-14",
+      "cls": "wordcount",
+      "param": "N20",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 3,
+      "text": "Bonfires crackle on sandy shores, casting warm orange light. Friends gather closely, sharing stories and roasting marshmallows together under stars.",
+      "firstText": "Bonfires crackle on sandy shores, casting warm orange light across the dark beach. Friends gather closely, sharing stories and roasting marshmallows under starlit skies together.",
+      "storeSize": 5
+    },
+    {
+      "pos": 113,
+      "id": "commas-17",
+      "cls": "commas",
+      "param": "n5",
+      "recalled": [
+        "e9-commas"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 3,
+      "text": "The old cabin stove, made of cast iron, stood in the corner of the room. Its warm glow flickered softly through the metal grates, filling the space with comfort and warmth. The chimney pipe extended upward through the ceiling, and it carried smoke away efficiently. Every winter the family gathered around it, sharing stories and hot drinks.",
+      "firstText": "The old cabin stove, made of cast iron, stood in the corner of the room. Its warm glow, flickering softly through the metal grates, filled the space with comfort. The chimney pipe, extending upward through the ceiling, carried smoke away efficiently. Every winter, the family gathered around it, sharing stories and hot drinks. This reliable stove, a cherished heirloom, had warmed generations of visitors.",
+      "storeSize": 5
+    },
+    {
+      "pos": 114,
+      "id": "wordcount-10",
+      "cls": "wordcount",
+      "param": "N40",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "Sourdough starters are living cultures of wild yeast and bacteria that ferment flour and water. They require regular feeding with flour and water to stay active. Mature starters produce tangy bread with complex flavors and excellent texture through natural fermentation.",
+      "firstText": "Sourdough starters are living cultures of wild yeast and bacteria that ferment flour and water. They require regular feeding with flour and water to stay active. Mature starters produce tangy bread with complex flavors and excellent texture through natural fermentation processes.",
+      "storeSize": 5
+    },
+    {
+      "pos": 115,
+      "id": "wordcount-12",
+      "cls": "wordcount",
+      "param": "N75",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "The smell of rain carries an earthy freshness called petrichor, created when raindrops hit dry soil and release oils from plants and bacteria. This distinctive aroma fills the air moments before storms arrive, signaling nature's renewal. Many find this scent deeply calming and nostalgic, evoking childhood memories and peaceful moments. The intensity varies depending on soil composition, humidity levels, and vegetation types. Rain's smell represents transformation, cleansing, and the earth's quiet awakening to new life.",
+      "firstText": "The smell of rain carries an earthy freshness called petrichor, created when raindrops hit dry soil and release oils from plants and bacteria. This distinctive aroma fills the air moments before storms arrive, signaling nature's renewal. Many find this scent deeply calming and nostalgic, evoking childhood memories and peaceful moments. The intensity varies depending on soil composition, humidity levels, and vegetation types. Rain's smell represents transformation, cleansing, and the earth's quiet awakening to life.",
+      "storeSize": 5
+    },
+    {
+      "pos": 116,
+      "id": "wordcount-24",
+      "cls": "wordcount",
+      "param": "N30",
+      "recalled": [
+        "e9-wordcount"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "The first subway line opened in London in 1863, revolutionizing urban transportation. Underground railways expanded globally, with systems in Paris, New York, and Tokyo following, transforming modern cities fundamentally and forever.",
+      "firstText": "The first subway line opened in London in 1863, revolutionizing urban transportation. Underground railways expanded globally, with systems in Paris, New York, and Tokyo following, fundamentally transforming how cities developed and connected millions of commuters daily.",
+      "storeSize": 5
+    },
+    {
+      "pos": 117,
+      "id": "sentences-19",
+      "cls": "sentences",
+      "param": "n4",
+      "recalled": [
+        "e9-sentences"
+      ],
+      "firstOk": true,
+      "ok": true,
+      "calls": 1,
+      "text": "A harvest moon is the full moon closest to the autumn equinox, typically occurring in September or early October. This moon appears larger and more golden than usual because it rises at a steep angle to the horizon, creating an optical illusion that amplifies its apparent size. Historically, farmers relied on the harvest moon's bright light to extend their working hours and gather crops during the critical fall season. The harvest moon holds cultural significance across many societies and continues to inspire art, literature, and celebration today.",
+      "firstText": "A harvest moon is the full moon closest to the autumn equinox, typically occurring in September or early October. This moon appears larger and more golden than usual because it rises at a steep angle to the horizon, creating an optical illusion that amplifies its apparent size. Historically, farmers relied on the harvest moon's bright light to extend their working hours and gather crops during the critical fall season. The harvest moon holds cultural significance across many societies and continues to inspire art, literature, and celebration today.",
+      "storeSize": 5
+    },
+    {
+      "pos": 118,
+      "id": "noletter-09",
+      "cls": "noletter",
+      "param": "l",
+      "recalled": [
+        "e9-noletter"
+      ],
+      "firstOk": false,
+      "ok": false,
+      "calls": 4,
+      "text": "Wind chimes create soothing, harmonious tones when breezes pass through them. These hanging ornaments feature tubes, rods, or other striking components that make soft music as air moves between them. Many people hang wind chimes near porches or gardens to enjoy their peaceful sounds. The pitch varies based on the substances used—some chimes offer high notes while others create resonant, muted tones. Wind chimes can be crafted from various substances including bamboo, metal, ceramic, or glass. Beyond their aesthetic appeal, these instruments serve a practical purpose by creating ambient noise that masks unwanted sounds from traffic or neighbors. Whether you prefer subtle tinkling or richer, more intricate harmonies, wind chimes offer a simple way to bring nature's music into your home.\n\nWind chimes create soothing, harmonious tones when breezes pass through them. These hanging ornaments feature tubes, rods, or other striking components that make soft music as air moves between them. Many people hang wind chimes near porches or gardens to enjoy their peaceful sounds. The pitch varies based on the substances used—some chimes offer high notes while others create resonant, muted tones. Wind chimes can be crafted from various substances including bamboo, metal, ceramic, or glass. Beyond their aesthetic appeal, these instruments serve a practical purpose by creating ambient noise that masks unwanted sounds from traffic or neighbors. Whether you prefer subtle tinkling or richer, more intricate harmonies, wind chimes offer a simple way to bring nature's music into your home.\n\nWind chimes create soothing, harmonious tones when breezes pass through them. These hanging ornaments feature tubes, rods, or other striking components that make soft music as air moves between them. Many people hang wind chimes near porches or gardens to enjoy their peaceful sounds. The pitch varies based on the substances",
+      "firstText": "Wind chimes create soothing, harmonious tones when breezes pass through them. These hanging ornaments feature tubes, rods, or other striking components that produce gentle music as air moves between them. Many people hang wind chimes near porches or gardens to enjoy their calming sounds. The pitch varies based on the materials used—some chimes offer high notes while others create resonant, low tones. Wind chimes can be crafted from various substances including bamboo, metal, ceramic, or glass. Beyond their aesthetic appeal, these instruments serve a practical purpose by creating ambient noise that masks unwanted sounds from traffic or neighbors. Whether you prefer subtle tinkling or richer, more complex harmonies, wind chimes offer a simple way to bring nature's music into your home.",
+      "storeSize": 5
+    },
+    {
+      "pos": 119,
+      "id": "frequency-23",
+      "cls": "frequency",
+      "param": "ladder-5",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 3,
+      "text": "Harbor seals are remarkable marine mammals that inhabit coastal waters and rocky shores. These agile swimmers use their streamlined bodies like a ladder to climb between different depths of the ocean. Young seals learn to navigate their environment by following their mother's ladder of behaviors and survival skills. The rocks and ice floes serve as a natural ladder for these creatures to rest and breed on solid ground. Scientists study harbor seals by observing how they ascend the social ladder within their colonies, much like climbing a ladder to higher ranks. Their whiskers act as a sensory tool, helping them detect fish movements in murky waters.",
+      "firstText": "Harbor seals are remarkable marine mammals that inhabit coastal waters and rocky shores. These agile swimmers use their streamlined bodies like a ladder to climb between different depths of the ocean. Young seals learn to navigate their environment by following their mother's ladder of behaviors and survival skills. The rocks and ice floes serve as a natural ladder for these creatures to rest and breed on solid ground. Scientists study harbor seals by observing how they ascend the social ladder within their colonies. Their whiskers act as a sensory ladder, helping them detect fish movements in murky waters. This ladder of adaptations makes harbor seals perfectly suited to their challenging coastal habitats.",
+      "storeSize": 5
+    },
+    {
+      "pos": 120,
+      "id": "frequency-07",
+      "cls": "frequency",
+      "param": "ladder-5",
+      "recalled": [
+        "e9-frequency"
+      ],
+      "firstOk": false,
+      "ok": true,
+      "calls": 2,
+      "text": "Deep-sea vents are extraordinary geological formations that rise from the ocean floor like a ladder reaching toward the surface. Scientists use a ladder-like framework to study these hydrothermal chimneys, which can tower remarkably high. The ecosystem around these vents doesn't follow the traditional food chain ladder, instead relying on chemosynthetic bacteria. Each ladder of temperature zones within the vent system supports different microbial communities. Researchers continue to climb the ladder of discovery, uncovering new species and understanding how life thrives in these extreme environments where superheated water meets the cold ocean.",
+      "firstText": "Deep-sea vents are extraordinary geological formations that rise from the ocean floor like a ladder reaching toward the surface. Scientists use a ladder-like framework to study these hydrothermal chimneys, which can tower as high as a ladder is tall. The ecosystem around these vents doesn't follow the traditional food chain ladder, instead relying on chemosynthetic bacteria. Each ladder of temperature zones within the vent system supports different microbial communities. Researchers continue to climb the ladder of discovery, uncovering new species and understanding how life thrives in these extreme environments where superheated water meets the cold ocean.",
+      "storeSize": 5
+    }
+  ]
+}

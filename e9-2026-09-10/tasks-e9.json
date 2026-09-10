@@ -1,0 +1,1586 @@
+[
+  {
+    "pos": 1,
+    "id": "noletter-08",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"d\"",
+    "paramKey": "d",
+    "topic": "glass blowing",
+    "params": {
+      "letter": "d"
+    },
+    "prompt": "Write a short paragraph about glass blowing without using the letter \"d\" anywhere in your response."
+  },
+  {
+    "pos": 2,
+    "id": "frequency-20",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"river\" exactly 5 times",
+    "paramKey": "river-5",
+    "topic": "the northern lights",
+    "params": {
+      "word": "river",
+      "n": 5
+    },
+    "prompt": "Write a short paragraph about the northern lights. Use the word \"river\" exactly 5 times."
+  },
+  {
+    "pos": 3,
+    "id": "commas-09",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 3 commas",
+    "paramKey": "n3",
+    "topic": "city pigeons",
+    "params": {
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about city pigeons that uses exactly 3 commas."
+  },
+  {
+    "pos": 4,
+    "id": "wordcount-23",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 20 words",
+    "paramKey": "N20",
+    "topic": "cast-iron pans",
+    "params": {
+      "N": 20
+    },
+    "prompt": "Write about cast-iron pans. Word count: exactly 20 words."
+  },
+  {
+    "pos": 5,
+    "id": "noletter-01",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"l\"",
+    "paramKey": "l",
+    "topic": "fog over a harbor",
+    "params": {
+      "letter": "l"
+    },
+    "prompt": "Write a short paragraph about fog over a harbor without using the letter \"l\" anywhere in your response."
+  },
+  {
+    "pos": 6,
+    "id": "wordcount-01",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 20 words",
+    "paramKey": "N20",
+    "topic": "lighthouse keepers",
+    "params": {
+      "N": 20
+    },
+    "prompt": "Write about lighthouse keepers. Word count: exactly 20 words."
+  },
+  {
+    "pos": 7,
+    "id": "noletter-19",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"s\"",
+    "paramKey": "s",
+    "topic": "winter wheat",
+    "params": {
+      "letter": "s"
+    },
+    "prompt": "Write a short paragraph about winter wheat without using the letter \"s\" anywhere in your response."
+  },
+  {
+    "pos": 8,
+    "id": "commas-07",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 1 comma",
+    "paramKey": "n1",
+    "topic": "stone walls without mortar",
+    "params": {
+      "n": 1
+    },
+    "prompt": "Write a short paragraph about stone walls without mortar that uses exactly 1 comma."
+  },
+  {
+    "pos": 9,
+    "id": "commas-18",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 5 commas",
+    "paramKey": "n5",
+    "topic": "the history of ice cream",
+    "params": {
+      "n": 5
+    },
+    "prompt": "Write a short paragraph about the history of ice cream that uses exactly 5 commas."
+  },
+  {
+    "pos": 10,
+    "id": "noletter-17",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"c\"",
+    "paramKey": "c",
+    "topic": "hand-drawn maps",
+    "params": {
+      "letter": "c"
+    },
+    "prompt": "Write a short paragraph about hand-drawn maps without using the letter \"c\" anywhere in your response."
+  },
+  {
+    "pos": 11,
+    "id": "noletter-04",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"s\"",
+    "paramKey": "s",
+    "topic": "a violin maker at work",
+    "params": {
+      "letter": "s"
+    },
+    "prompt": "Write a short paragraph about a violin maker at work without using the letter \"s\" anywhere in your response."
+  },
+  {
+    "pos": 12,
+    "id": "wordcount-06",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 20 words",
+    "paramKey": "N20",
+    "topic": "ferry crossings",
+    "params": {
+      "N": 20
+    },
+    "prompt": "Write about ferry crossings. Word count: exactly 20 words."
+  },
+  {
+    "pos": 13,
+    "id": "wordcount-17",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 60 words",
+    "paramKey": "N60",
+    "topic": "wild blueberries",
+    "params": {
+      "N": 60
+    },
+    "prompt": "Write about wild blueberries. Word count: exactly 60 words."
+  },
+  {
+    "pos": 14,
+    "id": "frequency-01",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"river\" exactly 5 times",
+    "paramKey": "river-5",
+    "topic": "a rusty bicycle bell",
+    "params": {
+      "word": "river",
+      "n": 5
+    },
+    "prompt": "Write a short paragraph about a rusty bicycle bell. Use the word \"river\" exactly 5 times."
+  },
+  {
+    "pos": 15,
+    "id": "frequency-16",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"river\" exactly 3 times",
+    "paramKey": "river-3",
+    "topic": "the winter solstice",
+    "params": {
+      "word": "river",
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about the winter solstice. Use the word \"river\" exactly 3 times."
+  },
+  {
+    "pos": 16,
+    "id": "commas-06",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 1 comma",
+    "paramKey": "n1",
+    "topic": "ravens",
+    "params": {
+      "n": 1
+    },
+    "prompt": "Write a short paragraph about ravens that uses exactly 1 comma."
+  },
+  {
+    "pos": 17,
+    "id": "frequency-24",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"ladder\" exactly 3 times",
+    "paramKey": "ladder-3",
+    "topic": "the last bus of the night",
+    "params": {
+      "word": "ladder",
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about the last bus of the night. Use the word \"ladder\" exactly 3 times."
+  },
+  {
+    "pos": 18,
+    "id": "commas-05",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 2 commas",
+    "paramKey": "n2",
+    "topic": "steam locomotives",
+    "params": {
+      "n": 2
+    },
+    "prompt": "Write a short paragraph about steam locomotives that uses exactly 2 commas."
+  },
+  {
+    "pos": 19,
+    "id": "sentences-02",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 8 sentences",
+    "paramKey": "n8",
+    "topic": "chalk cliffs",
+    "params": {
+      "n": 8
+    },
+    "prompt": "Write about chalk cliffs in exactly 8 sentences."
+  },
+  {
+    "pos": 20,
+    "id": "wordcount-11",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 75 words",
+    "paramKey": "N75",
+    "topic": "ice fishing",
+    "params": {
+      "N": 75
+    },
+    "prompt": "Write about ice fishing. Word count: exactly 75 words."
+  },
+  {
+    "pos": 21,
+    "id": "frequency-08",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"ladder\" exactly 3 times",
+    "paramKey": "ladder-3",
+    "topic": "a library card",
+    "params": {
+      "word": "ladder",
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about a library card. Use the word \"ladder\" exactly 3 times."
+  },
+  {
+    "pos": 22,
+    "id": "sentences-08",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 7 sentences",
+    "paramKey": "n7",
+    "topic": "wooden rollercoasters",
+    "params": {
+      "n": 7
+    },
+    "prompt": "Write about wooden rollercoasters in exactly 7 sentences."
+  },
+  {
+    "pos": 23,
+    "id": "commas-22",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 4 commas",
+    "paramKey": "n4",
+    "topic": "coffee roasting",
+    "params": {
+      "n": 4
+    },
+    "prompt": "Write a short paragraph about coffee roasting that uses exactly 4 commas."
+  },
+  {
+    "pos": 24,
+    "id": "sentences-16",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 7 sentences",
+    "paramKey": "n7",
+    "topic": "river barges",
+    "params": {
+      "n": 7
+    },
+    "prompt": "Write about river barges in exactly 7 sentences."
+  },
+  {
+    "pos": 25,
+    "id": "sentences-15",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 3 sentences",
+    "paramKey": "n3",
+    "topic": "a lighthouse foghorn",
+    "params": {
+      "n": 3
+    },
+    "prompt": "Write about a lighthouse foghorn in exactly 3 sentences."
+  },
+  {
+    "pos": 26,
+    "id": "sentences-06",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 6 sentences",
+    "paramKey": "n6",
+    "topic": "a well-worn hammer",
+    "params": {
+      "n": 6
+    },
+    "prompt": "Write about a well-worn hammer in exactly 6 sentences."
+  },
+  {
+    "pos": 27,
+    "id": "sentences-13",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 7 sentences",
+    "paramKey": "n7",
+    "topic": "copper roofs turning green",
+    "params": {
+      "n": 7
+    },
+    "prompt": "Write about copper roofs turning green in exactly 7 sentences."
+  },
+  {
+    "pos": 28,
+    "id": "noletter-16",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"m\"",
+    "paramKey": "m",
+    "topic": "volcanic islands",
+    "params": {
+      "letter": "m"
+    },
+    "prompt": "Write a short paragraph about volcanic islands without using the letter \"m\" anywhere in your response."
+  },
+  {
+    "pos": 29,
+    "id": "wordcount-20",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 75 words",
+    "paramKey": "N75",
+    "topic": "paper lanterns",
+    "params": {
+      "N": 75
+    },
+    "prompt": "Write about paper lanterns. Word count: exactly 75 words."
+  },
+  {
+    "pos": 30,
+    "id": "noletter-22",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"l\"",
+    "paramKey": "l",
+    "topic": "street chess",
+    "params": {
+      "letter": "l"
+    },
+    "prompt": "Write a short paragraph about street chess without using the letter \"l\" anywhere in your response."
+  },
+  {
+    "pos": 31,
+    "id": "sentences-23",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 5 sentences",
+    "paramKey": "n5",
+    "topic": "beekeeping in cities",
+    "params": {
+      "n": 5
+    },
+    "prompt": "Write about beekeeping in cities in exactly 5 sentences."
+  },
+  {
+    "pos": 32,
+    "id": "sentences-18",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 4 sentences",
+    "paramKey": "n4",
+    "topic": "a kite festival",
+    "params": {
+      "n": 4
+    },
+    "prompt": "Write about a kite festival in exactly 4 sentences."
+  },
+  {
+    "pos": 33,
+    "id": "sentences-03",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 6 sentences",
+    "paramKey": "n6",
+    "topic": "tide tables",
+    "params": {
+      "n": 6
+    },
+    "prompt": "Write about tide tables in exactly 6 sentences."
+  },
+  {
+    "pos": 34,
+    "id": "sentences-01",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 8 sentences",
+    "paramKey": "n8",
+    "topic": "old maps of the moon",
+    "params": {
+      "n": 8
+    },
+    "prompt": "Write about old maps of the moon in exactly 8 sentences."
+  },
+  {
+    "pos": 35,
+    "id": "wordcount-18",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 40 words",
+    "paramKey": "N40",
+    "topic": "frozen lakes",
+    "params": {
+      "N": 40
+    },
+    "prompt": "Write about frozen lakes. Word count: exactly 40 words."
+  },
+  {
+    "pos": 36,
+    "id": "wordcount-13",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 50 words",
+    "paramKey": "N50",
+    "topic": "the sound of gravel underfoot",
+    "params": {
+      "N": 50
+    },
+    "prompt": "Write about the sound of gravel underfoot. Word count: exactly 50 words."
+  },
+  {
+    "pos": 37,
+    "id": "sentences-14",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 8 sentences",
+    "paramKey": "n8",
+    "topic": "wind farms at sea",
+    "params": {
+      "n": 8
+    },
+    "prompt": "Write about wind farms at sea in exactly 8 sentences."
+  },
+  {
+    "pos": 38,
+    "id": "frequency-19",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"window\" exactly 3 times",
+    "paramKey": "window-3",
+    "topic": "planting tulip bulbs",
+    "params": {
+      "word": "window",
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about planting tulip bulbs. Use the word \"window\" exactly 3 times."
+  },
+  {
+    "pos": 39,
+    "id": "frequency-13",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"window\" exactly 5 times",
+    "paramKey": "window-5",
+    "topic": "the quiet of early morning",
+    "params": {
+      "word": "window",
+      "n": 5
+    },
+    "prompt": "Write a short paragraph about the quiet of early morning. Use the word \"window\" exactly 5 times."
+  },
+  {
+    "pos": 40,
+    "id": "frequency-17",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"river\" exactly 3 times",
+    "paramKey": "river-3",
+    "topic": "a child learning to whistle",
+    "params": {
+      "word": "river",
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about a child learning to whistle. Use the word \"river\" exactly 3 times."
+  },
+  {
+    "pos": 41,
+    "id": "frequency-12",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"ladder\" exactly 3 times",
+    "paramKey": "ladder-3",
+    "topic": "canal locks",
+    "params": {
+      "word": "ladder",
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about canal locks. Use the word \"ladder\" exactly 3 times."
+  },
+  {
+    "pos": 42,
+    "id": "commas-20",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 4 commas",
+    "paramKey": "n4",
+    "topic": "the history of the umbrella",
+    "params": {
+      "n": 4
+    },
+    "prompt": "Write a short paragraph about the history of the umbrella that uses exactly 4 commas."
+  },
+  {
+    "pos": 43,
+    "id": "wordcount-22",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 40 words",
+    "paramKey": "N40",
+    "topic": "a hidden waterfall",
+    "params": {
+      "N": 40
+    },
+    "prompt": "Write about a hidden waterfall. Word count: exactly 40 words."
+  },
+  {
+    "pos": 44,
+    "id": "noletter-06",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"p\"",
+    "paramKey": "p",
+    "topic": "thunderstorms in summer",
+    "params": {
+      "letter": "p"
+    },
+    "prompt": "Write a short paragraph about thunderstorms in summer without using the letter \"p\" anywhere in your response."
+  },
+  {
+    "pos": 45,
+    "id": "frequency-21",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"ladder\" exactly 5 times",
+    "paramKey": "ladder-5",
+    "topic": "moss on old walls",
+    "params": {
+      "word": "ladder",
+      "n": 5
+    },
+    "prompt": "Write a short paragraph about moss on old walls. Use the word \"ladder\" exactly 5 times."
+  },
+  {
+    "pos": 46,
+    "id": "commas-02",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 4 commas",
+    "paramKey": "n4",
+    "topic": "the invention of canned food",
+    "params": {
+      "n": 4
+    },
+    "prompt": "Write a short paragraph about the invention of canned food that uses exactly 4 commas."
+  },
+  {
+    "pos": 47,
+    "id": "noletter-14",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"m\"",
+    "paramKey": "m",
+    "topic": "grandfather clocks",
+    "params": {
+      "letter": "m"
+    },
+    "prompt": "Write a short paragraph about grandfather clocks without using the letter \"m\" anywhere in your response."
+  },
+  {
+    "pos": 48,
+    "id": "commas-19",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "no commas at all",
+    "paramKey": "n0",
+    "topic": "the first telephones",
+    "params": {
+      "n": 0
+    },
+    "prompt": "Write a short paragraph about the first telephones that uses no commas at all."
+  },
+  {
+    "pos": 49,
+    "id": "wordcount-15",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 40 words",
+    "paramKey": "N40",
+    "topic": "handwritten recipes",
+    "params": {
+      "N": 40
+    },
+    "prompt": "Write about handwritten recipes. Word count: exactly 40 words."
+  },
+  {
+    "pos": 50,
+    "id": "noletter-13",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"c\"",
+    "paramKey": "c",
+    "topic": "lost mittens",
+    "params": {
+      "letter": "c"
+    },
+    "prompt": "Write a short paragraph about lost mittens without using the letter \"c\" anywhere in your response."
+  },
+  {
+    "pos": 51,
+    "id": "frequency-15",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"river\" exactly 3 times",
+    "paramKey": "river-3",
+    "topic": "the color of the sky at dusk",
+    "params": {
+      "word": "river",
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about the color of the sky at dusk. Use the word \"river\" exactly 3 times."
+  },
+  {
+    "pos": 52,
+    "id": "commas-13",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 3 commas",
+    "paramKey": "n3",
+    "topic": "starlings at dusk",
+    "params": {
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about starlings at dusk that uses exactly 3 commas."
+  },
+  {
+    "pos": 53,
+    "id": "noletter-05",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"p\"",
+    "paramKey": "p",
+    "topic": "wool sweaters",
+    "params": {
+      "letter": "p"
+    },
+    "prompt": "Write a short paragraph about wool sweaters without using the letter \"p\" anywhere in your response."
+  },
+  {
+    "pos": 54,
+    "id": "wordcount-05",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 60 words",
+    "paramKey": "N60",
+    "topic": "the history of the pencil",
+    "params": {
+      "N": 60
+    },
+    "prompt": "Write about the history of the pencil. Word count: exactly 60 words."
+  },
+  {
+    "pos": 55,
+    "id": "commas-21",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 1 comma",
+    "paramKey": "n1",
+    "topic": "the life of a honeybee",
+    "params": {
+      "n": 1
+    },
+    "prompt": "Write a short paragraph about the life of a honeybee that uses exactly 1 comma."
+  },
+  {
+    "pos": 56,
+    "id": "frequency-09",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"window\" exactly 3 times",
+    "paramKey": "window-3",
+    "topic": "the weight of a good book",
+    "params": {
+      "word": "window",
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about the weight of a good book. Use the word \"window\" exactly 3 times."
+  },
+  {
+    "pos": 57,
+    "id": "wordcount-08",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 50 words",
+    "paramKey": "N50",
+    "topic": "a spinning top",
+    "params": {
+      "N": 50
+    },
+    "prompt": "Write about a spinning top. Word count: exactly 50 words."
+  },
+  {
+    "pos": 58,
+    "id": "sentences-20",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 4 sentences",
+    "paramKey": "n4",
+    "topic": "the invention of the paper clip",
+    "params": {
+      "n": 4
+    },
+    "prompt": "Write about the invention of the paper clip in exactly 4 sentences."
+  },
+  {
+    "pos": 59,
+    "id": "noletter-20",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"c\"",
+    "paramKey": "c",
+    "topic": "fireflies",
+    "params": {
+      "letter": "c"
+    },
+    "prompt": "Write a short paragraph about fireflies without using the letter \"c\" anywhere in your response."
+  },
+  {
+    "pos": 60,
+    "id": "commas-04",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 2 commas",
+    "paramKey": "n2",
+    "topic": "cobblestone streets",
+    "params": {
+      "n": 2
+    },
+    "prompt": "Write a short paragraph about cobblestone streets that uses exactly 2 commas."
+  },
+  {
+    "pos": 61,
+    "id": "commas-11",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 3 commas",
+    "paramKey": "n3",
+    "topic": "hand-knit socks",
+    "params": {
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about hand-knit socks that uses exactly 3 commas."
+  },
+  {
+    "pos": 62,
+    "id": "frequency-04",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"river\" exactly 5 times",
+    "paramKey": "river-5",
+    "topic": "the invention of the thermos",
+    "params": {
+      "word": "river",
+      "n": 5
+    },
+    "prompt": "Write a short paragraph about the invention of the thermos. Use the word \"river\" exactly 5 times."
+  },
+  {
+    "pos": 63,
+    "id": "frequency-03",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"window\" exactly 5 times",
+    "paramKey": "window-5",
+    "topic": "bridge tolls",
+    "params": {
+      "word": "window",
+      "n": 5
+    },
+    "prompt": "Write a short paragraph about bridge tolls. Use the word \"window\" exactly 5 times."
+  },
+  {
+    "pos": 64,
+    "id": "frequency-18",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"window\" exactly 3 times",
+    "paramKey": "window-3",
+    "topic": "pocket watches",
+    "params": {
+      "word": "window",
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about pocket watches. Use the word \"window\" exactly 3 times."
+  },
+  {
+    "pos": 65,
+    "id": "commas-23",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 2 commas",
+    "paramKey": "n2",
+    "topic": "night trains",
+    "params": {
+      "n": 2
+    },
+    "prompt": "Write a short paragraph about night trains that uses exactly 2 commas."
+  },
+  {
+    "pos": 66,
+    "id": "sentences-09",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 3 sentences",
+    "paramKey": "n3",
+    "topic": "the invention of the hourglass",
+    "params": {
+      "n": 3
+    },
+    "prompt": "Write about the invention of the hourglass in exactly 3 sentences."
+  },
+  {
+    "pos": 67,
+    "id": "noletter-12",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"p\"",
+    "paramKey": "p",
+    "topic": "saltwater aquariums",
+    "params": {
+      "letter": "p"
+    },
+    "prompt": "Write a short paragraph about saltwater aquariums without using the letter \"p\" anywhere in your response."
+  },
+  {
+    "pos": 68,
+    "id": "sentences-04",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 3 sentences",
+    "paramKey": "n3",
+    "topic": "the smell of fresh bread",
+    "params": {
+      "n": 3
+    },
+    "prompt": "Write about the smell of fresh bread in exactly 3 sentences."
+  },
+  {
+    "pos": 69,
+    "id": "frequency-14",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"ladder\" exactly 5 times",
+    "paramKey": "ladder-5",
+    "topic": "town squares at dawn",
+    "params": {
+      "word": "ladder",
+      "n": 5
+    },
+    "prompt": "Write a short paragraph about town squares at dawn. Use the word \"ladder\" exactly 5 times."
+  },
+  {
+    "pos": 70,
+    "id": "sentences-10",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 4 sentences",
+    "paramKey": "n4",
+    "topic": "seashell collecting",
+    "params": {
+      "n": 4
+    },
+    "prompt": "Write about seashell collecting in exactly 4 sentences."
+  },
+  {
+    "pos": 71,
+    "id": "noletter-03",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"l\"",
+    "paramKey": "l",
+    "topic": "tugboats",
+    "params": {
+      "letter": "l"
+    },
+    "prompt": "Write a short paragraph about tugboats without using the letter \"l\" anywhere in your response."
+  },
+  {
+    "pos": 72,
+    "id": "noletter-15",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"d\"",
+    "paramKey": "d",
+    "topic": "clay pottery",
+    "params": {
+      "letter": "d"
+    },
+    "prompt": "Write a short paragraph about clay pottery without using the letter \"d\" anywhere in your response."
+  },
+  {
+    "pos": 73,
+    "id": "noletter-18",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"p\"",
+    "paramKey": "p",
+    "topic": "bus shelters",
+    "params": {
+      "letter": "p"
+    },
+    "prompt": "Write a short paragraph about bus shelters without using the letter \"p\" anywhere in your response."
+  },
+  {
+    "pos": 74,
+    "id": "commas-08",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 2 commas",
+    "paramKey": "n2",
+    "topic": "radio towers",
+    "params": {
+      "n": 2
+    },
+    "prompt": "Write a short paragraph about radio towers that uses exactly 2 commas."
+  },
+  {
+    "pos": 75,
+    "id": "wordcount-09",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 50 words",
+    "paramKey": "N50",
+    "topic": "suspension footbridges",
+    "params": {
+      "N": 50
+    },
+    "prompt": "Write about suspension footbridges. Word count: exactly 50 words."
+  },
+  {
+    "pos": 76,
+    "id": "wordcount-21",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 30 words",
+    "paramKey": "N30",
+    "topic": "hot-air balloons",
+    "params": {
+      "N": 30
+    },
+    "prompt": "Write about hot-air balloons. Word count: exactly 30 words."
+  },
+  {
+    "pos": 77,
+    "id": "commas-14",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 5 commas",
+    "paramKey": "n5",
+    "topic": "marathon pacing",
+    "params": {
+      "n": 5
+    },
+    "prompt": "Write a short paragraph about marathon pacing that uses exactly 5 commas."
+  },
+  {
+    "pos": 78,
+    "id": "wordcount-03",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 50 words",
+    "paramKey": "N50",
+    "topic": "the first weather forecasts",
+    "params": {
+      "N": 50
+    },
+    "prompt": "Write about the first weather forecasts. Word count: exactly 50 words."
+  },
+  {
+    "pos": 79,
+    "id": "frequency-22",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"ladder\" exactly 3 times",
+    "paramKey": "ladder-3",
+    "topic": "mountain passes in snow",
+    "params": {
+      "word": "ladder",
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about mountain passes in snow. Use the word \"ladder\" exactly 3 times."
+  },
+  {
+    "pos": 80,
+    "id": "commas-15",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "no commas at all",
+    "paramKey": "n0",
+    "topic": "a foggy morning run",
+    "params": {
+      "n": 0
+    },
+    "prompt": "Write a short paragraph about a foggy morning run that uses no commas at all."
+  },
+  {
+    "pos": 81,
+    "id": "noletter-02",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"m\"",
+    "paramKey": "m",
+    "topic": "a loaf cooling on the counter",
+    "params": {
+      "letter": "m"
+    },
+    "prompt": "Write a short paragraph about a loaf cooling on the counter without using the letter \"m\" anywhere in your response."
+  },
+  {
+    "pos": 82,
+    "id": "wordcount-02",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 60 words",
+    "paramKey": "N60",
+    "topic": "tea ceremonies",
+    "params": {
+      "N": 60
+    },
+    "prompt": "Write about tea ceremonies. Word count: exactly 60 words."
+  },
+  {
+    "pos": 83,
+    "id": "noletter-10",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"c\"",
+    "paramKey": "c",
+    "topic": "the smell of pine needles",
+    "params": {
+      "letter": "c"
+    },
+    "prompt": "Write a short paragraph about the smell of pine needles without using the letter \"c\" anywhere in your response."
+  },
+  {
+    "pos": 84,
+    "id": "noletter-21",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"s\"",
+    "paramKey": "s",
+    "topic": "a wooden canoe",
+    "params": {
+      "letter": "s"
+    },
+    "prompt": "Write a short paragraph about a wooden canoe without using the letter \"s\" anywhere in your response."
+  },
+  {
+    "pos": 85,
+    "id": "commas-03",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 5 commas",
+    "paramKey": "n5",
+    "topic": "the first photographs",
+    "params": {
+      "n": 5
+    },
+    "prompt": "Write a short paragraph about the first photographs that uses exactly 5 commas."
+  },
+  {
+    "pos": 86,
+    "id": "commas-24",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 1 comma",
+    "paramKey": "n1",
+    "topic": "a mountain stream",
+    "params": {
+      "n": 1
+    },
+    "prompt": "Write a short paragraph about a mountain stream that uses exactly 1 comma."
+  },
+  {
+    "pos": 87,
+    "id": "frequency-02",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"window\" exactly 3 times",
+    "paramKey": "window-3",
+    "topic": "the rings of a fallen tree",
+    "params": {
+      "word": "window",
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about the rings of a fallen tree. Use the word \"window\" exactly 3 times."
+  },
+  {
+    "pos": 88,
+    "id": "sentences-17",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 5 sentences",
+    "paramKey": "n5",
+    "topic": "porch swings",
+    "params": {
+      "n": 5
+    },
+    "prompt": "Write about porch swings in exactly 5 sentences."
+  },
+  {
+    "pos": 89,
+    "id": "sentences-22",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 7 sentences",
+    "paramKey": "n7",
+    "topic": "the sound of a cello",
+    "params": {
+      "n": 7
+    },
+    "prompt": "Write about the sound of a cello in exactly 7 sentences."
+  },
+  {
+    "pos": 90,
+    "id": "commas-12",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 4 commas",
+    "paramKey": "n4",
+    "topic": "the first bicycles",
+    "params": {
+      "n": 4
+    },
+    "prompt": "Write a short paragraph about the first bicycles that uses exactly 4 commas."
+  },
+  {
+    "pos": 91,
+    "id": "sentences-07",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 6 sentences",
+    "paramKey": "n6",
+    "topic": "the first air mail",
+    "params": {
+      "n": 6
+    },
+    "prompt": "Write about the first air mail in exactly 6 sentences."
+  },
+  {
+    "pos": 92,
+    "id": "frequency-06",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"window\" exactly 5 times",
+    "paramKey": "window-5",
+    "topic": "origami cranes",
+    "params": {
+      "word": "window",
+      "n": 5
+    },
+    "prompt": "Write a short paragraph about origami cranes. Use the word \"window\" exactly 5 times."
+  },
+  {
+    "pos": 93,
+    "id": "sentences-05",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 5 sentences",
+    "paramKey": "n5",
+    "topic": "a mountain lookout tower",
+    "params": {
+      "n": 5
+    },
+    "prompt": "Write about a mountain lookout tower in exactly 5 sentences."
+  },
+  {
+    "pos": 94,
+    "id": "wordcount-04",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 30 words",
+    "paramKey": "N30",
+    "topic": "quiet snowfall",
+    "params": {
+      "N": 30
+    },
+    "prompt": "Write about quiet snowfall. Word count: exactly 30 words."
+  },
+  {
+    "pos": 95,
+    "id": "sentences-12",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 6 sentences",
+    "paramKey": "n6",
+    "topic": "kites on a windy beach",
+    "params": {
+      "n": 6
+    },
+    "prompt": "Write about kites on a windy beach in exactly 6 sentences."
+  },
+  {
+    "pos": 96,
+    "id": "commas-01",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 3 commas",
+    "paramKey": "n3",
+    "topic": "sand dunes",
+    "params": {
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about sand dunes that uses exactly 3 commas."
+  },
+  {
+    "pos": 97,
+    "id": "frequency-11",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"window\" exactly 5 times",
+    "paramKey": "window-5",
+    "topic": "a sleeping cat",
+    "params": {
+      "word": "window",
+      "n": 5
+    },
+    "prompt": "Write a short paragraph about a sleeping cat. Use the word \"window\" exactly 5 times."
+  },
+  {
+    "pos": 98,
+    "id": "noletter-23",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"s\"",
+    "paramKey": "s",
+    "topic": "the life of a river otter",
+    "params": {
+      "letter": "s"
+    },
+    "prompt": "Write a short paragraph about the life of a river otter without using the letter \"s\" anywhere in your response."
+  },
+  {
+    "pos": 99,
+    "id": "noletter-24",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"d\"",
+    "paramKey": "d",
+    "topic": "a busy fish market",
+    "params": {
+      "letter": "d"
+    },
+    "prompt": "Write a short paragraph about a busy fish market without using the letter \"d\" anywhere in your response."
+  },
+  {
+    "pos": 100,
+    "id": "noletter-11",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"m\"",
+    "paramKey": "m",
+    "topic": "the taste of cold water",
+    "params": {
+      "letter": "m"
+    },
+    "prompt": "Write a short paragraph about the taste of cold water without using the letter \"m\" anywhere in your response."
+  },
+  {
+    "pos": 101,
+    "id": "wordcount-07",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 60 words",
+    "paramKey": "N60",
+    "topic": "garden snails",
+    "params": {
+      "N": 60
+    },
+    "prompt": "Write about garden snails. Word count: exactly 60 words."
+  },
+  {
+    "pos": 102,
+    "id": "sentences-24",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 3 sentences",
+    "paramKey": "n3",
+    "topic": "the invention of the zipper",
+    "params": {
+      "n": 3
+    },
+    "prompt": "Write about the invention of the zipper in exactly 3 sentences."
+  },
+  {
+    "pos": 103,
+    "id": "commas-10",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "no commas at all",
+    "paramKey": "n0",
+    "topic": "tidal pools",
+    "params": {
+      "n": 0
+    },
+    "prompt": "Write a short paragraph about tidal pools that uses no commas at all."
+  },
+  {
+    "pos": 104,
+    "id": "frequency-05",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"river\" exactly 3 times",
+    "paramKey": "river-3",
+    "topic": "cliff swallows",
+    "params": {
+      "word": "river",
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about cliff swallows. Use the word \"river\" exactly 3 times."
+  },
+  {
+    "pos": 105,
+    "id": "frequency-10",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"river\" exactly 5 times",
+    "paramKey": "river-5",
+    "topic": "the migration of geese",
+    "params": {
+      "word": "river",
+      "n": 5
+    },
+    "prompt": "Write a short paragraph about the migration of geese. Use the word \"river\" exactly 5 times."
+  },
+  {
+    "pos": 106,
+    "id": "sentences-11",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 8 sentences",
+    "paramKey": "n8",
+    "topic": "maple syrup season",
+    "params": {
+      "n": 8
+    },
+    "prompt": "Write about maple syrup season in exactly 8 sentences."
+  },
+  {
+    "pos": 107,
+    "id": "wordcount-19",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 75 words",
+    "paramKey": "N75",
+    "topic": "an empty train platform",
+    "params": {
+      "N": 75
+    },
+    "prompt": "Write about an empty train platform. Word count: exactly 75 words."
+  },
+  {
+    "pos": 108,
+    "id": "noletter-07",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"d\"",
+    "paramKey": "d",
+    "topic": "ships in bottles",
+    "params": {
+      "letter": "d"
+    },
+    "prompt": "Write a short paragraph about ships in bottles without using the letter \"d\" anywhere in your response."
+  },
+  {
+    "pos": 109,
+    "id": "sentences-21",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 5 sentences",
+    "paramKey": "n5",
+    "topic": "mountain huts",
+    "params": {
+      "n": 5
+    },
+    "prompt": "Write about mountain huts in exactly 5 sentences."
+  },
+  {
+    "pos": 110,
+    "id": "wordcount-16",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 30 words",
+    "paramKey": "N30",
+    "topic": "apple orchards",
+    "params": {
+      "N": 30
+    },
+    "prompt": "Write about apple orchards. Word count: exactly 30 words."
+  },
+  {
+    "pos": 111,
+    "id": "commas-16",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "no commas at all",
+    "paramKey": "n0",
+    "topic": "a shared umbrella",
+    "params": {
+      "n": 0
+    },
+    "prompt": "Write a short paragraph about a shared umbrella that uses no commas at all."
+  },
+  {
+    "pos": 112,
+    "id": "wordcount-14",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 20 words",
+    "paramKey": "N20",
+    "topic": "bonfires on the beach",
+    "params": {
+      "N": 20
+    },
+    "prompt": "Write about bonfires on the beach. Word count: exactly 20 words."
+  },
+  {
+    "pos": 113,
+    "id": "commas-17",
+    "cls": "commas",
+    "cue": "comma",
+    "paramCue": "exactly 5 commas",
+    "paramKey": "n5",
+    "topic": "a cabin stove",
+    "params": {
+      "n": 5
+    },
+    "prompt": "Write a short paragraph about a cabin stove that uses exactly 5 commas."
+  },
+  {
+    "pos": 114,
+    "id": "wordcount-10",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 40 words",
+    "paramKey": "N40",
+    "topic": "sourdough starters",
+    "params": {
+      "N": 40
+    },
+    "prompt": "Write about sourdough starters. Word count: exactly 40 words."
+  },
+  {
+    "pos": 115,
+    "id": "wordcount-12",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 75 words",
+    "paramKey": "N75",
+    "topic": "the smell of rain",
+    "params": {
+      "N": 75
+    },
+    "prompt": "Write about the smell of rain. Word count: exactly 75 words."
+  },
+  {
+    "pos": 116,
+    "id": "wordcount-24",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "paramCue": "exactly 30 words",
+    "paramKey": "N30",
+    "topic": "the first subway lines",
+    "params": {
+      "N": 30
+    },
+    "prompt": "Write about the first subway lines. Word count: exactly 30 words."
+  },
+  {
+    "pos": 117,
+    "id": "sentences-19",
+    "cls": "sentences",
+    "cue": "sentences",
+    "paramCue": "exactly 4 sentences",
+    "paramKey": "n4",
+    "topic": "harvest moons",
+    "params": {
+      "n": 4
+    },
+    "prompt": "Write about harvest moons in exactly 4 sentences."
+  },
+  {
+    "pos": 118,
+    "id": "noletter-09",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "paramCue": "the letter \"l\"",
+    "paramKey": "l",
+    "topic": "wind chimes",
+    "params": {
+      "letter": "l"
+    },
+    "prompt": "Write a short paragraph about wind chimes without using the letter \"l\" anywhere in your response."
+  },
+  {
+    "pos": 119,
+    "id": "frequency-23",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"ladder\" exactly 5 times",
+    "paramKey": "ladder-5",
+    "topic": "harbor seals",
+    "params": {
+      "word": "ladder",
+      "n": 5
+    },
+    "prompt": "Write a short paragraph about harbor seals. Use the word \"ladder\" exactly 5 times."
+  },
+  {
+    "pos": 120,
+    "id": "frequency-07",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "paramCue": "\"ladder\" exactly 5 times",
+    "paramKey": "ladder-5",
+    "topic": "deep-sea vents",
+    "params": {
+      "word": "ladder",
+      "n": 5
+    },
+    "prompt": "Write a short paragraph about deep-sea vents. Use the word \"ladder\" exactly 5 times."
+  }
+]

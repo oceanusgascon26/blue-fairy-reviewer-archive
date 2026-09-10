@@ -1,0 +1,121 @@
+  base rep1 pos 20: pass so far 3/20, calls 20
+  wireA rep1 pos 20: pass so far 16/20, calls 43
+  base rep1 pos 40: pass so far 16/40, calls 40
+  repair rep1 pos 20: pass so far 14/20, calls 48
+  base rep1 pos 60: pass so far 21/60, calls 60
+  wireA rep1 pos 40: pass so far 32/40, calls 77
+  repair rep1 pos 40: pass so far 31/40, calls 82
+  base rep1 pos 80: pass so far 29/80, calls 80
+  base rep1 pos 100: pass so far 38/100, calls 100
+  wireA rep1 pos 60: pass so far 49/60, calls 122
+  repair rep1 pos 60: pass so far 48/60, calls 131
+  base rep1 pos 120: pass so far 45/120, calls 120
+  wireA rep1 pos 80: pass so far 66/80, calls 161
+  repair rep1 pos 80: pass so far 66/80, calls 172
+  wireB rep1 pos 20: pass so far 14/20, calls 52
+  wireA rep1 pos 100: pass so far 81/100, calls 210
+  repair rep1 pos 100: pass so far 80/100, calls 222
+  wireB rep1 pos 40: pass so far 31/40, calls 86
+  wireA rep1 pos 120: pass so far 95/120, calls 256
+  repair rep1 pos 120: pass so far 96/120, calls 264
+  wireB rep1 pos 60: pass so far 45/60, calls 135
+  wireC rep1 pos 20: pass so far 11/20, calls 55
+  supplied rep1 pos 20: pass so far 20/20, calls 51
+  wireB rep1 pos 80: pass so far 63/80, calls 174
+  wireC rep1 pos 40: pass so far 28/40, calls 89
+  supplied rep1 pos 40: pass so far 38/40, calls 85
+  wireB rep1 pos 100: pass so far 77/100, calls 227
+  wireC rep1 pos 60: pass so far 47/60, calls 134
+  supplied rep1 pos 60: pass so far 52/60, calls 132
+  wireB rep1 pos 120: pass so far 92/120, calls 274
+  wireC rep1 pos 80: pass so far 65/80, calls 166
+  supplied rep1 pos 80: pass so far 70/80, calls 173
+  wireC rep1 pos 100: pass so far 81/100, calls 212
+  supplied rep1 pos 100: pass so far 87/100, calls 219
+  wireC rep1 pos 120: pass so far 98/120, calls 252
+  supplied rep1 pos 120: pass so far 103/120, calls 263
+E9 rep1: base 37.5% (2nd half 40.0%, first attempt 40.0%, calls 1.00) | repair 80.0% (2nd half 80.0%, first attempt 41.7%, calls 2.20) | wireA 79.2% (2nd half 76.7%, first attempt 48.3%, calls 2.13) | wireB 76.7% (2nd half 78.3%, first attempt 43.3%, calls 2.28) | wireC 81.7% (2nd half 85.0%, first attempt 56.7%, calls 2.10) | supplied 85.8% (2nd half 85.0%, first attempt 41.7%, calls 2.19)
+  base rep2 pos 20: pass so far 7/20, calls 20
+  wireA rep2 pos 20: pass so far 17/20, calls 48
+  base rep2 pos 40: pass so far 19/40, calls 40
+  repair rep2 pos 20: pass so far 14/20, calls 53
+  base rep2 pos 60: pass so far 25/60, calls 60
+  wireA rep2 pos 40: pass so far 32/40, calls 86
+  repair rep2 pos 40: pass so far 31/40, calls 86
+  base rep2 pos 80: pass so far 34/80, calls 80
+  base rep2 pos 100: pass so far 40/100, calls 100
+  repair rep2 pos 60: pass so far 46/60, calls 134
+  wireA rep2 pos 60: pass so far 47/60, calls 135
+  base rep2 pos 120: pass so far 48/120, calls 120
+  repair rep2 pos 80: pass so far 63/80, calls 173
+  wireA rep2 pos 80: pass so far 64/80, calls 176
+  wireB rep2 pos 20: pass so far 13/20, calls 54
+  repair rep2 pos 100: pass so far 78/100, calls 219
+  wireB rep2 pos 40: pass so far 31/40, calls 86
+  wireA rep2 pos 100: pass so far 74/100, calls 230
+  repair rep2 pos 120: pass so far 97/120, calls 258
+  wireB rep2 pos 60: pass so far 47/60, calls 131
+  wireA rep2 pos 120: pass so far 89/120, calls 274
+  wireC rep2 pos 20: pass so far 13/20, calls 53
+  supplied rep2 pos 20: pass so far 18/20, calls 39
+  wireB rep2 pos 80: pass so far 64/80, calls 171
+  supplied rep2 pos 40: pass so far 36/40, calls 74
+  wireC rep2 pos 40: pass so far 29/40, calls 89
+  wireB rep2 pos 100: pass so far 81/100, calls 214
+  wireC rep2 pos 60: pass so far 47/60, calls 130
+  supplied rep2 pos 60: pass so far 51/60, calls 127
+  wireB rep2 pos 120: pass so far 94/120, calls 261
+  wireC rep2 pos 80: pass so far 63/80, calls 171
+  supplied rep2 pos 80: pass so far 69/80, calls 166
+  wireC rep2 pos 100: pass so far 80/100, calls 215
+  supplied rep2 pos 100: pass so far 86/100, calls 208
+  supplied rep2 pos 120: pass so far 102/120, calls 249
+  wireC rep2 pos 120: pass so far 95/120, calls 258
+E9 rep2: base 40.0% (2nd half 38.3%, first attempt 38.3%, calls 1.00) | repair 80.8% (2nd half 85.0%, first attempt 45.0%, calls 2.15) | wireA 74.2% (2nd half 70.0%, first attempt 43.3%, calls 2.28) | wireB 78.3% (2nd half 78.3%, first attempt 43.3%, calls 2.17) | wireC 79.2% (2nd half 80.0%, first attempt 50.0%, calls 2.15) | supplied 85.0% (2nd half 85.0%, first attempt 48.3%, calls 2.08)
+  base rep3 pos 20: pass so far 6/20, calls 20
+  base rep3 pos 40: pass so far 20/40, calls 40
+  wireA rep3 pos 20: pass so far 13/20, calls 52
+  repair rep3 pos 20: pass so far 17/20, calls 52
+  base rep3 pos 60: pass so far 27/60, calls 60
+  wireA rep3 pos 40: pass so far 29/40, calls 86
+  repair rep3 pos 40: pass so far 33/40, calls 86
+  base rep3 pos 80: pass so far 35/80, calls 80
+  base rep3 pos 100: pass so far 43/100, calls 100
+  repair rep3 pos 60: pass so far 50/60, calls 132
+  wireA rep3 pos 60: pass so far 46/60, calls 133
+  base rep3 pos 120: pass so far 53/120, calls 120
+  wireA rep3 pos 80: pass so far 63/80, calls 169
+  repair rep3 pos 80: pass so far 68/80, calls 175
+  wireB rep3 pos 20: pass so far 16/20, calls 51
+  wireA rep3 pos 100: pass so far 75/100, calls 222
+  wireB rep3 pos 40: pass so far 35/40, calls 83
+  repair rep3 pos 100: pass so far 82/100, calls 227
+  repair rep3 pos 120: pass so far 99/120, calls 268
+  wireA rep3 pos 120: pass so far 92/120, calls 267
+  wireB rep3 pos 60: pass so far 50/60, calls 128
+  wireB rep3 pos 80: pass so far 66/80, calls 163
+  supplied rep3 pos 20: pass so far 15/20, calls 45
+  wireC rep3 pos 20: pass so far 14/20, calls 51
+  supplied rep3 pos 40: pass so far 31/40, calls 80
+  wireC rep3 pos 40: pass so far 30/40, calls 86
+  wireB rep3 pos 100: pass so far 80/100, calls 213
+  supplied rep3 pos 60: pass so far 47/60, calls 124
+  wireC rep3 pos 60: pass so far 47/60, calls 133
+  wireB rep3 pos 120: pass so far 93/120, calls 264
+  supplied rep3 pos 80: pass so far 66/80, calls 162
+  wireC rep3 pos 80: pass so far 65/80, calls 170
+  supplied rep3 pos 100: pass so far 81/100, calls 209
+  wireC rep3 pos 100: pass so far 80/100, calls 215
+  supplied rep3 pos 120: pass so far 96/120, calls 253
+  wireC rep3 pos 120: pass so far 95/120, calls 263
+E9 rep3: base 44.2% (2nd half 43.3%, first attempt 43.3%, calls 1.00) | repair 82.5% (2nd half 81.7%, first attempt 38.3%, calls 2.23) | wireA 76.7% (2nd half 76.7%, first attempt 50.0%, calls 2.23) | wireB 77.5% (2nd half 71.7%, first attempt 45.0%, calls 2.20) | wireC 79.2% (2nd half 80.0%, first attempt 48.3%, calls 2.19) | supplied 80.0% (2nd half 81.7%, first attempt 45.0%, calls 2.11)
+E9 DONE primary wireB minus repair (positions 61-120) -6.1pp [-13.3pp, 0.6pp] p=0.083 | no separation: the interval for Wire B minus repair-only includes zero; no parameter-free wire earns its place on this family either
+  wireA minus repair, positions 61 to 120: -7.8pp [-15.6pp, -0.6pp] p=0.033 adj=0.078
+  wireC minus repair, positions 61 to 120: -0.6pp [-7.8pp, 6.1pp] p=0.915 adj=0.915
+  wireB minus wireA, positions 61 to 120: 1.7pp [-5.6pp, 8.9pp] p=0.654 adj=0.785
+  wireC minus wireA, positions 61 to 120: 7.2pp [0.6pp, 14.4pp] p=0.039 adj=0.078
+  wireB minus supplied, positions 61 to 120: -7.8pp [-14.4pp, -1.7pp] p=0.020 adj=0.078
+  wireC minus supplied, positions 61 to 120: -2.2pp [-8.9pp, 3.9pp] p=0.524 adj=0.785
+  first attempt (2nd half): base 40.6%, repair 41.7%, wireA 47.2%, wireB 43.9%, wireC 51.7%, supplied 45.0%
+  recovery (2nd half): repair 73/105, wireA 49/95, wireB 58/101, wireC 54/87, supplied 70/99
+  lessons written per rep A/B/C: 62/69/61 | 67/69/65 | 61/64/67; wireC recalls per rep 62/61/63; leakage flags: 0

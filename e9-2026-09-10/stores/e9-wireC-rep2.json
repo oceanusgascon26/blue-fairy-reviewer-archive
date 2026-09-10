@@ -1,0 +1,117 @@
+[
+  {
+    "id": "e9-noletter-d",
+    "cue": "the letter \"d\"",
+    "content": "Forbidden letter tasks have failed the check 4 times so far. Latest failure: the response uses the letter \"d\" 13 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+  },
+  {
+    "id": "e9-frequency-river-5",
+    "cue": "\"river\" exactly 5 times",
+    "content": "Word frequency tasks have failed the check 2 times so far. Latest failure: the word \"river\" appears 6 times in the response; the task asked for exactly 5. Satisfy the word frequency rule before finishing."
+  },
+  {
+    "id": "e9-commas-n3",
+    "cue": "exactly 3 commas",
+    "content": "Comma count tasks have failed the check 1 time so far. Latest failure: the response has 5 commas; the task asked for exactly 3. Satisfy the comma count rule before finishing."
+  },
+  {
+    "id": "e9-wordcount-N20",
+    "cue": "exactly 20 words",
+    "content": "Word count tasks have failed the check 4 times so far. Latest failure: the response has 26 words; the task asked for exactly 20 words. Satisfy the word count rule before finishing."
+  },
+  {
+    "id": "e9-noletter-l",
+    "cue": "the letter \"l\"",
+    "content": "Forbidden letter tasks have failed the check 4 times so far. Latest failure: the response uses the letter \"l\" 6 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+  },
+  {
+    "id": "e9-noletter-s",
+    "cue": "the letter \"s\"",
+    "content": "Forbidden letter tasks have failed the check 4 times so far. Latest failure: the response uses the letter \"s\" 3 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+  },
+  {
+    "id": "e9-commas-n1",
+    "cue": "exactly 1 comma",
+    "content": "Comma count tasks have failed the check 2 times so far. Latest failure: the response has 3 commas; the task asked for exactly 1. Satisfy the comma count rule before finishing."
+  },
+  {
+    "id": "e9-commas-n5",
+    "cue": "exactly 5 commas",
+    "content": "Comma count tasks have failed the check 4 times so far. Latest failure: the response has 7 commas; the task asked for exactly 5. Satisfy the comma count rule before finishing."
+  },
+  {
+    "id": "e9-noletter-c",
+    "cue": "the letter \"c\"",
+    "content": "Forbidden letter tasks have failed the check 4 times so far. Latest failure: the response uses the letter \"c\" 7 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+  },
+  {
+    "id": "e9-wordcount-N60",
+    "cue": "exactly 60 words",
+    "content": "Word count tasks have failed the check 4 times so far. Latest failure: the response has 57 words; the task asked for exactly 60 words. Satisfy the word count rule before finishing."
+  },
+  {
+    "id": "e9-wordcount-N75",
+    "cue": "exactly 75 words",
+    "content": "Word count tasks have failed the check 4 times so far. Latest failure: the response has 80 words; the task asked for exactly 75 words. Satisfy the word count rule before finishing."
+  },
+  {
+    "id": "e9-frequency-ladder-3",
+    "cue": "\"ladder\" exactly 3 times",
+    "content": "Word frequency tasks have failed the check 1 time so far. Latest failure: the word \"ladder\" appears 4 times in the response; the task asked for exactly 3. Satisfy the word frequency rule before finishing."
+  },
+  {
+    "id": "e9-commas-n4",
+    "cue": "exactly 4 commas",
+    "content": "Comma count tasks have failed the check 4 times so far. Latest failure: the response has 3 commas; the task asked for exactly 4. Satisfy the comma count rule before finishing."
+  },
+  {
+    "id": "e9-noletter-m",
+    "cue": "the letter \"m\"",
+    "content": "Forbidden letter tasks have failed the check 4 times so far. Latest failure: the response uses the letter \"m\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+  },
+  {
+    "id": "e9-wordcount-N40",
+    "cue": "exactly 40 words",
+    "content": "Word count tasks have failed the check 4 times so far. Latest failure: the response has 42 words; the task asked for exactly 40 words. Satisfy the word count rule before finishing."
+  },
+  {
+    "id": "e9-wordcount-N50",
+    "cue": "exactly 50 words",
+    "content": "Word count tasks have failed the check 4 times so far. Latest failure: the response has 53 words; the task asked for exactly 50 words. Satisfy the word count rule before finishing."
+  },
+  {
+    "id": "e9-frequency-ladder-5",
+    "cue": "\"ladder\" exactly 5 times",
+    "content": "Word frequency tasks have failed the check 1 time so far. Latest failure: the word \"ladder\" appears 6 times in the response; the task asked for exactly 5. Satisfy the word frequency rule before finishing."
+  },
+  {
+    "id": "e9-noletter-p",
+    "cue": "the letter \"p\"",
+    "content": "Forbidden letter tasks have failed the check 3 times so far. Latest failure: the response uses the letter \"p\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+  },
+  {
+    "id": "e9-commas-n2",
+    "cue": "exactly 2 commas",
+    "content": "Comma count tasks have failed the check 1 time so far. Latest failure: the response has 3 commas; the task asked for exactly 2. Satisfy the comma count rule before finishing."
+  },
+  {
+    "id": "e9-frequency-window-5",
+    "cue": "\"window\" exactly 5 times",
+    "content": "Word frequency tasks have failed the check 1 time so far. Latest failure: the word \"window\" appears 4 times in the response; the task asked for exactly 5. Satisfy the word frequency rule before finishing."
+  },
+  {
+    "id": "e9-frequency-window-3",
+    "cue": "\"window\" exactly 3 times",
+    "content": "Word frequency tasks have failed the check 1 time so far. Latest failure: the word \"window\" appears 4 times in the response; the task asked for exactly 3. Satisfy the word frequency rule before finishing."
+  },
+  {
+    "id": "e9-wordcount-N30",
+    "cue": "exactly 30 words",
+    "content": "Word count tasks have failed the check 2 times so far. Latest failure: the response has 24 words; the task asked for exactly 30 words. Satisfy the word count rule before finishing."
+  },
+  {
+    "id": "e9-sentences-n6",
+    "cue": "exactly 6 sentences",
+    "content": "Sentence count tasks have failed the check 1 time so far. Latest failure: the response has 10 sentences; the task asked for exactly 6. Satisfy the sentence count rule before finishing."
+  }
+]

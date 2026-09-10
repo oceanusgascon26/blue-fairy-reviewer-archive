@@ -1,0 +1,10 @@
+E9 freeze, 2026-09-10 (local), written before any model call. SHA-256:
+6c808b23a6445a9a6d1750af655f4e621ced8c5a406995df77cb88aa5e8849c7 *PREREGISTRATION-E9.md
+62c56e0949aca415d1ccf302f0274db4d357fe1a65d6f182a0fa430b253d6bd7 *e9-tasks.mjs
+308823a8a9b62c58f406b539c99e58a700db7006a223ef724ee2ed57363b5cef *bedrock-e9.mjs
+3a18972bd35b26b42e4fd7cbc6ad9d488c607626ca64ee91fc90dbcd83d8823f *e9.mjs
+23370d305350d7aafe7c35a897b9ace0c2525c5e9bad2bc531aaf4e679cbc611 *readout-e9.py
+28af8f73be9e1097770b09006b43e637649b83efec727abdbfdb32876f8e3ac6 *tasks-e9.json
+
+Kit import: C:/Users/Suppo/Desktop/Oceanus/cognitive-middleware at commit 61fd546 (code identical to 3d20393; documentation-only commits between).
+Smoke test with the scripted fake base ran before this freeze (smoke/); its outputs are not data.

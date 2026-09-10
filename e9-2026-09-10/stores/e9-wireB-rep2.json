@@ -1,0 +1,27 @@
+[
+  {
+    "id": "e9-noletter",
+    "cue": "without using the letter",
+    "content": "Forbidden letter tasks have failed the check 24 times so far: the banned letter appeared 9.4 times on average. Check this task's own forbidden letter requirement before finishing."
+  },
+  {
+    "id": "e9-commas",
+    "cue": "comma",
+    "content": "Comma count tasks have failed the check 14 times so far: the answers ran over by 2.5 commas on average. Check this task's own comma count requirement before finishing."
+  },
+  {
+    "id": "e9-wordcount",
+    "cue": "Word count",
+    "content": "Word count tasks have failed the check 24 times so far: the answers missed in both directions, by 5.0 words on average. Check this task's own word count requirement before finishing."
+  },
+  {
+    "id": "e9-frequency",
+    "cue": "Use the word",
+    "content": "Word frequency tasks have failed the check 5 times so far: the answers missed in both directions, by 1.0 occurrences on average. Check this task's own word frequency requirement before finishing."
+  },
+  {
+    "id": "e9-sentences",
+    "cue": "sentences",
+    "content": "Sentence count tasks have failed the check 2 times so far: the answers ran over by 1.5 sentences on average. Check this task's own sentence count requirement before finishing."
+  }
+]
