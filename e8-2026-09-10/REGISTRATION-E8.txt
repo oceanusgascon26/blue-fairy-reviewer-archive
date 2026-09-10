@@ -4,3 +4,4 @@ Submitted: 2026-09-10T03:03Z (2026-09-09 20:03 Pacific), before any model call. 
 Files: project folder e8-composition-pilot (osf.io/eduak): PREREGISTRATION-E8.md, FREEZE-E8.txt, tasks-e8.json, e8-tasks.mjs, bedrock-e8.mjs, e8.mjs, all with sha256 matching FREEZE-E8.txt (checked through the OSF API after upload).
 Status at submission: pending approval (OSF's 48-hour window for the admin contributor); the summary carries the plan hash 965623c7db256bcf0ff147c9bcba059476192783665da24456ac3fe8e3fc6df1.
 Approved by Chris and public: 2026-09-10 (OSF API: public true, pending approval false, archiving false, date_registered 2026-09-10T03:03:22). Results were uploaded to the project folder only after archiving completed.
+Registration DOI (minted by OSF on publication): 10.17605/OSF.IO/QC3DB, https://doi.org/10.17605/OSF.IO/QC3DB
