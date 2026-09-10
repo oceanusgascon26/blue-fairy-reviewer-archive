@@ -33,7 +33,7 @@ It cannot regenerate the model answers without Bedrock access, and a new run wou
 ## Where this archive lives
 
 - Repository: https://github.com/oceanusgascon26/blue-fairy-reviewer-archive (the current revision).
-- Deposit: a zip of the archive as of its fourth commit (171ae54, through E6d) is in the registered report's public OSF project, https://osf.io/eduak, file https://osf.io/3r4pq, SHA-256 d4a54d88587ed21f... (full hash in PROVENANCE.md). That project carries a CC0 label from its own creation; the archive's content is governed by LICENSE.md here (CC BY 4.0).
+- Deposit: a zip of the archive as of its fourth commit (171ae54, through E6d) is in the registered report's public OSF project, https://osf.io/eduak (DOI https://doi.org/10.17605/OSF.IO/EDUAK), file https://osf.io/3r4pq, SHA-256 d4a54d88587ed21f... (full hash in PROVENANCE.md). That project carries a CC0 label from its own creation; the archive's content is governed by LICENSE.md here (CC BY 4.0).
 
 ## License
 
