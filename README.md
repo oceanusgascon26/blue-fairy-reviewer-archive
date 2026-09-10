@@ -30,6 +30,10 @@ Assembled 2026-09-09 by the author's tooling from the working folders that produ
 8. python e8-2026-09-10/readout-e8.py e8-2026-09-10/results-e8.json readout-check.md re-renders the E8 readout from the results file; the output must be identical to READOUT-E8.md. Inside e8-2026-09-10/, after building the kit, node e8.mjs --mock runs the whole pipeline against the scripted fake with no network (it rewrites smoke/).
 9. python e9-2026-09-10/readout-e9.py e9-2026-09-10/results-e9.json readout-check.md re-renders the E9 readout from the results file; the output must be identical to READOUT-E9.md. Inside e9-2026-09-10/, after building the kit, node e9.mjs --mock runs the pipeline against the scripted fake with no network (it rewrites smoke/).
 
+## Tooling
+
+The code, harnesses and task generators in this archive were developed with AI coding assistance under the author's direction. Every plan was frozen by hash and registered before data. The checkers are pure functions of the model text and the raw records are open for audit, so the provenance of the code does not enter into any number reported here.
+
 ## What the archive cannot do
 
 It cannot regenerate the model answers without Bedrock access, and a new run would produce new text. It cannot supply a pinned commit for the historical runs, which recorded none. The freeze records are local files whose times precede the first calls; they are not an independent registration.
