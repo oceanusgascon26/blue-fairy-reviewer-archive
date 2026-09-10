@@ -50,6 +50,7 @@ Only local file paths and the AWS profile name were changed. Prompts, responses,
 - e6-haiku.jsonl: 240
 - e6b-haiku.jsonl: 244
 - e6c-haiku.jsonl: 339
+- e6d-haiku.jsonl: 240
 - smoke.jsonl: 3
 
 ## Kit

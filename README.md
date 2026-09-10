@@ -5,7 +5,7 @@ Assembled 2026-09-09 by the author's tooling from the working folders that produ
 ## What is here
 
 - controls/PREREGISTRATION-ADDENDUM.md, -2.md, -3.md, -4.md: the four plans. Three are byte for byte as frozen; the public copy of the first has one phrase redacted that named the owner of the cloud account, and controls/PLAN-REDACTION.txt records the original and public hashes. controls/FREEZE.txt to FREEZE-4.txt carry the frozen SHA-256 values and freeze times. The first freeze also appears in the project council log at 2026-09-09T14:24:12.053Z.
-- controls/raw/*.jsonl: 5,273 raw generate records, of which 3 are smoke tests (smoke.jsonl) and 5,270 are experimental. Each record has the prompt, the answer, input and output token counts, elapsed milliseconds and the final error field. controls/raw/e6*.json are the E6, E6b and E6c store files and phase outputs.
+- controls/raw/*.jsonl: 5,513 raw generate records, of which 3 are smoke tests (smoke.jsonl) and 5,510 are experimental. Each record has the prompt, the answer, input and output token counts, elapsed milliseconds and the final error field. controls/raw/e6*.json are the E6, E6b and E6c store files and phase outputs.
 - controls/results-*.json, controls/e5-slice.json, controls/READOUT.md: the results as written by the run scripts, the IFEval selection, and the readout.
 - controls/*.mjs and controls/*.py: the run scripts, with local paths and the AWS profile substituted (see PROVENANCE.md). They are the code that ran; running them again needs Amazon Bedrock access and makes new calls.
 - controls/ifeval/: the reference IFEval checkers and data (Google, Apache 2.0), vendored unchanged. tools/check-ifeval-upstream.py compares them with upstream.

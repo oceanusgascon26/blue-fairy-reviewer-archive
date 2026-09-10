@@ -1,0 +1,168 @@
+{
+  "phase": "A",
+  "rep": 3,
+  "pid": 68460,
+  "storeLoaded": false,
+  "rows": [
+    {
+      "word": "jungle",
+      "encoded": "hbgqza",
+      "covered": false,
+      "response": "I'll decode the word \"hbgqza\" using the substitution cipher provided.\n\nLet me replace each letter:\n- h → p\n- b → u\n- g → n\n- q → g\n- z → l\n- a → e\n\nThe decoded word is: **pungle**",
+      "contains": false,
+      "exact": false
+    },
+    {
+      "word": "candle",
+      "encoded": "wkgdza",
+      "covered": true,
+      "response": "I'll decode the word \"wkgdza\" using the substitution cipher provided.\n\nLet me replace each letter:\n- w → c\n- k → a\n- g → n\n- d → d\n- z → l\n- a → e\n\nThe decoded word is: **candle**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "window",
+      "encoded": "uogdvu",
+      "covered": true,
+      "response": "I'll decode \"uogdvu\" using the cipher key provided.\n\nu → w\no → i\ng → n\nd → d\nv → o\nu → w\n\nThe decoded word is: **window**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "silver",
+      "encoded": "lozyaf",
+      "covered": true,
+      "response": "I'll decode this step by step using the cipher key provided.\n\nEncoded word: lozyaf\n\nApplying the substitution:\n- l → s\n- o → i\n- z → l\n- y → v\n- a → e\n- f → r\n\nDecoded word: **silver**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "garden",
+      "encoded": "qkfdag",
+      "covered": true,
+      "response": "I'll decode the word \"qkfdag\" using the substitution cipher provided.\n\nLet me replace each letter:\n- q → g\n- k → a\n- f → r\n- d → d\n- a → e\n- g → n\n\nThe decoded word is: **garden**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "rocket",
+      "encoded": "fvwmar",
+      "covered": true,
+      "response": "I'll decode the word \"fvwmar\" using the substitution cipher provided.\n\nLet me replace each letter:\n- f → r\n- v → o\n- w → c\n- m → k\n- a → e\n- r → t\n\nThe decoded word is: **rocket**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "puzzle",
+      "encoded": "nbeeza",
+      "covered": true,
+      "response": "I'll decode the word \"nbeeza\" using the cipher provided.\n\nLet me replace each letter:\n- n → p\n- b → u\n- e → z\n- e → z\n- z → l\n- a → e\n\nThe decoded word is: **puzzle**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "wizard",
+      "encoded": "uoekfd",
+      "covered": true,
+      "response": "I'll decode \"uoekfd\" by replacing each letter with its plain letter equivalent.\n\nu → w\no → i\ne → z\nk → a\nf → r\nd → d\n\n**wizard**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "forest",
+      "encoded": "svfalr",
+      "covered": true,
+      "response": "I'll decode \"svfalr\" using the substitution cipher provided.\n\ns → f\nv → o\nf → r\na → e\nl → s\nr → t\n\n**forest**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "bridge",
+      "encoded": "tfodqa",
+      "covered": true,
+      "response": "I'll decode this step by step using the cipher key provided.\n\nEncoded word: tfodqa\n\nReplacing each letter:\n- t → b\n- f → r\n- o → i\n- d → d\n- q → g\n- a → e\n\nDecoded word: **bridge**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "planet",
+      "encoded": "nzkgar",
+      "covered": true,
+      "response": "I'll decode this word using the substitution cipher provided.\n\nLet me replace each letter:\n- n → p\n- z → l\n- k → a\n- g → n\n- a → e\n- r → t\n\nDecoded word: **planet**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "castle",
+      "encoded": "wklrza",
+      "covered": true,
+      "response": "I'll decode \"wklrza\" using the cipher key provided.\n\nw → c\nk → a\nl → s\nr → t\nz → l\na → e\n\n**castle**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "dragon",
+      "encoded": "dfkqvg",
+      "covered": true,
+      "response": "I'll decode the word \"dfkqvg\" by replacing each letter with its plain letter equivalent.\n\nd → d\nf → r\nk → a\nq → g\nv → o\ng → n\n\nThe decoded word is: **dragon**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "shadow",
+      "encoded": "lpkdvu",
+      "covered": true,
+      "response": "I'll decode the word \"lpkdvu\" by replacing each letter with its corresponding plain letter.\n\nl → s\np → h\nk → a\nd → d\nv → o\nu → w\n\n**shadow**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "summer",
+      "encoded": "lbjjaf",
+      "covered": true,
+      "response": "I'll decode \"lbjjaf\" using the substitution cipher provided.\n\nl → s\nb → u\nj → m\nj → m\na → e\nf → r\n\n**summer**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "yellow",
+      "encoded": "cazzvu",
+      "covered": true,
+      "response": "I'll decode \"cazzvu\" using the substitution cipher provided.\n\nLet me replace each letter:\n- c → y\n- a → e\n- z → l\n- z → l\n- v → o\n- u → w\n\nThe decoded word is: **yellow**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "pocket",
+      "encoded": "nvwmar",
+      "covered": true,
+      "response": "I'll decode \"nvwmar\" using the substitution cipher provided.\n\nn → p\nv → o\nw → c\nm → k\na → e\nr → t\n\n**pocket**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "ladder",
+      "encoded": "zkddaf",
+      "covered": true,
+      "response": "I'll decode \"zkddaf\" using the substitution cipher provided.\n\nz → l\nk → a\nd → d\nd → d\na → e\nf → r\n\n**ladder**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "magnet",
+      "encoded": "jkqgar",
+      "covered": true,
+      "response": "I'll decode this step by step using the cipher key provided.\n\nEncoded word: jkqgar\n\n- j = m\n- k = a\n- q = g\n- g = n\n- a = e\n- r = t\n\nDecoded word: **magnet**",
+      "contains": true,
+      "exact": false
+    },
+    {
+      "word": "bottle",
+      "encoded": "tvrrza",
+      "covered": true,
+      "response": "I'll decode the word \"tvrrza\" using the cipher key provided.\n\nBreaking it down letter by letter:\n- t → b\n- v → o\n- r → t\n- r → t\n- z → l\n- a → e\n\n**bottle**",
+      "contains": true,
+      "exact": false
+    }
+  ]
+}

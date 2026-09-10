@@ -1,0 +1,5 @@
+# Note beside addendum 8 (E6d), written after the run, 2026-09-09
+
+The frozen plan says the training words contain no j, k or x and that three held-out words (jungle, rocket, pocket) carry a letter the rule cannot map. That was a miscount by the author's assistant when the plan was written: the training word basket supplies the k, so rocket and pocket are fully covered and only jungle (the j) is not. The runner computed coverage from the words themselves and reported 19 covered and 1 unmapped; the run log's per-repetition line prints the label "covered 17" from a hard-coded string while the counts beside it are the computed ones. The plan file is unchanged so that its hash still matches FREEZE-8.txt; the book reports the counts as computed and names the miscount.
+
+Result, for the record: held-out cold 0 of 60, warm 57 of 60, supplied key 56 of 60 (contains-word); warm minus cold +95.0 points, interval [85.0, 100.0]; frozen rule: the stored rule transferred to words it was not built from. Jungle was missed in every warm and supplied-key trial, as the plan predicted for unmapped letters. 240 raw records, no errors.
