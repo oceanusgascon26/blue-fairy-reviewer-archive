@@ -35,7 +35,7 @@ It cannot regenerate the model answers without Bedrock access, and a new run wou
 ## Where this archive lives
 
 - Repository: https://github.com/oceanusgascon26/blue-fairy-reviewer-archive (the current revision).
-- Deposit: a zip of the archive as of its fourth commit (171ae54, through E6d) is in the registered report's public OSF project, https://osf.io/eduak (DOI https://doi.org/10.17605/OSF.IO/EDUAK), file https://osf.io/3r4pq, SHA-256 d4a54d88587ed21f... (full hash in PROVENANCE.md). That project carries a CC0 label from its own creation; the archive's content is governed by LICENSE.md here (CC BY 4.0).
+- Deposit: a zip of the archive as of its fourth commit (171ae54, through E6d) is in the registered report's public OSF project, https://osf.io/eduak (DOI https://doi.org/10.17605/OSF.IO/EDUAK), file https://osf.io/3r4pq, SHA-256 d4a54d88587ed21f... (full hash in PROVENANCE.md). That project carries a CC0 label from its own creation; the archive's content is governed by LICENSE.md here (CC BY 4.0). A second zip, the archive at commit bf4b77a (through E8), was deposited on 2026-09-10 as https://osf.io/u9ajt, SHA-256 c40e7ea4921744f5... (full hash in PROVENANCE.md); the E8 results were also uploaded to that project's folder e8-composition-pilot after the E8 registration (https://osf.io/qc3db) had archived.
 
 ## License
 
