@@ -1,7 +1,7 @@
 // E3: the large base inside the same loop. T39 (primary) and the 24-item cost set (secondary), 3 repetitions.
 // Arms: 8B one-shot, 8B + repair, 70B one-shot, 70B + repair, 70B verifier-selected resampling; budget 4 generations each.
 import { writeFileSync } from 'node:fs';
-import { TASKS, DEFAULT_FIRST_SHOT_SUFFIX, runConstraintRepair, pairedDeltaCI } from 'file:///../kit/dist/src/index.js';
+import { TASKS, DEFAULT_FIRST_SHOT_SUFFIX, runConstraintRepair, pairedDeltaCI } from '../kit/dist/src/index.js';
 import { makeBedrockBase, itemBootstrap, PRICE_PER_M, pct, ppf } from './bedrock.mjs';
 
 const REPS = 3, BUDGET = 4;

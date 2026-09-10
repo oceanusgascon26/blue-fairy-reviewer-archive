@@ -1,0 +1,2860 @@
+{
+  "experiment": "E8",
+  "mock": true,
+  "model": "mock",
+  "temperature": 0.7,
+  "maxTokens": 400,
+  "budget": 4,
+  "reps": 3,
+  "arms": [
+    "base",
+    "repair",
+    "integrated",
+    "supplied",
+    "mono",
+    "monoresample"
+  ],
+  "taskSha256": "8a5f42a0502cd25318bad33f98fcadfc6fd445c5bbf2bb70f25984dc66fec7a5",
+  "date": "2026-09-10T02:47:41.837Z",
+  "repetitions": [
+    {
+      "rep": 1,
+      "summary": {
+        "base": {
+          "pass": 0.16666666666666666,
+          "firstHalf": 0.1,
+          "secondHalf": 0.23333333333333334,
+          "byClass": {
+            "wordcount": 0,
+            "sentences": 0,
+            "noletter": 0.5333333333333333,
+            "commas": 0.3333333333333333,
+            "lowercase": 0.3333333333333333,
+            "bullets": 0.06666666666666667,
+            "ending": 0.06666666666666667,
+            "frequency": 0
+          },
+          "byBlock": [
+            0.1,
+            0.15,
+            0.05,
+            0.2,
+            0.2,
+            0.3
+          ],
+          "meanCalls": 1,
+          "calls": 120,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 0,
+          "lessonsInStore": 0
+        },
+        "repair": {
+          "pass": 0.4,
+          "firstHalf": 0.36666666666666664,
+          "secondHalf": 0.43333333333333335,
+          "byClass": {
+            "wordcount": 0.2,
+            "sentences": 0.3333333333333333,
+            "noletter": 0.8666666666666667,
+            "commas": 0.4666666666666667,
+            "lowercase": 0.9333333333333333,
+            "bullets": 0.13333333333333333,
+            "ending": 0.13333333333333333,
+            "frequency": 0.13333333333333333
+          },
+          "byBlock": [
+            0.3,
+            0.5,
+            0.3,
+            0.25,
+            0.4,
+            0.65
+          ],
+          "meanCalls": 3.183333333333333,
+          "calls": 382,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 0,
+          "lessonsInStore": 0
+        },
+        "integrated": {
+          "pass": 0.4083333333333333,
+          "firstHalf": 0.36666666666666664,
+          "secondHalf": 0.45,
+          "byClass": {
+            "wordcount": 0.13333333333333333,
+            "sentences": 0.3333333333333333,
+            "noletter": 0.8666666666666667,
+            "commas": 0.4666666666666667,
+            "lowercase": 0.8666666666666667,
+            "bullets": 0.26666666666666666,
+            "ending": 0.26666666666666666,
+            "frequency": 0.06666666666666667
+          },
+          "byBlock": [
+            0.35,
+            0.55,
+            0.2,
+            0.35,
+            0.3,
+            0.7
+          ],
+          "meanCalls": 3.1333333333333333,
+          "calls": 376,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 93,
+          "lessonsInStore": 8
+        },
+        "supplied": {
+          "pass": 0.3416666666666667,
+          "firstHalf": 0.3,
+          "secondHalf": 0.38333333333333336,
+          "byClass": {
+            "wordcount": 0.06666666666666667,
+            "sentences": 0.2,
+            "noletter": 0.8666666666666667,
+            "commas": 0.4,
+            "lowercase": 0.6666666666666666,
+            "bullets": 0.26666666666666666,
+            "ending": 0.13333333333333333,
+            "frequency": 0.13333333333333333
+          },
+          "byBlock": [
+            0.3,
+            0.3,
+            0.3,
+            0.2,
+            0.3,
+            0.65
+          ],
+          "meanCalls": 3.316666666666667,
+          "calls": 398,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 0,
+          "lessonsInStore": 8
+        },
+        "mono": {
+          "pass": 0.18333333333333332,
+          "firstHalf": 0.18333333333333332,
+          "secondHalf": 0.18333333333333332,
+          "byClass": {
+            "wordcount": 0,
+            "sentences": 0.06666666666666667,
+            "noletter": 0.4,
+            "commas": 0.4,
+            "lowercase": 0.26666666666666666,
+            "bullets": 0.13333333333333333,
+            "ending": 0.2,
+            "frequency": 0
+          },
+          "byBlock": [
+            0.15,
+            0.2,
+            0.2,
+            0.15,
+            0.15,
+            0.25
+          ],
+          "meanCalls": 1,
+          "calls": 120,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 0,
+          "lessonsInStore": 0
+        },
+        "monoresample": {
+          "pass": 0.36666666666666664,
+          "firstHalf": 0.35,
+          "secondHalf": 0.38333333333333336,
+          "byClass": {
+            "wordcount": 0.06666666666666667,
+            "sentences": 0.3333333333333333,
+            "noletter": 0.8666666666666667,
+            "commas": 0.5333333333333333,
+            "lowercase": 0.7333333333333333,
+            "bullets": 0.13333333333333333,
+            "ending": 0.2,
+            "frequency": 0.06666666666666667
+          },
+          "byBlock": [
+            0.25,
+            0.45,
+            0.35,
+            0.25,
+            0.3,
+            0.6
+          ],
+          "meanCalls": 3.216666666666667,
+          "calls": 386,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 0,
+          "lessonsInStore": 0
+        }
+      }
+    },
+    {
+      "rep": 2,
+      "summary": {
+        "base": {
+          "pass": 0.14166666666666666,
+          "firstHalf": 0.13333333333333333,
+          "secondHalf": 0.15,
+          "byClass": {
+            "wordcount": 0.06666666666666667,
+            "sentences": 0.06666666666666667,
+            "noletter": 0.3333333333333333,
+            "commas": 0.4,
+            "lowercase": 0.06666666666666667,
+            "bullets": 0.06666666666666667,
+            "ending": 0.13333333333333333,
+            "frequency": 0
+          },
+          "byBlock": [
+            0.1,
+            0.05,
+            0.25,
+            0.15,
+            0.2,
+            0.1
+          ],
+          "meanCalls": 1,
+          "calls": 120,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 0,
+          "lessonsInStore": 0
+        },
+        "repair": {
+          "pass": 0.30833333333333335,
+          "firstHalf": 0.2833333333333333,
+          "secondHalf": 0.3333333333333333,
+          "byClass": {
+            "wordcount": 0,
+            "sentences": 0.06666666666666667,
+            "noletter": 0.9333333333333333,
+            "commas": 0.4666666666666667,
+            "lowercase": 0.6666666666666666,
+            "bullets": 0.06666666666666667,
+            "ending": 0.2,
+            "frequency": 0.06666666666666667
+          },
+          "byBlock": [
+            0.15,
+            0.35,
+            0.35,
+            0.2,
+            0.4,
+            0.4
+          ],
+          "meanCalls": 3.4,
+          "calls": 408,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 0,
+          "lessonsInStore": 0
+        },
+        "integrated": {
+          "pass": 0.3333333333333333,
+          "firstHalf": 0.3333333333333333,
+          "secondHalf": 0.3333333333333333,
+          "byClass": {
+            "wordcount": 0.06666666666666667,
+            "sentences": 0.26666666666666666,
+            "noletter": 0.9333333333333333,
+            "commas": 0.4,
+            "lowercase": 0.8,
+            "bullets": 0,
+            "ending": 0.13333333333333333,
+            "frequency": 0.06666666666666667
+          },
+          "byBlock": [
+            0.25,
+            0.4,
+            0.35,
+            0.2,
+            0.35,
+            0.45
+          ],
+          "meanCalls": 3.283333333333333,
+          "calls": 394,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 99,
+          "lessonsInStore": 8
+        },
+        "supplied": {
+          "pass": 0.36666666666666664,
+          "firstHalf": 0.3,
+          "secondHalf": 0.43333333333333335,
+          "byClass": {
+            "wordcount": 0.13333333333333333,
+            "sentences": 0.26666666666666666,
+            "noletter": 0.9333333333333333,
+            "commas": 0.4666666666666667,
+            "lowercase": 0.8,
+            "bullets": 0.2,
+            "ending": 0.06666666666666667,
+            "frequency": 0.06666666666666667
+          },
+          "byBlock": [
+            0.2,
+            0.3,
+            0.4,
+            0.2,
+            0.4,
+            0.7
+          ],
+          "meanCalls": 3.275,
+          "calls": 393,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 0,
+          "lessonsInStore": 8
+        },
+        "mono": {
+          "pass": 0.175,
+          "firstHalf": 0.13333333333333333,
+          "secondHalf": 0.21666666666666667,
+          "byClass": {
+            "wordcount": 0,
+            "sentences": 0.2,
+            "noletter": 0.3333333333333333,
+            "commas": 0.4,
+            "lowercase": 0.4666666666666667,
+            "bullets": 0,
+            "ending": 0,
+            "frequency": 0
+          },
+          "byBlock": [
+            0.1,
+            0.1,
+            0.2,
+            0.15,
+            0.1,
+            0.4
+          ],
+          "meanCalls": 1,
+          "calls": 120,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 0,
+          "lessonsInStore": 0
+        },
+        "monoresample": {
+          "pass": 0.39166666666666666,
+          "firstHalf": 0.4,
+          "secondHalf": 0.38333333333333336,
+          "byClass": {
+            "wordcount": 0.06666666666666667,
+            "sentences": 0.4666666666666667,
+            "noletter": 0.8666666666666667,
+            "commas": 0.4666666666666667,
+            "lowercase": 0.7333333333333333,
+            "bullets": 0.2,
+            "ending": 0.26666666666666666,
+            "frequency": 0.06666666666666667
+          },
+          "byBlock": [
+            0.35,
+            0.45,
+            0.4,
+            0.15,
+            0.45,
+            0.55
+          ],
+          "meanCalls": 3.2083333333333335,
+          "calls": 385,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 0,
+          "lessonsInStore": 0
+        }
+      }
+    },
+    {
+      "rep": 3,
+      "summary": {
+        "base": {
+          "pass": 0.21666666666666667,
+          "firstHalf": 0.23333333333333334,
+          "secondHalf": 0.2,
+          "byClass": {
+            "wordcount": 0,
+            "sentences": 0.3333333333333333,
+            "noletter": 0.3333333333333333,
+            "commas": 0.4,
+            "lowercase": 0.5333333333333333,
+            "bullets": 0.06666666666666667,
+            "ending": 0.06666666666666667,
+            "frequency": 0
+          },
+          "byBlock": [
+            0.2,
+            0.3,
+            0.2,
+            0.1,
+            0.2,
+            0.3
+          ],
+          "meanCalls": 1,
+          "calls": 120,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 0,
+          "lessonsInStore": 0
+        },
+        "repair": {
+          "pass": 0.36666666666666664,
+          "firstHalf": 0.36666666666666664,
+          "secondHalf": 0.36666666666666664,
+          "byClass": {
+            "wordcount": 0.06666666666666667,
+            "sentences": 0.4,
+            "noletter": 0.9333333333333333,
+            "commas": 0.4666666666666667,
+            "lowercase": 0.8666666666666667,
+            "bullets": 0.13333333333333333,
+            "ending": 0,
+            "frequency": 0.06666666666666667
+          },
+          "byBlock": [
+            0.35,
+            0.45,
+            0.3,
+            0.2,
+            0.45,
+            0.45
+          ],
+          "meanCalls": 3.15,
+          "calls": 378,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 0,
+          "lessonsInStore": 0
+        },
+        "integrated": {
+          "pass": 0.36666666666666664,
+          "firstHalf": 0.3333333333333333,
+          "secondHalf": 0.4,
+          "byClass": {
+            "wordcount": 0.2,
+            "sentences": 0.3333333333333333,
+            "noletter": 0.8,
+            "commas": 0.4666666666666667,
+            "lowercase": 0.8666666666666667,
+            "bullets": 0.13333333333333333,
+            "ending": 0.13333333333333333,
+            "frequency": 0
+          },
+          "byBlock": [
+            0.35,
+            0.4,
+            0.25,
+            0.25,
+            0.45,
+            0.5
+          ],
+          "meanCalls": 3.216666666666667,
+          "calls": 386,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 99,
+          "lessonsInStore": 8
+        },
+        "supplied": {
+          "pass": 0.325,
+          "firstHalf": 0.2833333333333333,
+          "secondHalf": 0.36666666666666664,
+          "byClass": {
+            "wordcount": 0.13333333333333333,
+            "sentences": 0.2,
+            "noletter": 0.6666666666666666,
+            "commas": 0.5333333333333333,
+            "lowercase": 0.7333333333333333,
+            "bullets": 0.06666666666666667,
+            "ending": 0.2,
+            "frequency": 0.06666666666666667
+          },
+          "byBlock": [
+            0.35,
+            0.35,
+            0.15,
+            0.25,
+            0.4,
+            0.45
+          ],
+          "meanCalls": 3.308333333333333,
+          "calls": 397,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 0,
+          "lessonsInStore": 8
+        },
+        "mono": {
+          "pass": 0.15833333333333333,
+          "firstHalf": 0.08333333333333333,
+          "secondHalf": 0.23333333333333334,
+          "byClass": {
+            "wordcount": 0.06666666666666667,
+            "sentences": 0.06666666666666667,
+            "noletter": 0.4,
+            "commas": 0.3333333333333333,
+            "lowercase": 0.3333333333333333,
+            "bullets": 0,
+            "ending": 0,
+            "frequency": 0.06666666666666667
+          },
+          "byBlock": [
+            0.15,
+            0.1,
+            0,
+            0.1,
+            0.25,
+            0.35
+          ],
+          "meanCalls": 1,
+          "calls": 120,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 0,
+          "lessonsInStore": 0
+        },
+        "monoresample": {
+          "pass": 0.36666666666666664,
+          "firstHalf": 0.31666666666666665,
+          "secondHalf": 0.4166666666666667,
+          "byClass": {
+            "wordcount": 0.13333333333333333,
+            "sentences": 0.2,
+            "noletter": 1,
+            "commas": 0.5333333333333333,
+            "lowercase": 0.7333333333333333,
+            "bullets": 0.13333333333333333,
+            "ending": 0.13333333333333333,
+            "frequency": 0.06666666666666667
+          },
+          "byBlock": [
+            0.2,
+            0.5,
+            0.25,
+            0.2,
+            0.5,
+            0.55
+          ],
+          "meanCalls": 3.275,
+          "calls": 393,
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "errors": 0,
+          "lessonsWritten": 0,
+          "lessonsInStore": 0
+        }
+      }
+    }
+  ],
+  "primary": {
+    "comparison": "integrated minus repair, positions 61 to 120",
+    "mean": 0.016666666666666663,
+    "lo": -0.03888888888888888,
+    "hi": 0.06666666666666668,
+    "n": 60,
+    "p": 0.582
+  },
+  "secondaryFamily": [
+    {
+      "comparison": "integrated minus supplied, positions 61 to 120",
+      "mean": 4.625929269271485e-18,
+      "lo": -0.04444444444444446,
+      "hi": 0.04444444444444446,
+      "n": 60,
+      "p": 1,
+      "pAdjusted": 1,
+      "passesBH": false
+    },
+    {
+      "comparison": "repair minus mono, positions 61 to 120",
+      "mean": 0.16666666666666663,
+      "lo": 0.09444444444444441,
+      "hi": 0.24999999999999997,
+      "n": 60,
+      "p": 0,
+      "pAdjusted": 0,
+      "passesBH": true
+    },
+    {
+      "comparison": "integrated minus mono, positions 61 to 120",
+      "mean": 0.18333333333333332,
+      "lo": 0.11111111111111112,
+      "hi": 0.2611111111111111,
+      "n": 60,
+      "p": 0,
+      "pAdjusted": 0,
+      "passesBH": true
+    },
+    {
+      "comparison": "supplied minus mono, positions 61 to 120",
+      "mean": 0.18333333333333338,
+      "lo": 0.11666666666666667,
+      "hi": 0.25555555555555554,
+      "n": 60,
+      "p": 0,
+      "pAdjusted": 0,
+      "passesBH": true
+    },
+    {
+      "comparison": "repair minus monoresample, positions 61 to 120",
+      "mean": -0.016666666666666666,
+      "lo": -0.06666666666666667,
+      "hi": 0.027777777777777787,
+      "n": 60,
+      "p": 0.558,
+      "pAdjusted": 0.9765000000000001,
+      "passesBH": false
+    },
+    {
+      "comparison": "integrated minus monoresample, positions 61 to 120",
+      "mean": 1.8503717077085942e-18,
+      "lo": -0.061111111111111116,
+      "hi": 0.055555555555555566,
+      "n": 60,
+      "p": 0.986,
+      "pAdjusted": 1,
+      "passesBH": false
+    },
+    {
+      "comparison": "supplied minus monoresample, positions 61 to 120",
+      "mean": 0,
+      "lo": -0.044444444444444446,
+      "hi": 0.044444444444444446,
+      "n": 60,
+      "p": 0.979,
+      "pAdjusted": 1,
+      "passesBH": false
+    }
+  ],
+  "descriptive": {
+    "firstHalf": {
+      "integrated minus supplied": {
+        "mean": 0.049999999999999996,
+        "lo": -0.005555555555555549,
+        "hi": 0.10555555555555558,
+        "n": 60,
+        "p": 0.063
+      },
+      "repair minus mono": {
+        "mean": 0.2055555555555556,
+        "lo": 0.12222222222222219,
+        "hi": 0.29444444444444445,
+        "n": 60,
+        "p": 0
+      },
+      "integrated minus mono": {
+        "mean": 0.2111111111111111,
+        "lo": 0.12777777777777777,
+        "hi": 0.3055555555555555,
+        "n": 60,
+        "p": 0
+      },
+      "supplied minus mono": {
+        "mean": 0.1611111111111111,
+        "lo": 0.09444444444444446,
+        "hi": 0.2333333333333334,
+        "n": 60,
+        "p": 0
+      },
+      "repair minus monoresample": {
+        "mean": -0.016666666666666666,
+        "lo": -0.06666666666666667,
+        "hi": 0.027777777777777787,
+        "n": 60,
+        "p": 0.566
+      },
+      "integrated minus monoresample": {
+        "mean": -0.011111111111111103,
+        "lo": -0.06666666666666667,
+        "hi": 0.038888888888888896,
+        "n": 60,
+        "p": 0.744
+      },
+      "supplied minus monoresample": {
+        "mean": -0.06111111111111112,
+        "lo": -0.1111111111111111,
+        "hi": -0.011111111111111115,
+        "n": 60,
+        "p": 0.017
+      },
+      "integrated minus repair": {
+        "mean": 0.005555555555555554,
+        "lo": -0.05,
+        "hi": 0.06111111111111112,
+        "n": 60,
+        "p": 0.849
+      }
+    },
+    "allPositions": {
+      "integrated minus supplied": {
+        "mean": 0.024999999999999998,
+        "lo": -0.013888888888888885,
+        "hi": 0.06388888888888888,
+        "n": 120,
+        "p": 0.163
+      },
+      "repair minus mono": {
+        "mean": 0.1861111111111111,
+        "lo": 0.13055555555555556,
+        "hi": 0.24722222222222218,
+        "n": 120,
+        "p": 0
+      },
+      "integrated minus mono": {
+        "mean": 0.19722222222222222,
+        "lo": 0.1388888888888889,
+        "hi": 0.2638888888888889,
+        "n": 120,
+        "p": 0
+      },
+      "supplied minus mono": {
+        "mean": 0.17222222222222217,
+        "lo": 0.12499999999999999,
+        "hi": 0.22222222222222224,
+        "n": 120,
+        "p": 0
+      },
+      "repair minus monoresample": {
+        "mean": -0.016666666666666663,
+        "lo": -0.050000000000000024,
+        "hi": 0.016666666666666673,
+        "n": 120,
+        "p": 0.385
+      },
+      "integrated minus monoresample": {
+        "mean": -0.0055555555555555506,
+        "lo": -0.04444444444444444,
+        "hi": 0.03333333333333333,
+        "n": 120,
+        "p": 0.841
+      },
+      "supplied minus monoresample": {
+        "mean": -0.03055555555555556,
+        "lo": -0.0638888888888889,
+        "hi": 0.005555555555555554,
+        "n": 120,
+        "p": 0.091
+      },
+      "integrated minus repair": {
+        "mean": 0.011111111111111108,
+        "lo": -0.027777777777777776,
+        "hi": 0.05,
+        "n": 120,
+        "p": 0.577
+      }
+    },
+    "armRates": {
+      "base": {
+        "all": {
+          "mean": 0.17499999999999996,
+          "lo": 0.12500000000000006,
+          "hi": 0.22499999999999995,
+          "n": 120,
+          "p": 0
+        },
+        "secondHalf": {
+          "mean": 0.19444444444444445,
+          "lo": 0.12222222222222223,
+          "hi": 0.27222222222222225,
+          "n": 60,
+          "p": 0
+        },
+        "byClass": {
+          "wordcount": 0.02222222222222222,
+          "sentences": 0.13333333333333333,
+          "noletter": 0.4,
+          "commas": 0.3777777777777778,
+          "lowercase": 0.31111111111111106,
+          "bullets": 0.06666666666666667,
+          "ending": 0.08888888888888888,
+          "frequency": 0
+        }
+      },
+      "repair": {
+        "all": {
+          "mean": 0.3583333333333333,
+          "lo": 0.2861111111111111,
+          "hi": 0.4333333333333333,
+          "n": 120,
+          "p": 0
+        },
+        "secondHalf": {
+          "mean": 0.3777777777777777,
+          "lo": 0.27777777777777773,
+          "hi": 0.4833333333333334,
+          "n": 60,
+          "p": 0
+        },
+        "byClass": {
+          "wordcount": 0.08888888888888888,
+          "sentences": 0.26666666666666666,
+          "noletter": 0.911111111111111,
+          "commas": 0.4666666666666667,
+          "lowercase": 0.8222222222222223,
+          "bullets": 0.1111111111111111,
+          "ending": 0.1111111111111111,
+          "frequency": 0.08888888888888888
+        }
+      },
+      "integrated": {
+        "all": {
+          "mean": 0.36944444444444435,
+          "lo": 0.2972222222222223,
+          "hi": 0.4444444444444445,
+          "n": 120,
+          "p": 0
+        },
+        "secondHalf": {
+          "mean": 0.39444444444444443,
+          "lo": 0.2944444444444444,
+          "hi": 0.5055555555555554,
+          "n": 60,
+          "p": 0
+        },
+        "byClass": {
+          "wordcount": 0.13333333333333333,
+          "sentences": 0.31111111111111106,
+          "noletter": 0.8666666666666667,
+          "commas": 0.4444444444444444,
+          "lowercase": 0.8444444444444443,
+          "bullets": 0.13333333333333333,
+          "ending": 0.17777777777777776,
+          "frequency": 0.04444444444444444
+        }
+      },
+      "supplied": {
+        "all": {
+          "mean": 0.34444444444444444,
+          "lo": 0.27777777777777773,
+          "hi": 0.41388888888888864,
+          "n": 120,
+          "p": 0
+        },
+        "secondHalf": {
+          "mean": 0.39444444444444443,
+          "lo": 0.2944444444444444,
+          "hi": 0.5000000000000001,
+          "n": 60,
+          "p": 0
+        },
+        "byClass": {
+          "wordcount": 0.1111111111111111,
+          "sentences": 0.22222222222222224,
+          "noletter": 0.8222222222222222,
+          "commas": 0.4666666666666667,
+          "lowercase": 0.7333333333333333,
+          "bullets": 0.17777777777777776,
+          "ending": 0.13333333333333333,
+          "frequency": 0.08888888888888888
+        }
+      },
+      "mono": {
+        "all": {
+          "mean": 0.17222222222222222,
+          "lo": 0.12222222222222225,
+          "hi": 0.22222222222222218,
+          "n": 120,
+          "p": 0
+        },
+        "secondHalf": {
+          "mean": 0.21111111111111114,
+          "lo": 0.13888888888888887,
+          "hi": 0.2944444444444444,
+          "n": 60,
+          "p": 0
+        },
+        "byClass": {
+          "wordcount": 0.02222222222222222,
+          "sentences": 0.1111111111111111,
+          "noletter": 0.3777777777777779,
+          "commas": 0.3777777777777778,
+          "lowercase": 0.3555555555555555,
+          "bullets": 0.04444444444444444,
+          "ending": 0.06666666666666667,
+          "frequency": 0.02222222222222222
+        }
+      },
+      "monoresample": {
+        "all": {
+          "mean": 0.3749999999999999,
+          "lo": 0.3055555555555555,
+          "hi": 0.4472222222222221,
+          "n": 120,
+          "p": 0
+        },
+        "secondHalf": {
+          "mean": 0.3944444444444445,
+          "lo": 0.29999999999999993,
+          "hi": 0.5000000000000001,
+          "n": 60,
+          "p": 0
+        },
+        "byClass": {
+          "wordcount": 0.08888888888888888,
+          "sentences": 0.33333333333333326,
+          "noletter": 0.9111111111111111,
+          "commas": 0.5111111111111111,
+          "lowercase": 0.7333333333333333,
+          "bullets": 0.15555555555555553,
+          "ending": 0.20000000000000004,
+          "frequency": 0.06666666666666667
+        }
+      }
+    },
+    "learningCurve": {
+      "repair": [
+        0.2666666666666667,
+        0.4333333333333334,
+        0.31666666666666665,
+        0.21666666666666665,
+        0.4166666666666667,
+        0.5
+      ],
+      "integrated": [
+        0.31666666666666665,
+        0.45,
+        0.26666666666666666,
+        0.26666666666666666,
+        0.3666666666666667,
+        0.55
+      ],
+      "supplied": [
+        0.2833333333333333,
+        0.3166666666666667,
+        0.2833333333333333,
+        0.21666666666666665,
+        0.36666666666666664,
+        0.6000000000000001
+      ],
+      "base": [
+        0.13333333333333336,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.14999999999999997,
+        0.2,
+        0.2333333333333334
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "rep": 1,
+      "written": [
+        {
+          "pos": 1,
+          "item": "wordcount-11",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 1 time so far. Latest failure: the response has 38 words; the task asked for between 40 and 44 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 2,
+          "item": "wordcount-14",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 2 times so far. Latest failure: the response has 4 words; the task asked for between 35 and 39 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 3,
+          "item": "frequency-11",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 1 time so far. Latest failure: the word \"window\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 4,
+          "item": "commas-06",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 1 time so far. Latest failure: the response has 0 commas; the task asked for exactly 1. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 5,
+          "item": "frequency-07",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 2 times so far. Latest failure: the word \"ladder\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 7,
+          "item": "commas-04",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 2 times so far. Latest failure: the response has 0 commas; the task asked for exactly 3. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 8,
+          "item": "ending-14",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 1 time so far. Latest failure: the response does not finish with the exact phrase \"That is all for today.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 9,
+          "item": "commas-03",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 3 times so far. Latest failure: the response has 0 commas; the task asked for exactly 3. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 10,
+          "item": "commas-10",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 4 times so far. Latest failure: the response has 0 commas; the task asked for exactly 1. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 11,
+          "item": "frequency-02",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 3 times so far. Latest failure: the word \"anchor\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 12,
+          "item": "sentences-01",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 1 time so far. Latest failure: the response has 4 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 13,
+          "item": "frequency-01",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 4 times so far. Latest failure: the word \"meadow\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 14,
+          "item": "ending-08",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 2 times so far. Latest failure: the response does not finish with the exact phrase \"Is there anything else I can help with?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 16,
+          "item": "sentences-15",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 2 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 17,
+          "item": "sentences-05",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 3 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 18,
+          "item": "sentences-06",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 4 times so far. Latest failure: the response has 2 sentences; the task asked for exactly 5. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 19,
+          "item": "frequency-13",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 5 times so far. Latest failure: the word \"ladder\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 20,
+          "item": "wordcount-02",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 3 times so far. Latest failure: the response has 18 words; the task asked for between 45 and 49 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 21,
+          "item": "frequency-12",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 6 times so far. Latest failure: the word \"window\" appears 0 times in the response; the task asked for exactly 3. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 22,
+          "item": "ending-03",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 3 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 25,
+          "item": "wordcount-04",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 4 times so far. Latest failure: the response has 12 words; the task asked for between 45 and 49 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 26,
+          "item": "commas-14",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 5 times so far. Latest failure: the response has 0 commas; the task asked for exactly 1. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 27,
+          "item": "ending-05",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 4 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 29,
+          "item": "bullets-05",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 1 time so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 6 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 31,
+          "item": "lowercase-11",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 1 time so far. Latest failure: the response has 1 capital letter; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 33,
+          "item": "sentences-04",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 5 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 4. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 34,
+          "item": "sentences-11",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 6 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 4. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 35,
+          "item": "wordcount-08",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 5 times so far. Latest failure: the response has 4 words; the task asked for between 40 and 44 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 36,
+          "item": "bullets-13",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 2 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 4 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 37,
+          "item": "noletter-03",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 1 time so far. Latest failure: the response uses the letter \"y\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 41,
+          "item": "lowercase-01",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 2 times so far. Latest failure: the response has 1 capital letter; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 42,
+          "item": "bullets-01",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 3 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 6 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 44,
+          "item": "bullets-12",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 4 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 5 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 45,
+          "item": "frequency-03",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 7 times so far. Latest failure: the word \"candle\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 46,
+          "item": "bullets-11",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 5 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 4 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 47,
+          "item": "sentences-02",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 7 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 5. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 48,
+          "item": "bullets-04",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 6 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 5 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 50,
+          "item": "noletter-14",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 2 times so far. Latest failure: the response uses the letter \"f\" 3 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 51,
+          "item": "wordcount-05",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 6 times so far. Latest failure: the response has 12 words; the task asked for between 40 and 44 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 52,
+          "item": "bullets-14",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 7 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 3 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 53,
+          "item": "ending-11",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 5 times so far. Latest failure: the response does not finish with the exact phrase \"More next time.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 54,
+          "item": "ending-12",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 6 times so far. Latest failure: the response does not finish with the exact phrase \"More next time.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 55,
+          "item": "ending-06",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 7 times so far. Latest failure: the response does not finish with the exact phrase \"Is there anything else I can help with?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 56,
+          "item": "wordcount-10",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 7 times so far. Latest failure: the response has 6 words; the task asked for between 45 and 49 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 57,
+          "item": "noletter-02",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 3 times so far. Latest failure: the response uses the letter \"p\" 4 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 58,
+          "item": "sentences-13",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 8 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 3. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 60,
+          "item": "frequency-10",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 8 times so far. Latest failure: the word \"compass\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 63,
+          "item": "wordcount-12",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 8 times so far. Latest failure: the response has 4 words; the task asked for between 45 and 49 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 64,
+          "item": "noletter-06",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 4 times so far. Latest failure: the response uses the letter \"g\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 65,
+          "item": "frequency-05",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 9 times so far. Latest failure: the word \"anchor\" appears 0 times in the response; the task asked for exactly 3. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 66,
+          "item": "lowercase-03",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 3 times so far. Latest failure: the response has 3 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 67,
+          "item": "lowercase-10",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 4 times so far. Latest failure: the response has 1 capital letter; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 68,
+          "item": "bullets-07",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 8 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 4 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 69,
+          "item": "ending-13",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 8 times so far. Latest failure: the response does not finish with the exact phrase \"Thank you for reading.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 70,
+          "item": "wordcount-06",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 9 times so far. Latest failure: the response has 16 words; the task asked for between 30 and 34 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 71,
+          "item": "sentences-12",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 9 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 5. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 72,
+          "item": "ending-09",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 9 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 73,
+          "item": "frequency-06",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 10 times so far. Latest failure: the word \"compass\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 74,
+          "item": "frequency-09",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 11 times so far. Latest failure: the word \"mirror\" appears 0 times in the response; the task asked for exactly 3. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 75,
+          "item": "ending-04",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 10 times so far. Latest failure: the response does not finish with the exact phrase \"That is all for today.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 76,
+          "item": "bullets-02",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 9 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 4 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 77,
+          "item": "wordcount-15",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 10 times so far. Latest failure: the response has 18 words; the task asked for between 60 and 64 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 78,
+          "item": "bullets-08",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 10 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 6 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 79,
+          "item": "bullets-06",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 11 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 5 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 80,
+          "item": "commas-13",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 6 times so far. Latest failure: the response has 0 commas; the task asked for exactly 1. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 81,
+          "item": "wordcount-07",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 11 times so far. Latest failure: the response has 18 words; the task asked for between 35 and 39 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 82,
+          "item": "bullets-15",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 12 times so far. Latest failure: the response has 3 non-empty lines, 3 of which start with \"- \"; the task asked for exactly 4 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 84,
+          "item": "sentences-09",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 10 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 5. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 85,
+          "item": "wordcount-13",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 12 times so far. Latest failure: the response has 8 words; the task asked for between 60 and 64 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 86,
+          "item": "ending-15",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 11 times so far. Latest failure: the response does not finish with the exact phrase \"More next time.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 87,
+          "item": "ending-07",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 12 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 88,
+          "item": "bullets-03",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 13 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 3 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 90,
+          "item": "commas-01",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 7 times so far. Latest failure: the response has 0 commas; the task asked for exactly 2. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 91,
+          "item": "sentences-03",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 11 times so far. Latest failure: the response has 2 sentences; the task asked for exactly 4. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 92,
+          "item": "sentences-07",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 12 times so far. Latest failure: the response has 4 sentences; the task asked for exactly 5. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 93,
+          "item": "frequency-15",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 12 times so far. Latest failure: the word \"window\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 96,
+          "item": "frequency-14",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 13 times so far. Latest failure: the word \"river\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 97,
+          "item": "noletter-07",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 5 times so far. Latest failure: the response uses the letter \"g\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 98,
+          "item": "lowercase-06",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 5 times so far. Latest failure: the response has 1 capital letter; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 99,
+          "item": "commas-12",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 8 times so far. Latest failure: the response has 2 commas; the task asked for exactly 3. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 100,
+          "item": "wordcount-03",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 13 times so far. Latest failure: the response has 18 words; the task asked for between 60 and 64 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 101,
+          "item": "frequency-04",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 14 times so far. Latest failure: the word \"river\" appears 0 times in the response; the task asked for exactly 3. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 103,
+          "item": "wordcount-01",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 14 times so far. Latest failure: the response has 12 words; the task asked for between 35 and 39 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 105,
+          "item": "wordcount-09",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 15 times so far. Latest failure: the response has 8 words; the task asked for between 25 and 29 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 107,
+          "item": "frequency-08",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 15 times so far. Latest failure: the word \"compass\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 110,
+          "item": "noletter-11",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 6 times so far. Latest failure: the response uses the letter \"g\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 112,
+          "item": "sentences-08",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 13 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 113,
+          "item": "lowercase-07",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 6 times so far. Latest failure: the response has 1 capital letter; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 114,
+          "item": "lowercase-13",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 7 times so far. Latest failure: the response has 3 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 115,
+          "item": "ending-10",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 13 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 117,
+          "item": "lowercase-12",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 8 times so far. Latest failure: the response has 4 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 118,
+          "item": "ending-01",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 14 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 119,
+          "item": "sentences-10",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 14 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        }
+      ],
+      "final": [
+        {
+          "id": "e8-wordcount",
+          "cue": "Word count",
+          "content": "Word count tasks have failed the check 15 times so far. Latest failure: the response has 8 words; the task asked for between 25 and 29 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "id": "e8-frequency",
+          "cue": "Use the word",
+          "content": "Word frequency tasks have failed the check 15 times so far. Latest failure: the word \"compass\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "id": "e8-commas",
+          "cue": "comma",
+          "content": "Comma count tasks have failed the check 8 times so far. Latest failure: the response has 2 commas; the task asked for exactly 3. Satisfy the comma count rule before finishing."
+        },
+        {
+          "id": "e8-ending",
+          "cue": "End your response with",
+          "content": "Ending phrase tasks have failed the check 14 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "id": "e8-sentences",
+          "cue": "sentences",
+          "content": "Sentence count tasks have failed the check 14 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "id": "e8-bullets",
+          "cue": "bullet",
+          "content": "Bullet lines tasks have failed the check 13 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 3 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "id": "e8-lowercase",
+          "cue": "lowercase",
+          "content": "Lowercase tasks have failed the check 8 times so far. Latest failure: the response has 4 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "id": "e8-noletter",
+          "cue": "without using the letter",
+          "content": "Forbidden letter tasks have failed the check 6 times so far. Latest failure: the response uses the letter \"g\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        }
+      ],
+      "leakage": []
+    },
+    {
+      "rep": 2,
+      "written": [
+        {
+          "pos": 1,
+          "item": "wordcount-11",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 1 time so far. Latest failure: the response has 12 words; the task asked for between 40 and 44 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 2,
+          "item": "wordcount-14",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 2 times so far. Latest failure: the response has 18 words; the task asked for between 35 and 39 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 4,
+          "item": "commas-06",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 1 time so far. Latest failure: the response has 0 commas; the task asked for exactly 1. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 5,
+          "item": "frequency-07",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 1 time so far. Latest failure: the word \"ladder\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 7,
+          "item": "commas-04",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 2 times so far. Latest failure: the response has 2 commas; the task asked for exactly 3. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 8,
+          "item": "ending-14",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 1 time so far. Latest failure: the response does not finish with the exact phrase \"That is all for today.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 9,
+          "item": "commas-03",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 3 times so far. Latest failure: the response has 0 commas; the task asked for exactly 3. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 10,
+          "item": "commas-10",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 4 times so far. Latest failure: the response has 0 commas; the task asked for exactly 1. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 11,
+          "item": "frequency-02",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 2 times so far. Latest failure: the word \"anchor\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 12,
+          "item": "sentences-01",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 1 time so far. Latest failure: the response has 1 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 13,
+          "item": "frequency-01",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 3 times so far. Latest failure: the word \"meadow\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 14,
+          "item": "ending-08",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 2 times so far. Latest failure: the response does not finish with the exact phrase \"Is there anything else I can help with?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 16,
+          "item": "sentences-15",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 2 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 17,
+          "item": "sentences-05",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 3 times so far. Latest failure: the response has 4 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 18,
+          "item": "sentences-06",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 4 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 5. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 19,
+          "item": "frequency-13",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 4 times so far. Latest failure: the word \"ladder\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 20,
+          "item": "wordcount-02",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 3 times so far. Latest failure: the response has 38 words; the task asked for between 45 and 49 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 21,
+          "item": "frequency-12",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 5 times so far. Latest failure: the word \"window\" appears 0 times in the response; the task asked for exactly 3. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 22,
+          "item": "ending-03",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 3 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 23,
+          "item": "lowercase-05",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 1 time so far. Latest failure: the response has 1 capital letter; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 24,
+          "item": "commas-05",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 5 times so far. Latest failure: the response has 0 commas; the task asked for exactly 2. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 25,
+          "item": "wordcount-04",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 4 times so far. Latest failure: the response has 38 words; the task asked for between 45 and 49 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 26,
+          "item": "commas-14",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 6 times so far. Latest failure: the response has 0 commas; the task asked for exactly 1. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 27,
+          "item": "ending-05",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 4 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 29,
+          "item": "bullets-05",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 1 time so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 6 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 30,
+          "item": "lowercase-09",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 2 times so far. Latest failure: the response has 2 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 31,
+          "item": "lowercase-11",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 3 times so far. Latest failure: the response has 4 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 32,
+          "item": "lowercase-14",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 4 times so far. Latest failure: the response has 3 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 33,
+          "item": "sentences-04",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 5 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 4. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 34,
+          "item": "sentences-11",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 6 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 4. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 35,
+          "item": "wordcount-08",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 5 times so far. Latest failure: the response has 12 words; the task asked for between 40 and 44 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 36,
+          "item": "bullets-13",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 2 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 4 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 37,
+          "item": "noletter-03",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 1 time so far. Latest failure: the response uses the letter \"y\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 38,
+          "item": "lowercase-04",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 5 times so far. Latest failure: the response has 1 capital letter; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 39,
+          "item": "bullets-09",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 3 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 3 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 41,
+          "item": "lowercase-01",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 6 times so far. Latest failure: the response has 4 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 42,
+          "item": "bullets-01",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 4 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 6 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 43,
+          "item": "noletter-15",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 2 times so far. Latest failure: the response uses the letter \"y\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 44,
+          "item": "bullets-12",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 5 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 5 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 45,
+          "item": "frequency-03",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 6 times so far. Latest failure: the word \"candle\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 46,
+          "item": "bullets-11",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 6 times so far. Latest failure: the response has 3 non-empty lines, 3 of which start with \"- \"; the task asked for exactly 4 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 47,
+          "item": "sentences-02",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 7 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 5. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 48,
+          "item": "bullets-04",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 7 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 5 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 49,
+          "item": "noletter-05",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 3 times so far. Latest failure: the response uses the letter \"g\" 3 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 50,
+          "item": "noletter-14",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 4 times so far. Latest failure: the response uses the letter \"f\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 51,
+          "item": "wordcount-05",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 6 times so far. Latest failure: the response has 16 words; the task asked for between 40 and 44 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 52,
+          "item": "bullets-14",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 8 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 3 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 53,
+          "item": "ending-11",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 5 times so far. Latest failure: the response does not finish with the exact phrase \"More next time.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 54,
+          "item": "ending-12",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 6 times so far. Latest failure: the response does not finish with the exact phrase \"More next time.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 55,
+          "item": "ending-06",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 7 times so far. Latest failure: the response does not finish with the exact phrase \"Is there anything else I can help with?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 56,
+          "item": "wordcount-10",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 7 times so far. Latest failure: the response has 8 words; the task asked for between 45 and 49 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 58,
+          "item": "sentences-13",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 8 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 3. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 60,
+          "item": "frequency-10",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 7 times so far. Latest failure: the word \"compass\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 62,
+          "item": "ending-02",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 8 times so far. Latest failure: the response does not finish with the exact phrase \"Is there anything else I can help with?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 63,
+          "item": "wordcount-12",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 8 times so far. Latest failure: the response has 18 words; the task asked for between 45 and 49 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 65,
+          "item": "frequency-05",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 8 times so far. Latest failure: the word \"anchor\" appears 0 times in the response; the task asked for exactly 3. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 66,
+          "item": "lowercase-03",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 7 times so far. Latest failure: the response has 1 capital letter; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 68,
+          "item": "bullets-07",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 9 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 4 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 69,
+          "item": "ending-13",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 9 times so far. Latest failure: the response does not finish with the exact phrase \"Thank you for reading.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 70,
+          "item": "wordcount-06",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 9 times so far. Latest failure: the response has 16 words; the task asked for between 30 and 34 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 71,
+          "item": "sentences-12",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 9 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 5. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 72,
+          "item": "ending-09",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 10 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 73,
+          "item": "frequency-06",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 9 times so far. Latest failure: the word \"compass\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 74,
+          "item": "frequency-09",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 10 times so far. Latest failure: the word \"mirror\" appears 0 times in the response; the task asked for exactly 3. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 75,
+          "item": "ending-04",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 11 times so far. Latest failure: the response does not finish with the exact phrase \"That is all for today.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 76,
+          "item": "bullets-02",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 10 times so far. Latest failure: the response has 3 non-empty lines, 3 of which start with \"- \"; the task asked for exactly 4 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 77,
+          "item": "wordcount-15",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 10 times so far. Latest failure: the response has 12 words; the task asked for between 60 and 64 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 78,
+          "item": "bullets-08",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 11 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 6 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 79,
+          "item": "bullets-06",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 12 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 5 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 80,
+          "item": "commas-13",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 7 times so far. Latest failure: the response has 0 commas; the task asked for exactly 1. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 82,
+          "item": "bullets-15",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 13 times so far. Latest failure: the response has 3 non-empty lines, 3 of which start with \"- \"; the task asked for exactly 4 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 83,
+          "item": "noletter-13",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 5 times so far. Latest failure: the response uses the letter \"g\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 84,
+          "item": "sentences-09",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 10 times so far. Latest failure: the response has 4 sentences; the task asked for exactly 5. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 85,
+          "item": "wordcount-13",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 11 times so far. Latest failure: the response has 6 words; the task asked for between 60 and 64 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 86,
+          "item": "ending-15",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 12 times so far. Latest failure: the response does not finish with the exact phrase \"More next time.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 87,
+          "item": "ending-07",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 13 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 88,
+          "item": "bullets-03",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 14 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 3 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 90,
+          "item": "commas-01",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 8 times so far. Latest failure: the response has 0 commas; the task asked for exactly 2. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 91,
+          "item": "sentences-03",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 11 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 4. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 92,
+          "item": "sentences-07",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 12 times so far. Latest failure: the response has 4 sentences; the task asked for exactly 5. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 93,
+          "item": "frequency-15",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 11 times so far. Latest failure: the word \"window\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 94,
+          "item": "sentences-14",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 13 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 96,
+          "item": "frequency-14",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 12 times so far. Latest failure: the word \"river\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 98,
+          "item": "lowercase-06",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 8 times so far. Latest failure: the response has 2 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 99,
+          "item": "commas-12",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 9 times so far. Latest failure: the response has 0 commas; the task asked for exactly 3. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 100,
+          "item": "wordcount-03",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 12 times so far. Latest failure: the response has 38 words; the task asked for between 60 and 64 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 101,
+          "item": "frequency-04",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 13 times so far. Latest failure: the word \"river\" appears 0 times in the response; the task asked for exactly 3. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 103,
+          "item": "wordcount-01",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 13 times so far. Latest failure: the response has 8 words; the task asked for between 35 and 39 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 104,
+          "item": "bullets-10",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 15 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 3 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 105,
+          "item": "wordcount-09",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 14 times so far. Latest failure: the response has 38 words; the task asked for between 25 and 29 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 107,
+          "item": "frequency-08",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 14 times so far. Latest failure: the word \"compass\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 109,
+          "item": "noletter-09",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 6 times so far. Latest failure: the response uses the letter \"w\" 2 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 111,
+          "item": "lowercase-08",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 9 times so far. Latest failure: the response has 2 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 112,
+          "item": "sentences-08",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 14 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 114,
+          "item": "lowercase-13",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 10 times so far. Latest failure: the response has 1 capital letter; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 115,
+          "item": "ending-10",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 14 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 118,
+          "item": "ending-01",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 15 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 119,
+          "item": "sentences-10",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 15 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 120,
+          "item": "commas-08",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 10 times so far. Latest failure: the response has 2 commas; the task asked for exactly 0. Satisfy the comma count rule before finishing."
+        }
+      ],
+      "final": [
+        {
+          "id": "e8-wordcount",
+          "cue": "Word count",
+          "content": "Word count tasks have failed the check 14 times so far. Latest failure: the response has 38 words; the task asked for between 25 and 29 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "id": "e8-commas",
+          "cue": "comma",
+          "content": "Comma count tasks have failed the check 10 times so far. Latest failure: the response has 2 commas; the task asked for exactly 0. Satisfy the comma count rule before finishing."
+        },
+        {
+          "id": "e8-frequency",
+          "cue": "Use the word",
+          "content": "Word frequency tasks have failed the check 14 times so far. Latest failure: the word \"compass\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "id": "e8-ending",
+          "cue": "End your response with",
+          "content": "Ending phrase tasks have failed the check 15 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "id": "e8-sentences",
+          "cue": "sentences",
+          "content": "Sentence count tasks have failed the check 15 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "id": "e8-lowercase",
+          "cue": "lowercase",
+          "content": "Lowercase tasks have failed the check 10 times so far. Latest failure: the response has 1 capital letter; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "id": "e8-bullets",
+          "cue": "bullet",
+          "content": "Bullet lines tasks have failed the check 15 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 3 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "id": "e8-noletter",
+          "cue": "without using the letter",
+          "content": "Forbidden letter tasks have failed the check 6 times so far. Latest failure: the response uses the letter \"w\" 2 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        }
+      ],
+      "leakage": []
+    },
+    {
+      "rep": 3,
+      "written": [
+        {
+          "pos": 1,
+          "item": "wordcount-11",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 1 time so far. Latest failure: the response has 8 words; the task asked for between 40 and 44 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 2,
+          "item": "wordcount-14",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 2 times so far. Latest failure: the response has 12 words; the task asked for between 35 and 39 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 3,
+          "item": "frequency-11",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 1 time so far. Latest failure: the word \"window\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 4,
+          "item": "commas-06",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 1 time so far. Latest failure: the response has 0 commas; the task asked for exactly 1. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 5,
+          "item": "frequency-07",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 2 times so far. Latest failure: the word \"ladder\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 6,
+          "item": "noletter-12",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 1 time so far. Latest failure: the response uses the letter \"v\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 7,
+          "item": "commas-04",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 2 times so far. Latest failure: the response has 2 commas; the task asked for exactly 3. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 8,
+          "item": "ending-14",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 1 time so far. Latest failure: the response does not finish with the exact phrase \"That is all for today.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 9,
+          "item": "commas-03",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 3 times so far. Latest failure: the response has 0 commas; the task asked for exactly 3. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 10,
+          "item": "commas-10",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 4 times so far. Latest failure: the response has 0 commas; the task asked for exactly 1. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 11,
+          "item": "frequency-02",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 3 times so far. Latest failure: the word \"anchor\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 12,
+          "item": "sentences-01",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 1 time so far. Latest failure: the response has 1 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 13,
+          "item": "frequency-01",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 4 times so far. Latest failure: the word \"meadow\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 14,
+          "item": "ending-08",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 2 times so far. Latest failure: the response does not finish with the exact phrase \"Is there anything else I can help with?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 17,
+          "item": "sentences-05",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 2 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 18,
+          "item": "sentences-06",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 3 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 5. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 19,
+          "item": "frequency-13",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 5 times so far. Latest failure: the word \"ladder\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 20,
+          "item": "wordcount-02",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 3 times so far. Latest failure: the response has 8 words; the task asked for between 45 and 49 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 21,
+          "item": "frequency-12",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 6 times so far. Latest failure: the word \"window\" appears 2 times in the response; the task asked for exactly 3. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 22,
+          "item": "ending-03",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 3 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 24,
+          "item": "commas-05",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 5 times so far. Latest failure: the response has 0 commas; the task asked for exactly 2. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 25,
+          "item": "wordcount-04",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 4 times so far. Latest failure: the response has 18 words; the task asked for between 45 and 49 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 26,
+          "item": "commas-14",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 6 times so far. Latest failure: the response has 0 commas; the task asked for exactly 1. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 27,
+          "item": "ending-05",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 4 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 29,
+          "item": "bullets-05",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 1 time so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 6 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 30,
+          "item": "lowercase-09",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 1 time so far. Latest failure: the response has 2 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 33,
+          "item": "sentences-04",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 4 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 4. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 35,
+          "item": "wordcount-08",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 5 times so far. Latest failure: the response has 6 words; the task asked for between 40 and 44 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 36,
+          "item": "bullets-13",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 2 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 4 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 37,
+          "item": "noletter-03",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 2 times so far. Latest failure: the response uses the letter \"y\" 3 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 38,
+          "item": "lowercase-04",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 2 times so far. Latest failure: the response has 4 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 39,
+          "item": "bullets-09",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 3 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 3 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 40,
+          "item": "lowercase-02",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 3 times so far. Latest failure: the response has 2 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 41,
+          "item": "lowercase-01",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 4 times so far. Latest failure: the response has 2 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 42,
+          "item": "bullets-01",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 4 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 6 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 44,
+          "item": "bullets-12",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 5 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 5 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 45,
+          "item": "frequency-03",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 7 times so far. Latest failure: the word \"candle\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 46,
+          "item": "bullets-11",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 6 times so far. Latest failure: the response has 3 non-empty lines, 3 of which start with \"- \"; the task asked for exactly 4 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 47,
+          "item": "sentences-02",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 5 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 5. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 48,
+          "item": "bullets-04",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 7 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 5 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 49,
+          "item": "noletter-05",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 3 times so far. Latest failure: the response uses the letter \"g\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 50,
+          "item": "noletter-14",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 4 times so far. Latest failure: the response uses the letter \"f\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 51,
+          "item": "wordcount-05",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 6 times so far. Latest failure: the response has 4 words; the task asked for between 40 and 44 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 52,
+          "item": "bullets-14",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 8 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 3 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 53,
+          "item": "ending-11",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 5 times so far. Latest failure: the response does not finish with the exact phrase \"More next time.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 54,
+          "item": "ending-12",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 6 times so far. Latest failure: the response does not finish with the exact phrase \"More next time.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 55,
+          "item": "ending-06",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 7 times so far. Latest failure: the response does not finish with the exact phrase \"Is there anything else I can help with?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 56,
+          "item": "wordcount-10",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 7 times so far. Latest failure: the response has 4 words; the task asked for between 45 and 49 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 57,
+          "item": "noletter-02",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 5 times so far. Latest failure: the response uses the letter \"p\" 4 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 58,
+          "item": "sentences-13",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 6 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 3. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 60,
+          "item": "frequency-10",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 8 times so far. Latest failure: the word \"compass\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 62,
+          "item": "ending-02",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 8 times so far. Latest failure: the response does not finish with the exact phrase \"Is there anything else I can help with?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 63,
+          "item": "wordcount-12",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 8 times so far. Latest failure: the response has 12 words; the task asked for between 45 and 49 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 65,
+          "item": "frequency-05",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 9 times so far. Latest failure: the word \"anchor\" appears 0 times in the response; the task asked for exactly 3. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 66,
+          "item": "lowercase-03",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 5 times so far. Latest failure: the response has 3 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 67,
+          "item": "lowercase-10",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 6 times so far. Latest failure: the response has 3 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 68,
+          "item": "bullets-07",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 9 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 4 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 69,
+          "item": "ending-13",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 9 times so far. Latest failure: the response does not finish with the exact phrase \"Thank you for reading.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 70,
+          "item": "wordcount-06",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 9 times so far. Latest failure: the response has 18 words; the task asked for between 30 and 34 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 71,
+          "item": "sentences-12",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 7 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 5. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 72,
+          "item": "ending-09",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 10 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 73,
+          "item": "frequency-06",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 10 times so far. Latest failure: the word \"compass\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 74,
+          "item": "frequency-09",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 11 times so far. Latest failure: the word \"mirror\" appears 0 times in the response; the task asked for exactly 3. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 76,
+          "item": "bullets-02",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 10 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 4 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 77,
+          "item": "wordcount-15",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 10 times so far. Latest failure: the response has 38 words; the task asked for between 60 and 64 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 78,
+          "item": "bullets-08",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 11 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 6 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 79,
+          "item": "bullets-06",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 12 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 5 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 80,
+          "item": "commas-13",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 7 times so far. Latest failure: the response has 0 commas; the task asked for exactly 1. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 81,
+          "item": "wordcount-07",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 11 times so far. Latest failure: the response has 6 words; the task asked for between 35 and 39 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 82,
+          "item": "bullets-15",
+          "cls": "bullets",
+          "content": "Bullet lines tasks have failed the check 13 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 4 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "pos": 83,
+          "item": "noletter-13",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 6 times so far. Latest failure: the response uses the letter \"g\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 84,
+          "item": "sentences-09",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 8 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 5. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 85,
+          "item": "wordcount-13",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 12 times so far. Latest failure: the response has 12 words; the task asked for between 60 and 64 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 86,
+          "item": "ending-15",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 11 times so far. Latest failure: the response does not finish with the exact phrase \"More next time.\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 87,
+          "item": "ending-07",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 12 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 90,
+          "item": "commas-01",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 8 times so far. Latest failure: the response has 0 commas; the task asked for exactly 2. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 91,
+          "item": "sentences-03",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 9 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 4. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 92,
+          "item": "sentences-07",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 10 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 5. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 93,
+          "item": "frequency-15",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 12 times so far. Latest failure: the word \"window\" appears 0 times in the response; the task asked for exactly 2. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 94,
+          "item": "sentences-14",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 11 times so far. Latest failure: the response has 4 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 96,
+          "item": "frequency-14",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 13 times so far. Latest failure: the word \"river\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 97,
+          "item": "noletter-07",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 7 times so far. Latest failure: the response uses the letter \"g\" 1 time; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 98,
+          "item": "lowercase-06",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 7 times so far. Latest failure: the response has 1 capital letter; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 99,
+          "item": "commas-12",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 9 times so far. Latest failure: the response has 0 commas; the task asked for exactly 3. Satisfy the comma count rule before finishing."
+        },
+        {
+          "pos": 100,
+          "item": "wordcount-03",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 13 times so far. Latest failure: the response has 38 words; the task asked for between 60 and 64 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 101,
+          "item": "frequency-04",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 14 times so far. Latest failure: the word \"river\" appears 0 times in the response; the task asked for exactly 3. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 102,
+          "item": "noletter-10",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 8 times so far. Latest failure: the response uses the letter \"c\" 2 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 105,
+          "item": "wordcount-09",
+          "cls": "wordcount",
+          "content": "Word count tasks have failed the check 14 times so far. Latest failure: the response has 38 words; the task asked for between 25 and 29 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "pos": 107,
+          "item": "frequency-08",
+          "cls": "frequency",
+          "content": "Word frequency tasks have failed the check 15 times so far. Latest failure: the word \"compass\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "pos": 109,
+          "item": "noletter-09",
+          "cls": "noletter",
+          "content": "Forbidden letter tasks have failed the check 9 times so far. Latest failure: the response uses the letter \"w\" 6 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "pos": 111,
+          "item": "lowercase-08",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 8 times so far. Latest failure: the response has 2 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 112,
+          "item": "sentences-08",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 12 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 113,
+          "item": "lowercase-07",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 9 times so far. Latest failure: the response has 4 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 114,
+          "item": "lowercase-13",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 10 times so far. Latest failure: the response has 3 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 115,
+          "item": "ending-10",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 13 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 117,
+          "item": "lowercase-12",
+          "cls": "lowercase",
+          "content": "Lowercase tasks have failed the check 11 times so far. Latest failure: the response has 3 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        },
+        {
+          "pos": 118,
+          "item": "ending-01",
+          "cls": "ending",
+          "content": "Ending phrase tasks have failed the check 14 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "pos": 119,
+          "item": "sentences-10",
+          "cls": "sentences",
+          "content": "Sentence count tasks have failed the check 13 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "pos": 120,
+          "item": "commas-08",
+          "cls": "commas",
+          "content": "Comma count tasks have failed the check 10 times so far. Latest failure: the response has 2 commas; the task asked for exactly 0. Satisfy the comma count rule before finishing."
+        }
+      ],
+      "final": [
+        {
+          "id": "e8-wordcount",
+          "cue": "Word count",
+          "content": "Word count tasks have failed the check 14 times so far. Latest failure: the response has 38 words; the task asked for between 25 and 29 words. Satisfy the word count rule before finishing."
+        },
+        {
+          "id": "e8-frequency",
+          "cue": "Use the word",
+          "content": "Word frequency tasks have failed the check 15 times so far. Latest failure: the word \"compass\" appears 0 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+        },
+        {
+          "id": "e8-commas",
+          "cue": "comma",
+          "content": "Comma count tasks have failed the check 10 times so far. Latest failure: the response has 2 commas; the task asked for exactly 0. Satisfy the comma count rule before finishing."
+        },
+        {
+          "id": "e8-noletter",
+          "cue": "without using the letter",
+          "content": "Forbidden letter tasks have failed the check 9 times so far. Latest failure: the response uses the letter \"w\" 6 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+        },
+        {
+          "id": "e8-ending",
+          "cue": "End your response with",
+          "content": "Ending phrase tasks have failed the check 14 times so far. Latest failure: the response does not finish with the exact phrase \"Any other questions?\" as its final characters; the task asked for that phrase at the very end with nothing after it. Satisfy the ending phrase rule before finishing."
+        },
+        {
+          "id": "e8-sentences",
+          "cue": "sentences",
+          "content": "Sentence count tasks have failed the check 13 times so far. Latest failure: the response has 1 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+        },
+        {
+          "id": "e8-bullets",
+          "cue": "bullet",
+          "content": "Bullet lines tasks have failed the check 13 times so far. Latest failure: the response has 1 non-empty lines, 0 of which start with \"- \"; the task asked for exactly 4 bullet lines and nothing else. Satisfy the bullet lines rule before finishing."
+        },
+        {
+          "id": "e8-lowercase",
+          "cue": "lowercase",
+          "content": "Lowercase tasks have failed the check 11 times so far. Latest failure: the response has 3 capital letters; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+        }
+      ],
+      "leakage": []
+    }
+  ],
+  "leakageCount": 0,
+  "verdict": "no separation: the interval for integrated minus repair-only includes zero"
+}

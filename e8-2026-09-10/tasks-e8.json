@@ -1,0 +1,1322 @@
+[
+  {
+    "pos": 1,
+    "id": "wordcount-11",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "topic": "stone walls without mortar",
+    "params": {
+      "lo": 40,
+      "hi": 44
+    },
+    "prompt": "Write a short piece about stone walls without mortar. Word count: between 40 and 44 words."
+  },
+  {
+    "pos": 2,
+    "id": "wordcount-14",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "topic": "wind farms at sea",
+    "params": {
+      "lo": 35,
+      "hi": 39
+    },
+    "prompt": "Write a short piece about wind farms at sea. Word count: between 35 and 39 words."
+  },
+  {
+    "pos": 3,
+    "id": "frequency-11",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "topic": "glass blowing",
+    "params": {
+      "word": "window",
+      "n": 2
+    },
+    "prompt": "Write a short paragraph about glass blowing. Use the word \"window\" exactly 2 times."
+  },
+  {
+    "pos": 4,
+    "id": "commas-06",
+    "cls": "commas",
+    "cue": "comma",
+    "topic": "night trains",
+    "params": {
+      "n": 1
+    },
+    "prompt": "Write a short paragraph about night trains that uses exactly 1 comma."
+  },
+  {
+    "pos": 5,
+    "id": "frequency-07",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "topic": "winter wheat",
+    "params": {
+      "word": "ladder",
+      "n": 2
+    },
+    "prompt": "Write a short paragraph about winter wheat. Use the word \"ladder\" exactly 2 times."
+  },
+  {
+    "pos": 6,
+    "id": "noletter-12",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "topic": "hot-air balloons",
+    "params": {
+      "letter": "v"
+    },
+    "prompt": "Write a short paragraph about hot-air balloons without using the letter \"v\" anywhere in your response."
+  },
+  {
+    "pos": 7,
+    "id": "commas-04",
+    "cls": "commas",
+    "cue": "comma",
+    "topic": "the first subway lines",
+    "params": {
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about the first subway lines that uses exactly 3 commas."
+  },
+  {
+    "pos": 8,
+    "id": "ending-14",
+    "cls": "ending",
+    "cue": "End your response with",
+    "topic": "the sound of gravel underfoot",
+    "params": {
+      "phrase": "That is all for today."
+    },
+    "prompt": "Write a short paragraph about the sound of gravel underfoot. End your response with the exact phrase \"That is all for today.\" and put nothing after it."
+  },
+  {
+    "pos": 9,
+    "id": "commas-03",
+    "cls": "commas",
+    "cue": "comma",
+    "topic": "the quiet of early morning",
+    "params": {
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about the quiet of early morning that uses exactly 3 commas."
+  },
+  {
+    "pos": 10,
+    "id": "commas-10",
+    "cls": "commas",
+    "cue": "comma",
+    "topic": "a wooden canoe",
+    "params": {
+      "n": 1
+    },
+    "prompt": "Write a short paragraph about a wooden canoe that uses exactly 1 comma."
+  },
+  {
+    "pos": 11,
+    "id": "frequency-02",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "topic": "tide tables",
+    "params": {
+      "word": "anchor",
+      "n": 4
+    },
+    "prompt": "Write a short paragraph about tide tables. Use the word \"anchor\" exactly 4 times."
+  },
+  {
+    "pos": 12,
+    "id": "sentences-01",
+    "cls": "sentences",
+    "cue": "sentences",
+    "topic": "the life of a honeybee",
+    "params": {
+      "n": 2
+    },
+    "prompt": "Write about the life of a honeybee in exactly 2 sentences."
+  },
+  {
+    "pos": 13,
+    "id": "frequency-01",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "topic": "tidal pools",
+    "params": {
+      "word": "meadow",
+      "n": 2
+    },
+    "prompt": "Write a short paragraph about tidal pools. Use the word \"meadow\" exactly 2 times."
+  },
+  {
+    "pos": 14,
+    "id": "ending-08",
+    "cls": "ending",
+    "cue": "End your response with",
+    "topic": "origami cranes",
+    "params": {
+      "phrase": "Is there anything else I can help with?"
+    },
+    "prompt": "Write a short paragraph about origami cranes. End your response with the exact phrase \"Is there anything else I can help with?\" and put nothing after it."
+  },
+  {
+    "pos": 15,
+    "id": "noletter-01",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "topic": "the taste of cold water",
+    "params": {
+      "letter": "b"
+    },
+    "prompt": "Write a short paragraph about the taste of cold water without using the letter \"b\" anywhere in your response."
+  },
+  {
+    "pos": 16,
+    "id": "sentences-15",
+    "cls": "sentences",
+    "cue": "sentences",
+    "topic": "grandfather clocks",
+    "params": {
+      "n": 2
+    },
+    "prompt": "Write about grandfather clocks in exactly 2 sentences."
+  },
+  {
+    "pos": 17,
+    "id": "sentences-05",
+    "cls": "sentences",
+    "cue": "sentences",
+    "topic": "a mountain stream",
+    "params": {
+      "n": 2
+    },
+    "prompt": "Write about a mountain stream in exactly 2 sentences."
+  },
+  {
+    "pos": 18,
+    "id": "sentences-06",
+    "cls": "sentences",
+    "cue": "sentences",
+    "topic": "a violin maker at work",
+    "params": {
+      "n": 5
+    },
+    "prompt": "Write about a violin maker at work in exactly 5 sentences."
+  },
+  {
+    "pos": 19,
+    "id": "frequency-13",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "topic": "frozen lakes",
+    "params": {
+      "word": "ladder",
+      "n": 2
+    },
+    "prompt": "Write a short paragraph about frozen lakes. Use the word \"ladder\" exactly 2 times."
+  },
+  {
+    "pos": 20,
+    "id": "wordcount-02",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "topic": "apple orchards",
+    "params": {
+      "lo": 45,
+      "hi": 49
+    },
+    "prompt": "Write a short piece about apple orchards. Word count: between 45 and 49 words."
+  },
+  {
+    "pos": 21,
+    "id": "frequency-12",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "topic": "ice fishing",
+    "params": {
+      "word": "window",
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about ice fishing. Use the word \"window\" exactly 3 times."
+  },
+  {
+    "pos": 22,
+    "id": "ending-03",
+    "cls": "ending",
+    "cue": "End your response with",
+    "topic": "porch swings",
+    "params": {
+      "phrase": "Any other questions?"
+    },
+    "prompt": "Write a short paragraph about porch swings. End your response with the exact phrase \"Any other questions?\" and put nothing after it."
+  },
+  {
+    "pos": 23,
+    "id": "lowercase-05",
+    "cls": "lowercase",
+    "cue": "lowercase",
+    "topic": "old maps of the moon",
+    "params": {},
+    "prompt": "Write a short paragraph about old maps of the moon entirely in lowercase: no capital letters anywhere."
+  },
+  {
+    "pos": 24,
+    "id": "commas-05",
+    "cls": "commas",
+    "cue": "comma",
+    "topic": "the invention of the zipper",
+    "params": {
+      "n": 2
+    },
+    "prompt": "Write a short paragraph about the invention of the zipper that uses exactly 2 commas."
+  },
+  {
+    "pos": 25,
+    "id": "wordcount-04",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "topic": "marathon pacing",
+    "params": {
+      "lo": 45,
+      "hi": 49
+    },
+    "prompt": "Write a short piece about marathon pacing. Word count: between 45 and 49 words."
+  },
+  {
+    "pos": 26,
+    "id": "commas-14",
+    "cls": "commas",
+    "cue": "comma",
+    "topic": "lost mittens",
+    "params": {
+      "n": 1
+    },
+    "prompt": "Write a short paragraph about lost mittens that uses exactly 1 comma."
+  },
+  {
+    "pos": 27,
+    "id": "ending-05",
+    "cls": "ending",
+    "cue": "End your response with",
+    "topic": "chalk cliffs",
+    "params": {
+      "phrase": "Any other questions?"
+    },
+    "prompt": "Write a short paragraph about chalk cliffs. End your response with the exact phrase \"Any other questions?\" and put nothing after it."
+  },
+  {
+    "pos": 28,
+    "id": "commas-11",
+    "cls": "commas",
+    "cue": "comma",
+    "topic": "lighthouse keepers",
+    "params": {
+      "n": 0
+    },
+    "prompt": "Write a short paragraph about lighthouse keepers that uses no commas at all."
+  },
+  {
+    "pos": 29,
+    "id": "bullets-05",
+    "cls": "bullets",
+    "cue": "bullet",
+    "topic": "an empty train platform",
+    "params": {
+      "n": 6
+    },
+    "prompt": "Give 6 facts about an empty train platform as exactly 6 bullet lines, each starting with \"- \", with no other text before or after them."
+  },
+  {
+    "pos": 30,
+    "id": "lowercase-09",
+    "cls": "lowercase",
+    "cue": "lowercase",
+    "topic": "fireflies",
+    "params": {},
+    "prompt": "Write a short paragraph about fireflies entirely in lowercase: no capital letters anywhere."
+  },
+  {
+    "pos": 31,
+    "id": "lowercase-11",
+    "cls": "lowercase",
+    "cue": "lowercase",
+    "topic": "the migration of geese",
+    "params": {},
+    "prompt": "Write a short paragraph about the migration of geese entirely in lowercase: no capital letters anywhere."
+  },
+  {
+    "pos": 32,
+    "id": "lowercase-14",
+    "cls": "lowercase",
+    "cue": "lowercase",
+    "topic": "ravens",
+    "params": {},
+    "prompt": "Write a short paragraph about ravens entirely in lowercase: no capital letters anywhere."
+  },
+  {
+    "pos": 33,
+    "id": "sentences-04",
+    "cls": "sentences",
+    "cue": "sentences",
+    "topic": "the smell of pine needles",
+    "params": {
+      "n": 4
+    },
+    "prompt": "Write about the smell of pine needles in exactly 4 sentences."
+  },
+  {
+    "pos": 34,
+    "id": "sentences-11",
+    "cls": "sentences",
+    "cue": "sentences",
+    "topic": "street chess",
+    "params": {
+      "n": 4
+    },
+    "prompt": "Write about street chess in exactly 4 sentences."
+  },
+  {
+    "pos": 35,
+    "id": "wordcount-08",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "topic": "a kite festival",
+    "params": {
+      "lo": 40,
+      "hi": 44
+    },
+    "prompt": "Write a short piece about a kite festival. Word count: between 40 and 44 words."
+  },
+  {
+    "pos": 36,
+    "id": "bullets-13",
+    "cls": "bullets",
+    "cue": "bullet",
+    "topic": "a cabin stove",
+    "params": {
+      "n": 4
+    },
+    "prompt": "Give 4 facts about a cabin stove as exactly 4 bullet lines, each starting with \"- \", with no other text before or after them."
+  },
+  {
+    "pos": 37,
+    "id": "noletter-03",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "topic": "wind chimes",
+    "params": {
+      "letter": "y"
+    },
+    "prompt": "Write a short paragraph about wind chimes without using the letter \"y\" anywhere in your response."
+  },
+  {
+    "pos": 38,
+    "id": "lowercase-04",
+    "cls": "lowercase",
+    "cue": "lowercase",
+    "topic": "a lighthouse foghorn",
+    "params": {},
+    "prompt": "Write a short paragraph about a lighthouse foghorn entirely in lowercase: no capital letters anywhere."
+  },
+  {
+    "pos": 39,
+    "id": "bullets-09",
+    "cls": "bullets",
+    "cue": "bullet",
+    "topic": "ships in bottles",
+    "params": {
+      "n": 3
+    },
+    "prompt": "Give 3 facts about ships in bottles as exactly 3 bullet lines, each starting with \"- \", with no other text before or after them."
+  },
+  {
+    "pos": 40,
+    "id": "lowercase-02",
+    "cls": "lowercase",
+    "cue": "lowercase",
+    "topic": "fog over a harbor",
+    "params": {},
+    "prompt": "Write a short paragraph about fog over a harbor entirely in lowercase: no capital letters anywhere."
+  },
+  {
+    "pos": 41,
+    "id": "lowercase-01",
+    "cls": "lowercase",
+    "cue": "lowercase",
+    "topic": "handwritten recipes",
+    "params": {},
+    "prompt": "Write a short paragraph about handwritten recipes entirely in lowercase: no capital letters anywhere."
+  },
+  {
+    "pos": 42,
+    "id": "bullets-01",
+    "cls": "bullets",
+    "cue": "bullet",
+    "topic": "beekeeping in cities",
+    "params": {
+      "n": 6
+    },
+    "prompt": "Give 6 facts about beekeeping in cities as exactly 6 bullet lines, each starting with \"- \", with no other text before or after them."
+  },
+  {
+    "pos": 43,
+    "id": "noletter-15",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "topic": "suspension footbridges",
+    "params": {
+      "letter": "y"
+    },
+    "prompt": "Write a short paragraph about suspension footbridges without using the letter \"y\" anywhere in your response."
+  },
+  {
+    "pos": 44,
+    "id": "bullets-12",
+    "cls": "bullets",
+    "cue": "bullet",
+    "topic": "maple syrup season",
+    "params": {
+      "n": 5
+    },
+    "prompt": "Give 5 facts about maple syrup season as exactly 5 bullet lines, each starting with \"- \", with no other text before or after them."
+  },
+  {
+    "pos": 45,
+    "id": "frequency-03",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "topic": "the invention of the thermos",
+    "params": {
+      "word": "candle",
+      "n": 4
+    },
+    "prompt": "Write a short paragraph about the invention of the thermos. Use the word \"candle\" exactly 4 times."
+  },
+  {
+    "pos": 46,
+    "id": "bullets-11",
+    "cls": "bullets",
+    "cue": "bullet",
+    "topic": "the life of a river otter",
+    "params": {
+      "n": 4
+    },
+    "prompt": "Give 4 facts about the life of a river otter as exactly 4 bullet lines, each starting with \"- \", with no other text before or after them."
+  },
+  {
+    "pos": 47,
+    "id": "sentences-02",
+    "cls": "sentences",
+    "cue": "sentences",
+    "topic": "the history of the umbrella",
+    "params": {
+      "n": 5
+    },
+    "prompt": "Write about the history of the umbrella in exactly 5 sentences."
+  },
+  {
+    "pos": 48,
+    "id": "bullets-04",
+    "cls": "bullets",
+    "cue": "bullet",
+    "topic": "a rusty bicycle bell",
+    "params": {
+      "n": 5
+    },
+    "prompt": "Give 5 facts about a rusty bicycle bell as exactly 5 bullet lines, each starting with \"- \", with no other text before or after them."
+  },
+  {
+    "pos": 49,
+    "id": "noletter-05",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "topic": "tea ceremonies",
+    "params": {
+      "letter": "g"
+    },
+    "prompt": "Write a short paragraph about tea ceremonies without using the letter \"g\" anywhere in your response."
+  },
+  {
+    "pos": 50,
+    "id": "noletter-14",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "topic": "wool sweaters",
+    "params": {
+      "letter": "f"
+    },
+    "prompt": "Write a short paragraph about wool sweaters without using the letter \"f\" anywhere in your response."
+  },
+  {
+    "pos": 51,
+    "id": "wordcount-05",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "topic": "a spinning top",
+    "params": {
+      "lo": 40,
+      "hi": 44
+    },
+    "prompt": "Write a short piece about a spinning top. Word count: between 40 and 44 words."
+  },
+  {
+    "pos": 52,
+    "id": "bullets-14",
+    "cls": "bullets",
+    "cue": "bullet",
+    "topic": "bridge tolls",
+    "params": {
+      "n": 3
+    },
+    "prompt": "Give 3 facts about bridge tolls as exactly 3 bullet lines, each starting with \"- \", with no other text before or after them."
+  },
+  {
+    "pos": 53,
+    "id": "ending-11",
+    "cls": "ending",
+    "cue": "End your response with",
+    "topic": "copper roofs turning green",
+    "params": {
+      "phrase": "More next time."
+    },
+    "prompt": "Write a short paragraph about copper roofs turning green. End your response with the exact phrase \"More next time.\" and put nothing after it."
+  },
+  {
+    "pos": 54,
+    "id": "ending-12",
+    "cls": "ending",
+    "cue": "End your response with",
+    "topic": "town squares at dawn",
+    "params": {
+      "phrase": "More next time."
+    },
+    "prompt": "Write a short paragraph about town squares at dawn. End your response with the exact phrase \"More next time.\" and put nothing after it."
+  },
+  {
+    "pos": 55,
+    "id": "ending-06",
+    "cls": "ending",
+    "cue": "End your response with",
+    "topic": "canal locks",
+    "params": {
+      "phrase": "Is there anything else I can help with?"
+    },
+    "prompt": "Write a short paragraph about canal locks. End your response with the exact phrase \"Is there anything else I can help with?\" and put nothing after it."
+  },
+  {
+    "pos": 56,
+    "id": "wordcount-10",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "topic": "the first telephones",
+    "params": {
+      "lo": 45,
+      "hi": 49
+    },
+    "prompt": "Write a short piece about the first telephones. Word count: between 45 and 49 words."
+  },
+  {
+    "pos": 57,
+    "id": "noletter-02",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "topic": "the last bus of the night",
+    "params": {
+      "letter": "p"
+    },
+    "prompt": "Write a short paragraph about the last bus of the night without using the letter \"p\" anywhere in your response."
+  },
+  {
+    "pos": 58,
+    "id": "sentences-13",
+    "cls": "sentences",
+    "cue": "sentences",
+    "topic": "a sleeping cat",
+    "params": {
+      "n": 3
+    },
+    "prompt": "Write about a sleeping cat in exactly 3 sentences."
+  },
+  {
+    "pos": 59,
+    "id": "commas-15",
+    "cls": "commas",
+    "cue": "comma",
+    "topic": "wooden rollercoasters",
+    "params": {
+      "n": 0
+    },
+    "prompt": "Write a short paragraph about wooden rollercoasters that uses no commas at all."
+  },
+  {
+    "pos": 60,
+    "id": "frequency-10",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "topic": "mountain passes in snow",
+    "params": {
+      "word": "compass",
+      "n": 2
+    },
+    "prompt": "Write a short paragraph about mountain passes in snow. Use the word \"compass\" exactly 2 times."
+  },
+  {
+    "pos": 61,
+    "id": "commas-07",
+    "cls": "commas",
+    "cue": "comma",
+    "topic": "seashell collecting",
+    "params": {
+      "n": 0
+    },
+    "prompt": "Write a short paragraph about seashell collecting that uses no commas at all."
+  },
+  {
+    "pos": 62,
+    "id": "ending-02",
+    "cls": "ending",
+    "cue": "End your response with",
+    "topic": "quiet snowfall",
+    "params": {
+      "phrase": "Is there anything else I can help with?"
+    },
+    "prompt": "Write a short paragraph about quiet snowfall. End your response with the exact phrase \"Is there anything else I can help with?\" and put nothing after it."
+  },
+  {
+    "pos": 63,
+    "id": "wordcount-12",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "topic": "the invention of canned food",
+    "params": {
+      "lo": 45,
+      "hi": 49
+    },
+    "prompt": "Write a short piece about the invention of canned food. Word count: between 45 and 49 words."
+  },
+  {
+    "pos": 64,
+    "id": "noletter-06",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "topic": "a mountain lookout tower",
+    "params": {
+      "letter": "g"
+    },
+    "prompt": "Write a short paragraph about a mountain lookout tower without using the letter \"g\" anywhere in your response."
+  },
+  {
+    "pos": 65,
+    "id": "frequency-05",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "topic": "the northern lights",
+    "params": {
+      "word": "anchor",
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about the northern lights. Use the word \"anchor\" exactly 3 times."
+  },
+  {
+    "pos": 66,
+    "id": "lowercase-03",
+    "cls": "lowercase",
+    "cue": "lowercase",
+    "topic": "thunderstorms in summer",
+    "params": {},
+    "prompt": "Write a short paragraph about thunderstorms in summer entirely in lowercase: no capital letters anywhere."
+  },
+  {
+    "pos": 67,
+    "id": "lowercase-10",
+    "cls": "lowercase",
+    "cue": "lowercase",
+    "topic": "sourdough starters",
+    "params": {},
+    "prompt": "Write a short paragraph about sourdough starters entirely in lowercase: no capital letters anywhere."
+  },
+  {
+    "pos": 68,
+    "id": "bullets-07",
+    "cls": "bullets",
+    "cue": "bullet",
+    "topic": "bus shelters",
+    "params": {
+      "n": 4
+    },
+    "prompt": "Give 4 facts about bus shelters as exactly 4 bullet lines, each starting with \"- \", with no other text before or after them."
+  },
+  {
+    "pos": 69,
+    "id": "ending-13",
+    "cls": "ending",
+    "cue": "End your response with",
+    "topic": "paper lanterns",
+    "params": {
+      "phrase": "Thank you for reading."
+    },
+    "prompt": "Write a short paragraph about paper lanterns. End your response with the exact phrase \"Thank you for reading.\" and put nothing after it."
+  },
+  {
+    "pos": 70,
+    "id": "wordcount-06",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "topic": "the sound of a cello",
+    "params": {
+      "lo": 30,
+      "hi": 34
+    },
+    "prompt": "Write a short piece about the sound of a cello. Word count: between 30 and 34 words."
+  },
+  {
+    "pos": 71,
+    "id": "sentences-12",
+    "cls": "sentences",
+    "cue": "sentences",
+    "topic": "a foggy morning run",
+    "params": {
+      "n": 5
+    },
+    "prompt": "Write about a foggy morning run in exactly 5 sentences."
+  },
+  {
+    "pos": 72,
+    "id": "ending-09",
+    "cls": "ending",
+    "cue": "End your response with",
+    "topic": "saltwater aquariums",
+    "params": {
+      "phrase": "Any other questions?"
+    },
+    "prompt": "Write a short paragraph about saltwater aquariums. End your response with the exact phrase \"Any other questions?\" and put nothing after it."
+  },
+  {
+    "pos": 73,
+    "id": "frequency-06",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "topic": "clay pottery",
+    "params": {
+      "word": "compass",
+      "n": 4
+    },
+    "prompt": "Write a short paragraph about clay pottery. Use the word \"compass\" exactly 4 times."
+  },
+  {
+    "pos": 74,
+    "id": "frequency-09",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "topic": "the rings of a fallen tree",
+    "params": {
+      "word": "mirror",
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about the rings of a fallen tree. Use the word \"mirror\" exactly 3 times."
+  },
+  {
+    "pos": 75,
+    "id": "ending-04",
+    "cls": "ending",
+    "cue": "End your response with",
+    "topic": "the invention of the paper clip",
+    "params": {
+      "phrase": "That is all for today."
+    },
+    "prompt": "Write a short paragraph about the invention of the paper clip. End your response with the exact phrase \"That is all for today.\" and put nothing after it."
+  },
+  {
+    "pos": 76,
+    "id": "bullets-02",
+    "cls": "bullets",
+    "cue": "bullet",
+    "topic": "kites on a windy beach",
+    "params": {
+      "n": 4
+    },
+    "prompt": "Give 4 facts about kites on a windy beach as exactly 4 bullet lines, each starting with \"- \", with no other text before or after them."
+  },
+  {
+    "pos": 77,
+    "id": "wordcount-15",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "topic": "tugboats",
+    "params": {
+      "lo": 60,
+      "hi": 64
+    },
+    "prompt": "Write a short piece about tugboats. Word count: between 60 and 64 words."
+  },
+  {
+    "pos": 78,
+    "id": "bullets-08",
+    "cls": "bullets",
+    "cue": "bullet",
+    "topic": "the first weather forecasts",
+    "params": {
+      "n": 6
+    },
+    "prompt": "Give 6 facts about the first weather forecasts as exactly 6 bullet lines, each starting with \"- \", with no other text before or after them."
+  },
+  {
+    "pos": 79,
+    "id": "bullets-06",
+    "cls": "bullets",
+    "cue": "bullet",
+    "topic": "city pigeons",
+    "params": {
+      "n": 5
+    },
+    "prompt": "Give 5 facts about city pigeons as exactly 5 bullet lines, each starting with \"- \", with no other text before or after them."
+  },
+  {
+    "pos": 80,
+    "id": "commas-13",
+    "cls": "commas",
+    "cue": "comma",
+    "topic": "deep-sea vents",
+    "params": {
+      "n": 1
+    },
+    "prompt": "Write a short paragraph about deep-sea vents that uses exactly 1 comma."
+  },
+  {
+    "pos": 81,
+    "id": "wordcount-07",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "topic": "coffee roasting",
+    "params": {
+      "lo": 35,
+      "hi": 39
+    },
+    "prompt": "Write a short piece about coffee roasting. Word count: between 35 and 39 words."
+  },
+  {
+    "pos": 82,
+    "id": "bullets-15",
+    "cls": "bullets",
+    "cue": "bullet",
+    "topic": "sand dunes",
+    "params": {
+      "n": 4
+    },
+    "prompt": "Give 4 facts about sand dunes as exactly 4 bullet lines, each starting with \"- \", with no other text before or after them."
+  },
+  {
+    "pos": 83,
+    "id": "noletter-13",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "topic": "the history of the pencil",
+    "params": {
+      "letter": "g"
+    },
+    "prompt": "Write a short paragraph about the history of the pencil without using the letter \"g\" anywhere in your response."
+  },
+  {
+    "pos": 84,
+    "id": "sentences-09",
+    "cls": "sentences",
+    "cue": "sentences",
+    "topic": "planting tulip bulbs",
+    "params": {
+      "n": 5
+    },
+    "prompt": "Write about planting tulip bulbs in exactly 5 sentences."
+  },
+  {
+    "pos": 85,
+    "id": "wordcount-13",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "topic": "ferry crossings",
+    "params": {
+      "lo": 60,
+      "hi": 64
+    },
+    "prompt": "Write a short piece about ferry crossings. Word count: between 60 and 64 words."
+  },
+  {
+    "pos": 86,
+    "id": "ending-15",
+    "cls": "ending",
+    "cue": "End your response with",
+    "topic": "the smell of rain",
+    "params": {
+      "phrase": "More next time."
+    },
+    "prompt": "Write a short paragraph about the smell of rain. End your response with the exact phrase \"More next time.\" and put nothing after it."
+  },
+  {
+    "pos": 87,
+    "id": "ending-07",
+    "cls": "ending",
+    "cue": "End your response with",
+    "topic": "pocket watches",
+    "params": {
+      "phrase": "Any other questions?"
+    },
+    "prompt": "Write a short paragraph about pocket watches. End your response with the exact phrase \"Any other questions?\" and put nothing after it."
+  },
+  {
+    "pos": 88,
+    "id": "bullets-03",
+    "cls": "bullets",
+    "cue": "bullet",
+    "topic": "the color of the sky at dusk",
+    "params": {
+      "n": 3
+    },
+    "prompt": "Give 3 facts about the color of the sky at dusk as exactly 3 bullet lines, each starting with \"- \", with no other text before or after them."
+  },
+  {
+    "pos": 89,
+    "id": "noletter-08",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "topic": "the first bicycles",
+    "params": {
+      "letter": "d"
+    },
+    "prompt": "Write a short paragraph about the first bicycles without using the letter \"d\" anywhere in your response."
+  },
+  {
+    "pos": 90,
+    "id": "commas-01",
+    "cls": "commas",
+    "cue": "comma",
+    "topic": "a library card",
+    "params": {
+      "n": 2
+    },
+    "prompt": "Write a short paragraph about a library card that uses exactly 2 commas."
+  },
+  {
+    "pos": 91,
+    "id": "sentences-03",
+    "cls": "sentences",
+    "cue": "sentences",
+    "topic": "cliff swallows",
+    "params": {
+      "n": 4
+    },
+    "prompt": "Write about cliff swallows in exactly 4 sentences."
+  },
+  {
+    "pos": 92,
+    "id": "sentences-07",
+    "cls": "sentences",
+    "cue": "sentences",
+    "topic": "cast-iron pans",
+    "params": {
+      "n": 5
+    },
+    "prompt": "Write about cast-iron pans in exactly 5 sentences."
+  },
+  {
+    "pos": 93,
+    "id": "frequency-15",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "topic": "the winter solstice",
+    "params": {
+      "word": "window",
+      "n": 2
+    },
+    "prompt": "Write a short paragraph about the winter solstice. Use the word \"window\" exactly 2 times."
+  },
+  {
+    "pos": 94,
+    "id": "sentences-14",
+    "cls": "sentences",
+    "cue": "sentences",
+    "topic": "harvest moons",
+    "params": {
+      "n": 2
+    },
+    "prompt": "Write about harvest moons in exactly 2 sentences."
+  },
+  {
+    "pos": 95,
+    "id": "commas-09",
+    "cls": "commas",
+    "cue": "comma",
+    "topic": "a hidden waterfall",
+    "params": {
+      "n": 0
+    },
+    "prompt": "Write a short paragraph about a hidden waterfall that uses no commas at all."
+  },
+  {
+    "pos": 96,
+    "id": "frequency-14",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "topic": "a child learning to whistle",
+    "params": {
+      "word": "river",
+      "n": 4
+    },
+    "prompt": "Write a short paragraph about a child learning to whistle. Use the word \"river\" exactly 4 times."
+  },
+  {
+    "pos": 97,
+    "id": "noletter-07",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "topic": "moss on old walls",
+    "params": {
+      "letter": "g"
+    },
+    "prompt": "Write a short paragraph about moss on old walls without using the letter \"g\" anywhere in your response."
+  },
+  {
+    "pos": 98,
+    "id": "lowercase-06",
+    "cls": "lowercase",
+    "cue": "lowercase",
+    "topic": "garden snails",
+    "params": {},
+    "prompt": "Write a short paragraph about garden snails entirely in lowercase: no capital letters anywhere."
+  },
+  {
+    "pos": 99,
+    "id": "commas-12",
+    "cls": "commas",
+    "cue": "comma",
+    "topic": "cobblestone streets",
+    "params": {
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about cobblestone streets that uses exactly 3 commas."
+  },
+  {
+    "pos": 100,
+    "id": "wordcount-03",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "topic": "river barges",
+    "params": {
+      "lo": 60,
+      "hi": 64
+    },
+    "prompt": "Write a short piece about river barges. Word count: between 60 and 64 words."
+  },
+  {
+    "pos": 101,
+    "id": "frequency-04",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "topic": "a loaf cooling on the counter",
+    "params": {
+      "word": "river",
+      "n": 3
+    },
+    "prompt": "Write a short paragraph about a loaf cooling on the counter. Use the word \"river\" exactly 3 times."
+  },
+  {
+    "pos": 102,
+    "id": "noletter-10",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "topic": "the weight of a good book",
+    "params": {
+      "letter": "c"
+    },
+    "prompt": "Write a short paragraph about the weight of a good book without using the letter \"c\" anywhere in your response."
+  },
+  {
+    "pos": 103,
+    "id": "wordcount-01",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "topic": "a busy fish market",
+    "params": {
+      "lo": 35,
+      "hi": 39
+    },
+    "prompt": "Write a short piece about a busy fish market. Word count: between 35 and 39 words."
+  },
+  {
+    "pos": 104,
+    "id": "bullets-10",
+    "cls": "bullets",
+    "cue": "bullet",
+    "topic": "the history of ice cream",
+    "params": {
+      "n": 3
+    },
+    "prompt": "Give 3 facts about the history of ice cream as exactly 3 bullet lines, each starting with \"- \", with no other text before or after them."
+  },
+  {
+    "pos": 105,
+    "id": "wordcount-09",
+    "cls": "wordcount",
+    "cue": "Word count",
+    "topic": "steam locomotives",
+    "params": {
+      "lo": 25,
+      "hi": 29
+    },
+    "prompt": "Write a short piece about steam locomotives. Word count: between 25 and 29 words."
+  },
+  {
+    "pos": 106,
+    "id": "commas-02",
+    "cls": "commas",
+    "cue": "comma",
+    "topic": "radio towers",
+    "params": {
+      "n": 0
+    },
+    "prompt": "Write a short paragraph about radio towers that uses no commas at all."
+  },
+  {
+    "pos": 107,
+    "id": "frequency-08",
+    "cls": "frequency",
+    "cue": "Use the word",
+    "topic": "the smell of fresh bread",
+    "params": {
+      "word": "compass",
+      "n": 4
+    },
+    "prompt": "Write a short paragraph about the smell of fresh bread. Use the word \"compass\" exactly 4 times."
+  },
+  {
+    "pos": 108,
+    "id": "lowercase-15",
+    "cls": "lowercase",
+    "cue": "lowercase",
+    "topic": "the first photographs",
+    "params": {},
+    "prompt": "Write a short paragraph about the first photographs entirely in lowercase: no capital letters anywhere."
+  },
+  {
+    "pos": 109,
+    "id": "noletter-09",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "topic": "starlings at dusk",
+    "params": {
+      "letter": "w"
+    },
+    "prompt": "Write a short paragraph about starlings at dusk without using the letter \"w\" anywhere in your response."
+  },
+  {
+    "pos": 110,
+    "id": "noletter-11",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "topic": "a well-worn hammer",
+    "params": {
+      "letter": "g"
+    },
+    "prompt": "Write a short paragraph about a well-worn hammer without using the letter \"g\" anywhere in your response."
+  },
+  {
+    "pos": 111,
+    "id": "lowercase-08",
+    "cls": "lowercase",
+    "cue": "lowercase",
+    "topic": "hand-knit socks",
+    "params": {},
+    "prompt": "Write a short paragraph about hand-knit socks entirely in lowercase: no capital letters anywhere."
+  },
+  {
+    "pos": 112,
+    "id": "sentences-08",
+    "cls": "sentences",
+    "cue": "sentences",
+    "topic": "the first air mail",
+    "params": {
+      "n": 2
+    },
+    "prompt": "Write about the first air mail in exactly 2 sentences."
+  },
+  {
+    "pos": 113,
+    "id": "lowercase-07",
+    "cls": "lowercase",
+    "cue": "lowercase",
+    "topic": "mountain huts",
+    "params": {},
+    "prompt": "Write a short paragraph about mountain huts entirely in lowercase: no capital letters anywhere."
+  },
+  {
+    "pos": 114,
+    "id": "lowercase-13",
+    "cls": "lowercase",
+    "cue": "lowercase",
+    "topic": "hand-drawn maps",
+    "params": {},
+    "prompt": "Write a short paragraph about hand-drawn maps entirely in lowercase: no capital letters anywhere."
+  },
+  {
+    "pos": 115,
+    "id": "ending-10",
+    "cls": "ending",
+    "cue": "End your response with",
+    "topic": "a shared umbrella",
+    "params": {
+      "phrase": "Any other questions?"
+    },
+    "prompt": "Write a short paragraph about a shared umbrella. End your response with the exact phrase \"Any other questions?\" and put nothing after it."
+  },
+  {
+    "pos": 116,
+    "id": "noletter-04",
+    "cls": "noletter",
+    "cue": "without using the letter",
+    "topic": "the invention of the hourglass",
+    "params": {
+      "letter": "m"
+    },
+    "prompt": "Write a short paragraph about the invention of the hourglass without using the letter \"m\" anywhere in your response."
+  },
+  {
+    "pos": 117,
+    "id": "lowercase-12",
+    "cls": "lowercase",
+    "cue": "lowercase",
+    "topic": "bonfires on the beach",
+    "params": {},
+    "prompt": "Write a short paragraph about bonfires on the beach entirely in lowercase: no capital letters anywhere."
+  },
+  {
+    "pos": 118,
+    "id": "ending-01",
+    "cls": "ending",
+    "cue": "End your response with",
+    "topic": "volcanic islands",
+    "params": {
+      "phrase": "Any other questions?"
+    },
+    "prompt": "Write a short paragraph about volcanic islands. End your response with the exact phrase \"Any other questions?\" and put nothing after it."
+  },
+  {
+    "pos": 119,
+    "id": "sentences-10",
+    "cls": "sentences",
+    "cue": "sentences",
+    "topic": "wild blueberries",
+    "params": {
+      "n": 2
+    },
+    "prompt": "Write about wild blueberries in exactly 2 sentences."
+  },
+  {
+    "pos": 120,
+    "id": "commas-08",
+    "cls": "commas",
+    "cue": "comma",
+    "topic": "harbor seals",
+    "params": {
+      "n": 0
+    },
+    "prompt": "Write a short paragraph about harbor seals that uses no commas at all."
+  }
+]

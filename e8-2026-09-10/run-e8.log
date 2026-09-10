@@ -1,0 +1,120 @@
+  base rep1 pos 20: pass so far 11/20, calls 20
+  integrated rep1 pos 20: pass so far 19/20, calls 28
+  repair rep1 pos 20: pass so far 19/20, calls 31
+  base rep1 pos 40: pass so far 28/40, calls 40
+  integrated rep1 pos 40: pass so far 39/40, calls 52
+  repair rep1 pos 40: pass so far 39/40, calls 59
+  base rep1 pos 60: pass so far 42/60, calls 60
+  integrated rep1 pos 60: pass so far 58/60, calls 81
+  base rep1 pos 80: pass so far 57/80, calls 80
+  repair rep1 pos 60: pass so far 57/60, calls 90
+  base rep1 pos 100: pass so far 69/100, calls 100
+  integrated rep1 pos 80: pass so far 77/80, calls 113
+  repair rep1 pos 80: pass so far 77/80, calls 115
+  base rep1 pos 120: pass so far 82/120, calls 120
+  repair rep1 pos 100: pass so far 96/100, calls 150
+  integrated rep1 pos 100: pass so far 95/100, calls 151
+  supplied rep1 pos 20: pass so far 18/20, calls 31
+  repair rep1 pos 120: pass so far 114/120, calls 180
+  supplied rep1 pos 40: pass so far 38/40, calls 54
+  integrated rep1 pos 120: pass so far 111/120, calls 186
+  mono rep1 pos 20: pass so far 13/20, calls 20
+  monoresample rep1 pos 20: pass so far 19/20, calls 31
+  supplied rep1 pos 60: pass so far 55/60, calls 88
+  mono rep1 pos 40: pass so far 29/40, calls 40
+  mono rep1 pos 60: pass so far 44/60, calls 60
+  supplied rep1 pos 80: pass so far 75/80, calls 115
+  monoresample rep1 pos 40: pass so far 37/40, calls 61
+  mono rep1 pos 80: pass so far 60/80, calls 80
+  supplied rep1 pos 100: pass so far 93/100, calls 149
+  monoresample rep1 pos 60: pass so far 54/60, calls 91
+  mono rep1 pos 100: pass so far 73/100, calls 100
+  monoresample rep1 pos 80: pass so far 73/80, calls 115
+  mono rep1 pos 120: pass so far 87/120, calls 120
+  supplied rep1 pos 120: pass so far 110/120, calls 184
+  monoresample rep1 pos 100: pass so far 88/100, calls 151
+  monoresample rep1 pos 120: pass so far 105/120, calls 185
+E8 rep1: base 68.3% (2nd half 66.7%, calls 1.00) | repair 95.0% (2nd half 95.0%, calls 1.50) | integrated 92.5% (2nd half 88.3%, calls 1.55) | supplied 91.7% (2nd half 91.7%, calls 1.53) | mono 72.5% (2nd half 71.7%, calls 1.00) | monoresample 87.5% (2nd half 85.0%, calls 1.54)
+  base rep2 pos 20: pass so far 15/20, calls 20
+  integrated rep2 pos 20: pass so far 19/20, calls 29
+  repair rep2 pos 20: pass so far 19/20, calls 37
+  base rep2 pos 40: pass so far 31/40, calls 40
+  integrated rep2 pos 40: pass so far 39/40, calls 52
+  repair rep2 pos 40: pass so far 39/40, calls 60
+  base rep2 pos 60: pass so far 45/60, calls 60
+  integrated rep2 pos 60: pass so far 57/60, calls 83
+  base rep2 pos 80: pass so far 60/80, calls 80
+  repair rep2 pos 60: pass so far 58/60, calls 89
+  base rep2 pos 100: pass so far 72/100, calls 100
+  integrated rep2 pos 80: pass so far 76/80, calls 108
+  repair rep2 pos 80: pass so far 76/80, calls 118
+  base rep2 pos 120: pass so far 84/120, calls 120
+  integrated rep2 pos 100: pass so far 94/100, calls 139
+  repair rep2 pos 100: pass so far 94/100, calls 151
+  supplied rep2 pos 20: pass so far 19/20, calls 30
+  integrated rep2 pos 120: pass so far 111/120, calls 174
+  repair rep2 pos 120: pass so far 112/120, calls 183
+  supplied rep2 pos 40: pass so far 39/40, calls 55
+  mono rep2 pos 20: pass so far 14/20, calls 20
+  monoresample rep2 pos 20: pass so far 20/20, calls 30
+  supplied rep2 pos 60: pass so far 57/60, calls 87
+  mono rep2 pos 40: pass so far 28/40, calls 40
+  monoresample rep2 pos 40: pass so far 39/40, calls 57
+  supplied rep2 pos 80: pass so far 77/80, calls 114
+  mono rep2 pos 60: pass so far 43/60, calls 60
+  mono rep2 pos 80: pass so far 61/80, calls 80
+  supplied rep2 pos 100: pass so far 94/100, calls 148
+  monoresample rep2 pos 60: pass so far 56/60, calls 88
+  mono rep2 pos 100: pass so far 73/100, calls 100
+  monoresample rep2 pos 80: pass so far 75/80, calls 113
+  mono rep2 pos 120: pass so far 87/120, calls 120
+  supplied rep2 pos 120: pass so far 112/120, calls 181
+  monoresample rep2 pos 100: pass so far 91/100, calls 149
+  monoresample rep2 pos 120: pass so far 109/120, calls 179
+E8 rep2: base 70.0% (2nd half 65.0%, calls 1.00) | repair 93.3% (2nd half 90.0%, calls 1.52) | integrated 92.5% (2nd half 90.0%, calls 1.45) | supplied 93.3% (2nd half 91.7%, calls 1.51) | mono 72.5% (2nd half 73.3%, calls 1.00) | monoresample 90.8% (2nd half 88.3%, calls 1.49)
+  base rep3 pos 20: pass so far 13/20, calls 20
+  integrated rep3 pos 20: pass so far 19/20, calls 27
+  repair rep3 pos 20: pass so far 20/20, calls 28
+  base rep3 pos 40: pass so far 29/40, calls 40
+  integrated rep3 pos 40: pass so far 39/40, calls 52
+  repair rep3 pos 40: pass so far 40/40, calls 54
+  base rep3 pos 60: pass so far 41/60, calls 60
+  integrated rep3 pos 60: pass so far 58/60, calls 81
+  repair rep3 pos 60: pass so far 59/60, calls 86
+  base rep3 pos 80: pass so far 56/80, calls 80
+  base rep3 pos 100: pass so far 69/100, calls 100
+  integrated rep3 pos 80: pass so far 78/80, calls 106
+  repair rep3 pos 80: pass so far 78/80, calls 112
+  base rep3 pos 120: pass so far 81/120, calls 120
+  integrated rep3 pos 100: pass so far 95/100, calls 139
+  repair rep3 pos 100: pass so far 96/100, calls 145
+  supplied rep3 pos 20: pass so far 20/20, calls 35
+  repair rep3 pos 120: pass so far 115/120, calls 174
+  integrated rep3 pos 120: pass so far 113/120, calls 173
+  supplied rep3 pos 40: pass so far 40/40, calls 59
+  mono rep3 pos 20: pass so far 15/20, calls 20
+  monoresample rep3 pos 20: pass so far 15/20, calls 39
+  supplied rep3 pos 60: pass so far 60/60, calls 87
+  mono rep3 pos 40: pass so far 29/40, calls 40
+  mono rep3 pos 60: pass so far 46/60, calls 60
+  supplied rep3 pos 80: pass so far 79/80, calls 116
+  monoresample rep3 pos 40: pass so far 34/40, calls 70
+  mono rep3 pos 80: pass so far 61/80, calls 80
+  supplied rep3 pos 100: pass so far 97/100, calls 148
+  mono rep3 pos 100: pass so far 74/100, calls 100
+  monoresample rep3 pos 60: pass so far 51/60, calls 102
+  mono rep3 pos 120: pass so far 89/120, calls 120
+  monoresample rep3 pos 80: pass so far 70/80, calls 126
+  supplied rep3 pos 120: pass so far 115/120, calls 184
+  monoresample rep3 pos 100: pass so far 85/100, calls 166
+  monoresample rep3 pos 120: pass so far 103/120, calls 196
+E8 rep3: base 67.5% (2nd half 66.7%, calls 1.00) | repair 95.8% (2nd half 93.3%, calls 1.45) | integrated 94.2% (2nd half 91.7%, calls 1.44) | supplied 95.8% (2nd half 91.7%, calls 1.53) | mono 74.2% (2nd half 71.7%, calls 1.00) | monoresample 85.8% (2nd half 86.7%, calls 1.63)
+E8 DONE primary integrated minus repair (positions 61-120) -2.8pp [-6.7pp, 1.7pp] p=0.249 | no separation: the interval for integrated minus repair-only includes zero
+  integrated minus supplied, positions 61 to 120: -1.7pp [-6.1pp, 2.2pp] p=0.510 adj=0.510
+  repair minus mono, positions 61 to 120: 20.6pp [12.8pp, 28.9pp] p=0.000 adj=0.000 *
+  integrated minus mono, positions 61 to 120: 17.8pp [10.0pp, 25.6pp] p=0.000 adj=0.000 *
+  supplied minus mono, positions 61 to 120: 19.4pp [11.7pp, 27.8pp] p=0.000 adj=0.000 *
+  repair minus monoresample, positions 61 to 120: 6.1pp [-1.1pp, 12.8pp] p=0.115 adj=0.201
+  integrated minus monoresample, positions 61 to 120: 3.3pp [-2.8pp, 9.4pp] p=0.348 adj=0.406
+  supplied minus monoresample, positions 61 to 120: 5.0pp [-1.7pp, 11.7pp] p=0.176 adj=0.246
+  lessons written per rep: 33/32/31; leakage flags: 0

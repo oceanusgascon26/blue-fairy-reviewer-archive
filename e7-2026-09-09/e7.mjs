@@ -2,7 +2,7 @@
 // (commit 3d20393) over IFEval's 541 labeled prompts and over 300 hand-labeled natural prompts from Dolly 15k, and reports
 // recall on the instruction types the parser is built to read, unsupported fires, false triggers and precision.
 import { readFileSync, writeFileSync } from 'node:fs';
-import { deriveConstraintCheckers } from 'file:///../kit/dist/src/organs/instruction-following/checkers.js';
+import { deriveConstraintCheckers } from '../kit/dist/src/organs/instruction-following/checkers.js';
 
 const DIR = '.';
 const IFEVAL = './ifeval/input_data.jsonl';

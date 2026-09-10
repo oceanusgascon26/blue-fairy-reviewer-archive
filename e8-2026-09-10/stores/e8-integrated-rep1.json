@@ -1,0 +1,32 @@
+[
+  {
+    "id": "e8-wordcount",
+    "cue": "Word count",
+    "content": "Word count tasks have failed the check 8 times so far. Latest failure: the response has 30 words; the task asked for between 25 and 29 words. Satisfy the word count rule before finishing."
+  },
+  {
+    "id": "e8-noletter",
+    "cue": "without using the letter",
+    "content": "Forbidden letter tasks have failed the check 14 times so far. Latest failure: the response uses the letter \"m\" 8 times; the task forbade that letter entirely. Satisfy the forbidden letter rule before finishing."
+  },
+  {
+    "id": "e8-commas",
+    "cue": "comma",
+    "content": "Comma count tasks have failed the check 6 times so far. Latest failure: the response has 5 commas; the task asked for exactly 3. Satisfy the comma count rule before finishing."
+  },
+  {
+    "id": "e8-lowercase",
+    "cue": "lowercase",
+    "content": "Lowercase tasks have failed the check 1 time so far. Latest failure: the response has 1 capital letter; the task asked for lowercase only. Satisfy the lowercase rule before finishing."
+  },
+  {
+    "id": "e8-frequency",
+    "cue": "Use the word",
+    "content": "Word frequency tasks have failed the check 3 times so far. Latest failure: the word \"compass\" appears 5 times in the response; the task asked for exactly 4. Satisfy the word frequency rule before finishing."
+  },
+  {
+    "id": "e8-sentences",
+    "cue": "sentences",
+    "content": "Sentence count tasks have failed the check 1 time so far. Latest failure: the response has 4 sentences; the task asked for exactly 2. Satisfy the sentence count rule before finishing."
+  }
+]

@@ -1,6 +1,6 @@
 // E2: repair against verifier-selected resampling at a budget of 4 generations fixed in advance. Haiku 4.5, T39, 5 repetitions.
 import { writeFileSync } from 'node:fs';
-import { TASKS, DEFAULT_FIRST_SHOT_SUFFIX, runConstraintRepair, pairedDeltaCI } from 'file:///../kit/dist/src/index.js';
+import { TASKS, DEFAULT_FIRST_SHOT_SUFFIX, runConstraintRepair, pairedDeltaCI } from '../kit/dist/src/index.js';
 import { makeBedrockBase, itemBootstrap, pct, ppf } from './bedrock.mjs';
 
 const REPS = 5, BUDGET = 4;

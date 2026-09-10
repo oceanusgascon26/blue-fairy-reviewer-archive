@@ -2,7 +2,7 @@
 // on the twenty E6 words and stores. Usage: node e6b.mjs (parent) | node e6b.mjs --arm neither|memory|repair|both --rep N
 import { spawnSync } from 'node:child_process';
 import { writeFileSync, readFileSync, existsSync } from 'node:fs';
-import { DurableLearningOrgan, JsonFileStore, runConstraintRepair } from 'file:///../kit/dist/src/index.js';
+import { DurableLearningOrgan, JsonFileStore, runConstraintRepair } from '../kit/dist/src/index.js';
 import { makeBedrockBase, itemBootstrap, ppf } from './bedrock.mjs';
 
 const DIR = '.';

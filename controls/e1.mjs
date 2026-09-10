@@ -1,6 +1,6 @@
 // E1: failure probabilities behind the failing-subset rule. Bare Haiku 4.5, 8 draws per item, T39 and T20.
 import { writeFileSync } from 'node:fs';
-import { TASKS, DEFAULT_FIRST_SHOT_SUFFIX } from 'file:///../kit/dist/src/index.js';
+import { TASKS, DEFAULT_FIRST_SHOT_SUFFIX } from '../kit/dist/src/index.js';
 import { C20 } from './c20.mjs';
 import { makeBedrockBase } from './bedrock.mjs';
 

@@ -31,6 +31,8 @@ Only local file paths and the AWS profile name were changed. Prompts, responses,
 - e4-2026-09-09/e4.mjs (from <E4 folder>/e4.mjs): the local E4 folder path replaced 1 time; the local path of the built kit's entry module replaced 1 time
 - e4-2026-09-09/e4b.mjs (from <E4 folder>/e4b.mjs): the local E4 folder path replaced 1 time; the local path of the built kit's entry module replaced 1 time
 - e7-2026-09-09/e7.mjs (from <E7 folder>/e7.mjs): the local path of the built kit's checkers module replaced 1 time; the local E7 folder path replaced 1 time; the local controls folder path (with slash) replaced 1 time
+- e8-2026-09-10/bedrock-e8.mjs (from <E8 folder>/bedrock-e8.mjs): the local E8 folder path replaced 1 time; the AWS CLI profile name replaced 1 time
+- e8-2026-09-10/e8.mjs (from <E8 folder>/e8.mjs): the local path of the built kit's entry module replaced 1 time
 
 ## Excluded
 
@@ -62,7 +64,13 @@ kit/ is git archive of cognitive-middleware at 3d20393835e1e9184602a6edf563b3b35
 - The first plan's public copy is redacted in one phrase, with both hashes recorded (the author, 2026-09-09).
 - License for the archive's own content: CC BY 4.0 (the author, 2026-09-09).
 
+## Additions
+
+- 2026-09-10: the kit import paths in every copied script were corrected from file:///../kit/... to ../kit/... (the first assembly's substitution left an invalid relative file URL); no other change to any script. e8-2026-09-10/ added; see the README.
+
 ## Deposits
 
 - Repository: https://github.com/oceanusgascon26/blue-fairy-reviewer-archive.
 - OSF: reviewer-archive-2026-09-09.zip in the registered report's public project https://osf.io/eduak (file https://osf.io/3r4pq), uploaded 2026-09-09; the zip is the archive at commit 171ae54 (through E6d), SHA-256 d4a54d88587ed21fb45cc05f3123e40780647850cfabfed23c5181c69efe42c6. Later commits to the repository are not mirrored to OSF unless a new zip is deposited.
+- Zenodo (the kit): release v0.0.1 of oceanusgascon26/cognitive-middleware, code identical to the pinned commit, DOI 10.5281/zenodo.22683481, concept DOI 10.5281/zenodo.22683480, archived 2026-09-10 through Zenodo's GitHub integration.
+- OSF (E8): the E8 plan and frozen files were uploaded to the folder e8-composition-pilot of the same project and registered publicly as https://osf.io/qc3db on 2026-09-10 before the run.

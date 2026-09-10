@@ -5,7 +5,7 @@
 //        node e6.mjs --phase s2|A|B --rep N  a child session
 import { spawnSync } from 'node:child_process';
 import { writeFileSync, readFileSync, existsSync, rmSync } from 'node:fs';
-import { DurableLearningOrgan, JsonFileStore } from 'file:///../kit/dist/src/index.js';
+import { DurableLearningOrgan, JsonFileStore } from '../kit/dist/src/index.js';
 import { makeBedrockBase, itemBootstrap, ppf, pct } from './bedrock.mjs';
 
 const DIR = '.';

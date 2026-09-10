@@ -4,7 +4,7 @@
 //   node e4b.mjs --smoke         one bare and one constrained call on the first selected task, logged to raw/smoke-e4b.jsonl
 //   node e4b.mjs                 the run: 3 tasks x 3 repetitions x 4 arms, raw/e4b-llama8b-q4.jsonl and results-e4b.json
 import { readFileSync, writeFileSync, appendFileSync, mkdirSync } from 'node:fs';
-import { TASKS as ALL, runConstraintRepair, DEFAULT_FIRST_SHOT_SUFFIX } from 'file:///../kit/dist/src/index.js';
+import { TASKS as ALL, runConstraintRepair, DEFAULT_FIRST_SHOT_SUFFIX } from '../kit/dist/src/index.js';
 
 const DIR = '.';
 const URL = 'http://127.0.0.1:18080';

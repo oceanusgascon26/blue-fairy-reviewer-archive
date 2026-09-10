@@ -4,7 +4,7 @@
 //   node e4.mjs --smoke      one bare and one constrained call on the first task, logged to raw/smoke.jsonl
 //   node e4.mjs              the full run: 39 tasks x 3 repetitions x 4 arms, raw log + results-e4.json
 import { readFileSync, writeFileSync, appendFileSync, mkdirSync, existsSync } from 'node:fs';
-import { TASKS, runConstraintRepair, DEFAULT_FIRST_SHOT_SUFFIX } from 'file:///../kit/dist/src/index.js';
+import { TASKS, runConstraintRepair, DEFAULT_FIRST_SHOT_SUFFIX } from '../kit/dist/src/index.js';
 
 const DIR = '.';
 const URL = 'http://127.0.0.1:18080';
